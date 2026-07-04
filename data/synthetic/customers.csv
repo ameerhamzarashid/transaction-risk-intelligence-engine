@@ -1,0 +1,1001 @@
+customer_id,full_name,date_of_birth,country,country_risk_level,customer_segment,kyc_status,pep_flag,customer_since
+CUST000001,Amelia Taylor,1994-06-30,Turkey,High,Retail,Verified,0,2021-07-03
+CUST000002,Maya Wilson,2004-06-24,United States,Low,Retail,Verified,0,2022-06-28
+CUST000003,Mia Hussain,1979-11-29,United States,Low,SME,Verified,0,2022-08-05
+CUST000004,Daniel Patel,1981-01-24,France,Low,Retail,Verified,0,2025-01-09
+CUST000005,Maya Green,1992-12-31,Netherlands,Low,Retail,Verified,0,2024-06-24
+CUST000006,Noah Davies,2002-08-06,Germany,Low,Private Banking,Verified,0,2024-05-17
+CUST000007,Ethan Thomas,1962-04-28,Italy,Low,Retail,Verified,0,2022-11-15
+CUST000008,Hannah Walker,1977-04-24,France,Low,Retail,Pending Review,0,2025-04-10
+CUST000009,James Miller,2001-03-15,Spain,Low,Retail,Verified,0,2023-04-29
+CUST000010,Hannah Ahmed,1945-01-03,Turkey,High,Retail,Verified,0,2025-01-11
+CUST000011,Noah Ahmed,1957-01-17,Nigeria,High,Retail,Verified,0,2025-11-22
+CUST000012,Maya Walker,1953-09-20,Spain,Low,Retail,Failed,0,2021-01-23
+CUST000013,Leo Hussain,1993-07-28,Turkey,High,SME,Verified,0,2025-08-15
+CUST000014,Oliver Wright,1974-11-03,Singapore,Low,Corporate,Verified,0,2022-12-04
+CUST000015,Leo Wright,1961-04-29,France,Low,Corporate,Verified,0,2025-11-17
+CUST000016,James Taylor,1969-03-18,Spain,Low,SME,Pending Review,0,2023-10-13
+CUST000017,Ali Green,1992-05-08,Spain,Low,Retail,Verified,0,2021-02-05
+CUST000018,Zara Thomas,1983-02-06,Spain,Low,Retail,Verified,0,2025-03-31
+CUST000019,Noah Khan,1978-09-18,Nigeria,High,Retail,Verified,0,2021-06-06
+CUST000020,Ali Wilson,1978-02-24,Germany,Low,Retail,Verified,0,2023-04-11
+CUST000021,Daniel Brown,1956-04-15,Canada,Low,Retail,Verified,0,2021-08-29
+CUST000022,Zara Miller,1996-06-10,Turkey,High,SME,Verified,0,2023-07-02
+CUST000023,Noah Patel,1972-11-23,France,Low,Retail,Verified,0,2026-03-22
+CUST000024,Oliver Ali,1997-03-12,United Kingdom,Low,Retail,Verified,0,2026-03-06
+CUST000025,Muhammad Ali,1974-11-27,United States,Low,Retail,Verified,0,2022-10-17
+CUST000026,James Hall,1971-03-29,United Arab Emirates,Medium,SME,Verified,0,2026-03-24
+CUST000027,Grace Patel,1988-06-14,Italy,Low,SME,Verified,0,2021-09-03
+CUST000028,Adam Smith,1976-09-23,Nigeria,High,Retail,Verified,0,2023-07-30
+CUST000029,Amelia Walker,1968-03-18,United Arab Emirates,Medium,Retail,Verified,0,2021-04-19
+CUST000030,Leo Wilson,1996-06-04,Nigeria,High,Retail,Verified,0,2026-02-14
+CUST000031,Muhammad Young,1951-10-18,France,Low,Private Banking,Verified,0,2022-10-06
+CUST000032,Amelia Brown,1995-05-05,Turkey,High,SME,Verified,0,2024-12-04
+CUST000033,Amelia Wright,1981-07-29,India,Medium,Retail,Pending Review,0,2025-12-26
+CUST000034,Isabella Ahmed,2003-07-09,Pakistan,Medium,Retail,Verified,0,2023-05-31
+CUST000035,Fatima Green,1994-06-04,United Kingdom,Low,Retail,Verified,0,2024-02-05
+CUST000036,Sophia Taylor,2003-01-08,India,Medium,Retail,Verified,0,2021-08-08
+CUST000037,Oliver Ali,1978-04-24,France,Low,Retail,Verified,0,2021-04-15
+CUST000038,Oliver Brown,1977-03-02,Italy,Low,Retail,Verified,0,2025-05-22
+CUST000039,Aisha Wilson,1979-03-24,Italy,Low,Retail,Verified,0,2022-03-04
+CUST000040,Leo Miller,1956-08-08,Netherlands,Low,Corporate,Verified,0,2025-07-04
+CUST000041,Isabella Ali,1953-01-27,Germany,Low,Retail,Verified,0,2023-04-11
+CUST000042,Grace Green,1953-07-22,Singapore,Low,Retail,Pending Review,0,2025-05-27
+CUST000043,Isabella Brown,1965-09-03,Turkey,High,Retail,Verified,0,2024-03-20
+CUST000044,Lucas Walker,1992-04-05,Pakistan,Medium,Retail,Pending Review,0,2024-10-26
+CUST000045,Sophia Ali,1970-02-22,United Kingdom,Low,SME,Verified,0,2024-01-12
+CUST000046,Maya Davies,1948-04-28,Netherlands,Low,Retail,Verified,0,2021-12-01
+CUST000047,Aisha Smith,1983-05-01,United Arab Emirates,Medium,Retail,Verified,0,2026-02-05
+CUST000048,Zara Clarke,1983-07-24,Turkey,High,Retail,Verified,0,2021-07-02
+CUST000049,Grace Robinson,1985-07-23,United Arab Emirates,Medium,Retail,Verified,0,2023-12-13
+CUST000050,Adam Wright,1967-12-05,Turkey,High,Retail,Pending Review,0,2025-08-12
+CUST000051,Amelia Wright,1975-03-13,Canada,Low,Retail,Verified,0,2022-07-04
+CUST000052,Maya Ahmed,1967-10-16,India,Medium,Retail,Verified,0,2025-04-22
+CUST000053,James Wilson,1948-12-23,India,Medium,SME,Verified,0,2021-03-14
+CUST000054,Aisha Thomas,1959-11-19,Spain,Low,Retail,Verified,0,2021-10-27
+CUST000055,Noah Hussain,1979-11-09,Singapore,Low,Retail,Verified,0,2022-09-13
+CUST000056,Adam Green,1949-05-19,Italy,Low,Retail,Verified,0,2026-05-10
+CUST000057,James Hussain,1949-04-21,France,Low,Retail,Verified,0,2022-03-29
+CUST000058,Maya Clarke,1955-03-15,Italy,Low,Retail,Verified,1,2024-07-18
+CUST000059,Noah Wilson,2003-06-25,Spain,Low,SME,Verified,0,2023-11-07
+CUST000060,Amelia Thomas,1948-07-30,United Arab Emirates,Medium,Retail,Verified,0,2025-11-12
+CUST000061,Mia Walker,2005-01-31,Nigeria,High,Retail,Verified,0,2022-08-19
+CUST000062,Adam Brown,1969-08-02,Singapore,Low,SME,Verified,0,2023-07-09
+CUST000063,Isabella Khan,1943-08-28,Germany,Low,SME,Verified,0,2021-02-13
+CUST000064,Fatima Ali,1949-07-26,Italy,Low,Retail,Verified,0,2023-01-20
+CUST000065,Amelia Miller,1952-09-22,Canada,Low,SME,Verified,0,2021-07-25
+CUST000066,Aisha Clarke,1960-01-30,Canada,Low,SME,Verified,0,2022-01-13
+CUST000067,Aisha Wright,1972-10-06,Nigeria,High,Corporate,Verified,0,2023-10-08
+CUST000068,Ali Robinson,1947-08-28,Singapore,Low,SME,Verified,0,2022-08-18
+CUST000069,Leo Wright,1960-11-20,Nigeria,High,Retail,Failed,0,2024-07-13
+CUST000070,Daniel Wilson,1976-03-20,Pakistan,Medium,Retail,Verified,0,2022-08-21
+CUST000071,Mia Wright,1947-03-05,Singapore,Low,Retail,Failed,0,2024-11-05
+CUST000072,Leo Ahmed,2006-07-12,Pakistan,Medium,Retail,Pending Review,0,2022-08-06
+CUST000073,Aisha Hall,1946-06-02,Spain,Low,Retail,Verified,0,2021-02-03
+CUST000074,Zara Clarke,1994-06-09,Canada,Low,Retail,Verified,0,2025-09-02
+CUST000075,Lucas Young,1992-09-30,United Arab Emirates,Medium,Retail,Verified,0,2024-05-16
+CUST000076,Mia Young,1954-02-16,Pakistan,Medium,Retail,Pending Review,0,2022-03-25
+CUST000077,Noah Jones,1998-04-22,Pakistan,Medium,Retail,Verified,0,2022-08-23
+CUST000078,Muhammad Robinson,1979-02-19,United Kingdom,Low,Retail,Verified,0,2022-01-25
+CUST000079,Daniel Green,1982-12-10,Spain,Low,Retail,Verified,0,2025-09-16
+CUST000080,Mia Davies,1968-09-17,Spain,Low,Retail,Verified,0,2024-04-01
+CUST000081,Adam Smith,1952-06-11,Canada,Low,SME,Verified,0,2026-05-13
+CUST000082,Amelia Hall,2005-07-30,Italy,Low,Retail,Verified,0,2022-11-08
+CUST000083,Ali Patel,1952-08-31,France,Low,Retail,Verified,0,2025-12-02
+CUST000084,Zara Green,1945-02-27,Singapore,Low,Retail,Verified,0,2025-11-09
+CUST000085,Leo Robinson,2007-08-07,Italy,Low,Retail,Verified,0,2022-04-07
+CUST000086,Amelia Green,2002-03-28,Spain,Low,Retail,Verified,0,2023-10-16
+CUST000087,Oliver Davies,1977-07-18,Nigeria,High,Retail,Verified,0,2021-10-15
+CUST000088,Muhammad Wright,1988-10-31,Turkey,High,Retail,Verified,0,2023-11-10
+CUST000089,Adam Wright,1959-04-15,France,Low,SME,Verified,0,2022-03-05
+CUST000090,Aisha Davies,1944-03-10,Spain,Low,SME,Verified,0,2022-10-22
+CUST000091,Isabella Green,1947-01-29,Canada,Low,SME,Verified,0,2021-08-19
+CUST000092,Lucas Smith,1959-03-24,Nigeria,High,Retail,Verified,0,2024-05-15
+CUST000093,James Ahmed,1988-11-02,Italy,Low,Retail,Verified,0,2021-08-09
+CUST000094,Lucas Ahmed,2007-04-27,Canada,Low,Retail,Verified,0,2023-01-04
+CUST000095,Leo Walker,1965-08-08,Germany,Low,Corporate,Verified,0,2023-10-09
+CUST000096,Muhammad Taylor,1977-08-27,Germany,Low,SME,Verified,0,2022-12-14
+CUST000097,Muhammad Khan,1986-07-24,Canada,Low,Retail,Verified,0,2024-05-28
+CUST000098,Oliver Jones,1955-10-06,Netherlands,Low,Retail,Verified,0,2022-09-04
+CUST000099,Hannah Hussain,1990-03-17,Nigeria,High,Retail,Verified,0,2023-11-25
+CUST000100,Ethan Hall,1998-11-27,France,Low,Retail,Pending Review,0,2023-12-12
+CUST000101,Noah Walker,1947-05-31,Italy,Low,Retail,Verified,1,2024-11-07
+CUST000102,Mia Smith,1973-07-13,United States,Low,Corporate,Verified,0,2021-06-11
+CUST000103,Sophia Young,1963-03-30,United Arab Emirates,Medium,Retail,Verified,0,2022-09-09
+CUST000104,Hannah Smith,2003-02-02,Turkey,High,Retail,Verified,0,2024-11-07
+CUST000105,Leo Thomas,1983-05-09,France,Low,Retail,Pending Review,0,2025-01-24
+CUST000106,Hannah Patel,1965-05-22,Singapore,Low,Retail,Pending Review,0,2022-06-11
+CUST000107,Zara Khan,1962-06-04,Spain,Low,Retail,Verified,0,2022-04-22
+CUST000108,Noah Clarke,1961-05-26,United States,Low,Retail,Verified,0,2021-05-17
+CUST000109,Muhammad Ali,1948-07-30,Germany,Low,Retail,Verified,0,2023-09-30
+CUST000110,Hannah Thomas,1990-12-27,Netherlands,Low,Retail,Verified,0,2024-02-27
+CUST000111,Daniel Clarke,1954-08-21,France,Low,Retail,Pending Review,0,2022-08-21
+CUST000112,Daniel Thomas,1978-01-12,Canada,Low,Retail,Pending Review,0,2024-04-10
+CUST000113,Sophia Young,1950-06-07,Italy,Low,Private Banking,Verified,0,2025-10-20
+CUST000114,Sophia Taylor,1981-09-18,Italy,Low,Retail,Verified,0,2026-06-29
+CUST000115,Daniel Khan,1976-04-18,France,Low,Retail,Verified,0,2023-03-17
+CUST000116,Lucas Wright,2002-05-07,Pakistan,Medium,Retail,Verified,0,2024-06-23
+CUST000117,Adam Smith,1944-04-02,Canada,Low,SME,Pending Review,0,2024-10-25
+CUST000118,Lucas Brown,1946-12-31,United Kingdom,Low,Retail,Pending Review,0,2026-01-20
+CUST000119,Adam Hall,1992-02-23,Germany,Low,Retail,Verified,1,2023-07-14
+CUST000120,Daniel Green,1953-06-02,Nigeria,High,SME,Verified,0,2025-03-24
+CUST000121,Daniel Miller,1956-12-21,Canada,Low,Retail,Verified,0,2025-08-25
+CUST000122,Maya Ali,1997-05-29,Germany,Low,Retail,Verified,0,2023-05-22
+CUST000123,Daniel Ali,1965-08-10,Netherlands,Low,Retail,Verified,0,2021-08-21
+CUST000124,Daniel Hall,1969-01-19,Nigeria,High,Retail,Verified,0,2021-10-03
+CUST000125,Amelia Hall,1961-05-23,Netherlands,Low,Retail,Verified,0,2022-03-16
+CUST000126,Amelia Khan,2004-09-01,Turkey,High,Retail,Verified,0,2024-08-08
+CUST000127,Zara Patel,1989-09-27,Italy,Low,Retail,Verified,0,2022-04-28
+CUST000128,Oliver Thomas,1950-01-30,United States,Low,Retail,Verified,0,2023-03-01
+CUST000129,James Patel,1987-09-01,France,Low,Retail,Verified,0,2024-01-11
+CUST000130,Lucas Brown,1994-01-17,Spain,Low,Retail,Verified,0,2022-10-07
+CUST000131,Sophia Davies,2001-07-07,United States,Low,Corporate,Verified,0,2024-11-19
+CUST000132,Fatima Walker,1953-04-24,Canada,Low,Retail,Verified,0,2022-10-05
+CUST000133,Aisha Robinson,2002-11-29,Italy,Low,Corporate,Verified,0,2023-04-17
+CUST000134,Zara Khan,1971-05-21,United States,Low,Corporate,Verified,0,2023-12-04
+CUST000135,Noah Ali,1953-05-29,Germany,Low,Retail,Verified,0,2024-10-06
+CUST000136,Grace Brown,1987-06-05,India,Medium,Retail,Verified,0,2024-07-14
+CUST000137,Daniel Ahmed,1990-03-15,Italy,Low,Retail,Verified,0,2022-04-01
+CUST000138,Mia Hall,1944-11-29,Spain,Low,Retail,Pending Review,0,2022-12-11
+CUST000139,Hannah Patel,1968-05-02,Turkey,High,Retail,Verified,0,2023-03-11
+CUST000140,Hannah Smith,1968-11-24,Germany,Low,Retail,Verified,0,2021-08-30
+CUST000141,Mia Green,1958-11-27,Netherlands,Low,Corporate,Verified,0,2021-05-30
+CUST000142,Fatima Smith,1947-11-10,India,Medium,Retail,Verified,0,2022-07-03
+CUST000143,Hannah Robinson,2003-03-06,France,Low,Retail,Verified,0,2021-05-12
+CUST000144,Adam Smith,1964-08-06,Spain,Low,SME,Verified,0,2025-12-23
+CUST000145,Adam Ahmed,1975-08-15,Pakistan,Medium,Retail,Verified,0,2024-07-18
+CUST000146,Adam Patel,1958-05-16,Turkey,High,Retail,Verified,0,2021-12-12
+CUST000147,Lucas Wright,1996-08-15,Italy,Low,Retail,Verified,0,2025-04-22
+CUST000148,Fatima Patel,1980-05-06,United Arab Emirates,Medium,Retail,Verified,0,2023-06-24
+CUST000149,Fatima Young,1964-09-06,United Kingdom,Low,Retail,Verified,0,2022-03-07
+CUST000150,Lucas Thomas,1952-06-30,France,Low,Retail,Verified,0,2024-11-27
+CUST000151,Ali Wilson,1978-02-08,United Arab Emirates,Medium,Retail,Pending Review,1,2023-12-02
+CUST000152,Sophia Young,1955-05-01,Netherlands,Low,Retail,Verified,0,2021-08-09
+CUST000153,Maya Jones,1993-02-17,Germany,Low,Retail,Pending Review,0,2024-01-21
+CUST000154,Aisha Ali,1951-01-26,Italy,Low,Retail,Verified,0,2026-01-18
+CUST000155,Isabella Ahmed,1995-08-14,India,Medium,Retail,Verified,0,2022-08-09
+CUST000156,Aisha Patel,1950-09-11,Canada,Low,Retail,Verified,0,2021-03-26
+CUST000157,Noah Davies,1994-02-15,United States,Low,Retail,Verified,0,2023-01-06
+CUST000158,Leo Khan,1944-09-22,Italy,Low,Retail,Verified,0,2024-11-15
+CUST000159,Lucas Jones,1977-09-27,India,Medium,Retail,Verified,0,2026-02-16
+CUST000160,Aisha Walker,1943-10-15,Spain,Low,SME,Verified,0,2024-05-31
+CUST000161,Noah Brown,2000-01-16,India,Medium,SME,Verified,0,2026-04-05
+CUST000162,Hannah Clarke,1985-07-29,Italy,Low,Retail,Verified,0,2022-02-26
+CUST000163,James Miller,2003-03-30,United Arab Emirates,Medium,Corporate,Verified,1,2023-06-18
+CUST000164,Ethan Smith,1984-02-19,Spain,Low,SME,Verified,0,2024-06-11
+CUST000165,Isabella Jones,1952-01-07,Singapore,Low,Retail,Verified,0,2023-08-06
+CUST000166,Lucas Young,1954-06-12,Singapore,Low,Private Banking,Verified,0,2025-12-06
+CUST000167,Adam Ali,1968-12-02,Pakistan,Medium,Retail,Verified,0,2022-06-07
+CUST000168,Zara Thomas,2001-06-02,Pakistan,Medium,Retail,Verified,0,2026-05-02
+CUST000169,Fatima Patel,1952-07-05,Turkey,High,Retail,Verified,0,2021-03-08
+CUST000170,Ethan Robinson,1951-01-15,France,Low,SME,Verified,0,2024-04-10
+CUST000171,Oliver Clarke,1994-06-29,United Arab Emirates,Medium,Retail,Pending Review,0,2022-02-28
+CUST000172,Ali Wilson,1971-07-28,United Arab Emirates,Medium,Retail,Verified,0,2021-06-19
+CUST000173,Ethan Patel,1967-08-12,Spain,Low,Retail,Verified,0,2025-08-15
+CUST000174,Grace Taylor,1986-01-10,Singapore,Low,Retail,Verified,0,2022-01-28
+CUST000175,Leo Ahmed,1960-11-23,Netherlands,Low,Retail,Verified,0,2022-06-26
+CUST000176,Maya Ahmed,1955-10-01,United States,Low,Private Banking,Verified,0,2022-09-11
+CUST000177,Lucas Wright,1985-05-09,Italy,Low,Corporate,Verified,0,2025-08-25
+CUST000178,Grace Davies,1980-01-20,India,Medium,SME,Verified,0,2023-06-02
+CUST000179,Oliver Hall,1996-10-27,Pakistan,Medium,Corporate,Verified,0,2022-06-20
+CUST000180,Maya Smith,2003-06-26,Nigeria,High,Corporate,Verified,0,2025-04-29
+CUST000181,Leo Davies,2004-10-28,Turkey,High,Retail,Verified,0,2021-12-23
+CUST000182,James Jones,1998-07-24,Canada,Low,Retail,Verified,0,2023-02-08
+CUST000183,Zara Ahmed,1968-01-24,Singapore,Low,SME,Verified,0,2025-02-24
+CUST000184,Daniel Smith,1977-05-05,Canada,Low,Retail,Verified,0,2025-02-11
+CUST000185,Oliver Clarke,1968-04-12,Nigeria,High,Private Banking,Verified,0,2023-09-20
+CUST000186,Sophia Hall,1950-03-22,Netherlands,Low,Retail,Verified,0,2021-07-22
+CUST000187,Lucas Ahmed,2007-05-15,Pakistan,Medium,SME,Verified,0,2024-06-15
+CUST000188,Leo Davies,1984-01-11,Nigeria,High,Retail,Verified,0,2024-12-08
+CUST000189,Zara Thomas,1992-05-24,Germany,Low,SME,Verified,0,2022-04-10
+CUST000190,James Smith,1956-11-07,Netherlands,Low,Retail,Verified,0,2023-08-06
+CUST000191,Adam Miller,1991-01-27,Netherlands,Low,Retail,Failed,0,2024-10-30
+CUST000192,Mia Davies,1945-07-27,Italy,Low,Retail,Verified,0,2025-11-22
+CUST000193,Ali Hussain,2004-09-07,Spain,Low,Corporate,Verified,0,2023-04-09
+CUST000194,Grace Young,1947-04-28,Nigeria,High,SME,Verified,0,2025-02-23
+CUST000195,Hannah Miller,1984-07-05,Germany,Low,Retail,Verified,0,2023-09-10
+CUST000196,Fatima Wright,2000-07-14,Italy,Low,Retail,Verified,0,2023-07-24
+CUST000197,Ethan Hussain,1964-10-13,Canada,Low,Retail,Verified,0,2023-05-19
+CUST000198,Sophia Clarke,1971-07-23,Spain,Low,Retail,Verified,0,2022-01-17
+CUST000199,Ethan Ahmed,1959-12-31,Germany,Low,Retail,Verified,0,2024-07-25
+CUST000200,Sophia Green,1947-04-06,Singapore,Low,Retail,Verified,0,2025-11-22
+CUST000201,Grace Taylor,1977-06-21,United Arab Emirates,Medium,Retail,Verified,0,2022-06-26
+CUST000202,Leo Jones,1991-07-11,Spain,Low,Retail,Pending Review,0,2023-10-30
+CUST000203,James Patel,1967-02-23,Pakistan,Medium,Retail,Verified,0,2021-09-27
+CUST000204,James Walker,1955-04-23,France,Low,SME,Verified,0,2021-08-13
+CUST000205,Adam Brown,1969-10-01,United Kingdom,Low,Corporate,Verified,0,2022-11-29
+CUST000206,Amelia Wilson,1943-11-28,France,Low,SME,Verified,0,2022-11-15
+CUST000207,Mia Wilson,1965-02-18,United Kingdom,Low,Retail,Verified,0,2021-11-14
+CUST000208,Daniel Jones,1956-08-13,Germany,Low,Private Banking,Verified,0,2026-06-21
+CUST000209,Muhammad Hall,1974-01-30,Canada,Low,SME,Verified,0,2022-08-16
+CUST000210,Oliver Walker,1949-02-16,Germany,Low,Retail,Pending Review,0,2022-03-11
+CUST000211,Adam Taylor,1971-01-11,Turkey,High,Retail,Verified,0,2022-04-25
+CUST000212,Sophia Taylor,1947-10-22,Singapore,Low,Retail,Verified,0,2023-07-24
+CUST000213,Daniel Smith,1998-09-26,India,Medium,SME,Pending Review,0,2023-07-01
+CUST000214,Sophia Hall,1952-05-24,Italy,Low,Retail,Verified,0,2026-03-13
+CUST000215,James Green,1949-10-08,United States,Low,Retail,Verified,0,2024-04-15
+CUST000216,Maya Smith,1980-09-22,Singapore,Low,Retail,Verified,0,2026-03-03
+CUST000217,Oliver Ahmed,1971-12-21,United Kingdom,Low,SME,Pending Review,0,2024-02-25
+CUST000218,Maya Green,1960-01-10,Canada,Low,Retail,Verified,0,2023-06-30
+CUST000219,Aisha Davies,1980-07-14,Singapore,Low,Retail,Verified,0,2024-05-19
+CUST000220,Sophia Brown,1989-02-22,India,Medium,Retail,Verified,0,2021-04-04
+CUST000221,James Robinson,1995-09-11,Germany,Low,Retail,Verified,0,2022-05-10
+CUST000222,Fatima Wright,1981-06-17,United Arab Emirates,Medium,Private Banking,Verified,0,2023-04-12
+CUST000223,Muhammad Ahmed,1967-03-20,Spain,Low,Private Banking,Verified,0,2024-12-18
+CUST000224,Lucas Green,1985-08-28,Singapore,Low,Retail,Pending Review,0,2022-09-29
+CUST000225,Fatima Davies,1954-12-25,India,Medium,Retail,Verified,0,2021-09-29
+CUST000226,James Green,1989-11-18,Singapore,Low,Retail,Verified,0,2024-04-30
+CUST000227,Ethan Patel,1997-11-23,India,Medium,Retail,Verified,0,2024-05-22
+CUST000228,Mia Green,1999-04-06,United Kingdom,Low,Retail,Verified,0,2024-10-22
+CUST000229,Noah Young,1992-11-09,United Arab Emirates,Medium,Retail,Verified,0,2024-09-14
+CUST000230,Amelia Thomas,1963-02-13,Netherlands,Low,Retail,Verified,0,2022-06-16
+CUST000231,Isabella Ali,1982-01-07,India,Medium,Retail,Verified,0,2026-06-01
+CUST000232,Fatima Wilson,1955-02-21,Nigeria,High,Retail,Verified,0,2023-09-16
+CUST000233,Ali Robinson,1975-11-09,India,Medium,Retail,Verified,0,2022-06-20
+CUST000234,James Patel,2000-10-15,Netherlands,Low,Corporate,Verified,0,2024-03-12
+CUST000235,Fatima Khan,1999-07-14,United Arab Emirates,Medium,Retail,Verified,0,2022-12-05
+CUST000236,Aisha Green,1946-07-16,Canada,Low,Retail,Verified,0,2024-12-19
+CUST000237,Daniel Brown,1953-04-22,Netherlands,Low,Retail,Verified,0,2025-02-03
+CUST000238,Zara Robinson,1998-01-01,United States,Low,Retail,Failed,0,2022-09-03
+CUST000239,Zara Walker,2004-05-23,Turkey,High,Retail,Verified,0,2022-07-26
+CUST000240,Isabella Hall,1952-08-26,Italy,Low,Private Banking,Pending Review,0,2021-05-09
+CUST000241,James Patel,1948-03-07,Italy,Low,Retail,Verified,0,2022-10-26
+CUST000242,Sophia Hall,1968-07-10,Italy,Low,Retail,Verified,0,2021-04-19
+CUST000243,Zara Green,1977-09-29,Nigeria,High,Retail,Verified,0,2022-08-22
+CUST000244,Daniel Ali,1964-06-22,Singapore,Low,Retail,Verified,0,2023-01-24
+CUST000245,Amelia Robinson,2004-08-19,India,Medium,Retail,Verified,0,2024-02-01
+CUST000246,Adam Davies,1960-06-07,Turkey,High,SME,Verified,0,2025-08-23
+CUST000247,Isabella Thomas,1988-12-26,Turkey,High,Retail,Verified,0,2024-06-27
+CUST000248,Hannah Green,1984-12-06,Germany,Low,Retail,Verified,0,2024-07-10
+CUST000249,Aisha Davies,1967-01-03,Nigeria,High,Retail,Verified,0,2023-05-16
+CUST000250,Fatima Hussain,1960-04-25,France,Low,Retail,Verified,0,2024-01-26
+CUST000251,Amelia Taylor,1999-01-08,Canada,Low,SME,Verified,0,2023-12-10
+CUST000252,Adam Walker,1958-02-01,United Kingdom,Low,SME,Verified,0,2021-12-06
+CUST000253,Sophia Clarke,1966-09-14,Pakistan,Medium,Retail,Pending Review,0,2024-11-14
+CUST000254,Zara Hussain,1977-01-31,Canada,Low,SME,Verified,0,2023-05-07
+CUST000255,Sophia Robinson,2004-11-15,France,Low,SME,Verified,0,2021-10-02
+CUST000256,Amelia Ahmed,1970-03-17,France,Low,Retail,Verified,0,2023-02-26
+CUST000257,Lucas Green,1943-08-05,Netherlands,Low,Retail,Pending Review,0,2021-12-14
+CUST000258,Ethan Jones,1995-03-07,Germany,Low,Retail,Verified,1,2022-09-15
+CUST000259,Aisha Brown,1953-05-29,India,Medium,Retail,Verified,0,2023-04-02
+CUST000260,Hannah Hall,1961-01-01,Canada,Low,Retail,Verified,1,2023-10-20
+CUST000261,Ethan Davies,1994-05-01,Germany,Low,Retail,Verified,0,2024-07-21
+CUST000262,Maya Davies,1951-02-10,Singapore,Low,Retail,Verified,0,2024-07-31
+CUST000263,Grace Jones,1987-03-12,Spain,Low,Retail,Verified,0,2023-12-01
+CUST000264,Lucas Walker,1985-04-10,Turkey,High,Retail,Verified,0,2023-03-10
+CUST000265,Amelia Patel,1981-04-01,Singapore,Low,Retail,Verified,0,2024-06-15
+CUST000266,Ali Wright,1974-08-08,Germany,Low,Corporate,Verified,0,2024-04-22
+CUST000267,Oliver Davies,1949-09-10,India,Medium,Corporate,Verified,0,2024-10-01
+CUST000268,Fatima Wright,1985-01-04,Germany,Low,Retail,Verified,0,2024-02-19
+CUST000269,Oliver Clarke,1985-10-03,Netherlands,Low,Retail,Verified,0,2023-01-13
+CUST000270,Sophia Walker,1946-05-16,United Kingdom,Low,Corporate,Verified,0,2022-09-01
+CUST000271,Oliver Patel,1951-11-15,Italy,Low,Retail,Verified,0,2026-04-29
+CUST000272,Mia Clarke,1986-11-22,Pakistan,Medium,Retail,Verified,0,2022-02-28
+CUST000273,Leo Wilson,2002-11-27,Netherlands,Low,Private Banking,Verified,0,2022-04-18
+CUST000274,Ethan Patel,1951-03-11,United Kingdom,Low,Retail,Failed,0,2025-03-06
+CUST000275,Adam Ali,1963-07-22,Nigeria,High,Retail,Verified,0,2025-05-07
+CUST000276,Leo Jones,1972-09-15,Netherlands,Low,Retail,Verified,0,2025-01-03
+CUST000277,Lucas Smith,1996-05-03,Italy,Low,Private Banking,Verified,0,2021-08-26
+CUST000278,Zara Clarke,1967-03-15,Singapore,Low,Retail,Verified,0,2024-05-27
+CUST000279,Grace Hussain,1996-12-17,Spain,Low,Retail,Verified,0,2023-10-09
+CUST000280,Ethan Patel,1996-11-19,Italy,Low,SME,Verified,0,2021-11-18
+CUST000281,Leo Hall,1972-01-27,India,Medium,Retail,Verified,0,2021-06-28
+CUST000282,Hannah Khan,1995-08-26,United Kingdom,Low,Retail,Verified,0,2026-07-03
+CUST000283,Amelia Patel,1970-04-28,France,Low,Retail,Verified,0,2021-06-09
+CUST000284,Noah Ali,1968-07-25,United States,Low,Retail,Verified,0,2023-11-01
+CUST000285,Aisha Miller,1952-07-18,United Arab Emirates,Medium,SME,Failed,0,2025-10-07
+CUST000286,Daniel Miller,1997-05-20,United States,Low,Retail,Verified,0,2021-12-12
+CUST000287,Mia Khan,1999-10-13,France,Low,Retail,Verified,0,2025-04-23
+CUST000288,Maya Brown,1952-04-02,United States,Low,Retail,Verified,0,2024-07-15
+CUST000289,Maya Taylor,1977-02-25,France,Low,Retail,Verified,0,2022-02-19
+CUST000290,Grace Young,1970-04-04,Italy,Low,Retail,Verified,0,2026-03-15
+CUST000291,Adam Patel,1977-11-03,Germany,Low,Retail,Pending Review,1,2021-04-09
+CUST000292,Leo Jones,1955-01-16,Italy,Low,SME,Pending Review,0,2026-05-31
+CUST000293,James Walker,1981-06-25,Pakistan,Medium,Retail,Verified,0,2024-03-06
+CUST000294,Maya Davies,1989-02-21,Germany,Low,Retail,Pending Review,0,2025-08-20
+CUST000295,Lucas Taylor,2000-02-03,Nigeria,High,Retail,Verified,0,2023-12-19
+CUST000296,Aisha Ahmed,1986-05-14,Pakistan,Medium,Retail,Verified,0,2023-07-29
+CUST000297,Ethan Ahmed,1975-04-23,Singapore,Low,SME,Verified,0,2025-11-05
+CUST000298,Maya Hussain,1973-10-22,United States,Low,Retail,Verified,0,2023-12-15
+CUST000299,Oliver Hussain,1987-01-07,Canada,Low,SME,Verified,0,2025-11-10
+CUST000300,Noah Smith,2003-07-04,United Kingdom,Low,Retail,Verified,0,2021-04-14
+CUST000301,Isabella Taylor,1955-03-30,Singapore,Low,Retail,Verified,0,2026-01-26
+CUST000302,Noah Wright,2002-04-10,Netherlands,Low,Private Banking,Pending Review,0,2023-11-25
+CUST000303,Leo Robinson,1967-06-05,Pakistan,Medium,Retail,Verified,0,2024-10-19
+CUST000304,Ali Wilson,1960-09-21,Canada,Low,SME,Verified,0,2025-08-30
+CUST000305,Ethan Khan,1978-10-12,United Kingdom,Low,Corporate,Verified,0,2021-09-29
+CUST000306,Noah Ali,1981-10-17,Germany,Low,Retail,Verified,1,2022-07-08
+CUST000307,Ethan Robinson,1955-07-29,United Arab Emirates,Medium,Private Banking,Verified,0,2025-10-03
+CUST000308,Fatima Taylor,2000-11-30,Germany,Low,Retail,Verified,0,2024-04-20
+CUST000309,Amelia Taylor,1967-11-30,India,Medium,Retail,Verified,0,2023-03-25
+CUST000310,Isabella Ali,1950-11-27,France,Low,Retail,Verified,0,2023-12-22
+CUST000311,Oliver Davies,1993-05-27,Italy,Low,SME,Verified,0,2021-10-27
+CUST000312,Zara Wright,1977-01-15,Singapore,Low,Retail,Verified,0,2025-07-13
+CUST000313,Hannah Brown,1977-05-29,Canada,Low,SME,Verified,0,2021-11-07
+CUST000314,Maya Hall,1957-01-12,Italy,Low,Retail,Pending Review,0,2026-02-22
+CUST000315,Isabella Brown,1992-05-26,Canada,Low,Retail,Verified,0,2023-04-16
+CUST000316,Zara Ali,1945-07-09,United States,Low,Retail,Verified,0,2024-12-08
+CUST000317,Muhammad Clarke,1976-08-19,United Kingdom,Low,Retail,Verified,0,2024-12-09
+CUST000318,Leo Khan,1976-08-28,United Arab Emirates,Medium,Private Banking,Verified,0,2023-06-15
+CUST000319,Zara Hussain,1944-02-11,Nigeria,High,Retail,Verified,0,2021-06-26
+CUST000320,Noah Jones,1962-09-24,Canada,Low,Retail,Verified,0,2021-12-05
+CUST000321,Oliver Jones,1959-01-21,United Arab Emirates,Medium,Retail,Verified,0,2024-06-30
+CUST000322,Mia Ahmed,1962-10-03,Singapore,Low,Retail,Verified,1,2021-07-25
+CUST000323,Maya Smith,1946-07-05,France,Low,Retail,Verified,0,2026-07-03
+CUST000324,Oliver Miller,1992-01-20,United Arab Emirates,Medium,Retail,Verified,0,2025-09-17
+CUST000325,Ethan Walker,1962-06-13,Italy,Low,Retail,Verified,0,2021-01-13
+CUST000326,Isabella Jones,1945-08-26,Spain,Low,Retail,Verified,0,2023-01-25
+CUST000327,Muhammad Davies,1986-01-02,Nigeria,High,Retail,Verified,0,2021-03-10
+CUST000328,Adam Miller,2004-04-07,Spain,Low,Corporate,Pending Review,0,2023-05-03
+CUST000329,Noah Thomas,1966-06-10,France,Low,Private Banking,Verified,0,2026-01-03
+CUST000330,Aisha Hussain,1965-12-03,Singapore,Low,Retail,Verified,0,2022-02-04
+CUST000331,Lucas Jones,1958-12-09,United Kingdom,Low,SME,Verified,0,2023-06-12
+CUST000332,Hannah Patel,1980-04-23,Canada,Low,SME,Verified,0,2025-01-16
+CUST000333,Maya Green,1960-04-29,France,Low,Corporate,Pending Review,0,2023-01-25
+CUST000334,Lucas Jones,1986-09-07,United States,Low,Retail,Verified,0,2024-03-17
+CUST000335,Muhammad Davies,1974-08-13,Singapore,Low,Retail,Verified,0,2021-10-18
+CUST000336,Maya Davies,2007-12-03,India,Medium,SME,Verified,0,2025-12-18
+CUST000337,Ali Brown,1971-06-07,Turkey,High,Retail,Verified,0,2022-10-20
+CUST000338,Ethan Walker,1959-04-18,Netherlands,Low,Retail,Verified,0,2023-11-25
+CUST000339,Daniel Patel,2001-04-24,Pakistan,Medium,Retail,Verified,0,2022-04-07
+CUST000340,Lucas Green,1958-10-27,United Kingdom,Low,Retail,Pending Review,0,2025-03-09
+CUST000341,Mia Wright,2003-10-26,United States,Low,SME,Verified,0,2025-10-31
+CUST000342,James Ali,1984-05-11,United Arab Emirates,Medium,Retail,Verified,0,2021-11-22
+CUST000343,Maya Patel,1975-02-04,Nigeria,High,Retail,Verified,0,2024-12-16
+CUST000344,Adam Hall,2006-07-16,Italy,Low,Retail,Verified,0,2025-09-04
+CUST000345,Mia Brown,1996-05-18,Spain,Low,SME,Verified,0,2021-08-02
+CUST000346,Adam Clarke,1945-10-05,Turkey,High,Retail,Verified,0,2023-02-03
+CUST000347,Noah Smith,1958-02-02,United Kingdom,Low,SME,Pending Review,0,2026-05-24
+CUST000348,Ali Brown,1969-02-25,Pakistan,Medium,Private Banking,Verified,0,2022-05-03
+CUST000349,Adam Patel,1973-12-16,India,Medium,Retail,Verified,0,2022-05-09
+CUST000350,Grace Jones,1961-06-22,Italy,Low,Retail,Verified,0,2022-02-17
+CUST000351,Sophia Smith,1986-04-07,United Kingdom,Low,Retail,Verified,0,2022-07-22
+CUST000352,Zara Brown,1948-11-07,Italy,Low,Retail,Verified,0,2024-01-03
+CUST000353,Oliver Hussain,1964-01-25,Nigeria,High,SME,Verified,0,2024-05-04
+CUST000354,Noah Wilson,1981-03-24,Nigeria,High,Retail,Verified,0,2022-02-16
+CUST000355,Aisha Taylor,1985-09-10,France,Low,Retail,Verified,0,2021-01-30
+CUST000356,Hannah Hussain,1960-01-24,United States,Low,Retail,Verified,0,2023-01-04
+CUST000357,Adam Young,1960-10-06,United Kingdom,Low,Retail,Verified,0,2024-08-15
+CUST000358,Muhammad Wilson,1973-03-06,Italy,Low,Retail,Verified,0,2021-12-28
+CUST000359,Ali Davies,1991-06-30,India,Medium,Retail,Verified,0,2026-04-23
+CUST000360,Noah Green,1984-01-21,Italy,Low,Retail,Verified,0,2024-06-30
+CUST000361,Daniel Clarke,1985-02-14,France,Low,Retail,Verified,0,2022-03-25
+CUST000362,Ethan Taylor,1997-03-20,India,Medium,SME,Verified,0,2024-08-25
+CUST000363,Ali Smith,1949-05-24,Pakistan,Medium,SME,Verified,0,2026-02-09
+CUST000364,Zara Wright,1992-07-29,Netherlands,Low,Retail,Verified,0,2025-09-26
+CUST000365,Isabella Jones,1950-05-11,Nigeria,High,SME,Verified,0,2025-07-07
+CUST000366,Sophia Jones,1951-03-05,United Kingdom,Low,Retail,Verified,0,2022-02-19
+CUST000367,Lucas Clarke,1953-12-28,United States,Low,Retail,Verified,0,2024-05-31
+CUST000368,Aisha Taylor,1984-07-05,Spain,Low,Retail,Verified,0,2025-12-06
+CUST000369,James Davies,1987-06-11,Pakistan,Medium,Corporate,Verified,0,2023-07-27
+CUST000370,Ali Thomas,1991-01-19,Turkey,High,SME,Verified,0,2021-12-15
+CUST000371,Aisha Hall,1992-03-26,United Arab Emirates,Medium,Retail,Verified,0,2022-01-24
+CUST000372,Adam Smith,1975-10-17,Turkey,High,Retail,Verified,0,2021-10-26
+CUST000373,Zara Brown,1954-12-07,Germany,Low,Retail,Verified,0,2022-08-10
+CUST000374,Daniel Wright,1954-08-18,Pakistan,Medium,Retail,Verified,0,2021-11-06
+CUST000375,Daniel Brown,1993-02-18,Nigeria,High,Retail,Verified,0,2021-11-05
+CUST000376,Oliver Smith,1956-02-21,Singapore,Low,Retail,Pending Review,0,2023-10-24
+CUST000377,Mia Clarke,1997-05-16,United Kingdom,Low,Retail,Verified,0,2022-06-13
+CUST000378,Muhammad Hussain,1978-11-25,Pakistan,Medium,Retail,Verified,0,2026-04-15
+CUST000379,Daniel Brown,1967-12-13,Turkey,High,SME,Verified,0,2025-09-23
+CUST000380,Adam Hussain,1962-12-08,India,Medium,SME,Verified,0,2025-06-25
+CUST000381,Ali Ali,1974-01-01,Canada,Low,Retail,Verified,0,2022-08-08
+CUST000382,Mia Clarke,1994-12-11,France,Low,SME,Verified,0,2024-05-18
+CUST000383,Ali Brown,1991-11-08,Italy,Low,SME,Verified,0,2022-11-01
+CUST000384,Isabella Wright,1979-08-08,Italy,Low,Retail,Verified,0,2022-10-17
+CUST000385,Leo Young,1959-05-06,India,Medium,Retail,Verified,0,2021-09-30
+CUST000386,Ali Miller,1987-06-06,Italy,Low,Retail,Pending Review,0,2025-04-04
+CUST000387,Hannah Robinson,1978-06-06,United States,Low,SME,Verified,0,2024-01-01
+CUST000388,Zara Ali,2006-05-18,Singapore,Low,Retail,Verified,0,2022-01-25
+CUST000389,Hannah Miller,1981-08-14,Pakistan,Medium,Retail,Verified,0,2023-12-17
+CUST000390,Ethan Robinson,1947-08-22,Nigeria,High,Retail,Verified,0,2024-08-04
+CUST000391,Grace Thomas,1970-10-11,Spain,Low,Retail,Verified,0,2025-09-19
+CUST000392,Adam Wilson,1995-03-04,United States,Low,Retail,Pending Review,0,2023-12-11
+CUST000393,Mia Brown,1955-06-29,Germany,Low,SME,Verified,0,2021-02-22
+CUST000394,Lucas Hall,2001-09-30,United Kingdom,Low,Retail,Verified,0,2025-07-06
+CUST000395,Zara Young,1992-05-20,Singapore,Low,Retail,Verified,0,2024-02-27
+CUST000396,Zara Miller,1977-02-26,Spain,Low,Private Banking,Verified,0,2024-03-10
+CUST000397,Leo Miller,1969-07-24,Singapore,Low,Retail,Pending Review,0,2025-05-19
+CUST000398,Fatima Jones,1963-08-10,Pakistan,Medium,Retail,Verified,0,2025-11-10
+CUST000399,Leo Davies,1954-08-11,Nigeria,High,SME,Verified,0,2025-11-28
+CUST000400,Amelia Jones,2001-03-30,United Kingdom,Low,Private Banking,Verified,0,2026-02-26
+CUST000401,Hannah Brown,2004-01-08,United Arab Emirates,Medium,Retail,Verified,0,2025-03-31
+CUST000402,Muhammad Smith,1977-10-28,United States,Low,Corporate,Verified,0,2021-01-12
+CUST000403,Sophia Young,2007-03-03,United Kingdom,Low,SME,Verified,0,2025-03-29
+CUST000404,Leo Young,1960-09-22,Turkey,High,Retail,Verified,0,2023-12-28
+CUST000405,Daniel Walker,1985-10-24,France,Low,Retail,Verified,0,2025-08-09
+CUST000406,Fatima Smith,1965-11-23,United Kingdom,Low,Retail,Verified,0,2021-04-11
+CUST000407,Mia Green,1969-11-09,Turkey,High,Retail,Verified,0,2025-04-10
+CUST000408,Lucas Green,1944-05-04,Spain,Low,Retail,Verified,0,2025-04-23
+CUST000409,Adam Wright,1971-03-29,India,Medium,Retail,Verified,0,2022-11-13
+CUST000410,Adam Young,1951-03-22,India,Medium,Retail,Verified,0,2024-05-14
+CUST000411,Grace Thomas,1972-07-05,Netherlands,Low,Retail,Verified,0,2024-11-03
+CUST000412,Oliver Green,1998-05-23,Netherlands,Low,Retail,Verified,0,2022-12-23
+CUST000413,Leo Ali,1995-03-29,United States,Low,Retail,Pending Review,0,2025-08-24
+CUST000414,Maya Smith,2004-05-26,India,Medium,Retail,Verified,0,2021-11-25
+CUST000415,Zara Ali,1958-12-03,United States,Low,Retail,Verified,0,2026-06-21
+CUST000416,Maya Thomas,2002-07-17,Germany,Low,Corporate,Verified,0,2024-10-25
+CUST000417,Zara Khan,1952-01-09,Spain,Low,Retail,Verified,0,2024-04-25
+CUST000418,Ethan Khan,1969-08-06,France,Low,Retail,Verified,0,2026-06-24
+CUST000419,Sophia Thomas,1998-02-05,Netherlands,Low,Retail,Pending Review,0,2025-09-16
+CUST000420,Daniel Jones,1976-04-08,Nigeria,High,Retail,Verified,0,2022-04-18
+CUST000421,Maya Hussain,1999-02-13,Netherlands,Low,Retail,Verified,0,2024-08-26
+CUST000422,Muhammad Young,1978-05-26,Turkey,High,Retail,Verified,0,2024-08-31
+CUST000423,Mia Thomas,1988-09-27,Singapore,Low,SME,Pending Review,0,2024-10-01
+CUST000424,Ethan Ahmed,1953-03-03,Singapore,Low,Retail,Verified,0,2024-01-04
+CUST000425,Adam Patel,1995-04-14,Canada,Low,SME,Verified,0,2023-06-27
+CUST000426,Aisha Wright,1999-06-03,Turkey,High,Retail,Verified,0,2022-03-12
+CUST000427,Leo Clarke,1974-10-12,United Kingdom,Low,Retail,Verified,0,2021-07-05
+CUST000428,Grace Wright,1990-11-18,Pakistan,Medium,Retail,Verified,0,2025-03-02
+CUST000429,Oliver Jones,1990-11-27,Spain,Low,Retail,Verified,0,2025-09-07
+CUST000430,Ali Taylor,2003-03-20,India,Medium,Retail,Verified,0,2025-05-07
+CUST000431,Hannah Smith,1958-11-23,India,Medium,Retail,Verified,0,2021-01-28
+CUST000432,Leo Hall,1974-09-24,Pakistan,Medium,Retail,Verified,0,2022-11-04
+CUST000433,Zara Thomas,1979-10-25,United States,Low,SME,Verified,0,2021-07-14
+CUST000434,Noah Patel,1952-04-29,France,Low,Retail,Verified,0,2025-08-16
+CUST000435,Noah Ali,1992-08-08,Italy,Low,SME,Verified,0,2023-10-28
+CUST000436,Noah Smith,1956-07-10,France,Low,Retail,Verified,0,2023-08-20
+CUST000437,Amelia Jones,2001-04-16,France,Low,Retail,Verified,0,2022-12-07
+CUST000438,Sophia Robinson,1972-06-04,Singapore,Low,Retail,Verified,0,2025-04-11
+CUST000439,Grace Hussain,1984-08-29,Spain,Low,Retail,Verified,0,2023-03-01
+CUST000440,Daniel Khan,1959-05-15,United States,Low,Retail,Verified,0,2024-02-26
+CUST000441,Adam Smith,1947-09-13,France,Low,SME,Verified,0,2025-12-26
+CUST000442,Lucas Wright,2007-07-27,Nigeria,High,Retail,Verified,0,2024-02-07
+CUST000443,Mia Hall,1960-01-23,Spain,Low,Retail,Verified,0,2025-03-15
+CUST000444,Sophia Khan,1956-03-12,Netherlands,Low,Retail,Verified,0,2025-11-05
+CUST000445,Isabella Ali,1981-07-28,Turkey,High,Retail,Verified,0,2025-01-31
+CUST000446,Amelia Walker,1961-09-10,United States,Low,SME,Verified,0,2023-10-20
+CUST000447,Muhammad Hall,1947-03-17,Netherlands,Low,Retail,Verified,0,2021-09-16
+CUST000448,Oliver Brown,1950-07-30,United Arab Emirates,Medium,Retail,Verified,0,2023-06-02
+CUST000449,Zara Khan,2002-04-19,Singapore,Low,SME,Verified,0,2023-02-21
+CUST000450,Maya Young,1980-01-08,Pakistan,Medium,Retail,Verified,1,2023-01-23
+CUST000451,Ali Robinson,2001-04-12,Singapore,Low,Retail,Verified,0,2023-08-08
+CUST000452,Oliver Smith,1978-09-05,Spain,Low,Retail,Verified,0,2026-01-08
+CUST000453,Mia Wilson,1957-12-26,India,Medium,Retail,Verified,0,2026-01-01
+CUST000454,Amelia Taylor,1964-01-24,Italy,Low,Retail,Verified,0,2023-04-14
+CUST000455,Leo Patel,1944-05-31,United States,Low,Retail,Verified,0,2023-08-18
+CUST000456,Hannah Walker,1975-07-27,Italy,Low,Retail,Verified,0,2021-02-12
+CUST000457,Daniel Hussain,2004-11-05,Nigeria,High,Retail,Verified,1,2022-09-16
+CUST000458,Grace Green,1956-01-23,India,Medium,Retail,Verified,0,2025-12-26
+CUST000459,Leo Jones,1965-06-11,Italy,Low,Retail,Verified,0,2024-12-30
+CUST000460,Noah Taylor,1945-04-13,United Arab Emirates,Medium,SME,Verified,0,2025-02-08
+CUST000461,Maya Clarke,1995-05-12,Spain,Low,Retail,Verified,0,2026-04-09
+CUST000462,Amelia Clarke,1944-10-03,India,Medium,Retail,Verified,0,2024-04-11
+CUST000463,Lucas Clarke,2001-10-14,France,Low,Corporate,Verified,0,2021-09-05
+CUST000464,Grace Robinson,1992-07-20,Canada,Low,Retail,Verified,0,2024-05-18
+CUST000465,Leo Hussain,1975-04-13,India,Medium,Retail,Verified,0,2024-06-15
+CUST000466,Ethan Thomas,1954-07-29,United Arab Emirates,Medium,SME,Verified,0,2025-10-09
+CUST000467,Noah Green,1996-02-24,Italy,Low,Retail,Verified,0,2021-02-15
+CUST000468,Lucas Clarke,2007-04-10,Spain,Low,Retail,Verified,0,2023-07-06
+CUST000469,Leo Hall,1970-03-12,Canada,Low,Retail,Verified,0,2025-04-19
+CUST000470,Isabella Hussain,1995-11-24,Turkey,High,Retail,Verified,0,2025-01-23
+CUST000471,Adam Wilson,1963-08-07,Germany,Low,Retail,Verified,0,2022-02-17
+CUST000472,Maya Walker,1945-12-08,Turkey,High,Retail,Verified,0,2021-08-21
+CUST000473,Adam Hall,1954-09-02,India,Medium,Retail,Pending Review,0,2024-07-31
+CUST000474,Amelia Young,1970-07-20,Turkey,High,Retail,Verified,0,2021-09-01
+CUST000475,Oliver Jones,1950-12-24,Netherlands,Low,SME,Verified,0,2025-02-03
+CUST000476,Zara Brown,1982-04-21,Germany,Low,Retail,Pending Review,0,2026-03-16
+CUST000477,Amelia Young,1998-05-19,Netherlands,Low,Retail,Verified,0,2024-10-09
+CUST000478,Fatima Ahmed,1951-09-06,Pakistan,Medium,Retail,Verified,0,2024-07-04
+CUST000479,Hannah Ahmed,1973-10-10,Canada,Low,Corporate,Verified,0,2023-02-27
+CUST000480,Leo Davies,1952-10-27,Turkey,High,Corporate,Verified,0,2026-01-02
+CUST000481,Muhammad Khan,1975-04-29,United States,Low,Retail,Verified,0,2024-07-30
+CUST000482,Muhammad Khan,1945-11-22,United Kingdom,Low,SME,Verified,0,2022-01-15
+CUST000483,Lucas Walker,1955-10-08,United Arab Emirates,Medium,Retail,Verified,0,2021-11-11
+CUST000484,Noah Wright,1953-09-05,Germany,Low,SME,Pending Review,0,2022-09-01
+CUST000485,Sophia Patel,1973-12-18,Singapore,Low,Retail,Verified,0,2023-01-16
+CUST000486,Isabella Khan,1946-04-19,Nigeria,High,Retail,Pending Review,0,2021-01-20
+CUST000487,Noah Patel,1952-07-18,France,Low,Retail,Verified,0,2024-10-04
+CUST000488,Maya Ahmed,2004-01-22,Singapore,Low,Retail,Verified,0,2023-11-15
+CUST000489,Aisha Brown,1976-01-03,Italy,Low,Private Banking,Verified,0,2021-01-15
+CUST000490,Daniel Wright,1982-11-22,United Kingdom,Low,Retail,Verified,0,2021-02-12
+CUST000491,Grace Brown,2002-10-02,France,Low,Retail,Verified,0,2021-07-13
+CUST000492,Lucas Miller,1994-03-14,United Arab Emirates,Medium,Retail,Verified,0,2024-04-15
+CUST000493,Adam Ahmed,1947-08-06,Nigeria,High,Retail,Verified,0,2025-12-28
+CUST000494,Ethan Ahmed,2001-06-10,Spain,Low,Retail,Verified,0,2025-03-15
+CUST000495,Sophia Khan,1963-12-08,Turkey,High,Retail,Verified,0,2021-06-20
+CUST000496,Ali Wilson,1970-10-14,Canada,Low,Retail,Verified,0,2023-11-18
+CUST000497,Grace Ahmed,1988-06-08,Nigeria,High,Retail,Verified,0,2023-12-18
+CUST000498,Aisha Young,1960-04-17,Netherlands,Low,SME,Verified,0,2022-06-19
+CUST000499,Grace Clarke,1959-04-15,Italy,Low,SME,Verified,0,2024-03-16
+CUST000500,Fatima Jones,2000-06-18,Germany,Low,SME,Verified,0,2025-12-14
+CUST000501,Ali Wright,1958-08-19,Italy,Low,Retail,Verified,0,2025-04-07
+CUST000502,Ali Patel,1981-08-14,United Kingdom,Low,Retail,Verified,0,2022-05-04
+CUST000503,Amelia Wright,2000-08-29,Spain,Low,Retail,Verified,0,2021-03-18
+CUST000504,Zara Wilson,1978-10-17,Germany,Low,Retail,Verified,0,2021-03-12
+CUST000505,Mia Thomas,1955-05-29,Netherlands,Low,Retail,Verified,0,2025-12-03
+CUST000506,Isabella Jones,1956-11-05,Netherlands,Low,Retail,Verified,0,2021-06-12
+CUST000507,Lucas Miller,1960-12-21,Italy,Low,Retail,Verified,0,2022-03-19
+CUST000508,Hannah Walker,1961-12-01,Pakistan,Medium,Retail,Verified,0,2026-06-01
+CUST000509,Noah Wilson,2008-02-06,Pakistan,Medium,SME,Verified,0,2022-08-22
+CUST000510,James Robinson,1989-05-26,Netherlands,Low,Retail,Verified,0,2023-03-30
+CUST000511,Mia Walker,1970-06-01,Spain,Low,Retail,Verified,0,2024-09-08
+CUST000512,Muhammad Smith,1995-09-11,Italy,Low,SME,Verified,0,2026-03-12
+CUST000513,Daniel Taylor,1952-12-21,Italy,Low,SME,Verified,0,2022-12-13
+CUST000514,Leo Hall,2003-01-28,Pakistan,Medium,Retail,Verified,0,2026-03-22
+CUST000515,Noah Ali,1944-06-08,Canada,Low,Retail,Verified,0,2026-01-16
+CUST000516,Maya Walker,1957-03-09,United Kingdom,Low,Retail,Verified,0,2025-10-01
+CUST000517,Mia Wilson,1957-08-22,Canada,Low,Retail,Failed,0,2025-02-23
+CUST000518,Mia Patel,1966-08-03,United States,Low,Retail,Verified,0,2025-06-09
+CUST000519,Oliver Thomas,2005-02-03,Turkey,High,Retail,Failed,0,2025-09-09
+CUST000520,Ethan Ahmed,1979-04-05,Italy,Low,SME,Verified,0,2026-03-15
+CUST000521,Isabella Brown,1972-07-10,France,Low,Retail,Verified,0,2022-05-11
+CUST000522,Ali Young,1974-10-10,Netherlands,Low,SME,Verified,0,2026-05-28
+CUST000523,Oliver Smith,2003-03-02,Turkey,High,Retail,Verified,0,2026-03-18
+CUST000524,Amelia Thomas,1958-08-17,Germany,Low,SME,Verified,0,2022-11-13
+CUST000525,Ali Young,1996-02-01,Netherlands,Low,Retail,Verified,0,2023-12-10
+CUST000526,Grace Davies,2003-03-06,United Kingdom,Low,Retail,Verified,0,2024-07-23
+CUST000527,Grace Hussain,1970-03-20,Turkey,High,SME,Verified,0,2021-07-07
+CUST000528,Zara Ahmed,1989-01-20,United Arab Emirates,Medium,Retail,Verified,0,2023-01-26
+CUST000529,Fatima Ali,1977-09-26,United States,Low,Private Banking,Pending Review,0,2023-06-20
+CUST000530,Muhammad Wright,1983-05-06,France,Low,Corporate,Verified,0,2022-03-10
+CUST000531,Maya Green,1988-02-02,Nigeria,High,Retail,Verified,0,2021-10-19
+CUST000532,Lucas Davies,1967-12-20,Spain,Low,Retail,Pending Review,0,2021-04-09
+CUST000533,Fatima Jones,1984-05-21,Spain,Low,Retail,Failed,0,2023-02-10
+CUST000534,Aisha Thomas,1979-03-20,Nigeria,High,Retail,Verified,0,2021-10-06
+CUST000535,Zara Clarke,1961-04-17,Turkey,High,Retail,Verified,0,2024-03-20
+CUST000536,Sophia Wilson,1979-08-07,United States,Low,Retail,Pending Review,1,2021-08-24
+CUST000537,Lucas Walker,1950-03-19,India,Medium,SME,Verified,0,2022-06-21
+CUST000538,Daniel Robinson,2003-10-17,Singapore,Low,Retail,Verified,0,2025-02-16
+CUST000539,Zara Wright,2002-09-28,Singapore,Low,SME,Pending Review,0,2024-01-16
+CUST000540,Oliver Ali,1971-11-24,Spain,Low,Retail,Pending Review,0,2021-06-10
+CUST000541,Grace Brown,1951-06-07,Turkey,High,Retail,Verified,0,2023-06-11
+CUST000542,Oliver Robinson,1951-07-11,India,Medium,Retail,Verified,0,2023-12-16
+CUST000543,Maya Brown,1988-05-11,Singapore,Low,Retail,Verified,0,2022-07-17
+CUST000544,Leo Walker,1988-01-02,Netherlands,Low,Retail,Verified,0,2021-08-14
+CUST000545,James Ali,1990-04-13,France,Low,Retail,Verified,0,2024-11-19
+CUST000546,Adam Hussain,1983-07-14,France,Low,Retail,Verified,0,2021-12-24
+CUST000547,Mia Clarke,1978-03-27,Canada,Low,Retail,Verified,0,2026-06-21
+CUST000548,Oliver Ahmed,1982-06-20,Pakistan,Medium,Retail,Verified,0,2026-04-28
+CUST000549,Maya Smith,1970-01-30,Nigeria,High,Retail,Failed,0,2024-11-29
+CUST000550,Mia Thomas,1985-11-23,Singapore,Low,Corporate,Verified,0,2024-06-10
+CUST000551,Maya Davies,1953-10-14,Spain,Low,Retail,Verified,0,2024-08-29
+CUST000552,James Brown,1981-09-05,United Arab Emirates,Medium,Retail,Pending Review,0,2026-01-06
+CUST000553,Adam Miller,1971-12-12,Nigeria,High,Retail,Verified,0,2021-04-23
+CUST000554,Oliver Young,1944-11-14,Canada,Low,Retail,Verified,0,2025-11-04
+CUST000555,Adam Ali,1993-03-28,Spain,Low,Retail,Verified,0,2022-12-07
+CUST000556,Maya Davies,1972-03-09,United Arab Emirates,Medium,Retail,Verified,0,2025-11-12
+CUST000557,Sophia Miller,2005-04-11,United States,Low,SME,Pending Review,0,2023-11-06
+CUST000558,Hannah Green,1988-08-26,Canada,Low,SME,Verified,0,2021-04-20
+CUST000559,Isabella Green,1969-10-02,Netherlands,Low,Retail,Verified,0,2022-01-09
+CUST000560,Zara Green,2005-01-17,Pakistan,Medium,SME,Verified,0,2023-03-04
+CUST000561,Isabella Smith,1968-07-22,Spain,Low,Retail,Verified,0,2024-06-03
+CUST000562,Daniel Thomas,1970-04-20,United Arab Emirates,Medium,SME,Verified,0,2024-01-08
+CUST000563,Sophia Miller,1944-05-07,Canada,Low,Corporate,Verified,0,2022-02-27
+CUST000564,Fatima Wilson,1995-10-21,Italy,Low,SME,Verified,0,2023-07-31
+CUST000565,Hannah Smith,1997-01-22,United Kingdom,Low,Retail,Verified,0,2026-05-19
+CUST000566,Sophia Wilson,1982-02-01,Turkey,High,Retail,Verified,0,2022-09-29
+CUST000567,Aisha Young,1973-05-20,France,Low,Retail,Verified,0,2023-06-05
+CUST000568,Noah Jones,1971-09-28,Singapore,Low,Retail,Verified,0,2024-01-08
+CUST000569,Zara Smith,2002-05-17,Canada,Low,Retail,Verified,0,2021-07-05
+CUST000570,Ethan Davies,1950-09-11,Singapore,Low,Retail,Verified,0,2021-12-20
+CUST000571,Fatima Patel,1948-10-06,Spain,Low,SME,Pending Review,0,2023-12-14
+CUST000572,Noah Taylor,1948-11-25,Singapore,Low,Retail,Verified,0,2024-06-20
+CUST000573,Hannah Clarke,1966-02-03,Turkey,High,Retail,Verified,0,2023-12-03
+CUST000574,Daniel Walker,1991-10-26,India,Medium,SME,Verified,0,2022-11-12
+CUST000575,Mia Ali,1948-12-30,Netherlands,Low,Retail,Verified,0,2023-10-21
+CUST000576,Mia Miller,1952-12-12,United Arab Emirates,Medium,Retail,Verified,0,2026-01-25
+CUST000577,Mia Young,1946-05-27,Nigeria,High,Retail,Verified,0,2025-07-09
+CUST000578,Adam Walker,1994-07-27,Nigeria,High,Retail,Verified,0,2025-04-15
+CUST000579,Fatima Robinson,2008-04-24,Spain,Low,Retail,Verified,0,2025-05-30
+CUST000580,Muhammad Ali,1969-09-30,India,Medium,Retail,Pending Review,1,2023-03-29
+CUST000581,James Thomas,1992-02-13,United States,Low,Corporate,Pending Review,0,2023-05-15
+CUST000582,Lucas Hall,2005-03-11,Pakistan,Medium,Retail,Verified,0,2024-05-14
+CUST000583,Fatima Wilson,1985-11-13,Turkey,High,Retail,Verified,0,2024-03-02
+CUST000584,Aisha Patel,1992-05-05,Turkey,High,Retail,Verified,0,2022-10-26
+CUST000585,Adam Ali,1954-12-01,France,Low,Retail,Verified,0,2021-11-28
+CUST000586,Adam Khan,1984-12-09,United Arab Emirates,Medium,Retail,Verified,0,2023-09-11
+CUST000587,James Hall,1962-07-03,Netherlands,Low,Retail,Verified,0,2021-02-10
+CUST000588,Grace Patel,1972-11-21,Singapore,Low,Retail,Verified,0,2022-12-20
+CUST000589,James Miller,1968-09-08,Germany,Low,Retail,Verified,0,2021-06-05
+CUST000590,Muhammad Davies,1955-01-23,India,Medium,Retail,Verified,0,2024-10-19
+CUST000591,Ali Hall,2000-08-22,Pakistan,Medium,Retail,Verified,1,2021-12-20
+CUST000592,Fatima Wright,1946-06-12,Pakistan,Medium,Retail,Verified,0,2023-01-20
+CUST000593,Adam Jones,2007-05-13,Pakistan,Medium,Corporate,Verified,0,2024-06-07
+CUST000594,Oliver Wright,1977-11-10,Singapore,Low,SME,Verified,0,2025-09-09
+CUST000595,Zara Taylor,1944-12-25,France,Low,Retail,Verified,0,2023-04-07
+CUST000596,James Jones,1975-05-19,United Kingdom,Low,Retail,Verified,0,2021-03-10
+CUST000597,Amelia Ahmed,1958-11-21,Turkey,High,Retail,Verified,0,2022-01-14
+CUST000598,Leo Thomas,2003-05-22,India,Medium,Corporate,Verified,0,2021-09-11
+CUST000599,Mia Walker,1996-03-03,Pakistan,Medium,Retail,Verified,0,2022-09-27
+CUST000600,Oliver Miller,1964-08-07,Netherlands,Low,Retail,Verified,0,2026-06-10
+CUST000601,Noah Davies,1951-01-25,Germany,Low,Retail,Verified,0,2026-03-10
+CUST000602,Daniel Brown,1980-09-12,Italy,Low,Retail,Verified,0,2022-03-22
+CUST000603,Oliver Hussain,1993-07-21,France,Low,Retail,Verified,0,2023-12-19
+CUST000604,Oliver Patel,1967-03-10,Singapore,Low,Retail,Verified,0,2026-03-03
+CUST000605,Ali Wilson,1952-06-17,France,Low,Retail,Verified,0,2025-09-13
+CUST000606,Amelia Brown,1994-11-28,United Arab Emirates,Medium,Retail,Verified,0,2022-02-24
+CUST000607,Aisha Smith,1988-08-13,Canada,Low,Retail,Verified,0,2021-06-08
+CUST000608,Lucas Walker,1945-11-22,Netherlands,Low,SME,Verified,0,2023-06-24
+CUST000609,Mia Green,1947-05-23,Singapore,Low,Corporate,Verified,0,2024-04-05
+CUST000610,Isabella Patel,1961-10-20,Germany,Low,SME,Verified,0,2025-05-15
+CUST000611,Zara Brown,1984-02-12,United States,Low,Retail,Verified,0,2022-12-17
+CUST000612,Aisha Hall,2004-04-02,France,Low,Retail,Verified,0,2022-11-25
+CUST000613,James Miller,1951-07-15,Italy,Low,Retail,Verified,0,2025-11-04
+CUST000614,Leo Ahmed,1949-08-10,Turkey,High,SME,Verified,0,2022-05-20
+CUST000615,James Taylor,1947-09-11,United Kingdom,Low,Retail,Verified,0,2026-03-24
+CUST000616,Oliver Hall,1949-09-14,Germany,Low,Retail,Verified,0,2023-03-04
+CUST000617,Isabella Walker,1982-12-09,Spain,Low,Retail,Pending Review,0,2025-09-26
+CUST000618,Oliver Miller,2002-09-10,United Arab Emirates,Medium,Retail,Verified,0,2025-07-24
+CUST000619,Mia Smith,1952-03-20,France,Low,Retail,Verified,0,2024-05-25
+CUST000620,Aisha Jones,1998-07-08,Canada,Low,Corporate,Verified,0,2024-11-30
+CUST000621,Fatima Wilson,1947-08-04,Spain,Low,Retail,Verified,0,2025-03-02
+CUST000622,Adam Patel,1984-11-01,United Kingdom,Low,Retail,Verified,0,2026-06-25
+CUST000623,Ethan Green,1995-08-30,Germany,Low,Retail,Verified,0,2025-05-04
+CUST000624,Ali Clarke,1988-07-28,Germany,Low,Retail,Verified,0,2022-11-22
+CUST000625,Adam Robinson,1976-01-27,United States,Low,Retail,Verified,0,2025-07-09
+CUST000626,Noah Robinson,1994-06-06,Canada,Low,Retail,Verified,0,2022-09-17
+CUST000627,Daniel Taylor,1967-03-25,Germany,Low,SME,Verified,0,2025-04-09
+CUST000628,Fatima Wilson,2001-11-29,Canada,Low,Corporate,Verified,0,2025-09-28
+CUST000629,Sophia Miller,1963-03-04,Turkey,High,Retail,Verified,0,2025-09-28
+CUST000630,Isabella Taylor,1955-04-26,Canada,Low,SME,Verified,0,2022-12-05
+CUST000631,Lucas Wright,1979-06-02,Nigeria,High,Retail,Failed,0,2021-10-24
+CUST000632,Noah Miller,1954-03-18,Singapore,Low,Retail,Verified,0,2021-03-15
+CUST000633,James Clarke,1955-06-30,United Kingdom,Low,SME,Verified,0,2024-04-18
+CUST000634,Ali Taylor,1995-11-23,Singapore,Low,Retail,Verified,0,2024-03-24
+CUST000635,Maya Khan,1977-08-19,Pakistan,Medium,Retail,Verified,0,2021-09-11
+CUST000636,Fatima Walker,1949-11-28,United Kingdom,Low,Retail,Verified,0,2022-07-23
+CUST000637,Isabella Wright,1998-12-26,Turkey,High,Retail,Verified,0,2021-03-15
+CUST000638,Maya Young,1981-07-30,Spain,Low,SME,Verified,0,2021-03-15
+CUST000639,Ethan Robinson,1993-12-28,United Kingdom,Low,Retail,Verified,0,2023-05-16
+CUST000640,Isabella Taylor,1982-05-06,Singapore,Low,Retail,Verified,0,2022-04-16
+CUST000641,Ethan Hussain,1980-02-02,United Arab Emirates,Medium,Retail,Verified,0,2024-06-01
+CUST000642,Leo Green,1992-11-14,Netherlands,Low,SME,Verified,0,2022-09-24
+CUST000643,Maya Patel,1983-11-23,Germany,Low,Retail,Verified,0,2026-01-28
+CUST000644,Fatima Wilson,1989-11-01,Germany,Low,Retail,Verified,0,2021-01-25
+CUST000645,Lucas Robinson,1948-01-28,France,Low,SME,Verified,0,2026-05-20
+CUST000646,Mia Miller,1965-12-21,Turkey,High,Retail,Verified,0,2022-10-09
+CUST000647,Muhammad Hall,1951-12-01,Netherlands,Low,Retail,Verified,0,2025-01-18
+CUST000648,Ethan Davies,2002-04-26,Pakistan,Medium,Retail,Verified,0,2022-07-08
+CUST000649,Noah Brown,1989-04-22,France,Low,Retail,Verified,0,2025-01-17
+CUST000650,Isabella Thomas,2003-08-04,Netherlands,Low,Retail,Verified,0,2023-07-08
+CUST000651,Fatima Robinson,1956-11-08,United Kingdom,Low,Corporate,Verified,0,2023-06-12
+CUST000652,Muhammad Hall,1970-11-18,Singapore,Low,Retail,Verified,0,2021-05-03
+CUST000653,Fatima Green,1947-07-04,Germany,Low,Retail,Verified,0,2025-04-09
+CUST000654,Sophia Hall,2000-09-02,India,Medium,Retail,Verified,0,2025-05-30
+CUST000655,Maya Wright,1950-08-11,Italy,Low,Retail,Verified,0,2023-08-22
+CUST000656,Lucas Thomas,1958-05-07,India,Medium,Retail,Verified,0,2024-10-12
+CUST000657,Lucas Robinson,1980-11-30,Germany,Low,Retail,Verified,0,2024-02-16
+CUST000658,Sophia Davies,1997-04-29,France,Low,Retail,Verified,1,2026-02-19
+CUST000659,Amelia Ali,2007-12-12,Germany,Low,Retail,Verified,0,2021-05-18
+CUST000660,Leo Clarke,1960-02-23,Italy,Low,Retail,Verified,0,2024-10-20
+CUST000661,Aisha Ahmed,1980-07-02,Canada,Low,Retail,Pending Review,0,2023-11-10
+CUST000662,Ali Taylor,1955-04-22,Pakistan,Medium,Retail,Verified,0,2021-01-24
+CUST000663,Lucas Hussain,1946-10-08,India,Medium,Retail,Verified,0,2025-11-02
+CUST000664,Oliver Hall,2006-02-27,Nigeria,High,Retail,Verified,0,2025-09-30
+CUST000665,Ethan Smith,1961-12-18,Pakistan,Medium,Retail,Verified,0,2023-08-17
+CUST000666,Oliver Green,1995-09-09,France,Low,Retail,Verified,0,2022-01-08
+CUST000667,Leo Hall,1962-06-01,Singapore,Low,Retail,Verified,0,2024-12-05
+CUST000668,Daniel Wilson,1965-04-27,United States,Low,Retail,Verified,0,2021-06-23
+CUST000669,Hannah Patel,1993-12-11,Italy,Low,Retail,Verified,0,2024-07-21
+CUST000670,Grace Miller,1951-09-21,France,Low,Retail,Verified,0,2025-11-04
+CUST000671,Noah Davies,1989-07-26,Singapore,Low,Retail,Verified,0,2022-08-20
+CUST000672,James Wilson,1946-12-16,Spain,Low,Retail,Verified,0,2026-03-05
+CUST000673,Muhammad Khan,2003-06-07,Pakistan,Medium,SME,Verified,0,2025-05-10
+CUST000674,Maya Ahmed,1964-07-05,France,Low,SME,Pending Review,0,2024-07-22
+CUST000675,Mia Patel,1977-10-31,Netherlands,Low,Retail,Verified,0,2025-04-15
+CUST000676,Sophia Wright,2008-05-19,France,Low,SME,Verified,0,2025-06-20
+CUST000677,Lucas Wilson,1963-01-07,France,Low,Retail,Verified,0,2024-09-29
+CUST000678,Ethan Davies,1990-11-02,Netherlands,Low,Retail,Verified,0,2025-11-10
+CUST000679,Hannah Taylor,1968-08-01,Nigeria,High,Retail,Verified,0,2025-06-13
+CUST000680,Ethan Jones,1947-08-11,Spain,Low,Retail,Verified,0,2024-04-14
+CUST000681,Fatima Walker,1998-05-11,Turkey,High,Retail,Verified,0,2021-04-27
+CUST000682,Adam Walker,1965-04-08,United Arab Emirates,Medium,Retail,Verified,0,2024-12-10
+CUST000683,Zara Thomas,1973-08-22,Nigeria,High,Retail,Verified,0,2023-10-16
+CUST000684,Daniel Hussain,1950-05-29,Spain,Low,Retail,Verified,0,2026-05-05
+CUST000685,Aisha Jones,1999-10-29,Italy,Low,Retail,Verified,0,2023-01-08
+CUST000686,Sophia Davies,1944-11-28,Germany,Low,Retail,Verified,0,2024-07-31
+CUST000687,Daniel Walker,2003-12-02,Spain,Low,Retail,Verified,0,2026-04-22
+CUST000688,Oliver Clarke,1969-07-22,Turkey,High,Retail,Verified,0,2022-03-23
+CUST000689,Leo Jones,1947-11-23,Canada,Low,Retail,Verified,0,2021-01-23
+CUST000690,James Khan,1972-02-04,India,Medium,Retail,Verified,0,2021-12-19
+CUST000691,Daniel Ali,1965-01-06,Spain,Low,Retail,Verified,0,2022-10-19
+CUST000692,Maya Patel,1968-09-18,Turkey,High,SME,Verified,0,2023-06-28
+CUST000693,Grace Ali,1953-10-05,Turkey,High,Retail,Verified,0,2024-09-24
+CUST000694,Daniel Wilson,1995-11-04,India,Medium,Retail,Verified,0,2024-08-08
+CUST000695,Ali Patel,1953-04-10,India,Medium,SME,Verified,0,2026-03-29
+CUST000696,Maya Hall,1979-08-31,Spain,Low,Retail,Verified,0,2022-01-06
+CUST000697,Muhammad Wright,1964-06-10,United Arab Emirates,Medium,SME,Verified,0,2025-05-21
+CUST000698,Leo Jones,1949-08-14,Nigeria,High,SME,Verified,0,2025-06-17
+CUST000699,Leo Young,1949-03-08,Turkey,High,SME,Pending Review,0,2022-06-06
+CUST000700,Fatima Taylor,1961-11-26,United Arab Emirates,Medium,Retail,Verified,0,2024-01-25
+CUST000701,Sophia Ali,1999-08-21,Italy,Low,Retail,Verified,0,2022-08-28
+CUST000702,Sophia Khan,1994-04-27,United Arab Emirates,Medium,Retail,Verified,0,2023-05-15
+CUST000703,Amelia Ahmed,1983-04-25,United Kingdom,Low,Retail,Verified,0,2023-06-03
+CUST000704,James Patel,1946-07-14,United Kingdom,Low,Retail,Verified,0,2021-02-24
+CUST000705,Fatima Taylor,1996-12-20,Turkey,High,Retail,Verified,0,2023-07-31
+CUST000706,Maya Taylor,1975-11-05,Spain,Low,Retail,Verified,0,2021-11-03
+CUST000707,Sophia Ahmed,1977-12-12,Spain,Low,Retail,Verified,0,2024-03-20
+CUST000708,Ethan Brown,1945-10-24,United Kingdom,Low,Retail,Verified,0,2021-02-08
+CUST000709,Ethan Davies,1961-11-19,France,Low,Retail,Pending Review,0,2021-10-14
+CUST000710,Leo Walker,1978-03-09,United Kingdom,Low,Retail,Pending Review,0,2021-12-13
+CUST000711,Zara Khan,1977-12-02,Italy,Low,Corporate,Verified,0,2025-01-27
+CUST000712,Sophia Jones,1978-02-14,Italy,Low,Corporate,Verified,0,2022-03-16
+CUST000713,Ali Clarke,1973-06-06,United Kingdom,Low,SME,Pending Review,0,2024-02-20
+CUST000714,Maya Thomas,1974-10-31,Singapore,Low,Retail,Verified,0,2024-09-03
+CUST000715,Oliver Robinson,2001-08-16,Spain,Low,SME,Verified,0,2022-12-26
+CUST000716,Noah Wright,1994-04-23,Germany,Low,Retail,Verified,0,2025-10-10
+CUST000717,Ali Ahmed,1967-11-30,Spain,Low,Retail,Verified,0,2022-01-09
+CUST000718,Zara Walker,1961-04-18,United States,Low,Corporate,Verified,0,2021-03-11
+CUST000719,Hannah Wilson,1979-06-01,Turkey,High,Retail,Verified,0,2023-01-16
+CUST000720,Oliver Hall,1997-01-04,France,Low,Retail,Verified,0,2021-05-07
+CUST000721,Sophia Wilson,1993-03-20,Canada,Low,Corporate,Verified,0,2022-04-28
+CUST000722,Sophia Davies,1981-09-11,United States,Low,SME,Verified,0,2022-01-24
+CUST000723,Hannah Taylor,1977-09-03,Pakistan,Medium,Retail,Verified,0,2026-06-13
+CUST000724,Sophia Walker,1957-08-04,India,Medium,Retail,Verified,0,2025-12-21
+CUST000725,Ethan Young,1977-11-17,India,Medium,Corporate,Pending Review,0,2022-04-24
+CUST000726,Zara Thomas,1960-02-17,Netherlands,Low,Retail,Verified,0,2025-07-02
+CUST000727,Fatima Patel,1964-11-22,Canada,Low,Retail,Verified,0,2025-11-07
+CUST000728,Lucas Davies,1973-01-14,Canada,Low,Corporate,Verified,0,2021-04-24
+CUST000729,Ali Ahmed,1987-02-03,United States,Low,Retail,Pending Review,0,2024-01-15
+CUST000730,James Clarke,1979-04-14,United Kingdom,Low,Retail,Verified,0,2021-06-27
+CUST000731,Ali Brown,1945-12-02,India,Medium,SME,Verified,0,2025-12-25
+CUST000732,Amelia Hall,1986-10-27,France,Low,SME,Verified,0,2021-01-22
+CUST000733,Maya Taylor,1984-12-13,Nigeria,High,SME,Verified,0,2026-05-12
+CUST000734,Mia Brown,1958-01-11,Germany,Low,SME,Verified,0,2021-11-05
+CUST000735,Aisha Miller,1973-09-16,Canada,Low,Corporate,Verified,0,2024-09-06
+CUST000736,James Davies,1992-03-26,Spain,Low,Retail,Verified,0,2021-03-03
+CUST000737,Noah Walker,1976-04-16,United States,Low,Retail,Verified,0,2022-02-19
+CUST000738,Muhammad Clarke,1989-05-13,Spain,Low,SME,Verified,0,2021-06-09
+CUST000739,Grace Wilson,1996-01-05,India,Medium,Retail,Verified,0,2023-05-08
+CUST000740,Adam Jones,1954-01-15,Spain,Low,Retail,Verified,0,2024-08-04
+CUST000741,Grace Wright,1988-11-02,Turkey,High,Retail,Verified,0,2022-01-05
+CUST000742,Grace Ali,1970-03-13,France,Low,Retail,Verified,0,2026-04-03
+CUST000743,Hannah Hall,1956-06-03,United States,Low,SME,Verified,0,2022-03-13
+CUST000744,Oliver Walker,1949-04-23,Singapore,Low,Retail,Verified,0,2024-09-30
+CUST000745,Amelia Miller,1950-09-07,Spain,Low,Corporate,Verified,0,2025-06-20
+CUST000746,Leo Khan,1994-12-02,Pakistan,Medium,Retail,Verified,0,2023-10-31
+CUST000747,Adam Young,1946-02-19,Italy,Low,Retail,Verified,0,2024-04-17
+CUST000748,Daniel Khan,2007-04-03,France,Low,Retail,Verified,0,2023-10-22
+CUST000749,Leo Wilson,1952-09-05,United Arab Emirates,Medium,Retail,Verified,0,2024-02-21
+CUST000750,Ali Khan,1951-11-17,France,Low,SME,Verified,0,2023-04-25
+CUST000751,Lucas Ali,1994-08-24,United Kingdom,Low,SME,Verified,0,2023-05-26
+CUST000752,Mia Young,1945-11-04,United States,Low,Corporate,Pending Review,0,2025-03-16
+CUST000753,Isabella Green,1953-09-30,United Kingdom,Low,Retail,Verified,0,2023-11-08
+CUST000754,Lucas Khan,1963-12-03,Turkey,High,Retail,Verified,0,2024-01-19
+CUST000755,Hannah Ahmed,1964-09-14,Nigeria,High,SME,Verified,0,2024-03-02
+CUST000756,Adam Wilson,1948-05-02,India,Medium,Retail,Verified,0,2025-10-13
+CUST000757,Lucas Clarke,1946-06-03,Nigeria,High,Retail,Verified,0,2026-05-28
+CUST000758,Grace Smith,1988-04-15,India,Medium,SME,Verified,0,2025-03-27
+CUST000759,Ethan Smith,1975-01-24,Canada,Low,SME,Verified,0,2021-09-20
+CUST000760,James Robinson,1994-07-16,Nigeria,High,SME,Pending Review,0,2021-01-15
+CUST000761,James Wright,1994-09-28,Nigeria,High,Retail,Verified,0,2021-05-26
+CUST000762,Ali Brown,1951-11-06,Pakistan,Medium,Retail,Verified,0,2025-10-26
+CUST000763,Ali Miller,2008-03-05,Spain,Low,Retail,Verified,0,2022-07-01
+CUST000764,Grace Ali,1977-04-30,Turkey,High,SME,Verified,0,2021-05-11
+CUST000765,Hannah Ahmed,1962-07-05,Italy,Low,SME,Verified,0,2026-02-12
+CUST000766,James Walker,1986-12-04,United States,Low,SME,Verified,0,2021-06-12
+CUST000767,Zara Green,1970-12-16,Singapore,Low,SME,Verified,0,2024-07-30
+CUST000768,Zara Robinson,1989-07-20,Netherlands,Low,Retail,Verified,0,2023-01-14
+CUST000769,Muhammad Patel,1957-04-11,India,Medium,Retail,Verified,0,2022-05-11
+CUST000770,Grace Green,1981-05-29,Pakistan,Medium,Retail,Verified,0,2026-05-18
+CUST000771,Muhammad Ali,1975-03-16,Netherlands,Low,Private Banking,Verified,0,2024-06-01
+CUST000772,Daniel Robinson,1993-06-18,India,Medium,Retail,Verified,0,2025-03-07
+CUST000773,Muhammad Davies,1979-01-18,Singapore,Low,Retail,Verified,0,2025-09-20
+CUST000774,Isabella Wright,1977-05-24,Singapore,Low,Retail,Verified,0,2025-12-16
+CUST000775,Maya Smith,1956-06-10,Italy,Low,Retail,Verified,0,2026-01-26
+CUST000776,Mia Clarke,1958-03-08,United States,Low,Retail,Failed,0,2021-03-11
+CUST000777,Grace Ahmed,1988-05-01,Italy,Low,Retail,Verified,0,2023-08-18
+CUST000778,James Jones,1949-11-23,United Arab Emirates,Medium,Corporate,Verified,0,2023-02-18
+CUST000779,Grace Ahmed,1971-06-28,India,Medium,Retail,Verified,0,2024-11-09
+CUST000780,Lucas Smith,1989-09-15,France,Low,Corporate,Verified,0,2025-06-24
+CUST000781,James Ali,1964-06-15,Germany,Low,Retail,Verified,0,2024-08-12
+CUST000782,Grace Robinson,1992-05-03,Singapore,Low,SME,Verified,0,2022-06-05
+CUST000783,Noah Walker,1956-01-05,Nigeria,High,Retail,Verified,0,2024-01-08
+CUST000784,Aisha Hall,1986-07-17,Germany,Low,Retail,Verified,0,2022-11-21
+CUST000785,Leo Hall,1983-09-02,Germany,Low,SME,Pending Review,0,2022-04-19
+CUST000786,Leo Jones,1992-08-09,United Kingdom,Low,Corporate,Verified,0,2021-11-07
+CUST000787,Leo Young,1952-06-09,Nigeria,High,Retail,Verified,0,2021-04-09
+CUST000788,Grace Miller,1955-07-10,France,Low,Retail,Verified,0,2023-06-21
+CUST000789,Fatima Davies,1976-06-01,France,Low,Corporate,Verified,0,2021-02-12
+CUST000790,Zara Brown,2001-02-08,Singapore,Low,Retail,Verified,0,2024-05-26
+CUST000791,Grace Wright,1977-11-06,United Arab Emirates,Medium,Retail,Verified,0,2023-11-26
+CUST000792,Noah Khan,2004-12-13,Canada,Low,Retail,Pending Review,0,2025-02-15
+CUST000793,Lucas Robinson,1969-10-01,France,Low,Retail,Verified,0,2021-01-29
+CUST000794,Lucas Green,1976-10-14,France,Low,Retail,Verified,0,2021-11-09
+CUST000795,Ali Hussain,2008-06-08,France,Low,Retail,Verified,0,2024-07-14
+CUST000796,Oliver Green,1972-06-24,Italy,Low,Retail,Verified,0,2025-10-26
+CUST000797,Adam Wright,1953-04-06,Pakistan,Medium,Corporate,Verified,0,2024-08-01
+CUST000798,Noah Miller,1951-03-06,Singapore,Low,Retail,Verified,0,2026-06-01
+CUST000799,Aisha Jones,1948-07-21,United Kingdom,Low,Retail,Verified,0,2022-03-26
+CUST000800,Aisha Robinson,1998-10-09,Spain,Low,Retail,Verified,0,2021-11-13
+CUST000801,Hannah Thomas,2007-05-07,France,Low,Corporate,Verified,0,2026-05-25
+CUST000802,Maya Young,1963-04-13,Singapore,Low,Retail,Verified,0,2023-09-27
+CUST000803,Sophia Walker,1982-07-12,Canada,Low,Retail,Verified,0,2025-07-20
+CUST000804,Mia Ahmed,1986-06-11,Singapore,Low,SME,Verified,0,2021-09-16
+CUST000805,Aisha Green,1973-04-10,Singapore,Low,Retail,Verified,0,2026-06-30
+CUST000806,Lucas Ali,2002-01-26,Turkey,High,Retail,Verified,0,2024-06-24
+CUST000807,Amelia Ali,1980-06-21,Singapore,Low,Retail,Verified,0,2024-08-18
+CUST000808,Lucas Patel,2005-03-16,Spain,Low,Corporate,Verified,0,2026-02-25
+CUST000809,Aisha Hall,1946-12-15,United Kingdom,Low,SME,Pending Review,0,2025-02-13
+CUST000810,Grace Taylor,2002-01-21,India,Medium,Corporate,Verified,0,2022-03-23
+CUST000811,James Smith,1993-05-30,Nigeria,High,Retail,Verified,0,2022-02-13
+CUST000812,Muhammad Young,1952-06-24,Spain,Low,Retail,Verified,0,2023-05-16
+CUST000813,Adam Ali,1957-06-02,United States,Low,Retail,Verified,0,2026-06-13
+CUST000814,Adam Brown,1953-09-08,Spain,Low,Retail,Pending Review,0,2023-12-18
+CUST000815,Aisha Young,1995-05-21,United Arab Emirates,Medium,Retail,Verified,0,2021-06-08
+CUST000816,Lucas Clarke,1976-01-17,Netherlands,Low,SME,Verified,0,2022-01-14
+CUST000817,Ethan Davies,1952-11-02,Pakistan,Medium,Retail,Verified,0,2023-11-16
+CUST000818,Grace Hall,1961-07-16,Pakistan,Medium,Retail,Verified,0,2021-11-30
+CUST000819,Sophia Wilson,1964-04-10,United States,Low,SME,Verified,0,2022-08-11
+CUST000820,Mia Miller,1965-09-26,Singapore,Low,Retail,Verified,0,2023-12-17
+CUST000821,Noah Robinson,1979-07-27,United Kingdom,Low,Retail,Verified,0,2021-03-02
+CUST000822,Oliver Khan,1981-12-23,United States,Low,Retail,Verified,0,2025-11-11
+CUST000823,Aisha Wilson,1962-06-28,United Arab Emirates,Medium,Retail,Verified,0,2022-06-23
+CUST000824,Sophia Khan,1977-04-16,Netherlands,Low,Retail,Verified,0,2021-11-04
+CUST000825,Sophia Davies,1994-01-20,Turkey,High,Retail,Verified,0,2025-07-19
+CUST000826,Fatima Ahmed,2000-05-11,United States,Low,SME,Verified,0,2024-05-29
+CUST000827,Adam Hall,1977-06-23,Turkey,High,Retail,Verified,0,2024-09-01
+CUST000828,Grace Hall,1973-05-14,Spain,Low,SME,Verified,0,2023-11-13
+CUST000829,Grace Thomas,1958-08-25,France,Low,Retail,Verified,0,2024-05-30
+CUST000830,Amelia Hall,1944-11-24,Singapore,Low,Retail,Pending Review,0,2026-04-21
+CUST000831,Zara Wilson,1951-03-25,United Arab Emirates,Medium,Retail,Verified,0,2021-04-06
+CUST000832,Muhammad Robinson,1991-05-31,Germany,Low,Retail,Verified,0,2023-08-20
+CUST000833,Lucas Thomas,1948-12-14,Canada,Low,SME,Verified,0,2025-07-02
+CUST000834,Maya Davies,1999-01-09,Turkey,High,SME,Verified,0,2022-02-06
+CUST000835,Ethan Smith,1993-06-06,Germany,Low,Retail,Verified,0,2025-02-07
+CUST000836,Adam Ahmed,1973-04-11,Spain,Low,Private Banking,Verified,0,2021-05-23
+CUST000837,Zara Walker,1972-01-22,Pakistan,Medium,SME,Verified,0,2022-11-03
+CUST000838,Noah Wilson,1958-03-27,Italy,Low,Retail,Verified,0,2022-04-05
+CUST000839,Isabella Wilson,1965-06-06,Canada,Low,Retail,Pending Review,0,2024-01-18
+CUST000840,Mia Ahmed,1961-05-10,United Kingdom,Low,Retail,Verified,0,2022-10-24
+CUST000841,Zara Green,1953-08-05,United States,Low,Retail,Verified,0,2026-04-30
+CUST000842,Sophia Walker,1958-01-07,Nigeria,High,Retail,Verified,0,2024-08-30
+CUST000843,Daniel Green,1997-04-15,Pakistan,Medium,Retail,Verified,0,2026-05-11
+CUST000844,Noah Davies,1972-04-03,United States,Low,Retail,Verified,0,2023-08-08
+CUST000845,Oliver Brown,1956-01-03,Italy,Low,Retail,Verified,0,2024-04-29
+CUST000846,Ali Jones,1968-12-09,United Arab Emirates,Medium,Retail,Pending Review,0,2023-09-08
+CUST000847,Fatima Robinson,1983-07-12,Pakistan,Medium,Retail,Verified,0,2023-07-24
+CUST000848,Mia Smith,1949-11-29,Canada,Low,SME,Verified,0,2023-12-13
+CUST000849,Adam Jones,1969-12-30,Singapore,Low,Retail,Verified,0,2024-02-01
+CUST000850,Mia Brown,1984-07-22,Turkey,High,Retail,Pending Review,0,2021-08-17
+CUST000851,Maya Wilson,1970-08-11,Turkey,High,Corporate,Verified,0,2025-10-29
+CUST000852,Lucas Robinson,1944-02-09,Germany,Low,Retail,Verified,0,2026-05-11
+CUST000853,Isabella Walker,1949-01-09,Turkey,High,SME,Verified,0,2025-11-11
+CUST000854,Hannah Patel,1948-11-17,India,Medium,Retail,Verified,0,2024-01-20
+CUST000855,Aisha Young,1988-04-17,Pakistan,Medium,Retail,Verified,0,2024-04-25
+CUST000856,Amelia Ahmed,2006-07-28,Spain,Low,Retail,Verified,0,2021-07-01
+CUST000857,Grace Brown,2001-08-19,Canada,Low,Retail,Verified,0,2026-06-25
+CUST000858,Ethan Taylor,1983-03-10,Spain,Low,Retail,Verified,0,2026-06-05
+CUST000859,Daniel Jones,2000-03-20,Turkey,High,SME,Verified,0,2021-12-07
+CUST000860,Sophia Green,1983-08-30,Turkey,High,Retail,Verified,0,2025-11-30
+CUST000861,Isabella Khan,1956-08-21,United Kingdom,Low,Retail,Verified,0,2021-12-08
+CUST000862,Sophia Ali,2003-06-06,India,Medium,Retail,Verified,1,2025-12-07
+CUST000863,Daniel Young,1987-03-08,Italy,Low,Retail,Verified,0,2021-04-27
+CUST000864,Ali Patel,1967-08-12,France,Low,Retail,Verified,0,2024-05-12
+CUST000865,Aisha Taylor,1943-09-28,United Arab Emirates,Medium,Retail,Verified,0,2025-03-06
+CUST000866,Fatima Thomas,1998-06-11,United Arab Emirates,Medium,Retail,Verified,0,2022-11-28
+CUST000867,Fatima Hussain,1952-02-05,Singapore,Low,Retail,Verified,0,2022-01-25
+CUST000868,Isabella Miller,2005-03-14,Pakistan,Medium,Retail,Verified,0,2022-10-12
+CUST000869,Zara Wright,1979-09-08,Singapore,Low,Retail,Verified,0,2021-08-18
+CUST000870,Fatima Patel,1990-03-31,United Kingdom,Low,Retail,Verified,0,2025-05-12
+CUST000871,Oliver Wilson,1949-02-14,United States,Low,Retail,Verified,0,2024-11-27
+CUST000872,Maya Thomas,1973-11-13,United Arab Emirates,Medium,Retail,Verified,0,2023-09-03
+CUST000873,Aisha Walker,1988-11-09,Spain,Low,Retail,Verified,0,2024-10-28
+CUST000874,Zara Robinson,1986-03-05,Netherlands,Low,Retail,Verified,0,2023-10-24
+CUST000875,Fatima Wilson,1948-04-14,Singapore,Low,Retail,Verified,0,2024-05-29
+CUST000876,Zara Clarke,1958-01-11,United States,Low,Retail,Failed,0,2021-07-18
+CUST000877,Lucas Hussain,1988-04-05,United States,Low,SME,Verified,0,2022-07-13
+CUST000878,Zara Ali,2000-08-11,India,Medium,SME,Verified,0,2021-12-12
+CUST000879,Fatima Hussain,2004-07-17,Turkey,High,Retail,Pending Review,0,2025-02-13
+CUST000880,Daniel Patel,1988-07-07,Italy,Low,Retail,Pending Review,0,2023-03-22
+CUST000881,Lucas Hussain,1954-04-29,United Arab Emirates,Medium,Retail,Verified,0,2021-07-15
+CUST000882,Daniel Hall,1956-06-06,Singapore,Low,SME,Verified,0,2022-04-23
+CUST000883,Oliver Clarke,1969-07-15,United States,Low,Retail,Verified,0,2023-07-25
+CUST000884,Oliver Thomas,1953-04-26,Singapore,Low,Retail,Verified,0,2023-09-09
+CUST000885,Sophia Smith,1981-04-11,Italy,Low,SME,Verified,0,2021-06-13
+CUST000886,Oliver Patel,1994-08-21,Nigeria,High,Retail,Verified,0,2024-08-03
+CUST000887,Daniel Khan,1945-08-14,Canada,Low,Retail,Verified,0,2023-03-30
+CUST000888,Adam Wright,2007-12-29,Netherlands,Low,Private Banking,Verified,0,2023-11-08
+CUST000889,Isabella Miller,1960-08-05,India,Medium,SME,Pending Review,0,2024-05-20
+CUST000890,Aisha Robinson,1966-05-29,Italy,Low,SME,Verified,0,2021-04-27
+CUST000891,Noah Thomas,1972-07-24,Germany,Low,Retail,Verified,0,2023-08-15
+CUST000892,Ethan Smith,1967-07-11,United Kingdom,Low,Corporate,Verified,0,2025-03-13
+CUST000893,Lucas Clarke,1998-01-14,Singapore,Low,Private Banking,Verified,0,2022-05-23
+CUST000894,Mia Wright,1989-10-20,United Arab Emirates,Medium,Retail,Verified,0,2021-11-02
+CUST000895,Daniel Clarke,1986-11-28,Canada,Low,Retail,Verified,0,2022-04-13
+CUST000896,Oliver Miller,1953-07-08,Germany,Low,Corporate,Verified,0,2025-01-22
+CUST000897,Fatima Green,1992-08-06,Turkey,High,Retail,Verified,0,2024-08-22
+CUST000898,Isabella Walker,1999-08-16,Spain,Low,Corporate,Verified,0,2022-11-02
+CUST000899,Noah Hussain,1953-03-25,Italy,Low,Retail,Verified,0,2022-05-10
+CUST000900,Ethan Ahmed,1993-09-22,Singapore,Low,SME,Pending Review,0,2026-07-01
+CUST000901,Lucas Miller,1983-12-29,Netherlands,Low,SME,Verified,0,2025-10-19
+CUST000902,Zara Khan,1980-05-22,Nigeria,High,Retail,Verified,0,2021-03-21
+CUST000903,Adam Davies,1950-05-09,Canada,Low,Retail,Verified,0,2022-07-26
+CUST000904,Daniel Hussain,1943-08-07,Pakistan,Medium,Private Banking,Verified,0,2021-11-10
+CUST000905,Isabella Ahmed,1960-06-20,Singapore,Low,SME,Verified,0,2021-12-18
+CUST000906,Zara Davies,1985-11-07,United Kingdom,Low,Private Banking,Verified,0,2026-05-21
+CUST000907,Zara Walker,1948-01-27,United States,Low,Retail,Verified,0,2021-05-01
+CUST000908,Fatima Miller,1958-06-02,Netherlands,Low,SME,Verified,0,2021-09-27
+CUST000909,Fatima Robinson,1987-09-22,Turkey,High,Retail,Verified,0,2025-04-13
+CUST000910,Mia Brown,2007-01-05,Turkey,High,Retail,Failed,0,2021-03-06
+CUST000911,Ethan Clarke,2001-05-22,France,Low,Retail,Verified,1,2022-11-11
+CUST000912,James Brown,1957-03-18,France,Low,Retail,Verified,0,2021-02-26
+CUST000913,Zara Hussain,1996-11-16,United States,Low,Retail,Verified,0,2025-11-08
+CUST000914,Mia Hall,1980-07-04,Turkey,High,Private Banking,Verified,0,2025-12-23
+CUST000915,Mia Ahmed,1953-02-20,Canada,Low,Retail,Verified,0,2022-01-18
+CUST000916,Leo Green,2005-12-20,Italy,Low,SME,Verified,0,2021-10-24
+CUST000917,Daniel Jones,1993-03-28,Italy,Low,SME,Verified,0,2024-01-01
+CUST000918,Oliver Patel,1981-08-15,France,Low,Retail,Verified,0,2025-10-22
+CUST000919,Aisha Taylor,1986-12-10,Netherlands,Low,Retail,Pending Review,0,2022-02-12
+CUST000920,Ali Miller,1990-09-21,Canada,Low,Retail,Failed,0,2023-06-28
+CUST000921,James Wilson,2003-03-11,Germany,Low,Retail,Verified,0,2025-10-03
+CUST000922,Fatima Young,1963-02-28,Nigeria,High,Retail,Verified,0,2022-11-12
+CUST000923,Lucas Ahmed,1975-08-05,Germany,Low,Retail,Verified,0,2022-12-15
+CUST000924,Grace Young,1960-10-05,Singapore,Low,Retail,Verified,0,2022-02-02
+CUST000925,Amelia Brown,1977-06-07,Nigeria,High,Retail,Verified,0,2024-08-28
+CUST000926,Noah Hussain,1974-05-04,India,Medium,Retail,Verified,0,2024-05-20
+CUST000927,Muhammad Hall,1985-10-18,Germany,Low,SME,Verified,0,2022-07-31
+CUST000928,Daniel Smith,1973-09-09,Netherlands,Low,Retail,Pending Review,0,2024-07-27
+CUST000929,Mia Ahmed,1956-11-19,Netherlands,Low,Retail,Verified,0,2022-10-27
+CUST000930,Ethan Taylor,1974-06-20,Nigeria,High,Retail,Verified,0,2024-01-18
+CUST000931,Lucas Wright,1972-02-27,Netherlands,Low,Corporate,Verified,0,2024-10-16
+CUST000932,Maya Patel,1956-02-12,Pakistan,Medium,Retail,Verified,0,2023-04-13
+CUST000933,Lucas Wright,1945-07-19,Pakistan,Medium,Corporate,Verified,0,2022-08-30
+CUST000934,Aisha Young,1992-12-17,Singapore,Low,Retail,Verified,0,2024-02-14
+CUST000935,Grace Young,1976-08-12,India,Medium,Retail,Verified,0,2021-04-16
+CUST000936,Fatima Wright,1999-01-05,France,Low,Retail,Verified,0,2025-07-20
+CUST000937,Daniel Davies,1976-10-13,Turkey,High,Retail,Verified,0,2022-05-14
+CUST000938,Grace Smith,1968-08-23,United Arab Emirates,Medium,Corporate,Verified,0,2026-03-09
+CUST000939,Ethan Brown,1966-02-17,Canada,Low,Retail,Verified,0,2024-07-08
+CUST000940,Grace Wright,1983-06-02,Canada,Low,SME,Verified,0,2026-06-20
+CUST000941,Zara Thomas,1979-11-18,Pakistan,Medium,Retail,Verified,0,2021-12-15
+CUST000942,Fatima Thomas,1952-05-01,Turkey,High,SME,Verified,0,2022-07-13
+CUST000943,Zara Ali,2003-05-03,Pakistan,Medium,SME,Pending Review,0,2025-05-23
+CUST000944,Leo Clarke,1954-11-14,Germany,Low,SME,Verified,0,2022-03-22
+CUST000945,Daniel Brown,1959-05-15,Singapore,Low,SME,Verified,0,2026-06-06
+CUST000946,Adam Khan,1964-12-12,Turkey,High,Retail,Verified,0,2022-03-29
+CUST000947,Amelia Brown,1985-03-09,France,Low,SME,Failed,0,2021-11-27
+CUST000948,Grace Young,1994-07-19,Singapore,Low,Retail,Failed,0,2022-12-13
+CUST000949,Amelia Wilson,1957-07-02,France,Low,Corporate,Verified,0,2025-12-30
+CUST000950,Noah Taylor,1968-07-25,Netherlands,Low,Retail,Verified,0,2022-11-24
+CUST000951,Ethan Ali,1962-02-27,Pakistan,Medium,Retail,Verified,0,2026-07-03
+CUST000952,Ali Hussain,1981-02-19,India,Medium,Corporate,Verified,0,2021-03-10
+CUST000953,Aisha Green,1994-05-24,Pakistan,Medium,SME,Verified,0,2021-12-19
+CUST000954,Amelia Wilson,1961-03-21,Nigeria,High,Retail,Verified,0,2022-12-22
+CUST000955,Hannah Brown,1984-04-07,United Kingdom,Low,Retail,Verified,0,2022-06-10
+CUST000956,Fatima Wilson,1989-06-21,Netherlands,Low,Retail,Verified,0,2022-04-01
+CUST000957,Daniel Ali,1950-09-04,India,Medium,Retail,Verified,0,2023-09-07
+CUST000958,James Hall,1992-02-15,Pakistan,Medium,Retail,Pending Review,0,2021-12-09
+CUST000959,Hannah Wright,1999-04-18,Netherlands,Low,Retail,Verified,0,2024-12-25
+CUST000960,Aisha Wright,1980-09-15,France,Low,Retail,Verified,0,2024-10-21
+CUST000961,Noah Smith,1993-04-16,Pakistan,Medium,Retail,Verified,0,2021-03-23
+CUST000962,Noah Wilson,2001-08-16,Pakistan,Medium,Retail,Verified,0,2023-02-11
+CUST000963,Lucas Young,1975-05-10,Singapore,Low,Retail,Failed,0,2026-06-13
+CUST000964,Aisha Green,1986-03-05,Pakistan,Medium,Retail,Verified,0,2023-03-28
+CUST000965,Amelia Young,1959-08-21,Singapore,Low,Retail,Verified,0,2024-12-31
+CUST000966,Hannah Taylor,1958-05-03,Spain,Low,SME,Verified,0,2023-10-27
+CUST000967,Sophia Hall,1985-04-15,Canada,Low,Retail,Verified,0,2026-05-22
+CUST000968,Adam Wilson,1957-08-04,France,Low,Retail,Verified,0,2021-05-29
+CUST000969,Adam Brown,1991-07-07,Singapore,Low,Retail,Verified,0,2022-03-23
+CUST000970,Amelia Ahmed,1977-06-04,France,Low,Corporate,Verified,0,2026-06-15
+CUST000971,Maya Wilson,1964-07-22,Italy,Low,Retail,Verified,0,2021-12-07
+CUST000972,James Green,1989-03-11,Canada,Low,Retail,Verified,0,2021-11-18
+CUST000973,Lucas Ahmed,1994-10-24,Pakistan,Medium,Retail,Verified,0,2024-05-06
+CUST000974,Zara Brown,1979-07-31,Pakistan,Medium,Retail,Failed,0,2021-02-22
+CUST000975,Ethan Patel,1966-05-20,Nigeria,High,SME,Verified,0,2023-07-14
+CUST000976,Muhammad Young,1954-05-07,Turkey,High,SME,Verified,0,2021-05-15
+CUST000977,Fatima Ahmed,1999-07-10,Pakistan,Medium,Retail,Verified,0,2022-02-07
+CUST000978,Fatima Patel,1954-03-02,Germany,Low,Retail,Verified,0,2024-07-12
+CUST000979,Isabella Ahmed,1955-09-17,Canada,Low,SME,Verified,0,2024-02-28
+CUST000980,Leo Taylor,1944-10-25,Netherlands,Low,Retail,Verified,0,2023-04-07
+CUST000981,Ethan Khan,1997-03-13,United Arab Emirates,Medium,Retail,Verified,0,2023-11-07
+CUST000982,Fatima Davies,1964-01-17,United Kingdom,Low,Retail,Verified,0,2021-04-14
+CUST000983,Fatima Brown,1980-06-17,Italy,Low,Corporate,Verified,0,2026-05-11
+CUST000984,Mia Patel,1994-08-07,United Kingdom,Low,Retail,Verified,0,2025-09-07
+CUST000985,Mia Ali,1999-07-05,United Arab Emirates,Medium,Retail,Verified,0,2022-04-24
+CUST000986,Hannah Khan,1956-01-31,Canada,Low,Retail,Verified,0,2026-04-29
+CUST000987,Zara Ali,1988-07-08,Netherlands,Low,Retail,Verified,0,2021-11-09
+CUST000988,Noah Ali,1968-07-20,Netherlands,Low,Corporate,Verified,0,2024-05-22
+CUST000989,Zara Jones,2001-03-20,United States,Low,SME,Pending Review,0,2026-01-26
+CUST000990,Oliver Smith,1957-01-08,India,Medium,SME,Verified,0,2025-11-24
+CUST000991,Noah Davies,1966-07-05,Nigeria,High,Retail,Verified,0,2026-06-12
+CUST000992,Amelia Patel,2004-03-08,United Arab Emirates,Medium,Private Banking,Verified,0,2022-01-28
+CUST000993,Aisha Thomas,1997-02-03,India,Medium,SME,Pending Review,0,2024-09-28
+CUST000994,Lucas Wright,1996-01-24,France,Low,Retail,Verified,0,2023-03-20
+CUST000995,Oliver Ahmed,2004-02-12,Italy,Low,Retail,Verified,0,2021-02-28
+CUST000996,Grace Wright,1990-04-22,United Arab Emirates,Medium,Private Banking,Verified,0,2022-03-13
+CUST000997,Ethan Young,1965-02-21,France,Low,SME,Verified,0,2022-03-01
+CUST000998,Mia Clarke,1999-04-24,United Arab Emirates,Medium,Retail,Verified,0,2024-10-09
+CUST000999,Daniel Robinson,1996-10-29,Spain,Low,Retail,Pending Review,0,2024-12-08
+CUST001000,Hannah Hussain,1999-04-11,Germany,Low,Private Banking,Pending Review,0,2024-01-10

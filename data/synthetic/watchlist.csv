@@ -1,0 +1,21 @@
+watchlist_id,entity_id,entity_name,entity_type,watchlist_type,risk_reason
+WL-C-CUST000522,CUST000522,Ali Young,Customer,Dummy PEP,Name appears on dummy watchlist
+WL-C-CUST000738,CUST000738,Muhammad Clarke,Customer,Dummy Sanctions,Internal high-risk dummy case
+WL-C-CUST000741,CUST000741,Grace Wright,Customer,Internal High Risk,Name appears on dummy watchlist
+WL-C-CUST000661,CUST000661,Aisha Ahmed,Customer,Internal High Risk,Internal high-risk dummy case
+WL-C-CUST000412,CUST000412,Oliver Green,Customer,Dummy PEP,Name appears on dummy watchlist
+WL-C-CUST000679,CUST000679,Hannah Taylor,Customer,Dummy Sanctions,Internal high-risk dummy case
+WL-C-CUST000627,CUST000627,Daniel Taylor,Customer,Dummy PEP,Internal high-risk dummy case
+WL-C-CUST000514,CUST000514,Leo Hall,Customer,Dummy PEP,Name appears on dummy watchlist
+WL-C-CUST000860,CUST000860,Sophia Green,Customer,Dummy PEP,Internal high-risk dummy case
+WL-C-CUST000137,CUST000137,Daniel Ahmed,Customer,Dummy PEP,Politically exposed dummy profile
+WL-C-CUST000812,CUST000812,Muhammad Young,Customer,Dummy Sanctions,Name appears on dummy watchlist
+WL-C-CUST000077,CUST000077,Noah Jones,Customer,Dummy Sanctions,Politically exposed dummy profile
+WL-M-MER000143,MER000143,Cash Withdrawal Merchant 143,Merchant,Dummy Sanctions,Merchant category under dummy review
+WL-M-MER000007,MER000007,Fuel Merchant 007,Merchant,Internal High Risk,Merchant category under dummy review
+WL-M-MER000098,MER000098,Money Transfer Merchant 098,Merchant,Internal High Risk,Merchant appears on dummy watchlist
+WL-M-MER000061,MER000061,Crypto Exchange Merchant 061,Merchant,Dummy Sanctions,Merchant category under dummy review
+WL-M-MER000113,MER000113,Hotels Merchant 113,Merchant,Internal High Risk,Merchant category under dummy review
+WL-M-MER000182,MER000182,Travel Merchant 182,Merchant,Dummy Sanctions,Merchant appears on dummy watchlist
+WL-M-MER000198,MER000198,Pharmacy Merchant 198,Merchant,Dummy Sanctions,Merchant appears on dummy watchlist
+WL-M-MER000185,MER000185,Gambling Merchant 185,Merchant,Dummy Sanctions,Merchant appears on dummy watchlist

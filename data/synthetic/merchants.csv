@@ -1,0 +1,251 @@
+merchant_id,merchant_name,merchant_category,merchant_country,merchant_country_risk_level,high_risk_category_flag
+MER000001,Cash Withdrawal Merchant 001,Cash Withdrawal,Germany,Low,1
+MER000002,Groceries Merchant 002,Groceries,Canada,Low,0
+MER000003,Hotels Merchant 003,Hotels,India,Medium,0
+MER000004,Restaurants Merchant 004,Restaurants,Pakistan,Medium,0
+MER000005,Hotels Merchant 005,Hotels,United States,Low,0
+MER000006,Money Transfer Merchant 006,Money Transfer,Nigeria,High,1
+MER000007,Fuel Merchant 007,Fuel,France,Low,0
+MER000008,Online Marketplace Merchant 008,Online Marketplace,India,Medium,0
+MER000009,Cash Withdrawal Merchant 009,Cash Withdrawal,Italy,Low,1
+MER000010,Luxury Goods Merchant 010,Luxury Goods,India,Medium,1
+MER000011,Money Transfer Merchant 011,Money Transfer,Germany,Low,1
+MER000012,Online Marketplace Merchant 012,Online Marketplace,United States,Low,0
+MER000013,Crypto Exchange Merchant 013,Crypto Exchange,Canada,Low,1
+MER000014,Groceries Merchant 014,Groceries,Turkey,High,0
+MER000015,Money Transfer Merchant 015,Money Transfer,Nigeria,High,1
+MER000016,Subscription Merchant 016,Subscription,United Kingdom,Low,0
+MER000017,Gambling Merchant 017,Gambling,Spain,Low,1
+MER000018,Hotels Merchant 018,Hotels,Singapore,Low,0
+MER000019,Groceries Merchant 019,Groceries,Netherlands,Low,0
+MER000020,Hotels Merchant 020,Hotels,France,Low,0
+MER000021,Crypto Exchange Merchant 021,Crypto Exchange,Germany,Low,1
+MER000022,Travel Merchant 022,Travel,United States,Low,0
+MER000023,Restaurants Merchant 023,Restaurants,Nigeria,High,0
+MER000024,Electronics Merchant 024,Electronics,Italy,Low,0
+MER000025,Restaurants Merchant 025,Restaurants,United Arab Emirates,Medium,0
+MER000026,Fuel Merchant 026,Fuel,Italy,Low,0
+MER000027,Electronics Merchant 027,Electronics,Turkey,High,0
+MER000028,Fuel Merchant 028,Fuel,India,Medium,0
+MER000029,Money Transfer Merchant 029,Money Transfer,Canada,Low,1
+MER000030,Hotels Merchant 030,Hotels,Netherlands,Low,0
+MER000031,Electronics Merchant 031,Electronics,Canada,Low,0
+MER000032,Travel Merchant 032,Travel,Germany,Low,0
+MER000033,Electronics Merchant 033,Electronics,Singapore,Low,0
+MER000034,Pharmacy Merchant 034,Pharmacy,United States,Low,0
+MER000035,Gambling Merchant 035,Gambling,United States,Low,1
+MER000036,Luxury Goods Merchant 036,Luxury Goods,United States,Low,1
+MER000037,Luxury Goods Merchant 037,Luxury Goods,Germany,Low,1
+MER000038,Cash Withdrawal Merchant 038,Cash Withdrawal,India,Medium,1
+MER000039,Gambling Merchant 039,Gambling,Canada,Low,1
+MER000040,Subscription Merchant 040,Subscription,Singapore,Low,0
+MER000041,Electronics Merchant 041,Electronics,Canada,Low,0
+MER000042,Fuel Merchant 042,Fuel,Pakistan,Medium,0
+MER000043,Online Marketplace Merchant 043,Online Marketplace,United Kingdom,Low,0
+MER000044,Fuel Merchant 044,Fuel,France,Low,0
+MER000045,Money Transfer Merchant 045,Money Transfer,France,Low,1
+MER000046,Luxury Goods Merchant 046,Luxury Goods,United Arab Emirates,Medium,1
+MER000047,Groceries Merchant 047,Groceries,Nigeria,High,0
+MER000048,Pharmacy Merchant 048,Pharmacy,Nigeria,High,0
+MER000049,Groceries Merchant 049,Groceries,United States,Low,0
+MER000050,Luxury Goods Merchant 050,Luxury Goods,Spain,Low,1
+MER000051,Restaurants Merchant 051,Restaurants,Spain,Low,0
+MER000052,Gambling Merchant 052,Gambling,Canada,Low,1
+MER000053,Gambling Merchant 053,Gambling,United Kingdom,Low,1
+MER000054,Groceries Merchant 054,Groceries,Italy,Low,0
+MER000055,Money Transfer Merchant 055,Money Transfer,Spain,Low,1
+MER000056,Crypto Exchange Merchant 056,Crypto Exchange,United States,Low,1
+MER000057,Money Transfer Merchant 057,Money Transfer,Pakistan,Medium,1
+MER000058,Electronics Merchant 058,Electronics,France,Low,0
+MER000059,Electronics Merchant 059,Electronics,France,Low,0
+MER000060,Restaurants Merchant 060,Restaurants,Pakistan,Medium,0
+MER000061,Crypto Exchange Merchant 061,Crypto Exchange,Germany,Low,1
+MER000062,Subscription Merchant 062,Subscription,Italy,Low,0
+MER000063,Hotels Merchant 063,Hotels,Canada,Low,0
+MER000064,Online Marketplace Merchant 064,Online Marketplace,United States,Low,0
+MER000065,Money Transfer Merchant 065,Money Transfer,United Arab Emirates,Medium,1
+MER000066,Travel Merchant 066,Travel,Pakistan,Medium,0
+MER000067,Groceries Merchant 067,Groceries,Italy,Low,0
+MER000068,Restaurants Merchant 068,Restaurants,Germany,Low,0
+MER000069,Pharmacy Merchant 069,Pharmacy,India,Medium,0
+MER000070,Travel Merchant 070,Travel,Pakistan,Medium,0
+MER000071,Luxury Goods Merchant 071,Luxury Goods,United Arab Emirates,Medium,1
+MER000072,Fuel Merchant 072,Fuel,United States,Low,0
+MER000073,Online Marketplace Merchant 073,Online Marketplace,Canada,Low,0
+MER000074,Pharmacy Merchant 074,Pharmacy,Singapore,Low,0
+MER000075,Subscription Merchant 075,Subscription,France,Low,0
+MER000076,Luxury Goods Merchant 076,Luxury Goods,United States,Low,1
+MER000077,Cash Withdrawal Merchant 077,Cash Withdrawal,Singapore,Low,1
+MER000078,Hotels Merchant 078,Hotels,United States,Low,0
+MER000079,Online Marketplace Merchant 079,Online Marketplace,United Kingdom,Low,0
+MER000080,Cash Withdrawal Merchant 080,Cash Withdrawal,Spain,Low,1
+MER000081,Electronics Merchant 081,Electronics,United Arab Emirates,Medium,0
+MER000082,Money Transfer Merchant 082,Money Transfer,Singapore,Low,1
+MER000083,Cash Withdrawal Merchant 083,Cash Withdrawal,Nigeria,High,1
+MER000084,Luxury Goods Merchant 084,Luxury Goods,France,Low,1
+MER000085,Hotels Merchant 085,Hotels,Turkey,High,0
+MER000086,Subscription Merchant 086,Subscription,Singapore,Low,0
+MER000087,Subscription Merchant 087,Subscription,Italy,Low,0
+MER000088,Luxury Goods Merchant 088,Luxury Goods,Singapore,Low,1
+MER000089,Travel Merchant 089,Travel,United Kingdom,Low,0
+MER000090,Travel Merchant 090,Travel,Canada,Low,0
+MER000091,Hotels Merchant 091,Hotels,Canada,Low,0
+MER000092,Electronics Merchant 092,Electronics,India,Medium,0
+MER000093,Money Transfer Merchant 093,Money Transfer,Spain,Low,1
+MER000094,Crypto Exchange Merchant 094,Crypto Exchange,United States,Low,1
+MER000095,Subscription Merchant 095,Subscription,Netherlands,Low,0
+MER000096,Fuel Merchant 096,Fuel,United Kingdom,Low,0
+MER000097,Hotels Merchant 097,Hotels,Italy,Low,0
+MER000098,Money Transfer Merchant 098,Money Transfer,France,Low,1
+MER000099,Money Transfer Merchant 099,Money Transfer,Canada,Low,1
+MER000100,Electronics Merchant 100,Electronics,Nigeria,High,0
+MER000101,Gambling Merchant 101,Gambling,United Kingdom,Low,1
+MER000102,Gambling Merchant 102,Gambling,Singapore,Low,1
+MER000103,Subscription Merchant 103,Subscription,United States,Low,0
+MER000104,Pharmacy Merchant 104,Pharmacy,Netherlands,Low,0
+MER000105,Cash Withdrawal Merchant 105,Cash Withdrawal,France,Low,1
+MER000106,Gambling Merchant 106,Gambling,United States,Low,1
+MER000107,Gambling Merchant 107,Gambling,India,Medium,1
+MER000108,Money Transfer Merchant 108,Money Transfer,United Arab Emirates,Medium,1
+MER000109,Groceries Merchant 109,Groceries,Nigeria,High,0
+MER000110,Hotels Merchant 110,Hotels,India,Medium,0
+MER000111,Groceries Merchant 111,Groceries,India,Medium,0
+MER000112,Crypto Exchange Merchant 112,Crypto Exchange,Pakistan,Medium,1
+MER000113,Hotels Merchant 113,Hotels,Netherlands,Low,0
+MER000114,Electronics Merchant 114,Electronics,Italy,Low,0
+MER000115,Fuel Merchant 115,Fuel,Singapore,Low,0
+MER000116,Fuel Merchant 116,Fuel,Turkey,High,0
+MER000117,Restaurants Merchant 117,Restaurants,United States,Low,0
+MER000118,Luxury Goods Merchant 118,Luxury Goods,India,Medium,1
+MER000119,Online Marketplace Merchant 119,Online Marketplace,Italy,Low,0
+MER000120,Online Marketplace Merchant 120,Online Marketplace,United States,Low,0
+MER000121,Luxury Goods Merchant 121,Luxury Goods,Spain,Low,1
+MER000122,Travel Merchant 122,Travel,Germany,Low,0
+MER000123,Restaurants Merchant 123,Restaurants,Canada,Low,0
+MER000124,Travel Merchant 124,Travel,India,Medium,0
+MER000125,Cash Withdrawal Merchant 125,Cash Withdrawal,Netherlands,Low,1
+MER000126,Online Marketplace Merchant 126,Online Marketplace,France,Low,0
+MER000127,Restaurants Merchant 127,Restaurants,United States,Low,0
+MER000128,Hotels Merchant 128,Hotels,Pakistan,Medium,0
+MER000129,Subscription Merchant 129,Subscription,Turkey,High,0
+MER000130,Restaurants Merchant 130,Restaurants,Turkey,High,0
+MER000131,Crypto Exchange Merchant 131,Crypto Exchange,Turkey,High,1
+MER000132,Cash Withdrawal Merchant 132,Cash Withdrawal,Singapore,Low,1
+MER000133,Electronics Merchant 133,Electronics,Italy,Low,0
+MER000134,Pharmacy Merchant 134,Pharmacy,Germany,Low,0
+MER000135,Electronics Merchant 135,Electronics,Italy,Low,0
+MER000136,Money Transfer Merchant 136,Money Transfer,Germany,Low,1
+MER000137,Cash Withdrawal Merchant 137,Cash Withdrawal,United Kingdom,Low,1
+MER000138,Electronics Merchant 138,Electronics,United States,Low,0
+MER000139,Subscription Merchant 139,Subscription,Canada,Low,0
+MER000140,Cash Withdrawal Merchant 140,Cash Withdrawal,Spain,Low,1
+MER000141,Electronics Merchant 141,Electronics,Netherlands,Low,0
+MER000142,Fuel Merchant 142,Fuel,Turkey,High,0
+MER000143,Cash Withdrawal Merchant 143,Cash Withdrawal,Netherlands,Low,1
+MER000144,Groceries Merchant 144,Groceries,Spain,Low,0
+MER000145,Crypto Exchange Merchant 145,Crypto Exchange,Turkey,High,1
+MER000146,Restaurants Merchant 146,Restaurants,Italy,Low,0
+MER000147,Gambling Merchant 147,Gambling,United Arab Emirates,Medium,1
+MER000148,Fuel Merchant 148,Fuel,Spain,Low,0
+MER000149,Restaurants Merchant 149,Restaurants,Netherlands,Low,0
+MER000150,Gambling Merchant 150,Gambling,Germany,Low,1
+MER000151,Fuel Merchant 151,Fuel,Italy,Low,0
+MER000152,Luxury Goods Merchant 152,Luxury Goods,Germany,Low,1
+MER000153,Fuel Merchant 153,Fuel,Spain,Low,0
+MER000154,Hotels Merchant 154,Hotels,United States,Low,0
+MER000155,Subscription Merchant 155,Subscription,Turkey,High,0
+MER000156,Subscription Merchant 156,Subscription,Spain,Low,0
+MER000157,Groceries Merchant 157,Groceries,United States,Low,0
+MER000158,Pharmacy Merchant 158,Pharmacy,India,Medium,0
+MER000159,Online Marketplace Merchant 159,Online Marketplace,United Arab Emirates,Medium,0
+MER000160,Crypto Exchange Merchant 160,Crypto Exchange,Pakistan,Medium,1
+MER000161,Crypto Exchange Merchant 161,Crypto Exchange,Turkey,High,1
+MER000162,Hotels Merchant 162,Hotels,Pakistan,Medium,0
+MER000163,Restaurants Merchant 163,Restaurants,Spain,Low,0
+MER000164,Gambling Merchant 164,Gambling,Turkey,High,1
+MER000165,Restaurants Merchant 165,Restaurants,United Kingdom,Low,0
+MER000166,Groceries Merchant 166,Groceries,United Kingdom,Low,0
+MER000167,Travel Merchant 167,Travel,United Kingdom,Low,0
+MER000168,Luxury Goods Merchant 168,Luxury Goods,Spain,Low,1
+MER000169,Hotels Merchant 169,Hotels,Italy,Low,0
+MER000170,Hotels Merchant 170,Hotels,Netherlands,Low,0
+MER000171,Cash Withdrawal Merchant 171,Cash Withdrawal,Singapore,Low,1
+MER000172,Luxury Goods Merchant 172,Luxury Goods,India,Medium,1
+MER000173,Cash Withdrawal Merchant 173,Cash Withdrawal,France,Low,1
+MER000174,Gambling Merchant 174,Gambling,United States,Low,1
+MER000175,Restaurants Merchant 175,Restaurants,Netherlands,Low,0
+MER000176,Cash Withdrawal Merchant 176,Cash Withdrawal,United Arab Emirates,Medium,1
+MER000177,Restaurants Merchant 177,Restaurants,Turkey,High,0
+MER000178,Groceries Merchant 178,Groceries,Italy,Low,0
+MER000179,Cash Withdrawal Merchant 179,Cash Withdrawal,Spain,Low,1
+MER000180,Travel Merchant 180,Travel,United States,Low,0
+MER000181,Restaurants Merchant 181,Restaurants,Turkey,High,0
+MER000182,Travel Merchant 182,Travel,Singapore,Low,0
+MER000183,Luxury Goods Merchant 183,Luxury Goods,United States,Low,1
+MER000184,Travel Merchant 184,Travel,Netherlands,Low,0
+MER000185,Gambling Merchant 185,Gambling,United States,Low,1
+MER000186,Subscription Merchant 186,Subscription,Germany,Low,0
+MER000187,Travel Merchant 187,Travel,Spain,Low,0
+MER000188,Electronics Merchant 188,Electronics,Netherlands,Low,0
+MER000189,Cash Withdrawal Merchant 189,Cash Withdrawal,Turkey,High,1
+MER000190,Restaurants Merchant 190,Restaurants,Spain,Low,0
+MER000191,Pharmacy Merchant 191,Pharmacy,Italy,Low,0
+MER000192,Crypto Exchange Merchant 192,Crypto Exchange,Turkey,High,1
+MER000193,Online Marketplace Merchant 193,Online Marketplace,Italy,Low,0
+MER000194,Luxury Goods Merchant 194,Luxury Goods,France,Low,1
+MER000195,Electronics Merchant 195,Electronics,United Arab Emirates,Medium,0
+MER000196,Groceries Merchant 196,Groceries,Germany,Low,0
+MER000197,Groceries Merchant 197,Groceries,United States,Low,0
+MER000198,Pharmacy Merchant 198,Pharmacy,Turkey,High,0
+MER000199,Travel Merchant 199,Travel,Nigeria,High,0
+MER000200,Cash Withdrawal Merchant 200,Cash Withdrawal,United Kingdom,Low,1
+MER000201,Online Marketplace Merchant 201,Online Marketplace,Singapore,Low,0
+MER000202,Cash Withdrawal Merchant 202,Cash Withdrawal,Germany,Low,1
+MER000203,Groceries Merchant 203,Groceries,United States,Low,0
+MER000204,Subscription Merchant 204,Subscription,Singapore,Low,0
+MER000205,Fuel Merchant 205,Fuel,France,Low,0
+MER000206,Money Transfer Merchant 206,Money Transfer,Turkey,High,1
+MER000207,Luxury Goods Merchant 207,Luxury Goods,Spain,Low,1
+MER000208,Gambling Merchant 208,Gambling,France,Low,1
+MER000209,Gambling Merchant 209,Gambling,Turkey,High,1
+MER000210,Gambling Merchant 210,Gambling,Pakistan,Medium,1
+MER000211,Hotels Merchant 211,Hotels,Netherlands,Low,0
+MER000212,Subscription Merchant 212,Subscription,United Arab Emirates,Medium,0
+MER000213,Pharmacy Merchant 213,Pharmacy,Spain,Low,0
+MER000214,Restaurants Merchant 214,Restaurants,Spain,Low,0
+MER000215,Crypto Exchange Merchant 215,Crypto Exchange,Spain,Low,1
+MER000216,Groceries Merchant 216,Groceries,Turkey,High,0
+MER000217,Electronics Merchant 217,Electronics,Pakistan,Medium,0
+MER000218,Money Transfer Merchant 218,Money Transfer,France,Low,1
+MER000219,Money Transfer Merchant 219,Money Transfer,United Kingdom,Low,1
+MER000220,Hotels Merchant 220,Hotels,Nigeria,High,0
+MER000221,Electronics Merchant 221,Electronics,Germany,Low,0
+MER000222,Cash Withdrawal Merchant 222,Cash Withdrawal,Canada,Low,1
+MER000223,Electronics Merchant 223,Electronics,Germany,Low,0
+MER000224,Crypto Exchange Merchant 224,Crypto Exchange,France,Low,1
+MER000225,Travel Merchant 225,Travel,Pakistan,Medium,0
+MER000226,Electronics Merchant 226,Electronics,Germany,Low,0
+MER000227,Hotels Merchant 227,Hotels,Canada,Low,0
+MER000228,Hotels Merchant 228,Hotels,India,Medium,0
+MER000229,Restaurants Merchant 229,Restaurants,United Arab Emirates,Medium,0
+MER000230,Fuel Merchant 230,Fuel,Germany,Low,0
+MER000231,Groceries Merchant 231,Groceries,Spain,Low,0
+MER000232,Electronics Merchant 232,Electronics,United States,Low,0
+MER000233,Money Transfer Merchant 233,Money Transfer,Canada,Low,1
+MER000234,Gambling Merchant 234,Gambling,Germany,Low,1
+MER000235,Restaurants Merchant 235,Restaurants,Turkey,High,0
+MER000236,Luxury Goods Merchant 236,Luxury Goods,United States,Low,1
+MER000237,Fuel Merchant 237,Fuel,Turkey,High,0
+MER000238,Travel Merchant 238,Travel,Spain,Low,0
+MER000239,Crypto Exchange Merchant 239,Crypto Exchange,France,Low,1
+MER000240,Travel Merchant 240,Travel,United Kingdom,Low,0
+MER000241,Cash Withdrawal Merchant 241,Cash Withdrawal,Turkey,High,1
+MER000242,Cash Withdrawal Merchant 242,Cash Withdrawal,Turkey,High,1
+MER000243,Groceries Merchant 243,Groceries,Italy,Low,0
+MER000244,Luxury Goods Merchant 244,Luxury Goods,Germany,Low,1
+MER000245,Fuel Merchant 245,Fuel,India,Medium,0
+MER000246,Cash Withdrawal Merchant 246,Cash Withdrawal,Nigeria,High,1
+MER000247,Groceries Merchant 247,Groceries,Netherlands,Low,0
+MER000248,Online Marketplace Merchant 248,Online Marketplace,France,Low,0
+MER000249,Crypto Exchange Merchant 249,Crypto Exchange,Singapore,Low,1
+MER000250,Gambling Merchant 250,Gambling,Germany,Low,1

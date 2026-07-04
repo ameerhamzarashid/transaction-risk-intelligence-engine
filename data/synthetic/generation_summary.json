@@ -1,0 +1,13 @@
+{
+    "generated_at": "2026-07-04T19:43:18",
+    "seed": 42,
+    "customers": 1000,
+    "merchants": 250,
+    "accounts": 1300,
+    "transactions": 10000,
+    "account_transfers": 2500,
+    "watchlist_entities": 20,
+    "reconciliation_file_a_rows": 3000,
+    "reconciliation_file_b_rows": 2990,
+    "suspicious_transactions": 2564
+}
