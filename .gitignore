@@ -1,0 +1,12 @@
+@"
+__pycache__/
+*.pyc
+.venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+data/raw/
+data/processed/
+*.db
+*.duckdb
+"@ | Set-Content .gitignore
