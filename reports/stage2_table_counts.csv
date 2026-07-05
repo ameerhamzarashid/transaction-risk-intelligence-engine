@@ -1,0 +1,9 @@
+table_name,source_file,row_count
+customers,customers.csv,1000
+merchants,merchants.csv,250
+accounts,accounts.csv,1300
+transactions,transactions.csv,10000
+account_transfers,account_transfers.csv,2500
+watchlist,watchlist.csv,20
+reconciliation_file_a,reconciliation_file_a.csv,3000
+reconciliation_file_b,reconciliation_file_b.csv,2990

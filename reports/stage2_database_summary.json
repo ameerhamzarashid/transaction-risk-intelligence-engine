@@ -1,0 +1,12 @@
+{
+    "database_path": "C:\\MyDrive\\transaction-risk-intelligence-engine\\data\\processed\\transaction_risk.duckdb",
+    "table_count": 8,
+    "total_loaded_rows": 21060,
+    "quality_checks": 8,
+    "passed_checks": 8,
+    "failed_checks": 0,
+    "transaction_rows": 10000,
+    "enriched_transaction_rows": 10000,
+    "suspicious_transactions": 2564,
+    "watchlist_matched_transactions": 446
+}

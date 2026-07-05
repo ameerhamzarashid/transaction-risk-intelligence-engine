@@ -118,3 +118,26 @@ This project demonstrates:
 - graph analytics for linked entities
 - explainable risk scoring
 - production-style analytics engineering
+
+## Stage 2: DuckDB Database Layer
+
+Stage 2 loads the synthetic CSV files into a local DuckDB database and creates SQL views for analysis.
+
+Created database objects include:
+
+- customers table
+- merchants table
+- accounts table
+- transactions table
+- account_transfers table
+- watchlist table
+- reconciliation_file_a table
+- reconciliation_file_b table
+- vw_transaction_enriched view
+- vw_daily_transaction_summary view
+- vw_reconciliation_overview view
+
+To build the database, run:
+
+```powershell
+python src\database\build_duckdb_database.py

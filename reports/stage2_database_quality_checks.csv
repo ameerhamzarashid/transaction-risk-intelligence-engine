@@ -1,0 +1,9 @@
+check_name,check_type,result_value,expected_result,status
+customers_have_no_missing_customer_id,data_quality,0,0,PASS
+transactions_have_no_missing_transaction_id,data_quality,0,0,PASS
+transactions_have_no_negative_amounts,data_quality,0,0,PASS
+transactions_have_no_duplicate_ids,data_quality,0,0,PASS
+transactions_have_valid_customer_references,referential_integrity,0,0,PASS
+transactions_have_valid_merchant_references,referential_integrity,0,0,PASS
+accounts_have_valid_customer_references,referential_integrity,0,0,PASS
+enriched_transaction_view_row_count,reconciliation,10000,10000,PASS
