@@ -1,0 +1,7 @@
+primary_break_category,severity,reconciliation_status,record_count
+MATCHED,No Break,Matched,2750
+AMOUNT_MISMATCH,Medium,Break,90
+MISSING_IN_B,High,Break,70
+DATE_MISMATCH,Medium,Break,60
+DUPLICATE_IN_B,High,Break,30
+MISSING_IN_A,High,Break,30

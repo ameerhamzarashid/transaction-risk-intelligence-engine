@@ -141,3 +141,27 @@ To build the database, run:
 
 ```powershell
 python src\database\build_duckdb_database.py
+
+## Stage 3: Reconciliation Engine 
+
+Stage 3 compares two synthetic reconciliation files that represent records from two financial systems:
+
+- Payment processor file
+- Core banking file
+
+The reconciliation engine detects and classifies:
+
+- missing records in File A
+- missing records in File B
+- duplicate records
+- amount mismatches
+- date mismatches
+- currency mismatches
+- account mismatches
+- status mismatches
+- matched records
+
+To run the reconciliation engine:
+
+```powershell
+python src\reconciliation\run_reconciliation.py

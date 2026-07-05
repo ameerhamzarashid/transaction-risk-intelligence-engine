@@ -1,0 +1,13 @@
+{
+    "total_reconciliation_keys": 3030,
+    "matched_records": 2750,
+    "break_records": 280,
+    "high_severity_breaks": 130,
+    "medium_severity_breaks": 150,
+    "low_severity_breaks": 0,
+    "missing_in_a": 30,
+    "missing_in_b": 70,
+    "duplicates_in_b": 30,
+    "amount_mismatches": 90,
+    "date_mismatches": 60
+}
