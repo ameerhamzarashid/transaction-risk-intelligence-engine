@@ -259,3 +259,62 @@ Each scored transaction includes:
 - reason codes
 - alert recommendation
 - case owner
+
+## Stage 6: Machine Learning Anomaly Detection
+
+Stage 6 adds an unsupervised machine learning anomaly detection layer using Isolation Forest.
+
+The model uses transaction, customer, merchant, channel and rule-based risk features to identify unusual transaction behaviour.
+
+Features include:
+
+- transaction amount
+- transaction hour
+- transaction day of week
+- cross-border flag
+- high-amount flag
+- unusual-hour flag
+- high-risk category flag
+- high-risk country flag
+- KYC issue flag
+- PEP flag
+- watchlist match flag
+- rule-based risk score
+- merchant category
+- currency
+- channel
+- transaction type
+- transaction status
+- customer segment
+- country risk level
+
+To run the ML anomaly detector:
+
+```powershell
+python src\ml\run_anomaly_detection.py
+```
+
+Stage 6 creates these DuckDB objects:
+
+- ml_transaction_anomaly_scores table
+- ml_transaction_anomaly_alerts table
+- ml_customer_anomaly_summary table
+- vw_ml_anomaly_summary view
+- vw_ml_vs_rule_summary view
+
+Stage 6 creates these reports:
+
+- reports/stage6_ml_transaction_anomaly_scores.csv
+- reports/stage6_ml_transaction_anomaly_alerts.csv
+- reports/stage6_ml_customer_anomaly_summary.csv
+- reports/stage6_ml_anomaly_summary.json
+
+Each ML-scored transaction includes:
+
+- Isolation Forest anomaly score
+- anomaly score percentile
+- ML anomaly flag
+- ML anomaly band
+- ML alert priority
+- ML reason codes
+- comparison against rule-based risk scoring
