@@ -1,0 +1,16 @@
+{
+    "run_timestamp": "2026-07-06T11:33:45",
+    "transaction_rows_scored": 10000,
+    "customer_rows_scored": 1000,
+    "transaction_alerts_created": 5368,
+    "critical_transactions": 415,
+    "high_risk_transactions": 1218,
+    "medium_risk_transactions": 3735,
+    "low_risk_transactions": 4632,
+    "critical_customers": 126,
+    "high_risk_customers": 274,
+    "medium_risk_customers": 504,
+    "low_risk_customers": 96,
+    "average_transaction_risk_score": 33.15,
+    "max_transaction_risk_score": 100
+}

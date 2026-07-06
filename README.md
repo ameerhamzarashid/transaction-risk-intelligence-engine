@@ -211,3 +211,51 @@ The data quality layer gives each check a status:
 - ERROR
 
 Warnings are used for controlled issues such as deliberately injected duplicate reconciliation records.
+
+## Stage 5: Rule-Based Risk Scoring Engine
+
+Stage 5 adds an explainable transaction and customer risk scoring layer.
+
+The rule-based scoring engine uses transparent financial crime and operational risk indicators such as:
+
+- watchlist matches
+- PEP flags
+- KYC issues
+- high-risk countries
+- high-risk merchant categories
+- high-value transactions
+- cross-border transactions
+- unusual-hour activity
+- sensitive merchant categories
+- failed or reversed transaction statuses
+- risky rule combinations
+
+To run the rule-based scoring engine:
+
+```powershell
+python src\risk_scoring\run_rule_based_risk_scoring.py
+```
+
+Stage 5 creates these DuckDB objects:
+
+- transaction_risk_scores table
+- customer_risk_scores table
+- transaction_risk_alerts table
+- vw_transaction_risk_summary view
+- vw_customer_risk_summary view
+
+Stage 5 creates these reports:
+
+- reports/stage5_transaction_risk_scores.csv
+- reports/stage5_customer_risk_scores.csv
+- reports/stage5_transaction_risk_alerts.csv
+- reports/stage5_risk_scoring_summary.json
+
+Each scored transaction includes:
+
+- rule-based risk score
+- risk band
+- alert priority
+- reason codes
+- alert recommendation
+- case owner
