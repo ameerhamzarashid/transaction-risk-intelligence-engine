@@ -165,3 +165,49 @@ To run the reconciliation engine:
 
 ```powershell
 python src\reconciliation\run_reconciliation.py
+
+## Stage 4: Data Quality Checks
+
+Stage 4 adds a data-quality validation layer using Python and DuckDB.
+
+The checks cover:
+
+- missing customer IDs
+- missing transaction IDs
+- duplicate customer, merchant, account and transaction IDs
+- negative transaction amounts
+- invalid currencies
+- invalid transaction statuses
+- invalid customer references
+- invalid account references
+- invalid merchant references
+- invalid transfer account references
+- invalid watchlist references
+- reconciliation file quality issues
+- controlled duplicate reconciliation records
+
+To run the data quality checks:
+
+```powershell
+python src\data_quality\run_data_quality_checks.py
+```
+
+Stage 4 creates these DuckDB objects:
+
+- data_quality_results table
+- vw_data_quality_summary view
+
+Stage 4 creates these reports:
+
+- reports/stage4_data_quality_results.csv
+- reports/stage4_failed_data_quality_checks.csv
+- reports/stage4_data_quality_summary.json
+
+The data quality layer gives each check a status:
+
+- PASS
+- WARN
+- FAIL
+- ERROR
+
+Warnings are used for controlled issues such as deliberately injected duplicate reconciliation records.
