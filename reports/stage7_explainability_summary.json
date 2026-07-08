@@ -1,0 +1,13 @@
+{
+    "run_timestamp": "2026-07-08T18:07:33",
+    "alert_explanations_created": 6467,
+    "unique_customers_with_explanations": 996,
+    "p1_explanations": 206,
+    "p2_explanations": 1199,
+    "p3_explanations": 3510,
+    "rule_ml_reconciliation_alerts": 15,
+    "rule_ml_alerts": 775,
+    "ml_only_alerts": 206,
+    "rule_only_alerts": 4453,
+    "reason_codes_summarised": 32
+}
