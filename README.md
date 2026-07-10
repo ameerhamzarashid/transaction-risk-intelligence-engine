@@ -558,3 +558,54 @@ Each case includes:
 - risk score
 - case description
 - recommended action
+
+## Stage 10: FastAPI Service Layer
+
+Stage 10 adds a FastAPI service layer so the transaction risk engine can be accessed through API endpoints.
+
+The API exposes project outputs from:
+
+- transaction risk scoring
+- customer risk scoring
+- ML anomaly detection
+- reconciliation breaks
+- graph analytics
+- explainability alerts
+- case management work queues
+
+To run the API:
+
+```powershell
+uvicorn api.main:app --reload
+```
+
+Then open:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+Main API endpoints include:
+
+- GET /health
+- GET /database/tables
+- GET /summary/cases
+- GET /summary/risk
+- GET /cases
+- GET /cases/{case_id}
+- GET /work-queue
+- GET /transactions/{transaction_id}
+- GET /customers/{customer_id}/risk
+- GET /alerts/explanations
+- GET /reconciliation/breaks
+- GET /graph/entities
+- GET /graph/transfer-patterns
+- POST /score-transaction
+
+The POST /score-transaction endpoint scores a new transaction using the rule-based risk logic and returns:
+
+- rule-based risk score
+- risk band
+- alert priority
+- alert decision
+- reason codes

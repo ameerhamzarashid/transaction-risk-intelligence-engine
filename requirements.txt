@@ -3,3 +3,5 @@ numpy
 duckdb
 scikit-learn
 networkx
+fastapi
+uvicorn
