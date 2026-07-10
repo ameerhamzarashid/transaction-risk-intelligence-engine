@@ -319,7 +319,7 @@ Each ML-scored transaction includes:
 - ML reason codes
 - comparison against rule-based risk scoring
 
--- Stage 7 explainability analysis queries
+## Stage 7 explainability analysis queries
 
 -- 1. Explainability priority summary
 SELECT
@@ -449,3 +449,60 @@ FROM vw_explainability_priority_summary;
 -- 9. Dashboard-ready top explanation reasons
 SELECT *
 FROM vw_top_explanation_reasons;
+
+## Stage 8: Graph Analytics
+
+Stage 8 adds graph analytics using NetworkX to identify connected entities, risky clusters and suspicious transfer patterns.
+
+The graph represents relationships between:
+
+- customers
+- accounts
+- merchants
+- account-to-account transfers
+
+The graph analytics layer detects:
+
+- high-risk connected components
+- high-centrality entities
+- high-risk customers/accounts/merchants
+- reciprocal transfer patterns
+- high outbound transfer hubs
+- high inbound collection hubs
+- watchlist-linked graph clusters
+
+To run the graph analytics layer:
+
+```powershell
+python src\graph\run_graph_analytics.py
+```
+
+Stage 8 creates these DuckDB objects:
+
+- graph_nodes table
+- graph_edges table
+- graph_risk_clusters table
+- graph_suspicious_transfer_patterns table
+- graph_high_centrality_entities table
+- vw_graph_entity_risk_summary view
+- vw_graph_cluster_summary view
+
+Stage 8 creates these reports:
+
+- reports/stage8_graph_nodes.csv
+- reports/stage8_graph_edges.csv
+- reports/stage8_graph_risk_clusters.csv
+- reports/stage8_suspicious_transfer_patterns.csv
+- reports/stage8_high_centrality_entities.csv
+- reports/stage8_graph_analytics_summary.json
+
+Each graph entity includes:
+
+- node type
+- risk score
+- risk band
+- degree centrality
+- PageRank score
+- graph priority score
+- watchlist flag
+- transaction and alert counts

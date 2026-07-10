@@ -1,0 +1,15 @@
+{
+    "run_timestamp": "2026-07-10T10:24:29",
+    "nodes_created": 2550,
+    "edges_created": 13636,
+    "clusters_detected": 263,
+    "suspicious_transfer_patterns_detected": 223,
+    "high_centrality_entities_detected": 1825,
+    "customer_nodes": 1000,
+    "account_nodes": 1300,
+    "merchant_nodes": 250,
+    "critical_nodes": 706,
+    "high_risk_nodes": 1117,
+    "critical_clusters": 1,
+    "high_risk_clusters": 40
+}

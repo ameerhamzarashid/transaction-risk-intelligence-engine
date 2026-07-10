@@ -2,3 +2,4 @@ pandas
 numpy
 duckdb
 scikit-learn
+networkx
