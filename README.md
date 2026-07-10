@@ -506,3 +506,55 @@ Each graph entity includes:
 - graph priority score
 - watchlist flag
 - transaction and alert counts
+
+## Stage 9: Alert Case Management
+
+Stage 9 creates a unified case-management layer across reconciliation, rule-based risk scoring, ML anomaly detection, explainability and graph analytics.
+
+The case-management layer combines alerts from:
+
+- reconciliation breaks
+- rule-based transaction risk alerts
+- ML anomaly alerts
+- explainability alerts
+- high-centrality graph entities
+- suspicious transfer patterns
+- graph risk clusters
+
+To run the case-management layer:
+
+```powershell
+python src\case_management\run_case_management.py
+```
+
+Stage 9 creates these DuckDB objects:
+
+- case_management_cases table
+- case_management_summary table
+- case_management_work_queue table
+- vw_case_management_priority_summary view
+- vw_case_management_source_summary view
+- vw_case_management_owner_queue view
+
+Stage 9 creates these reports:
+
+- reports/stage9_case_management_cases.csv
+- reports/stage9_case_management_summary.csv
+- reports/stage9_case_management_work_queue.csv
+- reports/stage9_case_management_summary.json
+
+Each case includes:
+
+- case ID
+- source type
+- source record ID
+- priority
+- status
+- owner
+- SLA due time
+- SLA status
+- age bucket
+- customer, account, merchant and transaction references
+- risk score
+- case description
+- recommended action

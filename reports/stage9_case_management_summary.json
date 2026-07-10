@@ -1,0 +1,23 @@
+{
+    "run_timestamp": "2026-07-10T10:50:56",
+    "total_cases": 13837,
+    "open_cases": 13837,
+    "p1_cases": 723,
+    "p2_cases": 3167,
+    "p3_cases": 9947,
+    "p4_cases": 0,
+    "breached_sla_cases": 8050,
+    "at_risk_sla_cases": 1,
+    "within_sla_cases": 5786,
+    "unique_customers_in_cases": 997,
+    "unique_transactions_in_cases": 6497,
+    "case_sources": {
+        "Rule-Based Transaction Risk": 5368,
+        "Explainability Alert": 4915,
+        "Graph Entity Risk": 1825,
+        "ML Anomaly": 1001,
+        "Reconciliation Break": 280,
+        "Graph Risk Cluster": 225,
+        "Suspicious Transfer Pattern": 223
+    }
+}

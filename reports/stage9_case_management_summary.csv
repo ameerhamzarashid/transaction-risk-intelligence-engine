@@ -1,0 +1,25 @@
+case_source_type,case_priority,case_status,sla_status,case_age_bucket,case_count,average_risk_score,total_amount,oldest_case_age_days
+Explainability Alert,P1,Open,Breached,1-3 days,206,88.52,203148.36,1
+Explainability Alert,P2,Open,Breached,1-3 days,1199,68.14,795713.51,1
+Explainability Alert,P3,Open,Within SLA,1-3 days,3510,45.86,587027.04,1
+Graph Entity Risk,P2,Open,Within SLA,Today,168,60.33,974064.32,0
+Graph Entity Risk,P3,Open,Within SLA,Today,1657,45.7,4253215.68,0
+Graph Risk Cluster,P1,Open,At Risk,Today,1,100.0,2461380.16,0
+Graph Risk Cluster,P2,Open,Within SLA,Today,40,65.16,0.0,0
+Graph Risk Cluster,P3,Open,Within SLA,Today,184,48.11,0.0,0
+ML Anomaly,P1,Open,Breached,1-3 days,101,99.5,179421.02,3
+ML Anomaly,P2,Open,Breached,1-3 days,400,97.0,314452.02,3
+ML Anomaly,P3,Open,Breached,1-3 days,500,92.5,289012.83,3
+Reconciliation Break,P2,Open,Breached,15+ days,119,60.0,0.0,181
+Reconciliation Break,P2,Open,Breached,4-7 days,5,60.0,0.0,5
+Reconciliation Break,P2,Open,Breached,8-14 days,4,60.0,0.0,13
+Reconciliation Break,P2,Open,Breached,1-3 days,2,60.0,0.0,3
+Reconciliation Break,P3,Open,Breached,15+ days,134,40.0,661.25,179
+Reconciliation Break,P3,Open,Breached,8-14 days,8,40.0,55.5,14
+Reconciliation Break,P3,Open,Breached,4-7 days,4,40.0,46.5,7
+Reconciliation Break,P3,Open,Within SLA,1-3 days,4,40.0,6.5,2
+Rule-Based Transaction Risk,P1,Open,Breached,1-3 days,415,86.24,351478.52,3
+Rule-Based Transaction Risk,P2,Open,Breached,1-3 days,1218,61.38,563629.93,3
+Rule-Based Transaction Risk,P3,Open,Breached,1-3 days,3735,39.79,716054.56,3
+Suspicious Transfer Pattern,P2,Open,Within SLA,Today,12,63.08,25356.04,0
+Suspicious Transfer Pattern,P3,Open,Within SLA,Today,211,45.79,547601.16,0
