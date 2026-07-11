@@ -609,3 +609,38 @@ The POST /score-transaction endpoint scores a new transaction using the rule-bas
 - alert priority
 - alert decision
 - reason codes
+
+## Stage 11: Streamlit Dashboard
+
+Stage 11 adds a Streamlit dashboard for exploring the transaction risk engine outputs.
+
+The dashboard includes:
+
+- executive overview
+- case-management work queue
+- rule-based transaction risk
+- ML anomaly detection
+- reconciliation breaks
+- graph analytics
+- explainability alerts
+- customer and transaction lookup
+- new transaction scoring form
+
+To run the dashboard:
+
+```powershell
+streamlit run dashboards\streamlit_app.py
+```
+
+Then open:
+
+```text
+http://localhost:8501
+```
+
+The dashboard reads from the local DuckDB database created by the earlier pipeline stages.
+
+Dashboard files:
+
+- dashboards/streamlit_app.py
+- dashboards/README.md
