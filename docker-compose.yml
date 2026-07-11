@@ -1,0 +1,20 @@
+services:
+  api:
+    build: .
+    container_name: transaction-risk-api
+    command: >
+      sh -c "python scripts/run_full_pipeline.py &&
+             uvicorn api.main:app --host 0.0.0.0 --port 8000"
+    ports:
+      - "8000:8000"
+
+  dashboard:
+    build: .
+    container_name: transaction-risk-dashboard
+    command: >
+      sh -c "python scripts/run_full_pipeline.py &&
+             streamlit run dashboards/streamlit_app.py
+             --server.address 0.0.0.0
+             --server.port 8501"
+    ports:
+      - "8501:8501"

@@ -644,3 +644,53 @@ Dashboard files:
 
 - dashboards/streamlit_app.py
 - dashboards/README.md
+
+## Stage 12: Docker and Final Project Polish
+
+Stage 12 adds Docker support, a full pipeline runner and final project documentation.
+
+To run the full pipeline locally:
+
+```powershell
+python scripts\run_full_pipeline.py
+```
+
+To build the Docker image:
+
+```powershell
+docker build -t transaction-risk-intelligence-engine .
+```
+
+To run the full pipeline inside Docker:
+
+```powershell
+docker run --rm transaction-risk-intelligence-engine
+```
+
+To run the API and dashboard with Docker Compose:
+
+```powershell
+docker compose up --build
+```
+
+Then open:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+for the FastAPI service, and:
+
+```text
+http://127.0.0.1:8501
+```
+
+for the Streamlit dashboard.
+
+Stage 12 adds:
+
+- scripts/run_full_pipeline.py
+- Dockerfile
+- docker-compose.yml
+- .dockerignore
+- docs/PROJECT_OVERVIEW.md

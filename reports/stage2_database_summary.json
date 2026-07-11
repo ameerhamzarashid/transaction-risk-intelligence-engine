@@ -7,6 +7,6 @@
     "failed_checks": 0,
     "transaction_rows": 10000,
     "enriched_transaction_rows": 10000,
-    "suspicious_transactions": 2564,
+    "suspicious_transactions": 2591,
     "watchlist_matched_transactions": 446
 }

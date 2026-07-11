@@ -1,5 +1,5 @@
 {
-    "run_timestamp": "2026-07-06T11:47:32",
+    "run_timestamp": "2026-07-11T20:44:27",
     "model_type": "IsolationForest",
     "n_estimators": 300,
     "contamination": 0.05,
@@ -9,9 +9,9 @@
     "critical_ml_anomalies": 101,
     "high_ml_anomalies": 400,
     "medium_ml_anomalies": 500,
-    "rule_and_ml_alerts": 790,
-    "ml_only_alerts": 211,
-    "rule_only_alerts": 4578,
-    "average_anomaly_score": -0.06782,
-    "max_anomaly_score": 0.096868
+    "rule_and_ml_alerts": 772,
+    "ml_only_alerts": 229,
+    "rule_only_alerts": 4602,
+    "average_anomaly_score": -0.068232,
+    "max_anomaly_score": 0.099719
 }

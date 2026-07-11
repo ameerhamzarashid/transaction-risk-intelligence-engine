@@ -1,1001 +1,1001 @@
 customer_id,full_name,customer_segment,customer_country,country_risk_level,kyc_status,pep_flag,transaction_count,total_transaction_amount,average_transaction_amount,max_transaction_amount,average_transaction_risk_score,max_transaction_risk_score,alert_count,critical_transaction_count,high_transaction_count,medium_transaction_count,watchlist_match_count,suspicious_label_count,customer_rule_based_risk_score,customer_risk_band,customer_review_priority
 CUST000486,Isabella Khan,Retail,Nigeria,High,Pending Review,0,15,822.26,54.82,156.93,64.4,93,15,6,2,7,1,13,100.0,Critical,P1
-CUST000412,Oliver Green,Retail,Netherlands,Low,Verified,0,14,8043.83,574.56,7105.88,70.93,100,14,6,6,2,14,3,100.0,Critical,P1
-CUST000879,Fatima Hussain,Retail,Turkey,High,Pending Review,0,14,4644.88,331.78,4043.21,67.29,100,14,6,2,6,1,14,100.0,Critical,P1
-CUST000077,Noah Jones,Retail,Pakistan,Medium,Verified,0,13,861.35,66.26,367.21,69.08,100,13,4,9,0,13,2,100.0,Critical,P1
-CUST000580,Muhammad Ali,Retail,India,Medium,Pending Review,1,13,775.22,59.63,159.99,65.62,100,13,3,10,0,0,13,100.0,Critical,P1
-CUST000069,Leo Wright,Retail,Nigeria,High,Failed,0,13,569.08,43.78,92.26,67.23,91,13,5,5,3,0,13,100.0,Critical,P1
-CUST000679,Hannah Taylor,Retail,Nigeria,High,Verified,0,13,336.67,25.9,102.46,85.46,100,13,9,4,0,13,7,100.0,Critical,P1
-CUST000549,Maya Smith,Retail,Nigeria,High,Failed,0,12,975.63,81.3,199.63,65.58,93,12,4,5,3,1,12,100.0,Critical,P1
-CUST000860,Sophia Green,Retail,Turkey,High,Verified,0,12,587.95,49.0,191.12,79.0,100,12,7,4,1,12,4,100.0,Critical,P1
-CUST000514,Leo Hall,Retail,Pakistan,Medium,Verified,0,11,4153.78,377.62,2127.91,76.55,100,11,6,5,0,11,2,100.0,Critical,P1
-CUST000812,Muhammad Young,Retail,Spain,Low,Verified,0,11,613.24,55.75,188.94,65.36,93,11,3,8,0,11,1,100.0,Critical,P1
+CUST000412,Oliver Green,Retail,Netherlands,Low,Verified,0,14,8043.83,574.56,7105.88,71.64,100,14,6,6,2,14,4,100.0,Critical,P1
+CUST000879,Fatima Hussain,Retail,Turkey,High,Pending Review,0,14,4644.88,331.78,4043.21,68.0,100,14,6,3,5,1,14,100.0,Critical,P1
+CUST000077,Noah Jones,Retail,Pakistan,Medium,Verified,0,13,861.35,66.26,367.21,68.31,100,13,4,9,0,13,2,100.0,Critical,P1
+CUST000580,Muhammad Ali,Retail,India,Medium,Pending Review,1,13,775.22,59.63,159.99,64.85,100,13,3,10,0,0,13,100.0,Critical,P1
+CUST000069,Leo Wright,Retail,Nigeria,High,Failed,0,13,569.08,43.78,92.26,66.46,91,13,5,4,4,0,13,100.0,Critical,P1
+CUST000679,Hannah Taylor,Retail,Nigeria,High,Verified,0,13,336.67,25.9,102.46,86.23,100,13,9,4,0,13,8,100.0,Critical,P1
+CUST000549,Maya Smith,Retail,Nigeria,High,Failed,0,12,975.63,81.3,199.63,64.75,93,12,4,4,4,1,12,100.0,Critical,P1
+CUST000860,Sophia Green,Retail,Turkey,High,Verified,0,12,587.95,49.0,191.12,79.83,100,12,8,3,1,12,5,100.0,Critical,P1
+CUST000514,Leo Hall,Retail,Pakistan,Medium,Verified,0,11,4153.78,377.62,2127.91,76.82,100,11,6,5,0,11,2,100.0,Critical,P1
+CUST000812,Muhammad Young,Retail,Spain,Low,Verified,0,11,613.24,55.75,188.94,66.27,93,11,3,8,0,11,2,100.0,Critical,P1
 CUST000814,Adam Brown,Retail,Spain,Low,Pending Review,0,11,573.17,52.11,118.29,58.91,100,11,3,4,4,1,7,100.0,Critical,P1
-CUST000137,Daniel Ahmed,Retail,Italy,Low,Verified,0,10,2587.43,258.74,1901.69,73.7,89,10,5,5,0,10,1,100.0,Critical,P1
-CUST000291,Adam Patel,Retail,Germany,Low,Pending Review,1,10,919.4,91.94,195.92,73.8,100,10,3,7,0,0,10,100.0,Critical,P1
+CUST000137,Daniel Ahmed,Retail,Italy,Low,Verified,0,10,2587.43,258.74,1901.69,72.7,89,10,5,5,0,10,1,100.0,Critical,P1
+CUST000291,Adam Patel,Retail,Germany,Low,Pending Review,1,10,919.4,91.94,195.92,72.8,100,10,3,7,0,0,10,100.0,Critical,P1
 CUST000163,James Miller,Corporate,United Arab Emirates,Medium,Verified,1,10,679.51,67.95,234.56,62.0,98,10,2,5,3,2,10,100.0,Critical,P1
 CUST000760,James Robinson,SME,Nigeria,High,Pending Review,0,10,631.94,63.19,144.44,66.7,98,10,5,1,4,1,10,100.0,Critical,P1
 CUST000101,Noah Walker,Retail,Italy,Low,Verified,1,10,460.39,46.04,247.01,63.5,100,10,4,2,4,2,10,100.0,Critical,P1
 CUST000151,Ali Wilson,Retail,United Arab Emirates,Medium,Pending Review,1,10,374.19,37.42,110.85,67.6,100,10,3,7,0,0,10,100.0,Critical,P1
-CUST000661,Aisha Ahmed,Retail,Canada,Low,Pending Review,0,8,736.03,92.0,419.79,86.75,100,8,8,0,0,8,5,100.0,Critical,P1
+CUST000661,Aisha Ahmed,Retail,Canada,Low,Pending Review,0,8,736.03,92.0,419.79,85.5,100,8,8,0,0,8,4,100.0,Critical,P1
 CUST000741,Grace Wright,Retail,Turkey,High,Verified,0,8,528.57,66.07,195.25,81.5,100,8,3,5,0,8,3,100.0,Critical,P1
 CUST000757,Lucas Clarke,Retail,Nigeria,High,Verified,0,12,418.82,34.9,71.46,54.08,100,8,3,3,2,4,5,100.0,Critical,P1
 CUST000631,Lucas Wright,Retail,Nigeria,High,Failed,0,8,310.34,38.79,116.92,72.62,98,8,5,2,1,1,8,100.0,Critical,P1
 CUST000536,Sophia Wilson,Retail,United States,Low,Pending Review,1,8,205.03,25.63,87.28,76.88,100,8,5,3,0,2,8,100.0,Critical,P1
-CUST000738,Muhammad Clarke,SME,Spain,Low,Verified,0,6,227.48,37.91,70.46,76.0,100,6,3,3,0,6,1,100.0,Critical,P1
-CUST000522,Ali Young,SME,Netherlands,Low,Verified,0,5,325.32,65.06,149.25,78.2,83,5,4,1,0,5,0,100.0,Critical,P1
+CUST000738,Muhammad Clarke,SME,Spain,Low,Verified,0,6,227.48,37.91,70.46,73.17,93,6,3,3,0,6,0,100.0,Critical,P1
+CUST000522,Ali Young,SME,Netherlands,Low,Verified,0,5,325.32,65.06,149.25,80.2,93,5,4,1,0,5,1,100.0,Critical,P1
 CUST000497,Grace Ahmed,Retail,Nigeria,High,Verified,0,14,2803.07,200.22,2194.93,51.71,100,12,2,4,6,2,9,99.93,Critical,P1
-CUST000119,Adam Hall,Retail,Germany,Low,Verified,1,9,611.14,67.9,241.7,63.56,100,9,2,3,4,2,9,98.89,Critical,P1
+CUST000119,Adam Hall,Retail,Germany,Low,Verified,1,9,611.14,67.9,241.7,64.67,100,9,2,3,4,2,9,99.17,Critical,P1
 CUST000627,Daniel Taylor,SME,Germany,Low,Verified,0,5,313.93,62.79,268.41,73.0,83,5,2,3,0,5,0,97.6,Critical,P1
 CUST000033,Amelia Wright,Retail,India,Medium,Pending Review,0,19,1322.31,69.6,289.43,46.16,100,17,3,2,12,2,9,97.54,Critical,P1
-CUST000862,Sophia Ali,Retail,India,Medium,Verified,1,7,324.25,46.32,104.07,68.29,100,7,2,3,2,2,7,96.07,Critical,P1
-CUST000633,James Clarke,SME,United Kingdom,Low,Verified,0,14,747.55,53.4,267.01,42.43,98,9,2,2,5,3,3,94.71,Critical,P1
-CUST000030,Leo Wilson,Retail,Nigeria,High,Verified,0,15,6213.97,414.26,4283.24,46.73,100,11,1,5,5,1,8,93.68,Critical,P1
+CUST000862,Sophia Ali,Retail,India,Medium,Verified,1,7,324.25,46.32,104.07,66.86,100,7,2,3,2,2,7,95.72,Critical,P1
 CUST000755,Hannah Ahmed,SME,Nigeria,High,Verified,0,16,633.11,39.57,105.65,46.31,100,11,1,6,4,1,9,93.58,Critical,P1
 CUST000830,Amelia Hall,Retail,Singapore,Low,Pending Review,0,17,1092.91,64.29,237.69,49.65,100,17,2,3,12,1,10,93.41,Critical,P1
-CUST000519,Oliver Thomas,Retail,Turkey,High,Failed,0,8,4082.76,510.34,3561.53,68.88,100,8,3,3,2,0,8,93.22,Critical,P1
 CUST000419,Sophia Thomas,Retail,Netherlands,Low,Pending Review,0,16,6751.08,421.94,6024.79,54.19,97,16,2,6,8,0,13,93.2,Critical,P1
-CUST000617,Isabella Walker,Retail,Spain,Low,Pending Review,0,12,438.84,36.57,135.8,52.58,100,12,2,2,8,1,8,92.14,Critical,P1
-CUST000658,Sophia Davies,Retail,France,Low,Verified,1,13,841.14,64.7,220.5,53.69,86,13,2,3,8,2,12,92.12,Critical,P1
-CUST000754,Lucas Khan,Retail,Turkey,High,Verified,0,13,2295.64,176.59,689.11,47.85,100,11,1,4,6,1,7,91.96,Critical,P1
-CUST000776,Mia Clarke,Retail,United States,Low,Failed,0,10,536.1,53.61,198.18,56.2,93,10,2,3,5,1,7,91.9,Critical,P1
-CUST000042,Grace Green,Retail,Singapore,Low,Pending Review,0,14,6379.42,455.67,5421.43,51.43,100,14,2,2,10,1,9,91.86,Critical,P1
+CUST000658,Sophia Davies,Retail,France,Low,Verified,1,13,841.14,64.7,220.5,54.46,86,13,2,3,8,2,12,92.32,Critical,P1
+CUST000519,Oliver Thomas,Retail,Turkey,High,Failed,0,8,4082.76,510.34,3561.53,68.88,100,8,4,1,3,0,8,92.22,Critical,P1
+CUST000776,Mia Clarke,Retail,United States,Low,Failed,0,10,536.1,53.61,198.18,57.2,93,10,2,3,5,1,8,92.15,Critical,P1
+CUST000617,Isabella Walker,Retail,Spain,Low,Pending Review,0,12,438.84,36.57,135.8,52.58,100,12,2,2,8,1,7,92.14,Critical,P1
+CUST000030,Leo Wilson,Retail,Nigeria,High,Verified,0,15,6213.97,414.26,4283.24,47.4,100,12,1,4,7,1,9,91.85,Critical,P1
 CUST000902,Zara Khan,Retail,Nigeria,High,Verified,0,13,609.21,46.86,209.47,47.23,100,9,1,5,3,1,7,91.81,Critical,P1
-CUST000247,Isabella Thomas,Retail,Turkey,High,Verified,0,14,654.59,46.76,138.97,45.14,100,10,1,4,5,1,6,91.28,Critical,P1
-CUST000328,Adam Miller,Corporate,Spain,Low,Pending Review,0,11,5944.19,540.38,5698.9,54.0,96,11,2,4,5,0,8,90.7,Critical,P1
+CUST000754,Lucas Khan,Retail,Turkey,High,Verified,0,13,2295.64,176.59,689.11,47.08,100,10,1,4,5,1,6,91.77,Critical,P1
+CUST000042,Grace Green,Retail,Singapore,Low,Pending Review,0,14,6379.42,455.67,5421.43,50.71,100,14,2,2,10,1,8,91.68,Critical,P1
+CUST000247,Isabella Thomas,Retail,Turkey,High,Verified,0,14,654.59,46.76,138.97,45.86,100,11,1,4,6,1,7,91.46,Critical,P1
+CUST000999,Daniel Robinson,Retail,Spain,Low,Pending Review,0,11,4100.25,372.75,3606.42,49.73,100,11,2,2,7,1,6,91.43,Critical,P1
+CUST000328,Adam Miller,Corporate,Spain,Low,Pending Review,0,11,5944.19,540.38,5698.9,53.09,96,11,2,4,5,0,7,90.47,Critical,P1
 CUST000386,Ali Miller,Retail,Italy,Low,Pending Review,0,10,582.35,58.24,197.14,52.7,93,10,1,4,5,1,7,90.02,Critical,P1
-CUST000493,Adam Ahmed,Retail,Nigeria,High,Verified,0,12,2519.3,209.94,2219.1,47.42,100,9,1,4,4,1,7,89.86,Critical,P1
-CUST000333,Maya Green,Corporate,France,Low,Pending Review,0,8,4986.38,623.3,3007.36,58.12,100,8,2,2,4,1,6,89.53,Critical,P1
+CUST000333,Maya Green,Corporate,France,Low,Pending Review,0,8,4986.38,623.3,3007.36,59.38,100,8,2,2,4,1,6,89.84,Critical,P1
+CUST000633,James Clarke,SME,United Kingdom,Low,Verified,0,14,747.55,53.4,267.01,40.29,88,9,2,2,5,3,1,89.67,Critical,P1
 CUST000191,Adam Miller,Retail,Netherlands,Low,Failed,0,15,2554.23,170.28,1751.09,55.4,77,15,3,4,8,1,12,89.5,Critical,P1
-CUST000999,Daniel Robinson,Retail,Spain,Low,Pending Review,0,11,4100.25,372.75,3606.42,49.73,100,11,2,1,8,1,7,89.43,Critical,P1
-CUST000910,Mia Brown,Retail,Turkey,High,Failed,0,11,2325.33,211.39,1856.11,62.91,87,11,4,1,6,0,11,88.88,Critical,P1
 CUST000430,Ali Taylor,Retail,India,Medium,Verified,0,10,1007.17,100.72,400.26,48.3,88,8,3,0,5,3,3,88.68,Critical,P1
 CUST000880,Daniel Patel,Retail,Italy,Low,Pending Review,0,9,533.05,59.23,144.97,53.67,93,9,1,4,4,1,7,88.27,Critical,P1
-CUST000707,Sophia Ahmed,Retail,Spain,Low,Verified,0,16,578.67,36.17,120.21,39.56,83,9,3,1,5,3,3,88.24,Critical,P1
-CUST000112,Daniel Thomas,Retail,Canada,Low,Pending Review,0,8,304.67,38.08,86.53,56.88,100,8,1,3,4,1,6,88.22,Critical,P1
-CUST000850,Mia Brown,Retail,Turkey,High,Pending Review,0,18,913.83,50.77,210.52,57.83,77,18,3,5,10,0,17,88.11,Critical,P1
+CUST000850,Mia Brown,Retail,Turkey,High,Pending Review,0,18,913.83,50.77,210.52,58.39,77,18,3,6,9,0,17,88.25,Critical,P1
+CUST000707,Sophia Ahmed,Retail,Spain,Low,Verified,0,16,578.67,36.17,120.21,38.31,83,9,3,1,5,3,3,87.93,Critical,P1
 CUST000012,Maya Walker,Retail,Spain,Low,Failed,0,11,2718.42,247.13,2235.06,46.64,100,11,1,2,8,1,4,87.66,Critical,P1
-CUST000420,Daniel Jones,Retail,Nigeria,High,Verified,0,12,766.66,63.89,274.07,45.75,100,9,1,3,5,1,6,87.44,Critical,P1
-CUST000188,Leo Davies,Retail,Nigeria,High,Verified,0,12,13854.48,1154.54,13347.15,48.42,100,7,2,3,2,1,6,87.1,Critical,P1
-CUST000258,Ethan Jones,Retail,Germany,Low,Verified,1,15,1136.96,75.8,213.77,50.47,92,15,1,5,9,0,14,87.02,Critical,P1
-CUST000948,Grace Young,Retail,Singapore,Low,Failed,0,15,928.86,61.92,232.3,51.27,76,15,2,5,8,1,9,87.02,Critical,P1
-CUST000591,Ali Hall,Retail,Pakistan,Medium,Verified,1,16,7983.63,498.98,7100.62,57.0,88,16,1,10,5,0,16,86.85,Critical,P1
-CUST000886,Oliver Patel,Retail,Nigeria,High,Verified,0,12,784.22,65.35,156.17,47.42,100,7,1,4,2,1,6,85.86,Critical,P1
+CUST000258,Ethan Jones,Retail,Germany,Low,Verified,1,15,1136.96,75.8,213.77,51.8,92,15,1,5,9,0,14,87.35,Critical,P1
+CUST000420,Daniel Jones,Retail,Nigeria,High,Verified,0,12,766.66,63.89,274.07,44.92,100,9,1,3,5,1,6,87.23,Critical,P1
+CUST000948,Grace Young,Retail,Singapore,Low,Failed,0,15,928.86,61.92,232.3,51.93,76,15,2,6,7,1,10,87.18,Critical,P1
+CUST001000,Hannah Hussain,Private Banking,Germany,Low,Pending Review,0,12,872.85,72.74,196.66,46.75,98,12,1,2,9,1,4,86.79,Critical,P1
+CUST000591,Ali Hall,Retail,Pakistan,Medium,Verified,1,16,7983.63,498.98,7100.62,56.38,88,16,1,10,5,0,16,86.7,Critical,P1
+CUST000390,Ethan Robinson,Retail,Nigeria,High,Verified,0,11,4131.31,375.57,3378.92,48.18,100,8,1,3,4,1,7,86.04,Critical,P1
+CUST000886,Oliver Patel,Retail,Nigeria,High,Verified,0,12,784.22,65.35,156.17,46.58,100,7,1,4,2,1,6,85.64,Critical,P1
+CUST000112,Daniel Thomas,Retail,Canada,Low,Pending Review,0,8,304.67,38.08,86.53,54.38,100,8,1,2,5,1,5,85.6,Critical,P1
 CUST000243,Zara Green,Retail,Nigeria,High,Verified,0,8,554.32,69.29,147.3,53.88,100,7,1,3,3,1,7,85.47,Critical,P1
 CUST000058,Maya Clarke,Retail,Italy,Low,Verified,1,9,880.74,97.86,340.8,52.11,85,9,2,1,6,2,8,85.28,Critical,P1
-CUST001000,Hannah Hussain,Private Banking,Germany,Low,Pending Review,0,12,872.85,72.74,196.66,45.92,98,12,1,1,10,1,3,84.58,Critical,P1
-CUST000213,Daniel Smith,SME,India,Medium,Pending Review,0,13,993.6,76.43,398.76,47.46,85,12,2,2,8,1,8,84.12,Critical,P1
+CUST000534,Aisha Thomas,Retail,Nigeria,High,Verified,0,13,893.72,68.75,263.05,45.0,100,8,1,3,4,1,6,85.25,Critical,P1
+CUST000493,Adam Ahmed,Retail,Nigeria,High,Verified,0,12,2519.3,209.94,2219.1,44.92,100,8,1,3,4,1,6,85.23,Critical,P1
+CUST000188,Leo Davies,Retail,Nigeria,High,Verified,0,12,13854.48,1154.54,13347.15,47.58,100,6,2,3,1,1,5,84.9,Critical,P1
+CUST000517,Mia Wilson,Retail,Canada,Low,Failed,0,8,284.3,35.54,87.25,51.12,99,8,1,2,5,1,5,84.33,Critical,P1
+CUST000910,Mia Brown,Retail,Turkey,High,Failed,0,11,2325.33,211.39,1856.11,62.0,77,11,4,1,6,0,11,84.15,Critical,P1
+CUST000213,Daniel Smith,SME,India,Medium,Pending Review,0,13,993.6,76.43,398.76,46.69,85,12,2,2,8,1,6,83.92,Critical,P1
 CUST000072,Leo Ahmed,Retail,Pakistan,Medium,Pending Review,0,12,808.2,67.35,286.43,51.0,80,11,1,4,6,1,8,83.75,Critical,P1
-CUST000390,Ethan Robinson,Retail,Nigeria,High,Verified,0,11,4131.31,375.57,3378.92,46.36,100,7,1,3,3,1,6,83.59,Critical,P1
 CUST000375,Daniel Brown,Retail,Nigeria,High,Verified,0,17,10572.66,621.92,4624.73,45.82,78,12,3,2,7,1,10,83.56,Critical,P1
 CUST000043,Isabella Brown,Retail,Turkey,High,Verified,0,11,375.34,34.12,66.51,44.55,100,8,1,2,5,1,6,83.14,Critical,P1
 CUST000138,Mia Hall,Retail,Spain,Low,Pending Review,0,11,6731.97,612.0,6345.75,43.73,96,10,1,3,6,0,4,83.13,Critical,P1
-CUST000534,Aisha Thomas,Retail,Nigeria,High,Verified,0,13,893.72,68.75,263.05,44.23,100,8,1,2,5,1,5,83.06,Critical,P1
-CUST000093,James Ahmed,Retail,Italy,Low,Verified,0,14,1010.76,72.2,306.3,40.57,93,9,1,3,5,1,8,82.99,Critical,P1
-CUST000889,Isabella Miller,SME,India,Medium,Pending Review,0,8,1505.73,188.22,862.24,51.25,100,8,1,1,6,1,5,82.81,Critical,P1
-CUST000517,Mia Wilson,Retail,Canada,Low,Failed,0,8,284.3,35.54,87.25,49.88,99,8,1,1,6,1,5,82.02,Critical,P1
-CUST000322,Mia Ahmed,Retail,Singapore,Low,Verified,1,9,2110.6,234.51,1724.57,52.89,92,9,1,3,5,0,9,81.62,Critical,P1
-CUST000539,Zara Wright,SME,Singapore,Low,Pending Review,0,10,4992.37,499.24,4699.89,50.9,75,10,1,4,5,1,5,81.47,Critical,P1
-CUST000938,Grace Smith,Corporate,United Arab Emirates,Medium,Verified,0,10,799.67,79.97,266.95,39.2,88,6,2,1,3,3,0,81.4,Critical,P1
+CUST000093,James Ahmed,Retail,Italy,Low,Verified,0,14,1010.76,72.2,306.3,37.71,93,9,1,3,5,1,7,82.28,Critical,P1
+CUST000539,Zara Wright,SME,Singapore,Low,Pending Review,0,10,4992.37,499.24,4699.89,53.9,75,10,1,4,5,1,7,82.22,Critical,P1
+CUST000846,Ali Jones,Retail,United Arab Emirates,Medium,Pending Review,0,7,242.72,34.67,84.48,52.29,100,7,2,0,5,1,3,82.07,Critical,P1
+CUST000322,Mia Ahmed,Retail,Singapore,Low,Verified,1,9,2110.6,234.51,1724.57,54.0,92,9,1,3,5,0,9,81.9,Critical,P1
+CUST000353,Oliver Hussain,SME,Nigeria,High,Verified,0,11,1007.42,91.58,298.78,46.18,100,5,1,4,0,1,5,81.54,Critical,P1
+CUST000637,Isabella Wright,Retail,Turkey,High,Verified,0,12,679.28,56.61,188.12,44.83,100,7,1,2,4,1,7,81.21,Critical,P1
+CUST000938,Grace Smith,Corporate,United Arab Emirates,Medium,Verified,0,10,799.67,79.97,266.95,38.2,88,6,2,1,3,3,0,81.15,Critical,P1
 CUST000376,Oliver Smith,Retail,Singapore,Low,Pending Review,0,10,11223.03,1122.3,5840.77,55.3,76,10,1,5,4,0,9,81.03,Critical,P1
+CUST000982,Fatima Davies,Retail,United Kingdom,Low,Verified,0,12,981.17,81.76,325.09,38.08,98,9,1,1,7,1,3,80.62,Critical,P1
+CUST000889,Isabella Miller,SME,India,Medium,Pending Review,0,8,1505.73,188.22,862.24,50.0,100,8,1,0,7,1,5,80.5,Critical,P1
 CUST000371,Aisha Hall,Retail,United Arab Emirates,Medium,Verified,0,10,698.32,69.83,309.69,40.8,89,5,2,1,2,3,1,80.25,Critical,P1
-CUST000484,Noah Wright,SME,Germany,Low,Pending Review,0,12,4448.59,370.72,3544.79,49.83,86,12,1,3,8,0,7,80.16,Critical,P1
-CUST000118,Lucas Brown,Retail,United Kingdom,Low,Pending Review,0,9,4533.64,503.74,4021.69,56.78,82,9,3,1,5,0,7,80.1,Critical,P1
+CUST000032,Amelia Brown,SME,Turkey,High,Verified,0,9,1589.96,176.66,891.68,48.22,100,6,1,2,3,1,4,80.06,Critical,P1
 CUST000172,Ali Wilson,Retail,United Arab Emirates,Medium,Verified,0,11,771.58,70.14,243.51,44.27,84,9,1,3,5,1,4,79.87,Critical,P1
-CUST000032,Amelia Brown,SME,Turkey,High,Verified,0,9,1589.96,176.66,891.68,47.11,100,6,1,2,3,1,4,79.78,Critical,P1
-CUST000111,Daniel Clarke,Retail,France,Low,Pending Review,0,14,4439.53,317.11,3736.28,49.21,81,14,1,4,9,0,8,79.75,Critical,P1
-CUST000529,Fatima Ali,Private Banking,United States,Low,Pending Review,0,9,9040.18,1004.46,8682.63,46.89,100,9,1,1,7,0,4,79.72,Critical,P1
+CUST000118,Lucas Brown,Retail,United Kingdom,Low,Pending Review,0,9,4533.64,503.74,4021.69,55.67,82,9,3,1,5,0,6,79.82,Critical,P1
+CUST000306,Noah Ali,Retail,Germany,Low,Verified,1,13,825.6,63.51,197.78,47.38,91,13,1,2,10,0,13,79.8,Critical,P1
+CUST000681,Fatima Walker,Retail,Turkey,High,Verified,0,5,370.66,74.13,199.05,55.2,100,4,1,1,2,2,2,79.8,Critical,P1
+CUST000911,Ethan Clarke,Retail,France,Low,Verified,1,8,316.24,39.53,117.58,54.75,91,8,1,3,4,0,8,79.64,Critical,P1
 CUST000050,Adam Wright,Retail,Turkey,High,Pending Review,0,9,298.83,33.2,57.88,58.78,82,9,2,2,5,0,9,79.6,Critical,P1
-CUST000701,Sophia Ali,Retail,Italy,Low,Verified,0,18,4057.87,225.44,3135.37,33.83,98,9,1,1,7,1,3,79.56,Critical,P1
-CUST000181,Leo Davies,Retail,Turkey,High,Verified,0,7,169.81,24.26,45.71,51.57,97,6,1,2,3,1,6,79.54,Critical,P1
+CUST000706,Maya Taylor,Retail,Spain,Low,Verified,0,15,755.51,50.37,167.5,35.8,88,8,1,2,5,2,4,79.55,Critical,P1
 CUST000713,Ali Clarke,SME,United Kingdom,Low,Pending Review,0,11,720.32,65.48,220.89,42.36,93,11,1,0,10,1,5,79.44,Critical,P1
-CUST000353,Oliver Hussain,SME,Nigeria,High,Verified,0,11,1007.42,91.58,298.78,45.27,100,5,1,3,1,1,5,79.32,Critical,P1
-CUST000706,Maya Taylor,Retail,Spain,Low,Verified,0,15,755.51,50.37,167.5,34.47,88,8,1,2,5,2,2,79.22,Critical,P1
-CUST000637,Isabella Wright,Retail,Turkey,High,Verified,0,12,679.28,56.61,188.12,44.83,100,6,1,2,3,1,6,79.21,Critical,P1
+CUST000701,Sophia Ali,Retail,Italy,Low,Verified,0,18,4057.87,225.44,3135.37,33.28,98,9,1,1,7,1,3,79.42,Critical,P1
 CUST000748,Daniel Khan,Retail,France,Low,Verified,0,12,5325.64,443.8,2150.66,36.67,100,8,1,1,6,1,3,79.17,Critical,P1
 CUST000264,Lucas Walker,Retail,Turkey,High,Verified,0,14,1773.37,126.67,1132.71,44.14,78,11,1,3,7,1,7,79.14,Critical,P1
 CUST000853,Isabella Walker,SME,Turkey,High,Verified,0,16,769.99,48.12,236.05,43.38,78,12,1,3,8,1,7,78.94,Critical,P1
-CUST000178,Grace Davies,SME,India,Medium,Verified,0,17,12567.59,739.27,8184.43,34.76,91,9,1,4,4,0,6,78.64,Critical,P1
-CUST000846,Ali Jones,Retail,United Arab Emirates,Medium,Pending Review,0,7,242.72,34.67,84.48,49.86,93,7,2,0,5,1,2,78.32,Critical,P1
+CUST000531,Maya Green,Retail,Nigeria,High,Verified,0,7,285.93,40.85,95.43,50.43,100,5,1,2,2,1,4,78.61,Critical,P1
+CUST000897,Fatima Green,Retail,Turkey,High,Verified,0,12,878.43,73.2,179.83,41.67,100,7,1,1,5,1,6,78.42,Critical,P1
+CUST000461,Maya Clarke,Retail,Spain,Low,Verified,0,14,1067.5,76.25,223.1,29.21,98,6,1,2,3,2,2,78.4,Critical,P1
+CUST000446,Amelia Walker,SME,United States,Low,Verified,0,10,656.65,65.66,149.81,36.9,98,6,1,1,4,2,3,78.32,Critical,P1
 CUST000851,Maya Wilson,Corporate,Turkey,High,Verified,0,6,10457.65,1742.94,9362.75,55.83,83,5,1,3,1,2,3,78.31,Critical,P1
-CUST000982,Fatima Davies,Retail,United Kingdom,Low,Verified,0,12,981.17,81.76,325.09,36.42,98,8,1,1,6,1,2,78.2,Critical,P1
-CUST000185,Oliver Clarke,Private Banking,Nigeria,High,Verified,0,12,808.26,67.36,492.17,51.33,76,9,1,7,1,0,9,78.03,Critical,P1
 CUST000071,Mia Wright,Retail,Singapore,Low,Failed,0,17,930.94,54.76,146.1,42.12,81,17,1,4,12,0,5,77.98,Critical,P1
 CUST000699,Leo Young,SME,Turkey,High,Pending Review,0,7,860.82,122.97,316.5,65.14,86,7,3,0,4,0,7,77.98,Critical,P1
+CUST000484,Noah Wright,SME,Germany,Low,Pending Review,0,12,4448.59,370.72,3544.79,49.0,86,12,1,2,9,0,7,77.95,Critical,P1
+CUST000185,Oliver Clarke,Private Banking,Nigeria,High,Verified,0,12,808.26,67.36,492.17,50.5,76,9,1,6,2,0,8,77.82,Critical,P1
 CUST000044,Lucas Walker,Retail,Pakistan,Medium,Pending Review,0,6,8251.42,1375.24,7977.41,55.0,100,6,1,2,3,0,4,77.75,Critical,P1
 CUST000240,Isabella Hall,Private Banking,Italy,Low,Pending Review,0,12,5775.87,481.32,4979.68,50.0,76,12,1,4,7,0,8,77.7,Critical,P1
-CUST000681,Fatima Walker,Retail,Turkey,High,Verified,0,5,370.66,74.13,199.05,53.2,100,4,1,0,3,2,2,77.3,Critical,P1
-CUST000959,Hannah Wright,Retail,Netherlands,Low,Verified,0,14,4015.63,286.83,2390.67,35.64,83,9,1,3,5,1,5,77.26,Critical,P1
-CUST000174,Grace Taylor,Retail,Singapore,Low,Verified,0,12,527.23,43.94,117.59,33.75,88,4,1,3,0,3,1,77.04,Critical,P1
+CUST000111,Daniel Clarke,Retail,France,Low,Pending Review,0,14,4439.53,317.11,3736.28,48.5,81,14,1,3,10,0,7,77.58,Critical,P1
+CUST000529,Fatima Ali,Private Banking,United States,Low,Pending Review,0,9,9040.18,1004.46,8682.63,45.78,100,9,1,0,8,0,3,77.44,Critical,P1
+CUST000959,Hannah Wright,Retail,Netherlands,Low,Verified,0,14,4015.63,286.83,2390.67,36.36,83,9,1,3,5,1,5,77.44,Critical,P1
+CUST000174,Grace Taylor,Retail,Singapore,Low,Verified,0,12,527.23,43.94,117.59,34.58,88,4,1,3,0,3,1,77.24,Critical,P1
+CUST000457,Daniel Hussain,Retail,Nigeria,High,Verified,1,7,605.1,86.44,153.59,63.29,87,7,2,1,4,0,7,76.97,Critical,P1
 CUST000064,Fatima Ali,Retail,Italy,Low,Verified,0,14,1040.72,74.34,575.49,34.93,100,8,1,0,7,1,3,76.73,Critical,P1
 CUST000281,Leo Hall,Retail,India,Medium,Verified,0,13,11787.06,906.7,6027.37,34.62,100,5,3,0,2,1,3,76.66,Critical,P1
 CUST000494,Ethan Ahmed,Retail,Spain,Low,Verified,0,12,6029.29,502.44,5514.11,39.08,93,9,1,0,8,1,4,76.62,Critical,P1
 CUST000285,Aisha Miller,SME,United Arab Emirates,Medium,Failed,0,8,7236.48,904.56,6685.26,49.62,96,7,1,2,4,0,5,76.6,Critical,P1
-CUST000449,Zara Khan,SME,Singapore,Low,Verified,0,12,13077.9,1089.82,12618.29,41.67,89,8,2,0,6,1,5,76.47,Critical,P1
-CUST000976,Muhammad Young,SME,Turkey,High,Verified,0,11,4963.3,451.21,4270.4,46.45,75,10,1,2,7,1,7,76.36,Critical,P1
+CUST000823,Aisha Wilson,Retail,United Arab Emirates,Medium,Verified,0,14,679.75,48.55,94.93,29.71,98,6,1,1,4,2,2,76.53,Critical,P1
+CUST000178,Grace Davies,SME,India,Medium,Verified,0,17,12567.59,739.27,8184.43,33.59,91,8,1,4,3,0,6,76.35,Critical,P1
 CUST000710,Leo Walker,Retail,United Kingdom,Low,Pending Review,0,11,416.92,37.9,90.94,45.91,75,11,1,2,8,1,5,76.23,Critical,P1
-CUST000897,Fatima Green,Retail,Turkey,High,Verified,0,12,878.43,73.2,179.83,40.83,100,6,1,1,4,1,5,76.21,Critical,P1
+CUST000827,Adam Hall,Retail,Turkey,High,Verified,0,17,1334.14,78.48,389.71,39.47,83,9,1,2,6,1,7,76.22,Critical,P1
 CUST000870,Fatima Patel,Retail,United Kingdom,Low,Verified,0,16,2660.98,166.31,1802.02,35.88,76,9,1,2,6,2,2,76.17,Critical,P1
 CUST000106,Hannah Patel,Retail,Singapore,Low,Pending Review,0,8,6428.18,803.52,4074.3,52.62,80,8,1,2,5,1,6,76.16,Critical,P1
-CUST000827,Adam Hall,Retail,Turkey,High,Verified,0,17,1334.14,78.48,389.71,38.88,83,9,1,2,6,1,6,76.07,Critical,P1
+CUST000976,Muhammad Young,SME,Turkey,High,Verified,0,11,4963.3,451.21,4270.4,45.55,75,10,1,2,7,1,6,76.14,Critical,P1
 CUST000274,Ethan Patel,Retail,United Kingdom,Low,Failed,0,9,232.88,25.88,85.55,47.89,91,8,1,2,5,0,5,75.92,Critical,P1
-CUST000531,Maya Green,Retail,Nigeria,High,Verified,0,7,285.93,40.85,95.43,47.57,100,4,1,2,1,1,3,75.89,Critical,P1
-CUST000352,Zara Brown,Retail,Italy,Low,Verified,0,14,4410.76,315.05,3243.9,37.86,83,10,1,1,8,1,4,75.82,Critical,P1
 CUST000813,Adam Ali,Retail,United States,Low,Verified,0,12,6970.22,580.85,6331.18,35.58,93,8,1,1,6,1,4,75.74,Critical,P1
+CUST000352,Zara Brown,Retail,Italy,Low,Verified,0,14,4410.76,315.05,3243.9,37.14,83,10,1,1,8,1,3,75.64,Critical,P1
+CUST000426,Aisha Wright,Retail,Turkey,High,Verified,0,16,743.53,46.47,298.69,43.75,68,10,0,6,4,1,8,75.54,Critical,P1
 CUST000807,Amelia Ali,Retail,Singapore,Low,Verified,0,18,1152.3,64.02,312.67,35.33,83,12,1,1,10,1,5,75.18,Critical,P1
-CUST000306,Noah Ali,Retail,Germany,Low,Verified,1,13,825.6,63.51,197.78,46.62,81,13,1,2,10,0,13,75.1,Critical,P1
-CUST000426,Aisha Wright,Retail,Turkey,High,Verified,0,16,743.53,46.47,298.69,43.75,67,11,0,6,5,1,9,75.09,Critical,P1
 CUST000321,Oliver Jones,Retail,United Arab Emirates,Medium,Verified,0,15,1616.65,107.78,420.41,33.53,88,10,1,0,9,1,1,74.98,High,P2
-CUST000532,Lucas Davies,Retail,Spain,Low,Pending Review,0,11,394.83,35.89,71.75,48.45,73,10,0,5,5,0,7,74.96,High,P2
-CUST000911,Ethan Clarke,Retail,France,Low,Verified,1,8,316.24,39.53,117.58,53.5,81,8,1,3,4,0,8,74.82,High,P2
+CUST000532,Lucas Davies,Retail,Spain,Low,Pending Review,0,11,394.83,35.89,71.75,48.45,73,11,0,5,6,0,7,74.96,High,P2
+CUST000181,Leo Davies,Retail,Turkey,High,Verified,0,7,169.81,24.26,45.71,48.71,97,4,1,2,1,1,4,74.83,High,P2
 CUST000232,Fatima Wilson,Retail,Nigeria,High,Verified,0,10,2026.71,202.67,1696.4,45.6,94,6,1,3,2,0,6,74.7,High,P2
-CUST000380,Adam Hussain,SME,India,Medium,Verified,0,18,3230.7,179.48,1966.98,32.11,88,11,1,0,10,1,3,74.63,High,P2
-CUST000942,Fatima Thomas,SME,Turkey,High,Verified,0,19,726.69,38.25,120.11,41.42,67,14,0,7,7,1,7,74.5,High,P2
-CUST000457,Daniel Hussain,Retail,Nigeria,High,Verified,1,7,605.1,86.44,153.59,61.86,81,7,2,1,4,0,7,73.92,High,P2
-CUST000446,Amelia Walker,SME,United States,Low,Verified,0,10,656.65,65.66,149.81,36.9,88,6,1,1,4,2,3,73.82,High,P2
-CUST000461,Maya Clarke,Retail,Spain,Low,Verified,0,14,1067.5,76.25,223.1,28.5,88,6,1,2,3,2,1,73.72,High,P2
-CUST000257,Lucas Green,Retail,Netherlands,Low,Pending Review,0,10,1873.35,187.33,1031.28,50.5,69,10,0,6,4,0,6,73.68,High,P2
+CUST000380,Adam Hussain,SME,India,Medium,Verified,0,18,3230.7,179.48,1966.98,31.56,88,11,1,0,10,1,3,74.49,High,P2
+CUST000942,Fatima Thomas,SME,Turkey,High,Verified,0,19,726.69,38.25,120.11,40.89,67,14,0,6,8,1,7,74.37,High,P2
+CUST000449,Zara Khan,SME,Singapore,Low,Verified,0,12,13077.9,1089.82,12618.29,40.83,89,7,2,0,5,1,3,74.26,High,P2
 CUST000193,Ali Hussain,Corporate,Spain,Low,Verified,0,13,548.38,42.18,170.3,34.0,98,6,1,1,4,1,3,73.6,High,P2
-CUST000026,James Hall,SME,United Arab Emirates,Medium,Verified,0,9,4569.63,507.74,4077.2,43.44,88,7,1,1,5,1,3,73.46,High,P2
-CUST000201,Grace Taylor,Retail,United Arab Emirates,Medium,Verified,0,9,6812.3,756.92,3572.5,41.44,93,6,1,1,4,1,3,73.21,High,P2
+CUST000201,Grace Taylor,Retail,United Arab Emirates,Medium,Verified,0,9,6812.3,756.92,3572.5,42.56,93,6,1,1,4,1,3,73.49,High,P2
+CUST000316,Zara Ali,Retail,United States,Low,Verified,0,13,3263.79,251.06,2686.17,36.69,67,8,0,5,3,2,3,73.32,High,P2
+CUST000026,James Hall,SME,United Arab Emirates,Medium,Verified,0,9,4569.63,507.74,4077.2,42.33,88,7,1,1,5,1,2,73.18,High,P2
+CUST000809,Aisha Hall,SME,United Kingdom,Low,Pending Review,0,11,692.63,62.97,191.2,49.82,68,11,0,5,6,0,9,73.06,High,P2
 CUST000963,Lucas Young,Retail,Singapore,Low,Failed,0,8,367.39,45.92,121.1,54.12,81,8,1,2,5,0,8,72.98,High,P2
 CUST000725,Ethan Young,Corporate,India,Medium,Pending Review,0,10,6111.12,611.11,3023.08,49.3,77,10,2,0,8,0,7,72.97,High,P2
+CUST000257,Lucas Green,Retail,Netherlands,Low,Pending Review,0,10,1873.35,187.33,1031.28,49.5,68,10,0,6,4,0,6,72.97,High,P2
 CUST000787,Leo Young,Retail,Nigeria,High,Verified,0,11,4553.6,413.96,4304.78,48.36,75,8,1,4,3,0,8,72.84,High,P2
-CUST000809,Aisha Hall,SME,United Kingdom,Low,Pending Review,0,11,692.63,62.97,191.2,48.91,68,11,0,5,6,0,8,72.83,High,P2
-CUST000759,Ethan Smith,SME,Canada,Low,Verified,0,11,3333.92,303.08,2562.11,35.18,100,6,1,0,5,1,2,72.8,High,P2
-CUST000076,Mia Young,Retail,Pakistan,Medium,Pending Review,0,8,414.95,51.87,141.06,51.88,77,8,1,3,4,0,5,72.62,High,P2
-CUST000217,Oliver Ahmed,SME,United Kingdom,Low,Pending Review,0,10,632.67,63.27,228.73,48.4,72,10,0,4,6,0,7,72.5,High,P2
-CUST000329,Noah Thomas,Private Banking,France,Low,Verified,0,13,3033.2,233.32,2600.18,39.31,79,9,1,1,7,1,3,72.38,High,P2
+CUST000759,Ethan Smith,SME,Canada,Low,Verified,0,11,3333.92,303.08,2562.11,34.27,100,6,1,0,5,1,2,72.57,High,P2
+CUST000957,Daniel Ali,Retail,India,Medium,Verified,0,11,870.62,79.15,262.11,39.73,83,7,1,2,4,1,4,72.28,High,P2
+CUST000329,Noah Thomas,Private Banking,France,Low,Verified,0,13,3033.2,233.32,2600.18,38.54,79,9,1,1,7,1,2,72.18,High,P2
 CUST000105,Leo Thomas,Retail,France,Low,Pending Review,0,8,3899.91,487.49,3377.85,45.88,86,8,2,0,6,0,3,72.17,High,P2
-CUST000791,Grace Wright,Retail,United Arab Emirates,Medium,Verified,0,9,18465.05,2051.67,15160.92,44.78,91,6,2,1,3,0,3,72.15,High,P2
-CUST000912,James Brown,Retail,France,Low,Verified,0,17,760.68,44.75,169.42,29.12,93,6,1,0,5,2,4,72.13,High,P2
-CUST000039,Aisha Wilson,Retail,Italy,Low,Verified,0,13,850.79,65.45,234.31,30.08,88,6,1,1,4,2,2,72.12,High,P2
-CUST000957,Daniel Ali,Retail,India,Medium,Verified,0,11,870.62,79.15,262.11,38.82,83,7,1,2,4,1,3,72.06,High,P2
-CUST000156,Aisha Patel,Retail,Canada,Low,Verified,0,15,9836.62,655.77,9146.82,29.47,88,6,1,3,2,1,3,71.97,High,P2
-CUST000823,Aisha Wilson,Retail,United Arab Emirates,Medium,Verified,0,14,679.75,48.55,94.93,29.0,88,6,1,1,4,2,0,71.85,High,P2
+CUST000156,Aisha Patel,Retail,Canada,Low,Verified,0,15,9836.62,655.77,9146.82,30.13,88,6,1,3,2,1,3,72.13,High,P2
+CUST000217,Oliver Ahmed,SME,United Kingdom,Low,Pending Review,0,10,632.67,63.27,228.73,46.4,72,10,0,4,6,0,5,72.0,High,P2
+CUST000039,Aisha Wilson,Retail,Italy,Low,Verified,0,13,850.79,65.45,234.31,29.31,88,6,1,1,4,2,2,71.93,High,P2
+CUST000791,Grace Wright,Retail,United Arab Emirates,Medium,Verified,0,9,18465.05,2051.67,15160.92,43.67,91,6,2,1,3,0,3,71.87,High,P2
 CUST000527,Grace Hussain,SME,Turkey,High,Verified,0,11,12557.09,1141.55,4695.25,43.09,89,6,1,3,2,0,4,71.82,High,P2
 CUST000702,Sophia Khan,Retail,United Arab Emirates,Medium,Verified,0,11,4001.43,363.77,1669.54,37.36,83,8,1,1,6,1,1,71.69,High,P2
-CUST000316,Zara Ali,Retail,United States,Low,Verified,0,13,3263.79,251.06,2686.17,36.69,63,8,0,5,3,2,4,71.52,High,P2
+CUST000912,James Brown,Retail,France,Low,Verified,0,17,760.68,44.75,169.42,27.35,93,6,1,0,5,2,2,71.69,High,P2
+CUST000405,Daniel Walker,Retail,France,Low,Verified,0,11,4369.56,397.23,2347.09,35.91,88,7,1,1,5,1,4,71.58,High,P2
 CUST000470,Isabella Hussain,Retail,Turkey,High,Verified,0,8,1395.6,174.45,694.4,42.5,97,4,1,1,2,1,4,71.28,High,P2
-CUST000341,Mia Wright,SME,United States,Low,Verified,0,15,3339.91,222.66,2839.69,35.27,63,9,0,4,5,2,4,71.17,High,P2
-CUST000405,Daniel Walker,Retail,France,Low,Verified,0,11,4369.56,397.23,2347.09,34.09,88,7,1,1,5,1,3,71.12,High,P2
+CUST000341,Mia Wright,SME,United States,Low,Verified,0,15,3339.91,222.66,2839.69,35.27,63,9,0,4,5,2,5,71.17,High,P2
 CUST000993,Aisha Thomas,SME,India,Medium,Pending Review,0,9,358.86,39.87,84.65,46.56,81,9,1,1,7,0,5,71.09,High,P2
 CUST000571,Fatima Patel,SME,Spain,Low,Pending Review,0,8,1710.66,213.83,1165.16,40.88,93,6,1,0,5,1,3,71.07,High,P2
-CUST000705,Fatima Taylor,Retail,Turkey,High,Verified,0,14,9013.79,643.84,8097.29,45.43,66,11,0,6,5,0,8,71.06,High,P2
-CUST000736,James Davies,Retail,Spain,Low,Verified,0,12,965.63,80.47,333.57,31.83,98,5,1,1,3,1,3,71.06,High,P2
-CUST000726,Zara Thomas,Retail,Netherlands,Low,Verified,0,13,11374.62,874.97,10363.54,32.46,93,6,1,1,4,1,2,70.96,High,P2
-CUST000732,Amelia Hall,SME,France,Low,Verified,0,17,6873.69,404.33,5843.08,34.88,87,8,1,2,5,0,5,70.87,High,P2
+CUST000705,Fatima Taylor,Retail,Turkey,High,Verified,0,14,9013.79,643.84,8097.29,45.43,66,11,0,6,5,0,9,71.06,High,P2
 CUST000323,Maya Smith,Retail,France,Low,Verified,0,9,2980.84,331.2,2089.17,39.67,84,6,1,2,3,1,2,70.72,High,P2
+CUST000076,Mia Young,Retail,Pakistan,Medium,Pending Review,0,8,414.95,51.87,141.06,51.88,77,8,1,2,5,0,5,70.62,High,P2
+CUST000480,Leo Davies,Corporate,Turkey,High,Verified,0,9,397.55,44.17,118.92,50.44,71,8,0,5,3,0,6,70.56,High,P2
 CUST000090,Aisha Davies,SME,Spain,Low,Verified,0,14,6011.94,429.42,5174.23,34.86,93,5,2,0,3,1,5,70.56,High,P2
-CUST000871,Oliver Wilson,Retail,United States,Low,Verified,0,16,1129.51,70.59,550.23,31.62,79,8,1,2,5,1,3,70.46,High,P2
-CUST000480,Leo Davies,Corporate,Turkey,High,Verified,0,9,397.55,44.17,118.92,49.33,71,8,0,5,3,0,6,70.28,High,P2
+CUST000844,Noah Davies,Retail,United States,Low,Verified,0,13,616.29,47.41,110.37,32.23,83,6,1,1,4,2,2,70.41,High,P2
+CUST000871,Oliver Wilson,Retail,United States,Low,Verified,0,16,1129.51,70.59,550.23,31.0,79,8,1,2,5,1,3,70.3,High,P2
 CUST000368,Aisha Taylor,Retail,Spain,Low,Verified,0,17,4903.87,288.46,3743.66,31.65,83,7,1,2,4,1,3,70.26,High,P2
 CUST000121,Daniel Miller,Retail,Canada,Low,Verified,0,11,1888.71,171.7,1313.28,37.73,88,7,1,0,6,1,2,70.03,High,P2
-CUST000844,Noah Davies,Retail,United States,Low,Verified,0,13,616.29,47.41,110.37,30.69,83,6,1,1,4,2,1,70.02,High,P2
-CUST000028,Adam Smith,Retail,Nigeria,High,Verified,0,10,400.37,40.04,110.09,44.5,73,8,0,3,5,1,6,69.97,High,P2
-CUST000792,Noah Khan,Retail,Canada,Low,Pending Review,0,16,611.53,38.22,132.13,44.62,64,16,0,5,11,0,8,69.96,High,P2
+CUST000535,Zara Clarke,Retail,Turkey,High,Verified,0,8,300.52,37.56,124.87,40.12,100,4,1,0,3,1,3,70.03,High,P2
+CUST000169,Fatima Patel,Retail,Turkey,High,Verified,0,10,464.74,46.47,193.29,47.8,71,8,0,6,2,0,7,69.9,High,P2
+CUST000576,Mia Miller,Retail,United Arab Emirates,Medium,Verified,0,14,6613.04,472.36,5851.58,27.14,98,6,1,0,5,1,3,69.89,High,P2
 CUST000573,Hannah Clarke,Retail,Turkey,High,Verified,0,10,4699.99,470.0,4284.29,43.9,73,6,0,3,3,2,3,69.82,High,P2
+CUST000445,Isabella Ali,Retail,Turkey,High,Verified,0,19,2352.78,123.83,1548.47,40.11,66,13,0,5,8,0,11,69.73,High,P2
 CUST000526,Grace Davies,Retail,United Kingdom,Low,Verified,0,9,5787.05,643.01,5520.02,41.44,83,5,2,1,2,1,2,69.71,High,P2
-CUST000169,Fatima Patel,Retail,Turkey,High,Verified,0,10,464.74,46.47,193.29,46.8,71,8,0,6,2,0,7,69.65,High,P2
 CUST000770,Grace Green,Retail,Pakistan,Medium,Verified,0,9,8531.53,947.95,8228.9,36.89,83,4,1,2,1,2,1,69.57,High,P2
-CUST000445,Isabella Ali,Retail,Turkey,High,Verified,0,19,2352.78,123.83,1548.47,39.05,66,13,0,5,8,0,9,69.46,High,P2
-CUST000974,Zara Brown,Retail,Pakistan,Medium,Failed,0,13,750.31,57.72,250.5,44.23,72,13,0,3,10,0,6,69.46,High,P2
-CUST000139,Hannah Patel,Retail,Turkey,High,Verified,0,8,1138.13,142.27,811.03,53.25,58,8,0,5,3,1,7,69.41,High,P2
-CUST000537,Lucas Walker,SME,India,Medium,Verified,0,10,729.51,72.95,295.43,34.0,93,6,1,0,5,1,1,69.35,High,P2
-CUST000925,Amelia Brown,Retail,Nigeria,High,Verified,0,12,1340.36,111.7,843.66,46.08,66,9,0,5,4,0,7,69.22,High,P2
-CUST000922,Fatima Young,Retail,Nigeria,High,Verified,0,7,301.62,43.09,129.76,48.71,73,6,0,4,2,1,4,69.03,High,P2
-CUST000325,Ethan Walker,Retail,Italy,Low,Verified,0,11,518.8,47.16,191.75,33.36,88,5,1,2,2,1,2,68.94,High,P2
-CUST000752,Mia Young,Corporate,United States,Low,Pending Review,0,11,5000.69,454.61,4390.9,47.27,69,11,0,3,8,0,7,68.87,High,P2
-CUST000629,Sophia Miller,Retail,Turkey,High,Verified,0,8,3379.89,422.49,2929.16,46.38,76,6,1,2,3,1,4,68.8,High,P2
-CUST000302,Noah Wright,Private Banking,Netherlands,Low,Pending Review,0,9,420.8,46.76,102.61,44.33,77,9,1,1,7,0,4,68.73,High,P2
-CUST000920,Ali Miller,Retail,Canada,Low,Failed,0,8,509.35,63.67,130.27,43.75,86,8,1,0,7,0,4,68.64,High,P2
+CUST000922,Fatima Young,Retail,Nigeria,High,Verified,0,7,301.62,43.09,129.76,50.14,73,6,0,4,2,1,5,69.39,High,P2
+CUST000925,Amelia Brown,Retail,Nigeria,High,Verified,0,12,1340.36,111.7,843.66,45.25,66,9,0,5,4,0,7,69.01,High,P2
+CUST000302,Noah Wright,Private Banking,Netherlands,Low,Pending Review,0,9,420.8,46.76,102.61,45.44,77,9,1,1,7,0,5,69.01,High,P2
+CUST000709,Ethan Davies,Retail,France,Low,Pending Review,0,12,734.74,61.23,165.49,38.25,76,10,1,1,8,0,3,68.76,High,P2
+CUST000325,Ethan Walker,Retail,Italy,Low,Verified,0,11,518.8,47.16,191.75,32.45,88,5,1,2,2,1,2,68.71,High,P2
+CUST000752,Mia Young,Corporate,United States,Low,Pending Review,0,11,5000.69,454.61,4390.9,46.36,69,11,0,3,8,0,6,68.64,High,P2
 CUST000016,James Taylor,SME,Spain,Low,Pending Review,0,6,401.0,66.83,118.75,52.67,81,6,1,2,3,0,3,68.62,High,P2
+CUST000395,Zara Young,Retail,Singapore,Low,Verified,0,12,752.4,62.7,244.98,27.08,93,3,2,0,1,2,1,68.62,High,P2
 CUST000688,Oliver Clarke,Retail,Turkey,High,Verified,0,10,16025.08,1602.51,11230.78,45.6,76,8,1,2,5,0,5,68.6,High,P2
-CUST000709,Ethan Davies,Retail,France,Low,Pending Review,0,12,734.74,61.23,165.49,37.42,76,10,1,1,8,0,2,68.56,High,P2
 CUST000729,Ali Ahmed,Retail,United States,Low,Pending Review,0,9,623.43,69.27,125.21,48.33,72,9,0,3,6,0,5,68.48,High,P2
-CUST000962,Noah Wilson,Retail,Pakistan,Medium,Verified,0,12,615.01,51.25,128.72,37.58,73,9,0,2,7,1,2,68.24,High,P2
-CUST000294,Maya Davies,Retail,Germany,Low,Pending Review,0,9,306.74,34.08,84.26,44.0,76,9,1,1,7,0,4,68.2,High,P2
-CUST000989,Zara Jones,SME,United States,Low,Pending Review,0,13,3669.89,282.3,2642.79,47.31,63,13,0,4,9,0,9,68.18,High,P2
-CUST000347,Noah Smith,SME,United Kingdom,Low,Pending Review,0,8,544.79,68.1,263.1,47.0,72,8,0,4,4,0,4,68.15,High,P2
-CUST000372,Adam Smith,Retail,Turkey,High,Verified,0,11,4326.65,393.33,3900.45,47.18,67,8,0,5,3,0,8,67.94,High,P2
-CUST000452,Oliver Smith,Retail,Spain,Low,Verified,0,14,5602.33,400.17,3801.01,29.14,88,7,1,0,6,1,2,67.89,High,P2
-CUST000535,Zara Clarke,Retail,Turkey,High,Verified,0,8,300.52,37.57,124.87,38.88,100,3,1,0,2,1,2,67.72,High,P2
-CUST000576,Mia Miller,Retail,United Arab Emirates,Medium,Verified,0,14,6613.04,472.36,5851.58,26.43,98,5,1,0,4,1,2,67.71,High,P2
-CUST000135,Noah Ali,Retail,Germany,Low,Verified,0,15,935.7,62.38,173.15,29.4,83,6,1,2,3,1,2,67.7,High,P2
+CUST000294,Maya Davies,Retail,Germany,Low,Pending Review,0,9,306.74,34.08,84.26,45.11,76,9,1,1,7,0,5,68.48,High,P2
+CUST000347,Noah Smith,SME,United Kingdom,Low,Pending Review,0,8,544.79,68.1,263.1,48.25,72,8,0,4,4,0,5,68.46,High,P2
+CUST000732,Amelia Hall,SME,France,Low,Verified,0,17,6873.69,404.33,5843.08,34.88,77,9,1,2,6,0,5,68.37,High,P2
+CUST000973,Lucas Ahmed,Retail,Pakistan,Medium,Verified,0,8,322.43,40.3,84.83,39.88,83,4,1,1,2,2,2,68.32,High,P2
+CUST000962,Noah Wilson,Retail,Pakistan,Medium,Verified,0,12,615.01,51.25,128.72,37.58,73,9,0,2,7,1,3,68.24,High,P2
+CUST000224,Lucas Green,Retail,Singapore,Low,Pending Review,0,10,3705.37,370.54,3260.4,45.8,68,10,0,3,7,0,7,68.05,High,P2
+CUST000989,Zara Jones,SME,United States,Low,Pending Review,0,13,3669.89,282.3,2642.79,45.77,68,11,0,3,8,0,9,68.04,High,P2
+CUST000674,Maya Ahmed,SME,France,Low,Pending Review,0,11,691.46,62.86,257.99,44.64,73,10,0,2,8,0,6,68.01,High,P2
+CUST000028,Adam Smith,Retail,Nigeria,High,Verified,0,10,400.37,40.04,110.09,44.5,73,7,0,3,4,1,5,67.97,High,P2
+CUST000452,Oliver Smith,Retail,Spain,Low,Verified,0,14,5602.33,400.17,3801.01,29.14,88,7,1,0,6,1,1,67.89,High,P2
+CUST000135,Noah Ali,Retail,Germany,Low,Verified,0,15,935.7,62.38,173.15,30.07,83,6,1,2,3,1,2,67.87,High,P2
+CUST000937,Daniel Davies,Retail,Turkey,High,Verified,0,10,4052.0,405.2,2190.91,48.4,66,8,0,5,3,0,7,67.8,High,P2
 CUST000654,Sophia Hall,Retail,India,Medium,Verified,0,9,7542.48,838.05,7088.15,37.0,83,6,1,1,4,1,1,67.6,High,P2
+CUST000914,Mia Hall,Private Banking,Turkey,High,Verified,0,12,7299.77,608.31,4056.03,44.17,79,8,1,1,6,0,6,67.59,High,P2
 CUST000450,Maya Young,Retail,Pakistan,Medium,Verified,1,12,1130.07,94.17,320.52,43.33,68,12,0,3,9,0,11,67.43,High,P2
+CUST000011,Noah Ahmed,Retail,Nigeria,High,Verified,0,16,676.52,42.28,168.94,40.38,76,7,1,3,3,0,6,67.3,High,P2
+CUST000974,Zara Brown,Retail,Pakistan,Medium,Failed,0,13,750.31,57.72,250.5,43.46,72,13,0,2,11,0,6,67.26,High,P2
 CUST000284,Noah Ali,Retail,United States,Low,Verified,0,12,4191.94,349.33,3561.52,30.58,88,5,2,0,3,1,2,67.24,High,P2
-CUST000786,Leo Jones,Corporate,United Kingdom,Low,Verified,0,12,8157.07,679.76,7726.72,31.42,83,5,2,1,2,1,3,67.2,High,P2
+CUST000158,Leo Khan,Retail,Italy,Low,Verified,0,18,6683.18,371.29,4259.52,31.94,76,9,1,2,6,0,4,67.18,High,P2
 CUST000388,Zara Ali,Retail,Singapore,Low,Verified,0,10,7662.8,766.28,6796.72,33.3,93,4,1,1,2,1,3,67.18,High,P2
-CUST000797,Adam Wright,Corporate,Pakistan,Medium,Verified,0,11,673.84,61.26,204.19,35.18,83,5,1,2,2,1,3,67.15,High,P2
-CUST000088,Muhammad Wright,Retail,Turkey,High,Verified,0,11,658.9,59.9,263.51,44.55,66,9,0,4,5,0,7,66.84,High,P2
-CUST000785,Leo Hall,SME,Germany,Low,Pending Review,0,5,3280.99,656.2,2378.49,51.4,91,5,1,0,4,0,2,66.8,High,P2
-CUST000124,Daniel Hall,Retail,Nigeria,High,Verified,0,13,497.02,38.23,126.42,42.85,71,9,0,3,6,0,7,66.66,High,P2
+CUST000139,Hannah Patel,Retail,Turkey,High,Verified,0,8,1138.13,142.27,811.03,52.0,58,7,0,5,2,1,6,67.1,High,P2
+CUST000792,Noah Khan,Retail,Canada,Low,Pending Review,0,16,611.53,38.22,132.13,42.75,63,16,0,4,12,0,6,67.04,High,P2
+CUST000500,Fatima Jones,SME,Germany,Low,Verified,0,6,1512.85,252.14,1219.78,47.67,84,5,1,0,4,1,3,66.72,High,P2
+CUST000124,Daniel Hall,Retail,Nigeria,High,Verified,0,13,497.02,38.23,126.42,42.85,71,9,0,3,6,0,6,66.66,High,P2
 CUST000019,Noah Khan,Retail,Nigeria,High,Verified,0,8,367.13,45.89,88.45,50.75,71,7,0,4,3,0,6,66.64,High,P2
 CUST000404,Leo Young,Retail,Turkey,High,Verified,0,8,683.63,85.45,243.91,51.5,66,7,0,6,1,0,6,66.58,High,P2
 CUST000233,Ali Robinson,Retail,India,Medium,Verified,0,7,303.63,43.38,133.32,39.43,88,5,1,0,4,1,1,66.46,High,P2
-CUST000500,Fatima Jones,SME,Germany,Low,Verified,0,6,1512.85,252.14,1219.78,46.0,84,5,1,0,4,1,3,66.3,High,P2
-CUST000292,Leo Jones,SME,Italy,Low,Pending Review,0,10,680.57,68.06,221.72,44.9,73,9,0,2,7,0,6,66.08,High,P2
+CUST000234,James Patel,Corporate,Netherlands,Low,Verified,0,8,201.88,25.24,47.67,39.12,88,5,1,0,4,1,3,66.38,High,P2
+CUST000736,James Davies,Retail,Spain,Low,Verified,0,12,965.63,80.47,333.57,31.0,88,5,1,1,3,1,2,66.35,High,P2
+CUST000292,Leo Jones,SME,Italy,Low,Pending Review,0,10,680.57,68.06,221.72,45.9,73,9,0,2,7,0,7,66.32,High,P2
+CUST000442,Lucas Wright,Retail,Nigeria,High,Verified,0,9,398.5,44.28,126.11,40.56,78,6,1,1,4,1,3,66.24,High,P2
 CUST000764,Grace Ali,SME,Turkey,High,Verified,0,8,282.22,35.28,97.11,50.5,61,8,0,5,3,0,5,66.08,High,P2
-CUST000234,James Patel,Corporate,Netherlands,Low,Verified,0,8,201.88,25.24,47.67,37.88,88,5,1,0,4,1,2,66.07,High,P2
-CUST000674,Maya Ahmed,SME,France,Low,Pending Review,0,11,691.46,62.86,257.99,44.64,73,9,0,2,7,0,7,66.01,High,P2
+CUST000476,Zara Brown,Retail,Germany,Low,Pending Review,0,10,572.76,57.28,223.1,46.8,63,10,0,3,7,0,5,66.05,High,P2
+CUST000423,Mia Thomas,SME,Singapore,Low,Pending Review,0,6,257.32,42.89,101.69,50.33,81,6,1,1,4,0,4,66.03,High,P2
 CUST000604,Oliver Patel,Retail,Singapore,Low,Verified,0,13,2457.01,189.0,1581.4,27.85,89,5,1,1,3,1,2,66.01,High,P2
-CUST000442,Lucas Wright,Retail,Nigeria,High,Verified,0,9,398.5,44.28,126.11,39.44,78,6,1,1,4,1,2,65.96,High,P2
+CUST000786,Leo Jones,Corporate,United Kingdom,Low,Verified,0,12,8157.07,679.76,7726.72,30.58,83,5,1,2,2,1,3,66.0,High,P2
+CUST000726,Zara Thomas,Retail,Netherlands,Low,Verified,0,13,11374.62,874.97,10363.54,30.15,83,6,1,1,4,1,1,65.89,High,P2
 CUST000675,Mia Patel,Retail,Netherlands,Low,Verified,0,7,298.71,42.67,119.52,37.14,88,3,1,2,0,1,2,65.89,High,P2
 CUST000087,Oliver Davies,Retail,Nigeria,High,Verified,0,15,851.32,56.75,208.27,39.67,71,10,0,2,8,0,8,65.87,High,P2
-CUST000224,Lucas Green,Retail,Singapore,Low,Pending Review,0,10,3705.37,370.54,3260.4,44.8,68,10,0,2,8,0,7,65.8,High,P2
-CUST000476,Zara Brown,Retail,Germany,Low,Pending Review,0,10,572.76,57.28,223.1,45.8,63,10,0,3,7,0,4,65.8,High,P2
-CUST000562,Daniel Thomas,SME,United Arab Emirates,Medium,Verified,0,16,672.22,42.01,101.85,26.88,89,6,1,0,5,1,3,65.77,High,P2
-CUST000047,Aisha Smith,Retail,United Arab Emirates,Medium,Verified,0,16,1251.32,78.21,254.41,32.06,66,10,0,2,8,1,5,65.72,High,P2
-CUST000664,Oliver Hall,Retail,Nigeria,High,Verified,0,14,2955.62,211.12,2264.52,39.0,71,9,0,3,6,0,6,65.7,High,P2
-CUST000423,Mia Thomas,SME,Singapore,Low,Pending Review,0,6,257.32,42.89,101.69,48.67,81,6,1,1,4,0,3,65.62,High,P2
+CUST000638,Maya Young,SME,Spain,Low,Verified,0,12,497.83,41.49,108.4,27.0,98,4,1,0,3,1,1,65.85,High,P2
+CUST000629,Sophia Miller,Retail,Turkey,High,Verified,0,8,3379.89,422.49,2929.16,43.88,73,6,0,3,3,1,3,65.82,High,P2
+CUST000372,Adam Smith,Retail,Turkey,High,Verified,0,11,4326.65,393.33,3900.45,46.27,67,7,0,5,2,0,7,65.72,High,P2
+CUST000802,Maya Young,Retail,Singapore,Low,Verified,0,9,346.01,38.45,95.13,37.33,83,6,1,0,5,1,3,65.68,High,P2
 CUST000773,Muhammad Davies,Retail,Singapore,Low,Verified,0,9,7058.72,784.3,6745.32,35.89,88,4,1,1,2,1,2,65.57,High,P2
-CUST000937,Daniel Davies,Retail,Turkey,High,Verified,0,10,4052.0,405.2,2190.91,47.4,66,7,0,5,2,0,6,65.55,High,P2
-CUST000683,Zara Thomas,Retail,Nigeria,High,Verified,0,9,3420.49,380.05,3164.63,43.89,79,7,1,1,5,0,6,65.52,High,P2
-CUST000914,Mia Hall,Private Banking,Turkey,High,Verified,0,12,7299.77,608.31,4056.03,43.33,79,7,1,1,5,0,5,65.38,High,P2
+CUST000562,Daniel Thomas,SME,United Arab Emirates,Medium,Verified,0,16,672.22,42.01,101.85,25.62,89,6,1,0,5,1,2,65.46,High,P2
 CUST000593,Adam Jones,Corporate,Pakistan,Medium,Verified,0,13,3443.19,264.86,2622.4,30.69,66,6,0,4,2,2,2,65.37,High,P2
-CUST000011,Noah Ahmed,Retail,Nigeria,High,Verified,0,16,676.52,42.28,168.94,39.75,76,6,1,3,2,0,5,65.14,High,P2
-CUST000652,Muhammad Hall,Retail,Singapore,Low,Verified,0,7,210.09,30.01,77.99,32.14,98,3,1,0,2,1,2,65.14,High,P2
-CUST000194,Grace Young,SME,Nigeria,High,Verified,0,9,3277.12,364.12,2884.58,42.33,79,7,1,1,5,0,4,65.13,High,P2
+CUST000498,Aisha Young,SME,Netherlands,Low,Verified,0,14,1480.73,105.77,1035.02,39.29,61,10,0,4,6,0,7,65.27,High,P2
 CUST000909,Fatima Robinson,Retail,Turkey,High,Verified,0,3,4765.48,1588.49,4479.37,55.0,94,3,1,0,2,0,2,65.05,High,P2
+CUST000068,Ali Robinson,SME,Singapore,Low,Verified,0,11,402.76,36.61,86.63,33.55,79,7,1,0,6,1,2,64.94,High,P2
+CUST000797,Adam Wright,Corporate,Pakistan,Medium,Verified,0,11,673.84,61.26,204.19,34.27,83,5,1,1,3,1,3,64.92,High,P2
 CUST000540,Oliver Ali,Retail,Spain,Low,Pending Review,0,13,591.73,45.52,106.9,40.23,64,12,0,3,9,0,5,64.86,High,P2
+CUST000537,Lucas Walker,SME,India,Medium,Verified,0,10,729.51,72.95,295.43,34.0,83,6,1,0,5,1,0,64.85,High,P2
 CUST000295,Lucas Taylor,Retail,Nigeria,High,Verified,0,2,45.59,22.8,42.68,67.0,78,2,1,1,0,1,1,64.85,High,P2
-CUST000498,Aisha Young,SME,Netherlands,Low,Verified,0,14,1480.73,105.77,1035.02,37.14,61,10,0,4,6,0,6,64.74,High,P2
-CUST000581,James Thomas,Corporate,United States,Low,Pending Review,0,8,513.95,64.24,175.85,48.38,68,8,0,3,5,0,5,64.69,High,P2
+CUST000088,Muhammad Wright,Retail,Turkey,High,Verified,0,11,658.9,59.9,263.51,44.55,66,8,0,4,4,0,7,64.84,High,P2
 CUST000728,Lucas Davies,Corporate,Canada,Low,Verified,0,6,2934.37,489.06,2617.46,33.83,96,3,1,0,2,1,2,64.66,High,P2
-CUST000943,Zara Ali,SME,Pakistan,Medium,Pending Review,0,8,449.15,56.14,176.65,46.25,69,8,0,3,5,0,5,64.61,High,P2
 CUST000022,Zara Miller,SME,Turkey,High,Verified,0,9,4419.89,491.1,4031.73,41.89,78,6,1,0,5,1,2,64.57,High,P2
 CUST000884,Oliver Thomas,Retail,Singapore,Low,Verified,0,9,397.34,44.15,96.34,32.67,83,5,1,1,3,1,1,64.52,High,P2
-CUST000991,Noah Davies,Retail,Nigeria,High,Verified,0,13,2229.61,171.51,1372.14,41.31,67,8,0,4,4,0,6,64.48,High,P2
-CUST000722,Sophia Davies,SME,United States,Low,Verified,0,8,864.86,108.11,280.21,33.12,78,4,1,1,2,2,0,64.38,High,P2
-CUST000395,Zara Young,Retail,Singapore,Low,Verified,0,12,752.4,62.7,244.98,26.25,84,3,2,0,1,2,0,64.36,High,P2
-CUST000766,James Walker,SME,United States,Low,Verified,0,11,5330.69,484.61,4855.77,32.64,78,6,1,1,4,1,1,64.26,High,P2
-CUST000975,Ethan Patel,SME,Nigeria,High,Verified,0,13,472.42,36.34,109.38,40.31,67,9,0,3,6,0,6,64.23,High,P2
+CUST000434,Noah Patel,Retail,France,Low,Verified,0,11,1808.73,164.43,1521.51,31.36,88,5,1,0,4,1,1,64.44,High,P2
+CUST000120,Daniel Green,SME,Nigeria,High,Verified,0,11,6544.06,594.91,3700.55,42.73,66,9,0,3,6,0,6,64.38,High,P2
+CUST000766,James Walker,SME,United States,Low,Verified,0,11,5330.69,484.61,4855.77,32.64,78,6,1,1,4,1,2,64.26,High,P2
 CUST000560,Zara Green,SME,Pakistan,Medium,Verified,0,11,3493.15,317.56,2970.97,31.18,83,6,1,0,5,1,1,64.15,High,P2
+CUST000722,Sophia Davies,SME,United States,Low,Verified,0,8,864.86,108.11,280.21,31.88,78,4,1,1,2,2,0,64.07,High,P2
+CUST000975,Ethan Patel,SME,Nigeria,High,Verified,0,13,472.42,36.34,109.38,39.54,67,9,0,3,6,0,5,64.04,High,P2
 CUST000901,Lucas Miller,SME,Netherlands,Low,Verified,0,12,6035.84,502.99,5027.48,33.0,86,6,1,1,4,0,3,63.95,High,P2
 CUST000010,Hannah Ahmed,Retail,Turkey,High,Verified,0,8,734.78,91.85,444.71,48.75,66,6,0,5,1,0,6,63.89,High,P2
-CUST000692,Maya Patel,SME,Turkey,High,Verified,0,9,5687.82,631.98,5413.59,47.56,71,6,0,4,2,0,5,63.84,High,P2
+CUST000943,Zara Ali,SME,Pakistan,Medium,Pending Review,0,8,449.15,56.14,176.65,45.0,68,8,0,3,5,0,5,63.85,High,P2
+CUST000920,Ali Miller,Retail,Canada,Low,Failed,0,8,509.35,63.67,130.27,42.5,76,8,1,0,7,0,4,63.82,High,P2
 CUST000525,Ali Young,Retail,Netherlands,Low,Verified,0,18,1073.38,59.63,174.67,28.72,59,10,0,1,9,2,2,63.73,High,P2
 CUST000142,Fatima Smith,Retail,India,Medium,Verified,0,6,173.38,28.9,62.65,36.33,88,4,1,0,3,1,0,63.68,High,P2
 CUST000100,Ethan Hall,Retail,France,Low,Pending Review,0,12,675.45,56.29,170.27,45.17,63,12,0,2,10,0,6,63.64,High,P2
+CUST000104,Hannah Smith,Retail,Turkey,High,Verified,0,15,1685.7,112.38,526.84,39.53,66,9,0,3,6,0,8,63.58,High,P2
+CUST000692,Maya Patel,SME,Turkey,High,Verified,0,9,5687.82,631.98,5413.59,46.44,71,6,0,4,2,0,5,63.56,High,P2
 CUST000650,Isabella Thomas,Retail,Netherlands,Low,Verified,0,15,1106.54,73.77,326.95,31.27,66,9,0,2,7,1,2,63.52,High,P2
+CUST000664,Oliver Hall,Retail,Nigeria,High,Verified,0,14,2955.62,211.12,2264.52,38.29,71,8,0,3,5,0,5,63.52,High,P2
+CUST000194,Grace Young,SME,Nigeria,High,Verified,0,9,3277.12,364.12,2884.58,43.44,79,6,1,1,4,0,5,63.41,High,P2
 CUST000572,Noah Taylor,Retail,Singapore,Low,Verified,0,6,7207.35,1201.23,6723.62,37.5,100,3,1,0,2,0,1,63.38,High,P2
 CUST000647,Muhammad Hall,Retail,Netherlands,Low,Verified,0,9,379.57,42.17,97.51,36.0,83,5,1,0,4,1,1,63.35,High,P2
 CUST000954,Amelia Wilson,Retail,Nigeria,High,Verified,0,9,825.07,91.67,396.12,45.56,71,7,0,3,4,0,5,63.34,High,P2
-CUST000034,Isabella Ahmed,Retail,Pakistan,Medium,Verified,0,8,2650.26,331.28,2209.35,33.38,93,3,1,0,2,1,3,63.2,High,P2
+CUST000817,Ethan Davies,Retail,Pakistan,Medium,Verified,0,10,427.85,42.78,114.42,33.0,89,4,1,0,3,1,2,63.3,High,P2
+CUST000683,Zara Thomas,Retail,Nigeria,High,Verified,0,9,3420.49,380.05,3164.63,42.78,79,6,1,1,4,0,5,63.24,High,P2
 CUST000393,Mia Brown,SME,Germany,Low,Verified,0,14,733.21,52.37,163.21,24.5,89,5,1,0,4,1,1,63.18,High,P2
 CUST000456,Hannah Walker,Retail,Italy,Low,Verified,0,3,8402.18,2800.73,8326.71,44.67,100,2,1,0,1,0,1,63.17,High,P2
-CUST000783,Noah Walker,Retail,Nigeria,High,Verified,0,10,452.2,45.22,92.23,44.7,71,6,0,4,2,0,6,63.12,High,P2
-CUST000817,Ethan Davies,Retail,Pakistan,Medium,Verified,0,10,427.85,42.78,114.42,32.0,89,4,1,0,3,1,1,63.05,High,P2
+CUST000900,Ethan Ahmed,SME,Singapore,Low,Pending Review,0,14,737.39,52.67,428.32,40.86,64,13,0,2,11,0,6,63.02,High,P2
 CUST000557,Sophia Miller,SME,United States,Low,Pending Review,0,7,703.8,100.54,232.32,49.57,68,7,0,3,4,0,5,62.99,High,P2
-CUST000900,Ethan Ahmed,SME,Singapore,Low,Pending Review,0,14,737.39,52.67,428.32,40.14,64,13,0,2,11,0,5,62.84,High,P2
 CUST000260,Hannah Hall,Retail,Canada,Low,Verified,1,8,267.27,33.41,104.98,48.88,59,8,0,4,4,0,8,62.77,High,P2
-CUST000385,Leo Young,Retail,India,Medium,Verified,0,12,360.35,30.03,134.37,32.83,79,6,1,0,5,1,2,62.76,High,P2
-CUST000662,Ali Taylor,Retail,Pakistan,Medium,Verified,0,11,537.29,48.84,112.71,31.73,84,4,1,1,2,1,2,62.73,High,P2
+CUST000299,Oliver Hussain,SME,Canada,Low,Verified,0,12,7057.53,588.13,6083.95,35.08,82,7,1,0,6,0,4,62.67,High,P2
 CUST000408,Lucas Green,Retail,Spain,Low,Verified,0,10,667.66,66.77,295.76,33.2,83,4,1,1,2,1,1,62.65,High,P2
-CUST000828,Grace Hall,SME,Spain,Low,Verified,0,13,2579.56,198.43,2090.98,35.69,66,8,0,4,4,0,5,62.62,High,P2
+CUST000657,Lucas Robinson,Retail,Germany,Low,Verified,0,9,277.91,30.88,99.11,31.89,88,4,1,0,3,1,2,62.57,High,P2
+CUST000385,Leo Young,Retail,India,Medium,Verified,0,12,360.35,30.03,134.37,32.0,79,6,1,0,5,1,1,62.55,High,P2
 CUST000761,James Wright,Retail,Nigeria,High,Verified,0,7,8997.68,1285.38,6955.0,51.29,66,6,0,4,2,0,6,62.52,High,P2
-CUST000068,Ali Robinson,SME,Singapore,Low,Verified,0,11,402.76,36.61,86.63,31.73,79,6,1,0,5,1,1,62.48,High,P2
+CUST000662,Ali Taylor,Retail,Pakistan,Medium,Verified,0,11,537.29,48.84,112.71,30.82,84,4,1,1,2,1,2,62.5,High,P2
+CUST000561,Isabella Smith,Retail,Spain,Low,Verified,0,15,713.51,47.57,221.61,29.93,60,8,0,2,6,2,1,62.48,High,P2
+CUST000991,Noah Davies,Retail,Nigeria,High,Verified,0,13,2229.61,171.51,1372.14,41.31,67,7,0,4,3,0,5,62.48,High,P2
+CUST000869,Zara Wright,Retail,Singapore,Low,Verified,0,9,582.07,64.67,155.55,31.44,88,4,1,0,3,1,0,62.46,High,P2
+CUST000828,Grace Hall,SME,Spain,Low,Verified,0,13,2579.56,198.43,2090.98,34.92,66,8,0,4,4,0,5,62.43,High,P2
 CUST000153,Maya Jones,Retail,Germany,Low,Pending Review,0,8,307.48,38.44,132.37,48.25,63,8,0,3,5,0,6,62.41,High,P2
-CUST000561,Isabella Smith,Retail,Spain,Low,Verified,0,15,713.51,47.57,221.61,29.27,60,8,0,2,6,2,0,62.32,High,P2
 CUST000947,Amelia Brown,SME,France,Low,Failed,0,5,4410.89,882.18,3122.2,50.6,77,5,1,1,3,0,3,62.3,High,P2
-CUST000657,Lucas Robinson,Retail,Germany,Low,Verified,0,9,277.91,30.88,99.11,30.78,88,4,1,0,3,1,2,62.3,High,P2
-CUST000434,Noah Patel,Retail,France,Low,Verified,0,11,1808.73,164.43,1521.51,30.45,88,4,1,0,3,1,0,62.21,High,P2
-CUST000869,Zara Wright,Retail,Singapore,Low,Verified,0,9,582.07,64.67,155.55,30.33,88,4,1,0,3,1,0,62.18,High,P2
-CUST000158,Leo Khan,Retail,Italy,Low,Verified,0,18,6683.18,371.29,4259.52,31.94,67,9,0,3,6,0,5,62.14,High,P2
+CUST000581,James Thomas,Corporate,United States,Low,Pending Review,0,8,513.95,64.24,175.85,47.12,63,8,0,3,5,0,5,62.13,High,P2
+CUST000070,Daniel Wilson,Retail,Pakistan,Medium,Verified,0,10,3419.37,341.94,2509.71,29.9,88,4,1,0,3,1,1,62.08,High,P2
 CUST000253,Sophia Clarke,Retail,Pakistan,Medium,Pending Review,0,9,9157.85,1017.54,8603.35,46.0,59,9,0,3,6,0,6,62.05,High,P2
-CUST000612,Aisha Hall,Retail,France,Low,Verified,0,4,188.11,47.03,137.06,45.0,84,2,1,1,0,1,1,62.05,High,P2
+CUST000998,Mia Clarke,Retail,United Arab Emirates,Medium,Verified,0,14,4041.43,288.67,3528.85,31.43,67,7,0,3,4,1,3,62.01,High,P2
 CUST000930,Ethan Taylor,Retail,Nigeria,High,Verified,0,13,1025.73,78.9,292.3,40.23,62,8,0,4,4,0,5,61.96,High,P2
-CUST000973,Lucas Ahmed,Retail,Pakistan,Medium,Verified,0,8,322.43,40.3,84.83,36.12,73,4,0,2,2,2,0,61.88,High,P2
-CUST000070,Daniel Wilson,Retail,Pakistan,Medium,Verified,0,10,3419.37,341.94,2509.71,28.9,88,4,1,0,3,1,0,61.82,High,P2
-CUST000133,Aisha Robinson,Corporate,Italy,Low,Verified,0,8,339.24,42.4,113.93,36.0,79,5,1,0,4,1,1,61.55,High,P2
-CUST000919,Aisha Taylor,Retail,Netherlands,Low,Pending Review,0,8,584.23,73.03,207.67,44.75,63,8,0,3,5,0,4,61.54,High,P2
+CUST000919,Aisha Taylor,Retail,Netherlands,Low,Pending Review,0,8,584.23,73.03,207.67,46.0,63,8,0,3,5,0,5,61.85,High,P2
+CUST000785,Leo Hall,SME,Germany,Low,Pending Review,0,5,3280.99,656.2,2378.49,49.4,81,5,1,0,4,0,2,61.8,High,P2
+CUST000609,Mia Green,Corporate,Singapore,Low,Verified,0,13,1228.2,94.48,555.67,28.69,83,5,1,0,4,1,0,61.52,High,P2
 CUST000547,Mia Clarke,Retail,Canada,Low,Verified,0,12,1943.73,161.98,1247.7,28.5,83,5,1,0,4,1,1,61.48,High,P2
-CUST000468,Lucas Clarke,Retail,Spain,Low,Verified,0,12,516.19,43.02,166.57,28.33,83,5,1,0,4,1,3,61.43,High,P2
+CUST000468,Lucas Clarke,Retail,Spain,Low,Verified,0,12,516.19,43.02,166.57,28.33,83,5,1,0,4,1,2,61.43,High,P2
+CUST000612,Aisha Hall,Retail,France,Low,Verified,0,4,188.11,47.03,137.06,42.5,84,2,1,1,0,1,1,61.42,High,P2
 CUST000829,Grace Thomas,Retail,France,Low,Verified,0,9,2077.11,230.79,1601.75,35.33,79,5,1,2,2,0,4,61.38,High,P2
-CUST000609,Mia Green,Corporate,Singapore,Low,Verified,0,13,1228.2,94.48,555.67,27.92,83,5,1,0,4,1,0,61.33,High,P2
-CUST000344,Adam Hall,Retail,Italy,Low,Verified,0,11,552.59,50.24,112.04,33.64,73,7,0,1,6,1,3,61.26,High,P2
-CUST000638,Maya Young,SME,Spain,Low,Verified,0,12,497.83,41.49,108.4,26.17,88,4,1,0,3,1,0,61.14,High,P2
-CUST000508,Hannah Walker,Retail,Pakistan,Medium,Verified,0,9,1475.75,163.97,644.45,34.89,78,5,1,0,4,1,1,60.82,High,P2
-CUST000170,Ethan Robinson,SME,France,Low,Verified,0,13,3391.07,260.85,2519.97,24.77,88,4,1,0,3,1,1,60.79,High,P2
-CUST000177,Lucas Wright,Corporate,Italy,Low,Verified,0,12,5212.18,434.35,3039.91,34.83,71,8,0,2,6,0,3,60.66,High,P2
+CUST000177,Lucas Wright,Corporate,Italy,Low,Verified,0,12,5212.18,434.35,3039.91,37.33,71,8,0,2,6,0,5,61.28,High,P2
+CUST000133,Aisha Robinson,Corporate,Italy,Low,Verified,0,8,339.24,42.4,113.93,34.75,79,5,1,0,4,1,1,61.24,High,P2
+CUST000508,Hannah Walker,Retail,Pakistan,Medium,Verified,0,9,1475.75,163.97,644.45,36.0,78,5,1,0,4,1,2,61.1,High,P2
+CUST000821,Noah Robinson,Retail,United Kingdom,Low,Verified,0,3,434.62,144.87,340.87,41.0,93,1,1,0,0,1,1,61.1,High,P2
+CUST000047,Aisha Smith,Retail,United Arab Emirates,Medium,Verified,0,16,1251.32,78.21,254.41,30.81,56,10,0,2,8,1,4,60.9,High,P2
+CUST000783,Noah Walker,Retail,Nigeria,High,Verified,0,10,452.2,45.22,92.23,43.7,71,6,0,3,3,0,6,60.88,High,P2
+CUST000081,Adam Smith,SME,Canada,Low,Verified,0,11,621.94,56.54,153.11,36.55,66,7,0,2,5,1,4,60.84,High,P2
+CUST000344,Adam Hall,Retail,Italy,Low,Verified,0,11,552.59,50.24,112.04,31.82,73,7,0,1,6,1,1,60.8,High,P2
+CUST000170,Ethan Robinson,SME,France,Low,Verified,0,13,3391.07,260.85,2519.97,24.0,88,4,1,0,3,1,1,60.6,High,P2
 CUST000953,Aisha Green,SME,Pakistan,Medium,Verified,0,13,3039.05,233.77,1833.84,34.77,62,7,0,3,4,1,4,60.59,High,P2
-CUST000283,Amelia Patel,Retail,France,Low,Verified,0,8,425.39,53.17,150.04,32.88,83,4,1,0,3,1,1,60.57,High,P2
-CUST000398,Fatima Jones,Retail,Pakistan,Medium,Verified,0,10,507.64,50.76,105.41,24.8,83,2,1,1,0,2,0,60.55,High,P2
-CUST000676,Sophia Wright,SME,France,Low,Verified,0,8,2829.26,353.66,2679.82,31.25,88,3,1,0,2,1,1,60.41,High,P2
-CUST000478,Fatima Ahmed,Retail,Pakistan,Medium,Verified,0,15,3788.51,252.57,3190.95,27.6,70,6,0,3,3,1,4,60.4,High,P2
-CUST000095,Leo Walker,Corporate,Germany,Low,Verified,0,13,795.9,61.22,168.11,30.08,73,5,0,3,2,1,3,60.37,High,P2
-CUST000895,Daniel Clarke,Retail,Canada,Low,Verified,0,17,5980.36,351.79,5300.53,28.65,76,8,1,0,7,0,3,60.36,High,P2
+CUST000478,Fatima Ahmed,Retail,Pakistan,Medium,Verified,0,15,3788.51,252.57,3190.95,28.27,70,6,0,3,3,1,4,60.57,High,P2
+CUST000895,Daniel Clarke,Retail,Canada,Low,Verified,0,17,5980.36,351.79,5300.53,29.24,76,8,1,0,7,0,5,60.51,High,P2
+CUST000398,Fatima Jones,Retail,Pakistan,Medium,Verified,0,10,507.64,50.76,105.41,23.8,83,2,1,1,0,2,0,60.3,High,P2
 CUST000346,Adam Clarke,Retail,Turkey,High,Verified,0,8,4210.64,526.33,3626.83,49.5,62,8,0,2,6,0,6,60.28,High,P2
+CUST000652,Muhammad Hall,Retail,Singapore,Low,Verified,0,7,210.09,30.01,77.99,30.71,88,3,1,0,2,1,1,60.28,High,P2
 CUST000488,Maya Ahmed,Retail,Singapore,Low,Verified,0,8,411.68,51.46,111.94,28.88,89,3,1,0,2,1,2,60.27,High,P2
-CUST000821,Noah Robinson,Retail,United Kingdom,Low,Verified,0,3,434.62,144.87,340.87,37.67,93,1,1,0,0,1,1,60.27,High,P2
+CUST000283,Amelia Patel,Retail,France,Low,Verified,0,8,425.39,53.17,150.04,31.62,83,4,1,0,3,1,0,60.26,High,P2
+CUST000027,Grace Patel,SME,Italy,Low,Verified,0,14,5614.71,401.05,3353.23,34.0,66,9,0,2,7,0,3,60.2,High,P2
 CUST000202,Leo Jones,Retail,Spain,Low,Pending Review,0,6,163.13,27.19,40.35,47.17,72,6,0,2,4,0,4,60.19,High,P2
-CUST000608,Lucas Walker,SME,Netherlands,Low,Verified,0,17,1676.16,98.6,1056.26,28.35,73,7,0,1,6,1,2,59.94,High,P2
-CUST000120,Daniel Green,SME,Nigeria,High,Verified,0,11,6544.06,594.91,3700.55,40.91,66,8,0,2,6,0,5,59.93,High,P2
+CUST000095,Leo Walker,Corporate,Germany,Low,Verified,0,13,795.9,61.22,168.11,29.31,73,5,0,3,2,1,3,60.18,High,P2
+CUST000544,Leo Walker,Retail,Netherlands,Low,Verified,0,13,565.28,43.48,101.03,30.85,72,6,0,2,4,1,1,60.11,High,P2
 CUST000117,Adam Smith,SME,Canada,Low,Pending Review,0,8,508.01,63.5,156.78,45.5,59,8,0,3,5,0,5,59.92,High,P2
-CUST000104,Hannah Smith,Retail,Turkey,High,Verified,0,15,1685.7,112.38,526.84,38.87,67,7,0,3,4,0,6,59.87,High,P2
+CUST000607,Aisha Smith,Retail,Canada,Low,Verified,0,19,4048.08,213.06,3210.73,26.58,65,8,0,2,6,1,1,59.9,High,P2
+CUST000876,Zara Clarke,Retail,United States,Low,Failed,0,7,541.29,77.33,254.99,45.0,68,7,0,2,5,0,3,59.85,High,P2
+CUST000996,Grace Wright,Private Banking,United Arab Emirates,Medium,Verified,0,12,428.29,35.69,118.24,32.5,66,6,0,3,3,1,2,59.82,High,P2
 CUST000505,Mia Thomas,Retail,Netherlands,Low,Verified,0,8,388.56,48.57,75.27,28.75,88,2,1,1,0,1,1,59.79,High,P2
+CUST000798,Noah Miller,Retail,Singapore,Low,Verified,0,14,4113.99,293.86,3481.65,31.29,71,9,0,1,8,0,3,59.77,High,P2
 CUST000854,Hannah Patel,Retail,India,Medium,Verified,0,12,1747.27,145.61,1460.63,28.67,79,5,1,0,4,1,0,59.72,High,P2
-CUST000720,Oliver Hall,Retail,France,Low,Verified,0,12,3707.7,308.98,1592.56,32.83,70,7,0,1,6,1,3,59.71,High,P2
-CUST000798,Noah Miller,Retail,Singapore,Low,Verified,0,14,4113.99,293.86,3481.65,30.57,71,9,0,1,8,0,2,59.59,High,P2
+CUST000608,Lucas Walker,SME,Netherlands,Low,Verified,0,17,1676.16,98.6,1056.26,27.18,73,7,0,1,6,1,1,59.64,High,P2
+CUST000978,Fatima Patel,Retail,Germany,Low,Verified,0,14,7998.44,571.32,7231.2,28.57,72,6,0,2,4,1,2,59.54,High,P2
 CUST000724,Sophia Walker,Retail,India,Medium,Verified,0,8,3751.9,468.99,3129.93,33.38,76,4,1,1,2,1,1,59.54,High,P2
-CUST000859,Daniel Jones,SME,Turkey,High,Verified,0,8,2551.19,318.9,2026.14,47.25,66,7,0,2,5,0,6,59.51,High,P2
+CUST000397,Leo Miller,Retail,Singapore,Low,Pending Review,0,7,152.39,21.77,29.38,43.71,68,7,0,2,5,0,4,59.53,High,P2
+CUST000324,Oliver Miller,Retail,United Arab Emirates,Medium,Verified,0,12,468.92,39.08,142.0,27.75,79,4,1,1,2,1,1,59.49,High,P2
 CUST000114,Sophia Taylor,Retail,Italy,Low,Verified,0,9,631.78,70.2,228.48,28.11,83,4,1,0,3,1,0,59.38,High,P2
 CUST000275,Adam Ali,Retail,Nigeria,High,Verified,0,9,607.0,67.44,175.13,47.67,61,8,0,2,6,0,7,59.37,High,P2
-CUST000978,Fatima Patel,Retail,Germany,Low,Verified,0,14,7998.44,571.32,7231.2,27.86,72,6,0,2,4,1,2,59.36,High,P2
-CUST000802,Maya Young,Retail,Singapore,Low,Verified,0,9,346.01,38.45,95.13,34.0,73,6,0,1,5,1,2,59.35,High,P2
-CUST000410,Adam Young,Retail,India,Medium,Verified,0,13,644.03,49.54,212.98,26.69,88,3,1,0,2,1,0,59.27,High,P2
+CUST000410,Adam Young,Retail,India,Medium,Verified,0,13,644.03,49.54,212.98,26.69,88,3,1,0,2,1,1,59.27,High,P2
+CUST000677,Lucas Wilson,Retail,France,Low,Verified,0,8,383.19,47.9,171.27,34.62,79,4,1,0,3,1,2,59.21,High,P2
+CUST000859,Daniel Jones,SME,Turkey,High,Verified,0,8,2551.19,318.9,2026.14,46.0,66,7,0,2,5,0,5,59.2,High,P2
 CUST000311,Oliver Davies,SME,Italy,Low,Verified,0,8,356.88,44.61,103.16,26.38,88,3,1,0,2,1,0,59.2,High,P2
-CUST000397,Leo Miller,Retail,Singapore,Low,Pending Review,0,7,152.39,21.77,29.38,42.29,68,7,0,2,5,0,3,59.17,High,P2
-CUST000703,Amelia Ahmed,Retail,United Kingdom,Low,Verified,0,16,1047.68,65.48,327.16,29.81,66,6,0,3,3,1,3,59.15,High,P2
 CUST000843,Daniel Green,Retail,Pakistan,Medium,Verified,0,6,829.78,138.3,511.15,35.17,83,3,1,0,2,1,1,59.14,High,P2
-CUST000839,Isabella Wilson,Retail,Canada,Low,Pending Review,0,5,4131.84,826.37,3689.95,48.8,73,5,0,2,3,0,2,59.05,High,P2
-CUST000663,Lucas Hussain,Retail,India,Medium,Verified,0,12,5509.46,459.12,5076.49,28.5,82,5,1,1,3,0,3,59.02,High,P2
 CUST000416,Maya Thomas,Corporate,Germany,Low,Verified,0,7,488.46,69.78,148.83,35.43,78,4,1,0,3,1,1,58.96,High,P2
 CUST000293,James Walker,Retail,Pakistan,Medium,Verified,0,12,11087.29,923.94,6902.58,32.58,75,7,1,0,6,0,3,58.9,High,P2
-CUST000677,Lucas Wilson,Retail,France,Low,Verified,0,8,383.19,47.9,171.27,33.38,79,4,1,0,3,1,1,58.9,High,P2
+CUST000034,Isabella Ahmed,Retail,Pakistan,Medium,Verified,0,8,2650.26,331.28,2209.35,33.38,83,3,1,0,2,1,2,58.7,High,P2
+CUST000167,Adam Ali,Retail,Pakistan,Medium,Verified,0,14,709.74,50.7,83.94,26.36,78,5,1,0,4,1,2,58.69,High,P2
 CUST000060,Amelia Thomas,Retail,United Arab Emirates,Medium,Verified,0,7,218.12,31.16,110.73,31.29,93,1,1,0,0,1,1,58.67,High,P2
-CUST000373,Zara Brown,Retail,Germany,Low,Verified,0,11,1068.81,97.16,293.73,31.09,73,6,0,1,5,1,3,58.62,High,P2
-CUST000211,Adam Taylor,Retail,Turkey,High,Verified,0,8,5204.29,650.54,4869.71,44.5,61,7,0,3,4,0,4,58.58,High,P2
+CUST000005,Maya Green,Retail,Netherlands,Low,Verified,0,13,14495.01,1115.0,6800.6,35.77,66,8,0,2,6,0,5,58.64,High,P2
 CUST000339,Daniel Patel,Retail,Pakistan,Medium,Verified,0,13,7457.13,573.63,6530.81,33.0,71,6,0,3,3,0,3,58.2,High,P2
 CUST000008,Hannah Walker,Retail,France,Low,Pending Review,0,7,474.13,67.73,170.79,46.29,68,6,0,2,4,0,4,58.17,High,P2
+CUST000691,Daniel Ali,Retail,Spain,Low,Verified,0,9,817.91,90.88,325.62,33.67,66,4,0,4,0,1,3,58.12,High,P2
 CUST000314,Maya Hall,Retail,Italy,Low,Pending Review,0,7,208.51,29.79,50.76,36.86,73,7,0,1,6,0,1,58.06,High,P2
 CUST000443,Mia Hall,Retail,Spain,Low,Verified,0,10,14201.53,1420.15,10719.5,32.0,82,4,1,1,2,0,2,57.9,High,P2
-CUST000691,Daniel Ali,Retail,Spain,Low,Verified,0,9,817.91,90.88,325.62,32.56,66,4,0,4,0,1,3,57.84,High,P2
-CUST000355,Aisha Taylor,Retail,France,Low,Verified,0,9,6965.12,773.9,6232.48,37.89,63,6,0,2,4,1,2,57.82,High,P2
+CUST000805,Aisha Green,Retail,Singapore,Low,Verified,0,9,389.25,43.25,244.18,30.22,83,3,1,0,2,1,0,57.9,High,P2
+CUST000589,James Miller,Retail,Germany,Low,Verified,0,14,474.05,33.86,128.1,28.0,73,6,0,1,5,1,1,57.85,High,P2
+CUST000340,Lucas Green,Retail,United Kingdom,Low,Pending Review,0,6,319.71,53.28,110.31,52.0,64,6,0,2,4,0,5,57.8,High,P2
 CUST000025,Muhammad Ali,Retail,United States,Low,Verified,0,7,11949.92,1707.13,11285.43,44.57,68,5,0,3,2,0,3,57.74,High,P2
-CUST000804,Mia Ahmed,SME,Singapore,Low,Verified,0,15,4286.76,285.78,3445.22,32.87,61,9,0,2,7,0,4,57.67,High,P2
-CUST000589,James Miller,Retail,Germany,Low,Verified,0,14,474.05,33.86,128.1,27.29,73,6,0,1,5,1,0,57.67,High,P2
-CUST000805,Aisha Green,Retail,Singapore,Low,Verified,0,9,389.25,43.25,244.18,29.11,83,3,1,0,2,1,0,57.63,High,P2
+CUST000428,Grace Wright,Retail,Pakistan,Medium,Verified,0,13,629.44,48.42,130.57,35.77,55,9,0,1,8,1,3,57.69,High,P2
+CUST000474,Amelia Young,Retail,Turkey,High,Verified,0,13,1090.58,83.89,305.4,39.0,62,6,0,4,2,0,6,57.65,High,P2
+CUST000839,Isabella Wilson,Retail,Canada,Low,Pending Review,0,5,4131.84,826.37,3689.95,46.8,71,5,0,2,3,0,2,57.65,High,P2
+CUST000355,Aisha Taylor,Retail,France,Low,Verified,0,9,6965.12,773.9,6232.48,36.78,63,6,0,2,4,1,1,57.54,High,P2
 CUST000473,Adam Hall,Retail,India,Medium,Pending Review,0,6,662.15,110.36,374.17,52.67,63,6,0,2,4,0,5,57.52,High,P2
-CUST000998,Mia Clarke,Retail,United Arab Emirates,Medium,Verified,0,14,4041.43,288.67,3528.85,31.43,57,7,0,3,4,1,3,57.51,High,P2
-CUST000428,Grace Wright,Retail,Pakistan,Medium,Verified,0,13,629.44,48.42,130.57,35.0,55,9,0,1,8,1,2,57.5,High,P2
-CUST000429,Oliver Jones,Retail,Spain,Low,Verified,0,11,749.11,68.1,140.74,33.82,60,7,0,2,5,1,2,57.46,High,P2
-CUST000324,Oliver Miller,Retail,United Arab Emirates,Medium,Verified,0,12,468.92,39.08,142.0,26.92,79,4,1,0,3,1,1,57.28,High,P2
-CUST000693,Grace Ali,Retail,Turkey,High,Verified,0,12,643.09,53.59,180.97,39.25,61,7,0,3,4,0,7,57.26,High,P2
-CUST000365,Isabella Jones,SME,Nigeria,High,Verified,0,13,642.25,49.4,126.07,39.15,61,8,0,2,6,0,6,57.24,High,P2
+CUST000365,Isabella Jones,SME,Nigeria,High,Verified,0,13,642.25,49.4,126.07,39.92,61,8,0,2,6,0,7,57.43,High,P2
+CUST000099,Hannah Hussain,Retail,Nigeria,High,Verified,0,10,5455.74,545.57,4700.82,38.7,66,8,0,1,7,0,5,57.38,High,P2
 CUST000154,Aisha Ali,Retail,Italy,Low,Verified,0,15,918.48,61.23,223.48,31.13,61,10,0,1,9,0,1,57.23,High,P2
+CUST000429,Oliver Jones,Retail,Spain,Low,Verified,0,11,749.11,68.1,140.74,32.91,60,7,0,2,5,1,2,57.23,High,P2
+CUST000793,Lucas Robinson,Retail,France,Low,Verified,0,14,805.32,57.52,180.28,31.86,56,8,0,2,6,1,4,57.16,High,P2
 CUST000089,Adam Wright,SME,France,Low,Verified,0,11,655.75,59.61,222.37,26.27,79,4,1,0,3,1,1,57.12,High,P2
-CUST000793,Lucas Robinson,Retail,France,Low,Verified,0,14,805.32,57.52,180.28,31.14,56,8,0,2,6,1,4,56.98,High,P2
+CUST000373,Zara Brown,Retail,Germany,Low,Verified,0,11,1068.81,97.16,293.73,32.91,73,5,0,1,4,1,2,57.08,High,P2
+CUST000693,Grace Ali,Retail,Turkey,High,Verified,0,12,643.09,53.59,180.97,38.42,61,7,0,3,4,0,7,57.06,High,P2
+CUST000054,Aisha Thomas,Retail,Spain,Low,Verified,0,14,7309.13,522.08,5732.71,35.5,58,9,0,2,7,0,8,56.98,High,P2
 CUST000625,Adam Robinson,Retail,United States,Low,Verified,0,13,770.91,59.3,231.99,31.92,60,7,0,2,5,1,3,56.98,High,P2
-CUST000299,Oliver Hussain,SME,Canada,Low,Verified,0,12,7057.53,588.13,6083.95,34.25,72,7,0,1,6,0,4,56.96,High,P2
-CUST000180,Maya Smith,Corporate,Nigeria,High,Verified,0,11,1186.03,107.82,795.43,38.0,61,8,0,2,6,0,4,56.95,High,P2
-CUST000996,Grace Wright,Private Banking,United Arab Emirates,Medium,Verified,0,12,428.29,35.69,118.24,31.67,60,7,0,2,5,1,2,56.92,High,P2
 CUST000489,Aisha Brown,Private Banking,Italy,Low,Verified,0,15,1038.31,69.22,116.0,24.27,73,6,0,1,5,1,0,56.92,High,P2
 CUST000439,Grace Hussain,Retail,Spain,Low,Verified,0,10,2800.76,280.08,2527.46,37.6,61,7,0,3,4,0,4,56.85,High,P2
 CUST000210,Oliver Walker,Retail,Germany,Low,Pending Review,0,8,319.04,39.88,201.16,42.88,58,8,0,2,6,0,3,56.82,High,P2
-CUST000061,Mia Walker,Retail,Nigeria,High,Verified,0,12,1000.32,83.36,315.74,38.08,56,10,0,1,9,0,5,56.72,High,P2
 CUST000056,Adam Green,Retail,Italy,Low,Verified,0,9,249.59,27.73,74.88,25.44,83,3,1,0,2,1,0,56.71,High,P2
-CUST000005,Maya Green,Retail,Netherlands,Low,Verified,0,13,14495.01,1115.0,6800.6,35.77,66,8,0,1,7,0,5,56.64,High,P2
-CUST000092,Lucas Smith,Retail,Nigeria,High,Verified,0,8,1622.71,202.84,1186.75,43.5,66,5,0,3,2,0,5,56.58,High,P2
-CUST000167,Adam Ali,Retail,Pakistan,Medium,Verified,0,14,709.74,50.7,83.94,25.64,78,4,1,0,3,1,1,56.51,High,P2
-CUST000236,Aisha Green,Retail,Canada,Low,Verified,0,14,3132.19,223.73,2394.74,33.07,67,7,0,2,5,0,6,56.42,High,P2
-CUST000391,Grace Thomas,Retail,Spain,Low,Verified,0,14,6731.15,480.8,5836.07,28.79,76,6,1,0,5,0,2,56.4,High,P2
-CUST000290,Grace Young,Retail,Italy,Low,Verified,0,18,1134.51,63.03,205.66,26.56,66,8,0,2,6,0,4,56.34,High,P2
+CUST000211,Adam Taylor,Retail,Turkey,High,Verified,0,8,5204.29,650.54,4869.71,44.5,61,7,0,2,5,0,5,56.58,High,P2
+CUST000391,Grace Thomas,Retail,Spain,Low,Verified,0,14,6731.15,480.8,5836.07,28.79,76,6,1,0,5,0,1,56.4,High,P2
+CUST000370,Ali Thomas,SME,Turkey,High,Verified,0,9,684.98,76.11,230.86,42.0,62,6,0,3,3,0,5,56.4,High,P2
+CUST000384,Isabella Wright,Retail,Italy,Low,Verified,0,9,2224.84,247.2,1863.19,31.33,79,3,1,2,0,0,3,56.38,High,P2
 CUST000578,Adam Walker,Retail,Nigeria,High,Verified,0,7,8305.4,1186.49,8095.68,42.57,66,6,0,2,4,0,4,56.34,High,P2
 CUST000696,Maya Hall,Retail,Spain,Low,Verified,0,13,2001.89,153.99,1601.06,35.38,61,8,0,2,6,0,4,56.3,High,P2
-CUST000437,Amelia Jones,Retail,France,Low,Verified,0,9,427.95,47.55,83.07,34.33,66,6,0,1,5,1,1,56.28,High,P2
-CUST000595,Zara Taylor,Retail,France,Low,Verified,0,9,299.68,33.3,76.1,29.67,73,4,0,2,2,1,1,56.27,High,P2
-CUST000081,Adam Smith,SME,Canada,Low,Verified,0,11,621.94,56.54,153.11,35.64,56,7,0,2,5,1,4,56.11,High,P2
+CUST000852,Lucas Robinson,Retail,Germany,Low,Verified,0,7,128.47,18.35,39.63,31.43,83,2,1,0,1,1,1,56.21,High,P2
+CUST000298,Maya Hussain,Retail,United States,Low,Verified,0,13,4209.02,323.77,3280.26,33.23,66,6,0,3,3,0,5,56.01,High,P2
+CUST000437,Amelia Jones,Retail,France,Low,Verified,0,9,427.95,47.55,83.07,33.22,66,6,0,1,5,1,1,56.0,High,P2
 CUST000733,Maya Taylor,SME,Nigeria,High,Verified,0,5,7393.29,1478.66,7235.37,49.2,66,5,0,2,3,0,4,56.0,High,P2
+CUST000595,Zara Taylor,Retail,France,Low,Verified,0,9,299.68,33.3,76.1,28.56,73,4,0,2,2,1,1,55.99,High,P2
+CUST000842,Sophia Walker,Retail,Nigeria,High,Verified,0,9,2410.23,267.8,2011.4,41.33,57,7,0,3,4,0,5,55.98,High,P2
 CUST000001,Amelia Taylor,Retail,Turkey,High,Verified,0,9,539.53,59.95,148.65,41.11,66,5,0,3,2,0,4,55.98,High,P2
+CUST000013,Leo Hussain,SME,Turkey,High,Verified,0,12,603.86,50.32,107.06,41.25,57,8,0,2,6,0,7,55.96,High,P2
+CUST000279,Grace Hussain,Retail,Spain,Low,Verified,0,9,6233.91,692.66,5503.71,32.89,77,4,1,1,2,0,2,55.87,High,P2
 CUST000378,Muhammad Hussain,Retail,Pakistan,Medium,Verified,0,14,990.92,70.78,372.16,22.93,78,4,1,0,3,1,0,55.83,High,P2
-CUST000298,Maya Hussain,Retail,United States,Low,Verified,0,13,4209.02,323.77,3280.26,32.46,66,6,0,3,3,0,4,55.82,High,P2
 CUST000392,Adam Wilson,Retail,United States,Low,Pending Review,0,5,354.85,70.97,206.02,53.0,59,5,0,3,2,0,4,55.8,High,P2
 CUST000015,Leo Wright,Corporate,France,Low,Verified,0,11,543.05,49.37,172.26,30.55,67,4,0,3,1,1,2,55.79,High,P2
-CUST000607,Aisha Smith,Retail,Canada,Low,Verified,0,19,4048.08,213.06,3210.73,25.53,56,8,0,2,6,1,1,55.58,High,P2
-CUST000717,Ali Ahmed,Retail,Spain,Low,Verified,0,8,237.4,29.68,61.14,27.88,79,3,1,0,2,1,1,55.52,High,P2
-CUST000852,Lucas Robinson,Retail,Germany,Low,Verified,0,7,128.47,18.35,39.63,28.57,83,2,1,0,1,1,0,55.49,High,P2
+CUST000676,Sophia Wright,SME,France,Low,Verified,0,8,2829.26,353.66,2679.82,30.0,78,3,1,0,2,1,0,55.6,High,P2
+CUST000804,Mia Ahmed,SME,Singapore,Low,Verified,0,15,4286.76,285.78,3445.22,32.2,61,8,0,2,6,0,4,55.5,High,P2
 CUST000621,Fatima Wilson,Retail,Spain,Low,Verified,0,9,2342.3,260.26,1847.4,36.33,72,6,0,1,5,0,3,55.48,High,P2
-CUST000577,Mia Young,Retail,Nigeria,High,Verified,0,6,545.35,90.89,319.11,46.33,62,5,0,3,2,0,4,55.48,High,P2
-CUST000518,Mia Patel,Retail,United States,Low,Verified,0,8,402.93,50.37,113.04,28.5,83,2,1,0,1,1,1,55.48,High,P2
-CUST000027,Grace Patel,SME,Italy,Low,Verified,0,14,5614.71,401.05,3353.23,31.14,57,9,0,2,7,0,2,55.44,High,P2
-CUST000340,Lucas Green,Retail,United Kingdom,Low,Pending Review,0,6,319.71,53.28,110.31,50.33,64,6,0,1,5,0,5,55.38,High,P2
-CUST000987,Zara Ali,Retail,Netherlands,Low,Verified,0,8,493.02,61.63,249.73,33.25,69,4,0,2,2,1,1,55.36,High,P2
-CUST000603,Oliver Hussain,Retail,France,Low,Verified,0,12,617.55,51.46,167.07,34.25,55,8,0,1,7,1,2,55.31,High,P2
 CUST000585,Adam Ali,Retail,France,Low,Verified,0,14,799.57,57.11,185.28,31.29,61,8,0,2,6,0,2,55.27,High,P2
-CUST000544,Leo Walker,Retail,Netherlands,Low,Verified,0,13,565.28,43.48,101.03,29.31,62,6,0,2,4,1,1,55.23,High,P2
-CUST000146,Adam Patel,Retail,Turkey,High,Verified,0,9,1180.17,131.13,826.9,37.0,71,5,0,2,3,0,2,55.2,High,P2
-CUST000984,Mia Patel,Retail,United Kingdom,Low,Verified,0,14,731.24,52.23,182.87,33.57,55,8,0,1,7,1,2,55.14,High,P2
+CUST000717,Ali Ahmed,Retail,Spain,Low,Verified,0,8,237.4,29.67,61.14,26.62,79,3,1,0,2,1,0,55.21,High,P2
+CUST000518,Mia Patel,Retail,United States,Low,Verified,0,8,402.93,50.37,113.04,27.25,83,2,1,0,1,1,1,55.16,High,P2
 CUST000554,Oliver Young,Retail,Canada,Low,Verified,0,7,269.66,38.52,96.1,36.86,62,5,0,2,3,1,2,55.12,High,P2
+CUST000603,Oliver Hussain,Retail,France,Low,Verified,0,12,617.55,51.46,167.07,33.42,55,8,0,1,7,1,1,55.1,High,P2
+CUST000987,Zara Ali,Retail,Netherlands,Low,Verified,0,8,493.02,61.63,249.73,32.0,69,4,0,2,2,1,1,55.05,High,P2
 CUST000777,Grace Ahmed,Retail,Italy,Low,Verified,0,7,9598.69,1371.24,5031.09,29.29,86,3,1,0,2,0,1,55.02,High,P2
-CUST000876,Zara Clarke,Retail,United States,Low,Failed,0,7,541.29,77.33,254.99,43.57,58,7,0,2,5,0,3,54.99,Medium,P3
-CUST000432,Leo Hall,Retail,Pakistan,Medium,Verified,0,5,368.38,73.68,242.08,43.8,71,5,0,1,4,0,1,54.9,Medium,P3
-CUST000687,Daniel Walker,Retail,Spain,Low,Verified,0,14,723.89,51.71,335.07,27.5,71,6,0,2,4,0,4,54.82,Medium,P3
+CUST000720,Oliver Hall,Retail,France,Low,Verified,0,12,3707.7,308.98,1592.56,32.0,60,7,0,1,6,1,3,55.0,High,P2
+CUST000687,Daniel Walker,Retail,Spain,Low,Verified,0,14,723.89,51.71,335.07,28.21,71,6,0,2,4,0,4,55.0,High,P2
+CUST000126,Amelia Khan,Retail,Turkey,High,Verified,0,11,878.29,79.84,348.64,35.91,71,6,0,1,5,0,2,54.93,Medium,P3
+CUST000433,Zara Thomas,SME,United States,Low,Verified,0,14,965.38,68.96,282.05,24.29,73,5,0,1,4,1,0,54.92,Medium,P3
 CUST000597,Amelia Ahmed,Retail,Turkey,High,Verified,0,7,4548.73,649.82,3574.5,43.57,62,5,0,3,2,0,4,54.79,Medium,P3
-CUST000682,Adam Walker,Retail,United Arab Emirates,Medium,Verified,0,7,346.34,49.48,109.02,43.86,66,5,0,2,3,0,5,54.66,Medium,P3
+CUST000985,Mia Ali,Retail,United Arab Emirates,Medium,Verified,0,12,4134.65,344.55,3410.46,29.08,70,5,0,1,4,1,2,54.77,Medium,P3
+CUST000180,Maya Smith,Corporate,Nigeria,High,Verified,0,11,1186.03,107.82,795.43,37.09,61,7,0,2,5,0,3,54.72,Medium,P3
 CUST000300,Noah Smith,Retail,United Kingdom,Low,Verified,0,8,10097.96,1262.24,5556.97,35.75,66,4,0,2,2,1,2,54.64,Medium,P3
-CUST000054,Aisha Thomas,Retail,Spain,Low,Verified,0,14,7309.13,522.08,5732.71,34.07,58,8,0,2,6,0,6,54.62,Medium,P3
-CUST000985,Mia Ali,Retail,United Arab Emirates,Medium,Verified,0,12,4134.65,344.55,3410.46,28.25,70,5,0,1,4,1,2,54.56,Medium,P3
+CUST000984,Mia Patel,Retail,United Kingdom,Low,Verified,0,14,731.24,52.23,182.87,31.43,55,8,0,1,7,1,0,54.61,Medium,P3
+CUST000541,Grace Brown,Retail,Turkey,High,Verified,0,7,2615.42,373.63,2231.01,44.29,61,6,0,2,4,0,4,54.52,Medium,P3
+CUST000061,Mia Walker,Retail,Nigeria,High,Verified,0,12,1000.32,83.36,315.74,37.25,56,9,0,1,8,0,4,54.51,Medium,P3
+CUST000703,Amelia Ahmed,Retail,United Kingdom,Low,Verified,0,16,1047.68,65.48,327.16,29.19,56,6,0,3,3,1,3,54.5,Medium,P3
 CUST000161,Noah Brown,SME,India,Medium,Verified,0,6,2783.23,463.87,2608.3,40.33,72,4,0,2,2,0,2,54.48,Medium,P3
-CUST000750,Ali Khan,SME,France,Low,Verified,0,11,1472.43,133.86,855.82,30.36,73,4,0,1,3,1,2,54.44,Medium,P3
 CUST000521,Isabella Brown,Retail,France,Low,Verified,0,8,3567.28,445.91,3340.33,32.75,67,4,0,2,2,1,1,54.34,Medium,P3
+CUST000646,Mia Miller,Retail,Turkey,High,Verified,0,14,673.48,48.11,121.14,36.29,56,8,0,2,6,0,6,54.27,Medium,P3
 CUST000102,Mia Smith,Corporate,United States,Low,Verified,0,10,292.43,29.24,78.3,34.2,66,6,0,2,4,0,2,54.25,Medium,P3
+CUST000550,Mia Thomas,Corporate,Singapore,Low,Verified,0,10,4955.68,495.57,4674.42,33.1,71,5,0,2,3,0,2,54.22,Medium,P3
+CUST000066,Aisha Clarke,SME,Canada,Low,Verified,0,6,8436.6,1406.1,8166.93,32.17,87,2,1,0,1,0,2,54.19,Medium,P3
 CUST000171,Oliver Clarke,Retail,United Arab Emirates,Medium,Pending Review,0,8,591.93,73.99,172.2,38.38,59,8,0,1,7,0,3,54.14,Medium,P3
-CUST000370,Ali Thomas,SME,Turkey,High,Verified,0,9,684.98,76.11,230.86,40.89,62,5,0,3,2,0,4,54.12,Medium,P3
 CUST000238,Zara Robinson,Retail,United States,Low,Failed,0,7,294.66,42.09,91.76,38.0,68,6,0,1,5,0,3,54.1,Medium,P3
 CUST000834,Maya Davies,SME,Turkey,High,Verified,0,5,112.38,22.48,36.61,50.6,61,5,0,2,3,0,3,54.1,Medium,P3
-CUST000384,Isabella Wright,Retail,Italy,Low,Verified,0,9,2224.84,247.2,1863.19,30.22,79,3,1,1,1,0,3,54.1,Medium,P3
-CUST000646,Mia Miller,Retail,Turkey,High,Verified,0,14,673.48,48.11,121.14,35.57,56,8,0,2,6,0,5,54.09,Medium,P3
-CUST000825,Sophia Davies,Retail,Turkey,High,Verified,0,9,395.26,43.92,98.68,40.67,62,5,0,3,2,0,5,54.07,Medium,P3
-CUST000780,Lucas Smith,Corporate,France,Low,Verified,0,13,447.5,34.42,96.48,33.54,57,8,0,2,6,0,4,54.04,Medium,P3
+CUST000092,Lucas Smith,Retail,Nigeria,High,Verified,0,8,1622.71,202.84,1186.75,42.25,61,5,0,3,2,0,5,54.01,Medium,P3
+CUST000750,Ali Khan,SME,France,Low,Verified,0,11,1472.43,133.86,855.82,28.55,73,4,0,1,3,1,1,53.99,Medium,P3
 CUST000225,Fatima Davies,Retail,India,Medium,Verified,0,10,498.29,49.83,216.01,33.1,66,6,0,2,4,0,3,53.98,Medium,P3
 CUST000109,Muhammad Ali,Retail,Germany,Low,Verified,0,17,604.44,35.56,85.15,25.88,61,7,0,3,4,0,3,53.92,Medium,P3
 CUST000152,Sophia Young,Retail,Netherlands,Low,Verified,0,11,847.43,77.04,220.2,34.55,56,8,0,2,6,0,3,53.84,Medium,P3
-CUST000013,Leo Hussain,SME,Turkey,High,Verified,0,12,603.86,50.32,107.06,40.42,57,7,0,2,5,0,6,53.76,Medium,P3
-CUST000842,Sophia Walker,Retail,Nigeria,High,Verified,0,9,2410.23,267.8,2011.4,40.22,57,6,0,3,3,0,4,53.7,Medium,P3
-CUST000613,James Miller,Retail,Italy,Low,Verified,0,9,292.41,32.49,57.99,34.22,60,6,0,1,5,1,1,53.56,Medium,P3
-CUST000266,Ali Wright,Corporate,Germany,Low,Verified,0,11,2349.77,213.62,1558.32,31.27,66,5,0,3,2,0,4,53.52,Medium,P3
-CUST000563,Sophia Miller,Corporate,Canada,Low,Verified,0,14,3398.29,242.74,2781.89,29.21,67,6,0,2,4,0,3,53.45,Medium,P3
-CUST000279,Grace Hussain,Retail,Spain,Low,Verified,0,9,6233.91,692.66,5503.71,30.67,77,3,1,1,1,0,2,53.32,Medium,P3
-CUST000474,Amelia Young,Retail,Turkey,High,Verified,0,13,1090.58,83.89,305.4,37.46,62,4,0,4,0,0,4,53.26,Medium,P3
-CUST000714,Maya Thomas,Retail,Singapore,Low,Verified,0,13,4099.88,315.38,3354.7,28.54,71,5,0,2,3,0,2,53.08,Medium,P3
-CUST000600,Oliver Miller,Retail,Netherlands,Low,Verified,0,14,3384.02,241.72,2384.34,29.36,66,7,0,1,6,0,2,53.04,Medium,P3
-CUST000203,James Patel,Retail,Pakistan,Medium,Verified,0,8,224.36,28.04,59.86,25.25,79,2,1,0,1,1,1,52.86,Medium,P3
-CUST000715,Oliver Robinson,SME,Spain,Low,Verified,0,13,755.0,58.08,211.65,28.38,66,5,0,3,2,0,4,52.8,Medium,P3
+CUST000780,Lucas Smith,Corporate,France,Low,Verified,0,13,447.5,34.42,96.48,32.77,57,8,0,2,6,0,3,53.84,Medium,P3
+CUST000249,Aisha Davies,Retail,Nigeria,High,Verified,0,9,538.3,59.81,194.86,39.78,62,6,0,2,4,0,5,53.84,Medium,P3
+CUST000613,James Miller,Retail,Italy,Low,Verified,0,9,292.41,32.49,57.99,35.33,60,6,0,1,5,1,1,53.83,Medium,P3
+CUST000584,Aisha Patel,Retail,Turkey,High,Verified,0,9,596.41,66.27,232.45,40.22,66,5,0,2,3,0,5,53.76,Medium,P3
+CUST000266,Ali Wright,Corporate,Germany,Low,Verified,0,11,2349.77,213.62,1558.32,32.18,66,5,0,3,2,0,4,53.74,Medium,P3
+CUST000700,Fatima Taylor,Retail,United Arab Emirates,Medium,Verified,0,14,11860.99,847.21,7477.42,30.36,62,7,0,2,5,0,4,53.49,Medium,P3
+CUST000236,Aisha Green,Retail,Canada,Low,Verified,0,14,3132.19,223.73,2394.74,31.64,61,7,0,2,5,0,6,53.36,Medium,P3
+CUST000663,Lucas Hussain,Retail,India,Medium,Verified,0,12,5509.46,459.12,5076.49,27.67,72,5,0,2,3,0,3,53.32,Medium,P3
+CUST000563,Sophia Miller,Corporate,Canada,Low,Verified,0,14,3398.29,242.74,2781.89,28.5,67,6,0,2,4,0,3,53.28,Medium,P3
+CUST000441,Adam Smith,SME,France,Low,Verified,0,12,4738.87,394.91,2850.74,29.25,71,6,0,1,5,0,3,53.26,Medium,P3
+CUST000203,James Patel,Retail,Pakistan,Medium,Verified,0,8,224.36,28.04,59.86,26.5,79,2,1,0,1,1,1,53.18,Medium,P3
+CUST000577,Mia Young,Retail,Nigeria,High,Verified,0,6,545.35,90.89,319.11,46.33,61,5,0,2,3,0,5,53.03,Medium,P3
+CUST000868,Isabella Miller,Retail,Pakistan,Medium,Verified,0,12,817.68,68.14,141.32,24.17,73,4,0,1,3,1,1,52.89,Medium,P3
 CUST000997,Ethan Young,SME,France,Low,Verified,0,14,3156.69,225.48,2392.5,24.57,79,4,1,0,3,0,1,52.69,Medium,P3
-CUST000868,Isabella Miller,Retail,Pakistan,Medium,Verified,0,12,817.68,68.14,141.32,23.33,73,4,0,1,3,1,1,52.68,Medium,P3
 CUST000634,Ali Taylor,Retail,Singapore,Low,Verified,0,9,3819.17,424.35,2947.14,36.56,61,7,0,1,6,0,3,52.59,Medium,P3
-CUST000454,Amelia Taylor,Retail,Italy,Low,Verified,0,13,626.51,48.19,157.94,36.54,52,11,0,0,11,0,3,52.54,Medium,P3
 CUST000552,James Brown,Retail,United Arab Emirates,Medium,Pending Review,0,7,394.33,56.33,138.92,41.57,58,6,0,2,4,0,5,52.49,Medium,P3
 CUST000407,Mia Green,Retail,Turkey,High,Verified,0,6,7658.23,1276.37,7291.29,42.17,71,3,0,2,1,0,2,52.49,Medium,P3
-CUST000433,Zara Thomas,SME,United States,Low,Verified,0,14,965.38,68.96,282.05,24.29,63,6,0,1,5,1,1,52.42,Medium,P3
-CUST000159,Lucas Jones,Retail,India,Medium,Verified,0,16,1091.65,68.23,266.5,27.62,61,8,0,1,7,0,4,52.36,Medium,P3
-CUST000123,Daniel Ali,Retail,Netherlands,Low,Verified,0,11,10533.44,957.59,8752.78,28.09,65,5,0,1,4,1,2,52.27,Medium,P3
-CUST000550,Mia Thomas,Corporate,Singapore,Low,Verified,0,10,4955.68,495.57,4674.42,33.1,71,5,0,1,4,0,2,52.22,Medium,P3
-CUST000602,Daniel Brown,Retail,Italy,Low,Verified,0,13,574.43,44.19,125.64,29.85,55,7,0,1,6,1,1,52.21,Medium,P3
-CUST000955,Hannah Brown,Retail,United Kingdom,Low,Verified,0,18,5534.66,307.48,4387.81,27.0,61,7,0,2,5,0,3,52.2,Medium,P3
+CUST000704,James Patel,Retail,United Kingdom,Low,Verified,0,9,5478.99,608.78,4572.43,35.0,66,6,0,1,5,0,3,52.45,Medium,P3
+CUST000304,Ali Wilson,SME,Canada,Low,Verified,0,4,592.19,148.05,473.47,43.75,61,3,0,2,1,1,2,52.39,Medium,P3
+CUST000176,Maya Ahmed,Private Banking,United States,Low,Verified,0,7,465.21,66.46,131.32,37.43,60,4,0,2,2,1,3,52.36,Medium,P3
+CUST000454,Amelia Taylor,Retail,Italy,Low,Verified,0,13,626.51,48.19,157.94,35.77,52,11,0,0,11,0,3,52.34,Medium,P3
+CUST000955,Hannah Brown,Retail,United Kingdom,Low,Verified,0,18,5534.66,307.48,4387.81,27.56,61,7,0,2,5,0,4,52.34,Medium,P3
+CUST000682,Adam Walker,Retail,United Arab Emirates,Medium,Verified,0,7,346.34,49.48,109.02,42.43,66,5,0,1,4,0,5,52.31,Medium,P3
+CUST000538,Daniel Robinson,Retail,Singapore,Low,Verified,0,7,506.82,72.4,280.3,41.29,62,5,0,2,3,0,4,52.22,Medium,P3
+CUST000602,Daniel Brown,Retail,Italy,Low,Verified,0,13,574.43,44.19,125.64,29.85,55,7,0,1,6,1,2,52.21,Medium,P3
 CUST000708,Ethan Brown,Retail,United Kingdom,Low,Verified,0,10,6578.72,657.87,3712.48,28.0,76,4,1,0,3,0,3,52.2,Medium,P3
-CUST000704,James Patel,Retail,United Kingdom,Low,Verified,0,9,5478.99,608.78,4572.43,33.89,66,6,0,1,5,0,2,52.17,Medium,P3
-CUST000541,Grace Brown,Retail,Turkey,High,Verified,0,7,2615.42,373.63,2231.01,42.86,61,5,0,2,3,0,3,52.16,Medium,P3
+CUST000767,Zara Green,SME,Singapore,Low,Verified,0,11,5071.58,461.05,4504.91,28.36,60,6,0,1,5,1,1,52.09,Medium,P3
 CUST000826,Fatima Ahmed,SME,United States,Low,Verified,0,14,4413.85,315.28,3919.62,29.0,55,7,0,1,6,1,1,52.0,Medium,P3
-CUST000176,Maya Ahmed,Private Banking,United States,Low,Verified,0,7,465.21,66.46,131.32,36.0,60,4,0,2,2,1,2,52.0,Medium,P3
 CUST000251,Amelia Taylor,SME,Canada,Low,Verified,0,9,561.01,62.33,209.41,32.78,66,6,0,1,5,0,2,51.9,Medium,P3
-CUST000767,Zara Green,SME,Singapore,Low,Verified,0,11,5071.58,461.05,4504.91,27.45,60,6,0,1,5,1,1,51.86,Medium,P3
 CUST000490,Daniel Wright,Retail,United Kingdom,Low,Verified,0,7,618.18,88.31,276.6,35.43,60,5,0,1,4,1,2,51.86,Medium,P3
-CUST000538,Daniel Robinson,Retail,Singapore,Low,Verified,0,7,506.82,72.4,280.3,39.86,62,5,0,2,3,0,4,51.86,Medium,P3
-CUST000304,Ali Wilson,SME,Canada,Low,Verified,0,4,592.19,148.05,473.47,41.25,61,3,0,2,1,1,1,51.76,Medium,P3
-CUST000162,Hannah Clarke,Retail,Italy,Low,Verified,0,7,211.08,30.15,46.46,39.0,71,4,0,1,3,0,2,51.7,Medium,P3
+CUST000825,Sophia Davies,Retail,Turkey,High,Verified,0,9,395.26,43.92,98.68,39.56,62,4,0,3,1,0,4,51.79,Medium,P3
+CUST000668,Daniel Wilson,Retail,United States,Low,Verified,0,14,1154.67,82.48,227.24,25.93,65,5,0,1,4,1,0,51.73,Medium,P3
+CUST000006,Noah Davies,Private Banking,Germany,Low,Verified,0,12,337.27,28.11,127.24,25.92,65,5,0,1,4,1,0,51.73,Medium,P3
+CUST000290,Grace Young,Retail,Italy,Low,Verified,0,18,1134.51,63.03,205.66,26.0,56,8,0,2,6,0,4,51.7,Medium,P3
 CUST000811,James Smith,Retail,Nigeria,High,Verified,0,8,3164.59,395.57,2649.67,40.12,57,7,0,1,6,0,5,51.68,Medium,P3
-CUST000249,Aisha Davies,Retail,Nigeria,High,Verified,0,9,538.3,59.81,194.86,38.67,62,5,0,2,3,0,4,51.57,Medium,P3
-CUST000668,Daniel Wilson,Retail,United States,Low,Verified,0,14,1154.67,82.48,227.24,25.21,65,5,0,1,4,1,0,51.55,Medium,P3
+CUST000639,Ethan Robinson,Retail,United Kingdom,Low,Verified,0,8,3831.42,478.93,3216.65,35.62,55,6,0,1,5,1,2,51.66,Medium,P3
 CUST000148,Fatima Patel,Retail,United Arab Emirates,Medium,Verified,0,11,3675.19,334.11,3035.16,32.36,61,7,0,1,6,0,3,51.54,Medium,P3
+CUST000565,Hannah Smith,Retail,United Kingdom,Low,Verified,0,7,400.5,57.21,121.56,37.57,67,4,0,2,2,0,3,51.54,Medium,P3
+CUST000337,Ali Brown,Retail,Turkey,High,Verified,0,7,234.94,33.56,62.73,41.29,56,7,0,1,6,0,6,51.52,Medium,P3
 CUST000583,Fatima Wilson,Retail,Turkey,High,Verified,0,5,554.79,110.96,164.85,44.6,63,3,0,1,2,1,2,51.5,Medium,P3
-CUST000639,Ethan Robinson,Retail,United Kingdom,Low,Verified,0,8,3831.42,478.93,3216.65,34.38,55,6,0,1,5,1,1,51.34,Medium,P3
+CUST000878,Zara Ali,SME,India,Medium,Verified,0,11,3729.01,339.0,2668.49,31.82,61,6,0,2,4,0,3,51.4,Medium,P3
 CUST000579,Fatima Robinson,Retail,Spain,Low,Verified,0,7,7192.22,1027.46,7057.18,40.43,56,7,0,1,6,0,2,51.31,Medium,P3
+CUST000495,Sophia Khan,Retail,Turkey,High,Verified,0,9,636.78,70.75,188.14,37.56,62,5,0,2,3,0,3,51.29,Medium,P3
 CUST000946,Adam Khan,Retail,Turkey,High,Verified,0,7,359.54,51.36,153.49,37.0,71,4,0,1,3,0,2,51.2,Medium,P3
-CUST000878,Zara Ali,SME,India,Medium,Verified,0,11,3729.01,339.0,2668.49,30.91,61,6,0,2,4,0,2,51.18,Medium,P3
 CUST000788,Grace Miller,Retail,France,Low,Verified,0,10,1034.78,103.48,482.85,28.9,71,5,0,1,4,0,1,51.18,Medium,P3
-CUST000387,Hannah Robinson,SME,United States,Low,Verified,0,7,2266.37,323.77,1654.42,30.71,70,3,0,1,2,1,1,51.18,Medium,P3
-CUST000899,Noah Hussain,Retail,Italy,Low,Verified,0,15,3927.71,261.85,3096.51,31.87,56,7,0,2,5,0,4,51.17,Medium,P3
-CUST000700,Fatima Taylor,Retail,United Arab Emirates,Medium,Verified,0,14,11860.99,847.21,7477.42,28.93,62,7,0,1,6,0,3,51.13,Medium,P3
-CUST000994,Lucas Wright,Retail,France,Low,Verified,0,10,10456.29,1045.63,8289.59,36.1,58,6,0,2,4,0,3,51.12,Medium,P3
-CUST000189,Zara Thomas,SME,Germany,Low,Verified,0,10,625.45,62.54,215.03,29.7,61,4,0,2,2,1,2,50.88,Medium,P3
-CUST000379,Daniel Brown,SME,Turkey,High,Verified,0,11,389.08,35.37,137.37,36.82,57,6,0,2,4,0,5,50.86,Medium,P3
-CUST000160,Aisha Walker,SME,Spain,Low,Verified,0,12,5867.89,488.99,5328.96,27.33,71,5,0,1,4,0,1,50.78,Medium,P3
-CUST000235,Fatima Khan,Retail,United Arab Emirates,Medium,Verified,0,8,2713.93,339.24,2281.4,31.12,60,5,0,1,4,1,0,50.78,Medium,P3
+CUST000160,Aisha Walker,SME,Spain,Low,Verified,0,12,5867.89,488.99,5328.96,28.17,71,5,0,1,4,0,2,50.99,Medium,P3
+CUST000387,Hannah Robinson,SME,United States,Low,Verified,0,7,2266.37,323.77,1654.42,29.29,70,3,0,1,2,1,0,50.82,Medium,P3
 CUST000877,Lucas Hussain,SME,United States,Low,Verified,0,14,1014.77,72.48,215.35,29.14,61,7,0,1,6,0,4,50.74,Medium,P3
 CUST000745,Amelia Miller,Corporate,Spain,Low,Verified,0,14,857.31,61.24,329.19,29.14,61,7,0,1,6,0,2,50.74,Medium,P3
 CUST000863,Daniel Young,Retail,Italy,Low,Verified,0,8,348.43,43.55,66.45,38.0,56,6,0,2,4,0,4,50.7,Medium,P3
+CUST000899,Noah Hussain,Retail,Italy,Low,Verified,0,15,3927.71,261.85,3096.51,29.87,56,7,0,2,5,0,4,50.67,Medium,P3
 CUST000818,Grace Hall,Retail,Pakistan,Medium,Verified,0,9,462.12,51.35,194.24,29.67,65,4,0,1,3,1,2,50.67,Medium,P3
+CUST000189,Zara Thomas,SME,Germany,Low,Verified,0,10,625.45,62.54,215.03,28.7,61,4,0,2,2,1,2,50.62,Medium,P3
 CUST000832,Muhammad Robinson,Retail,Germany,Low,Verified,0,9,518.44,57.6,190.68,35.78,57,7,0,1,6,0,2,50.6,Medium,P3
 CUST000265,Amelia Patel,Retail,Singapore,Low,Verified,0,13,557.97,42.92,160.11,26.54,62,6,0,2,4,0,2,50.54,Medium,P3
+CUST000569,Zara Smith,Retail,Canada,Low,Verified,0,10,381.31,38.13,138.19,30.1,60,5,0,1,4,1,1,50.52,Medium,P3
 CUST000934,Aisha Young,Retail,Singapore,Low,Verified,0,17,11118.06,654.0,10269.18,25.65,58,6,0,1,5,1,2,50.51,Medium,P3
-CUST000523,Oliver Smith,Retail,Turkey,High,Verified,0,3,120.08,40.03,89.73,50.33,62,3,0,2,1,0,2,50.48,Medium,P3
-CUST000126,Amelia Khan,Retail,Turkey,High,Verified,0,11,878.29,79.84,348.64,35.91,61,6,0,1,5,0,3,50.43,Medium,P3
-CUST000099,Hannah Hussain,Retail,Nigeria,High,Verified,0,10,5455.74,545.57,4700.82,36.7,56,7,0,1,6,0,4,50.38,Medium,P3
+CUST000590,Muhammad Davies,Retail,India,Medium,Verified,0,14,4106.51,293.32,3239.52,28.21,61,6,0,2,4,0,4,50.5,Medium,P3
+CUST000235,Fatima Khan,Retail,United Arab Emirates,Medium,Verified,0,8,2713.93,339.24,2281.4,29.88,60,5,0,1,4,1,0,50.47,Medium,P3
+CUST000146,Adam Patel,Retail,Turkey,High,Verified,0,9,1180.17,131.13,826.9,35.89,61,5,0,2,3,0,2,50.42,Medium,P3
 CUST000399,Leo Davies,SME,Nigeria,High,Verified,0,6,346.14,57.69,90.37,41.67,71,3,0,1,2,0,3,50.37,Medium,P3
-CUST000769,Muhammad Patel,Retail,India,Medium,Verified,0,11,565.84,51.44,119.99,36.64,56,6,0,2,4,0,5,50.36,Medium,P3
+CUST000769,Muhammad Patel,Retail,India,Medium,Verified,0,11,565.84,51.44,119.99,36.64,56,6,0,2,4,0,6,50.36,Medium,P3
+CUST000715,Oliver Robinson,SME,Spain,Low,Verified,0,13,755.0,58.08,211.65,27.62,61,5,0,3,2,0,4,50.36,Medium,P3
 CUST000586,Adam Khan,Retail,United Arab Emirates,Medium,Verified,0,6,3196.66,532.78,2993.82,33.83,62,3,0,2,1,1,1,50.36,Medium,P3
-CUST000569,Zara Smith,Retail,Canada,Low,Verified,0,10,381.31,38.13,138.19,29.1,60,5,0,1,4,1,1,50.28,Medium,P3
-CUST000774,Isabella Wright,Retail,Singapore,Low,Verified,0,8,293.44,36.68,71.87,34.25,66,5,0,1,4,0,4,50.26,Medium,P3
-CUST000765,Hannah Ahmed,SME,Italy,Low,Verified,0,17,754.9,44.41,101.5,24.65,62,7,0,1,6,0,3,50.06,Medium,P3
-CUST000082,Amelia Hall,Retail,Italy,Low,Verified,0,14,2862.95,204.5,1425.49,25.43,66,6,0,1,5,0,1,50.06,Medium,P3
+CUST000588,Grace Patel,Retail,Singapore,Low,Verified,0,10,2805.69,280.57,2348.36,33.6,62,5,0,2,3,0,3,50.3,Medium,P3
+CUST000082,Amelia Hall,Retail,Italy,Low,Verified,0,14,2862.95,204.5,1425.49,26.14,66,6,0,1,5,0,1,50.24,Medium,P3
+CUST000159,Lucas Jones,Retail,India,Medium,Verified,0,16,1091.65,68.23,266.5,27.0,61,7,0,1,6,0,3,50.2,Medium,P3
+CUST000892,Ethan Smith,Corporate,United Kingdom,Low,Verified,0,8,820.01,102.5,327.15,33.62,66,5,0,1,4,0,2,50.1,Medium,P3
 CUST000888,Adam Wright,Private Banking,Netherlands,Low,Verified,0,11,740.39,67.31,150.24,35.36,56,7,0,1,6,0,4,50.04,Medium,P3
-CUST000588,Grace Patel,Retail,Singapore,Low,Verified,0,10,2805.69,280.57,2348.36,31.6,62,5,0,2,3,0,2,49.8,Medium,P3
-CUST000184,Daniel Smith,Retail,Canada,Low,Verified,0,16,1068.56,66.78,448.29,26.31,56,8,0,1,7,0,2,49.78,Medium,P3
-CUST000409,Adam Wright,Retail,India,Medium,Verified,0,13,2203.57,169.51,1506.86,31.08,62,6,0,1,5,0,2,49.67,Medium,P3
-CUST000630,Isabella Taylor,SME,Canada,Low,Verified,0,10,634.66,63.47,133.76,25.9,60,4,0,2,2,1,1,49.48,Medium,P3
+CUST000123,Daniel Ali,Retail,Netherlands,Low,Verified,0,11,10533.44,957.59,8752.78,27.18,65,4,0,1,3,1,1,50.04,Medium,P3
+CUST000184,Daniel Smith,Retail,Canada,Low,Verified,0,16,1068.56,66.78,448.29,26.94,56,8,0,1,7,0,2,49.94,Medium,P3
+CUST000432,Leo Hall,Retail,Pakistan,Medium,Verified,0,5,368.38,73.68,242.08,41.8,61,5,0,1,4,0,1,49.9,Medium,P3
+CUST000630,Isabella Taylor,SME,Canada,Low,Verified,0,10,634.66,63.47,133.76,26.9,60,4,0,2,2,1,1,49.72,Medium,P3
+CUST000239,Zara Walker,Retail,Turkey,High,Verified,0,8,526.78,65.85,184.39,40.0,66,4,0,1,3,0,4,49.7,Medium,P3
+CUST000935,Grace Young,Retail,India,Medium,Verified,0,11,781.45,71.04,177.58,31.91,57,7,0,1,6,0,3,49.63,Medium,P3
+CUST000743,Hannah Hall,SME,United States,Low,Verified,0,11,896.48,81.5,429.77,33.55,56,7,0,1,6,0,3,49.59,Medium,P3
+CUST000108,Noah Clarke,Retail,United States,Low,Verified,0,10,391.04,39.1,107.63,31.3,66,5,0,1,4,0,1,49.52,Medium,P3
+CUST000575,Mia Ali,Retail,Netherlands,Low,Verified,0,11,1160.99,105.54,240.12,30.18,62,6,0,1,5,0,2,49.44,Medium,P3
+CUST000467,Noah Green,Retail,Italy,Low,Verified,0,9,459.28,51.03,86.32,31.89,61,6,0,1,5,0,2,49.42,Medium,P3
+CUST000091,Isabella Green,SME,Canada,Low,Verified,0,10,5386.87,538.69,5002.3,31.8,61,5,0,2,3,0,2,49.4,Medium,P3
 CUST000462,Amelia Clarke,Retail,India,Medium,Verified,0,11,4322.03,392.91,3930.33,32.73,56,7,0,1,6,0,2,49.38,Medium,P3
-CUST000743,Hannah Hall,SME,United States,Low,Verified,0,11,896.48,81.5,429.77,32.64,56,7,0,1,6,0,2,49.36,Medium,P3
+CUST000824,Sophia Khan,Retail,Netherlands,Low,Verified,0,14,569.1,40.65,131.79,24.5,56,6,0,1,5,1,4,49.32,Medium,P3
 CUST000052,Maya Ahmed,Retail,India,Medium,Verified,0,14,8692.65,620.9,4936.37,31.43,61,6,0,1,5,0,2,49.31,Medium,P3
-CUST000108,Noah Clarke,Retail,United States,Low,Verified,0,10,391.04,39.1,107.63,30.3,66,5,0,1,4,0,1,49.28,Medium,P3
-CUST000066,Aisha Clarke,SME,Canada,Low,Verified,0,6,8436.6,1406.1,8166.93,30.5,77,2,1,0,1,0,2,49.28,Medium,P3
 CUST000080,Mia Davies,Retail,Spain,Low,Verified,0,6,155.88,25.98,46.97,38.17,66,3,0,2,1,0,2,49.24,Medium,P3
-CUST000575,Mia Ali,Retail,Netherlands,Low,Verified,0,11,1160.99,105.54,240.12,29.27,62,6,0,1,5,0,2,49.22,Medium,P3
 CUST000610,Isabella Patel,SME,Germany,Low,Verified,0,11,2414.66,219.51,1702.82,30.09,66,5,0,1,4,0,1,49.22,Medium,P3
-CUST000337,Ali Brown,Retail,Turkey,High,Verified,0,7,234.94,33.56,62.73,39.86,56,6,0,1,5,0,5,49.16,Medium,P3
-CUST000782,Grace Robinson,SME,Singapore,Low,Verified,0,11,2443.82,222.17,1985.17,30.82,61,5,0,2,3,0,4,49.16,Medium,P3
-CUST000091,Isabella Green,SME,Canada,Low,Verified,0,10,5386.87,538.69,5002.3,30.8,61,5,0,2,3,0,2,49.15,Medium,P3
-CUST000164,Ethan Smith,SME,Spain,Low,Verified,0,12,1892.81,157.73,770.1,31.75,56,7,0,1,6,0,4,49.14,Medium,P3
-CUST000467,Noah Green,Retail,Italy,Low,Verified,0,9,459.28,51.03,86.32,30.78,61,6,0,1,5,0,1,49.14,Medium,P3
+CUST000182,James Jones,Retail,Canada,Low,Verified,0,11,568.65,51.7,110.38,30.73,61,6,0,1,5,0,3,49.13,Medium,P3
 CUST000335,Muhammad Davies,Retail,Singapore,Low,Verified,0,7,355.3,50.76,88.18,31.29,65,3,0,1,2,1,1,49.07,Medium,P3
-CUST000584,Aisha Patel,Retail,Turkey,High,Verified,0,9,596.41,66.27,232.45,38.0,61,4,0,2,2,0,4,48.95,Medium,P3
-CUST000795,Ali Hussain,Retail,France,Low,Verified,0,13,595.28,45.79,181.03,35.46,49,9,0,0,9,0,4,48.92,Medium,P3
-CUST000944,Leo Clarke,SME,Germany,Low,Verified,0,9,2492.67,276.96,2167.82,27.89,71,4,0,1,3,0,1,48.92,Medium,P3
-CUST000182,James Jones,Retail,Canada,Low,Verified,0,11,568.65,51.7,110.38,29.82,61,6,0,1,5,0,2,48.9,Medium,P3
+CUST000394,Lucas Hall,Retail,United Kingdom,Low,Verified,0,9,507.06,56.34,195.36,28.44,71,4,0,1,3,0,1,49.06,Medium,P3
+CUST000782,Grace Robinson,SME,Singapore,Low,Verified,0,11,2443.82,222.17,1985.17,29.91,61,5,0,2,3,0,4,48.93,Medium,P3
 CUST000928,Daniel Smith,Retail,Netherlands,Low,Pending Review,0,4,197.8,49.45,97.44,42.0,63,4,0,1,3,0,2,48.85,Medium,P3
-CUST000319,Zara Hussain,Retail,Nigeria,High,Verified,0,4,139.7,34.92,69.08,42.75,67,3,0,1,2,0,2,48.84,Medium,P3
-CUST000394,Lucas Hall,Retail,United Kingdom,Low,Verified,0,9,507.06,56.34,195.36,27.33,71,4,0,1,3,0,1,48.78,Medium,P3
+CUST000949,Amelia Wilson,Corporate,France,Low,Verified,0,8,1231.27,153.91,479.8,35.75,62,5,0,1,4,0,2,48.84,Medium,P3
+CUST000795,Ali Hussain,Retail,France,Low,Verified,0,13,595.28,45.79,181.03,34.69,49,9,0,0,9,0,4,48.72,Medium,P3
+CUST000164,Ethan Smith,SME,Spain,Low,Verified,0,12,1892.81,157.73,770.1,30.08,56,7,0,1,6,0,2,48.72,Medium,P3
+CUST000718,Zara Walker,Corporate,United States,Low,Verified,0,14,3637.3,259.81,2844.27,27.29,62,6,0,1,5,0,1,48.72,Medium,P3
+CUST000228,Mia Green,Retail,United Kingdom,Low,Verified,0,13,820.61,63.12,162.88,27.23,62,6,0,1,5,0,1,48.71,Medium,P3
 CUST000400,Amelia Jones,Private Banking,United Kingdom,Low,Verified,0,12,3871.2,322.6,3489.46,29.0,61,6,0,1,5,0,2,48.7,Medium,P3
 CUST000698,Leo Jones,SME,Nigeria,High,Verified,0,9,4054.32,450.48,3631.73,36.78,61,4,0,2,2,0,3,48.64,Medium,P3
-CUST000441,Adam Smith,SME,France,Low,Verified,0,12,4738.87,394.91,2850.74,28.42,61,6,0,1,5,0,3,48.56,Medium,P3
-CUST000718,Zara Walker,Corporate,United States,Low,Verified,0,14,3637.3,259.81,2844.27,26.57,62,6,0,1,5,0,1,48.54,Medium,P3
-CUST000949,Amelia Wilson,Corporate,France,Low,Verified,0,8,1231.27,153.91,479.8,34.5,62,5,0,1,4,0,2,48.53,Medium,P3
-CUST000228,Mia Green,Retail,United Kingdom,Low,Verified,0,13,820.61,63.12,162.88,26.46,62,6,0,1,5,0,1,48.52,Medium,P3
-CUST000669,Hannah Patel,Retail,Italy,Low,Verified,0,7,206.32,29.47,61.31,34.43,62,5,0,1,4,0,2,48.51,Medium,P3
+CUST000379,Daniel Brown,SME,Turkey,High,Verified,0,11,389.08,35.37,137.37,35.91,57,5,0,2,3,0,4,48.63,Medium,P3
+CUST000714,Maya Thomas,Retail,Singapore,Low,Verified,0,13,4099.88,315.38,3354.7,26.23,62,5,0,2,3,0,2,48.46,Medium,P3
+CUST000994,Lucas Wright,Retail,France,Low,Verified,0,10,10456.29,1045.63,8289.59,35.1,57,6,0,1,5,0,3,48.42,Medium,P3
 CUST000237,Daniel Brown,Retail,Netherlands,Low,Verified,0,7,408.25,58.32,124.09,34.14,66,4,0,1,3,0,1,48.24,Medium,P3
 CUST000533,Fatima Jones,Retail,Spain,Low,Failed,0,4,120.77,30.19,56.01,39.5,63,4,0,1,3,0,1,48.22,Medium,P3
-CUST000590,Muhammad Davies,Retail,India,Medium,Verified,0,14,4106.51,293.32,3239.52,26.79,61,5,0,2,3,0,2,48.15,Medium,P3
+CUST000600,Oliver Miller,Retail,Netherlands,Low,Verified,0,14,3384.02,241.72,2384.34,27.93,56,7,0,1,6,0,2,48.18,Medium,P3
+CUST000685,Aisha Jones,Retail,Italy,Low,Verified,0,14,3504.94,250.35,3004.3,26.93,61,6,0,1,5,0,3,48.18,Medium,P3
+CUST000669,Hannah Patel,Retail,Italy,Low,Verified,0,7,206.32,29.47,61.31,33.0,62,5,0,1,4,0,1,48.15,Medium,P3
 CUST000215,James Green,Retail,United States,Low,Verified,0,7,3528.32,504.05,3365.83,33.71,66,4,0,1,3,0,3,48.13,Medium,P3
-CUST000367,Lucas Clarke,Retail,United States,Low,Verified,0,8,841.87,105.23,589.91,27.5,65,3,0,1,2,1,0,48.12,Medium,P3
 CUST000855,Aisha Young,Retail,Pakistan,Medium,Verified,0,7,401.49,57.36,124.46,33.57,66,4,0,1,3,0,2,48.09,Medium,P3
-CUST000280,Ethan Patel,SME,Italy,Low,Verified,0,14,4591.39,327.96,3859.21,26.14,61,6,0,1,5,0,3,47.98,Medium,P3
+CUST000280,Ethan Patel,SME,Italy,Low,Verified,0,14,4591.39,327.96,3859.21,26.14,61,6,0,1,5,0,2,47.98,Medium,P3
 CUST000413,Leo Ali,Retail,United States,Low,Pending Review,0,3,927.79,309.26,860.72,53.67,59,3,0,1,2,0,3,47.97,Medium,P3
+CUST000838,Noah Wilson,Retail,Italy,Low,Verified,0,12,579.64,48.3,196.11,33.25,48,9,0,0,9,0,2,47.91,Medium,P3
 CUST000665,Ethan Smith,Retail,Pakistan,Medium,Verified,0,6,836.83,139.47,543.66,40.0,62,4,0,1,3,0,2,47.9,Medium,P3
-CUST000970,Amelia Ahmed,Corporate,France,Low,Verified,0,10,683.82,68.38,151.49,34.7,56,5,0,2,3,0,4,47.88,Medium,P3
-CUST000515,Noah Ali,Retail,Canada,Low,Verified,0,18,1446.74,80.37,442.39,26.61,56,7,0,1,6,0,2,47.85,Medium,P3
-CUST000892,Ethan Smith,Corporate,United Kingdom,Low,Verified,0,8,820.01,102.5,327.15,32.38,66,4,0,1,3,0,2,47.8,Medium,P3
-CUST000331,Lucas Jones,SME,United Kingdom,Low,Verified,0,10,10542.49,1054.25,5987.06,31.5,62,5,0,1,4,0,3,47.78,Medium,P3
+CUST000009,James Miller,Retail,Spain,Low,Verified,0,13,525.88,40.45,95.47,25.54,61,6,0,1,5,0,2,47.84,Medium,P3
+CUST000719,Hannah Wilson,Retail,Turkey,High,Verified,0,6,144.73,24.12,52.85,39.17,71,2,0,1,1,0,2,47.74,Medium,P3
+CUST000515,Noah Ali,Retail,Canada,Low,Verified,0,18,1446.74,80.37,442.39,26.06,56,7,0,1,6,0,1,47.72,Medium,P3
 CUST000342,James Ali,Retail,United Arab Emirates,Medium,Verified,0,9,5533.18,614.8,5193.53,30.33,58,5,0,2,3,0,2,47.68,Medium,P3
-CUST000009,James Miller,Retail,Spain,Low,Verified,0,13,525.88,40.45,95.47,24.77,61,6,0,1,5,0,2,47.64,Medium,P3
-CUST000935,Grace Young,Retail,India,Medium,Verified,0,11,781.45,71.04,177.58,31.91,57,6,0,1,5,0,2,47.63,Medium,P3
-CUST000734,Mia Brown,SME,Germany,Low,Verified,0,9,347.9,38.66,109.57,31.67,66,4,0,1,3,0,1,47.62,Medium,P3
+CUST000970,Amelia Ahmed,Corporate,France,Low,Verified,0,10,683.82,68.38,151.49,33.7,56,5,0,2,3,0,3,47.62,Medium,P3
+CUST000241,James Patel,Retail,Italy,Low,Verified,0,10,3724.44,372.44,3386.47,31.7,57,6,0,1,5,0,2,47.58,Medium,P3
 CUST000510,James Robinson,Retail,Netherlands,Low,Verified,0,10,535.73,53.57,97.94,31.7,57,6,0,1,5,0,3,47.58,Medium,P3
+CUST000208,Daniel Jones,Private Banking,Germany,Low,Verified,0,5,229.26,45.85,80.69,38.6,62,4,0,1,3,0,1,47.55,Medium,P3
 CUST000369,James Davies,Corporate,Pakistan,Medium,Verified,0,12,621.97,51.83,236.09,27.17,55,5,0,1,4,1,1,47.54,Medium,P3
+CUST000331,Lucas Jones,SME,United Kingdom,Low,Verified,0,10,10542.49,1054.25,5987.06,30.5,62,5,0,1,4,0,3,47.53,Medium,P3
 CUST000801,Hannah Thomas,Corporate,France,Low,Verified,0,9,2800.25,311.14,2019.05,32.22,61,5,0,1,4,0,2,47.5,Medium,P3
 CUST000179,Oliver Hall,Corporate,Pakistan,Medium,Verified,0,9,255.78,28.42,54.14,32.0,61,5,0,1,4,0,2,47.45,Medium,P3
 CUST000986,Hannah Khan,Retail,Canada,Low,Verified,0,9,1066.42,118.49,513.89,25.56,60,4,0,1,3,1,1,47.39,Medium,P3
-CUST000841,Zara Green,Retail,United States,Low,Verified,0,8,182.94,22.87,58.12,30.75,66,4,0,1,3,0,2,47.39,Medium,P3
 CUST000939,Ethan Brown,Retail,Canada,Low,Verified,0,14,7791.22,556.52,7167.79,30.0,53,8,0,0,8,0,4,47.35,Medium,P3
 CUST000756,Adam Wilson,Retail,India,Medium,Verified,0,9,322.61,35.85,97.1,31.56,61,5,0,1,4,0,1,47.34,Medium,P3
-CUST000241,James Patel,Retail,Italy,Low,Verified,0,10,3724.44,372.44,3386.47,30.7,57,6,0,1,5,0,2,47.32,Medium,P3
-CUST000751,Lucas Ali,SME,United Kingdom,Low,Verified,0,10,291.18,29.12,119.04,31.3,61,4,0,2,2,0,4,47.28,Medium,P3
-CUST000374,Daniel Wright,Retail,Pakistan,Medium,Verified,0,9,659.34,73.26,213.89,24.11,65,3,0,1,2,1,1,47.28,Medium,P3
-CUST000992,Amelia Patel,Private Banking,United Arab Emirates,Medium,Verified,0,9,606.19,67.35,221.12,24.11,65,3,0,1,2,1,1,47.28,Medium,P3
-CUST000824,Sophia Khan,Retail,Netherlands,Low,Verified,0,14,569.1,40.65,131.79,23.79,56,5,0,1,4,1,3,47.15,Medium,P3
+CUST000734,Mia Brown,SME,Germany,Low,Verified,0,9,347.9,38.66,109.57,30.56,66,4,0,1,3,0,1,47.34,Medium,P3
 CUST000626,Noah Robinson,Retail,Canada,Low,Verified,0,10,2074.34,207.43,1623.44,28.9,62,5,0,1,4,0,1,47.12,Medium,P3
 CUST000564,Fatima Wilson,SME,Italy,Low,Verified,0,9,1895.92,210.66,1520.01,28.78,62,5,0,1,4,0,1,47.1,Medium,P3
-CUST000686,Sophia Davies,Retail,Germany,Low,Verified,0,5,233.38,46.68,66.83,37.6,66,3,0,1,2,0,1,47.1,Medium,P3
-CUST000568,Noah Jones,Retail,Singapore,Low,Verified,0,8,456.1,57.01,120.36,30.5,61,5,0,1,4,0,2,47.08,Medium,P3
-CUST000918,Oliver Patel,Retail,France,Low,Verified,0,9,5873.99,652.67,5452.59,29.44,66,4,0,1,3,0,2,47.06,Medium,P3
-CUST000006,Noah Davies,Private Banking,Germany,Low,Verified,0,12,337.27,28.11,127.24,25.08,55,5,0,1,4,1,0,47.02,Medium,P3
+CUST000751,Lucas Ali,SME,United Kingdom,Low,Verified,0,10,291.18,29.12,119.04,30.3,61,4,0,2,2,0,3,47.02,Medium,P3
 CUST000255,Sophia Robinson,SME,France,Low,Verified,0,12,3620.85,301.74,2956.9,32.25,51,8,0,0,8,0,3,47.01,Medium,P3
 CUST000833,Lucas Thomas,SME,Canada,Low,Verified,0,5,150.3,30.06,78.56,37.0,66,3,0,1,2,0,1,46.95,Medium,P3
-CUST000096,Muhammad Taylor,SME,Germany,Low,Verified,0,12,962.69,80.22,269.26,29.0,57,6,0,1,5,0,3,46.9,Medium,P3
-CUST000524,Amelia Thomas,SME,Germany,Low,Verified,0,12,517.03,43.09,221.07,26.92,67,3,0,2,1,0,2,46.88,Medium,P3
-CUST000565,Hannah Smith,Retail,United Kingdom,Low,Verified,0,7,400.5,57.21,121.56,36.14,57,4,0,2,2,0,3,46.68,Medium,P3
+CUST000096,Muhammad Taylor,SME,Germany,Low,Verified,0,12,962.69,80.22,269.26,29.0,57,6,0,1,5,0,4,46.9,Medium,P3
+CUST000162,Hannah Clarke,Retail,Italy,Low,Verified,0,7,211.08,30.15,46.46,37.57,61,4,0,1,3,0,2,46.84,Medium,P3
+CUST000145,Adam Ahmed,Retail,Pakistan,Medium,Verified,0,10,3351.73,335.17,2890.24,36.7,48,8,0,0,8,0,4,46.78,Medium,P3
+CUST000918,Oliver Patel,Retail,France,Low,Verified,0,9,5873.99,652.67,5452.59,28.33,66,4,0,1,3,0,1,46.78,Medium,P3
+CUST000568,Noah Jones,Retail,Singapore,Low,Verified,0,8,456.1,57.01,120.36,29.25,61,5,0,1,4,0,1,46.76,Medium,P3
 CUST000958,James Hall,Retail,Pakistan,Medium,Pending Review,0,2,251.53,125.76,179.37,49.0,63,2,0,1,1,0,1,46.6,Medium,P3
 CUST000673,Muhammad Khan,SME,Pakistan,Medium,Verified,0,11,436.63,39.69,104.3,29.55,56,6,0,1,5,0,1,46.59,Medium,P3
-CUST000495,Sophia Khan,Retail,Turkey,High,Verified,0,9,636.78,70.75,188.14,37.56,56,5,0,1,4,0,4,46.59,Medium,P3
-CUST000145,Adam Ahmed,Retail,Pakistan,Medium,Verified,0,10,3351.73,335.17,2890.24,35.7,48,8,0,0,8,0,3,46.53,Medium,P3
 CUST000041,Isabella Ali,Retail,Germany,Low,Verified,0,10,450.16,45.02,148.19,28.3,61,4,0,2,2,0,2,46.52,Medium,P3
 CUST000794,Lucas Green,Retail,France,Low,Verified,0,10,513.49,51.35,121.58,31.9,50,6,0,0,6,1,0,46.48,Medium,P3
+CUST000772,Daniel Robinson,Retail,India,Medium,Verified,0,13,1003.64,77.2,334.46,25.92,62,5,0,1,4,0,2,46.38,Medium,P3
 CUST000067,Aisha Wright,Corporate,Nigeria,High,Verified,0,4,642.4,160.6,332.44,42.5,57,4,0,1,3,0,1,46.28,Medium,P3
-CUST000624,Ali Clarke,Retail,Germany,Low,Verified,0,18,1082.15,60.12,193.25,27.44,52,8,0,0,8,0,3,46.26,Medium,P3
-CUST000046,Maya Davies,Retail,Netherlands,Low,Verified,0,11,492.69,44.79,171.18,23.91,67,4,0,1,3,0,3,46.13,Medium,P3
-CUST000415,Zara Ali,Retail,United States,Low,Verified,0,8,3703.98,463.0,2811.53,32.88,62,4,0,1,3,0,2,46.12,Medium,P3
-CUST000277,Lucas Smith,Private Banking,Italy,Low,Verified,0,10,418.75,41.88,153.57,29.4,55,4,0,1,3,1,2,46.1,Medium,P3
+CUST000790,Zara Brown,Retail,Singapore,Low,Verified,0,7,293.53,41.93,94.19,33.0,62,4,0,1,3,0,2,46.15,Medium,P3
+CUST000624,Ali Clarke,Retail,Germany,Low,Verified,0,18,1082.15,60.12,193.25,26.89,52,8,0,0,8,0,3,46.12,Medium,P3
 CUST000271,Oliver Patel,Retail,Italy,Low,Verified,0,12,4299.88,358.32,3759.66,27.42,56,6,0,1,5,0,2,46.06,Medium,P3
+CUST000004,Daniel Patel,Retail,France,Low,Verified,0,9,399.71,44.41,114.13,29.22,55,4,0,1,3,1,1,46.06,Medium,P3
 CUST000513,Daniel Taylor,SME,Italy,Low,Verified,0,8,475.54,59.44,243.6,35.25,56,5,0,1,4,0,3,46.01,Medium,P3
-CUST000685,Aisha Jones,Retail,Italy,Low,Verified,0,14,3504.94,250.35,3004.3,26.21,61,5,0,1,4,0,2,46.0,Medium,P3
-CUST000694,Daniel Wilson,Retail,India,Medium,Verified,0,11,634.78,57.71,131.23,26.18,61,5,0,1,4,0,3,46.0,Medium,P3
 CUST000485,Sophia Patel,Retail,Singapore,Low,Verified,0,9,433.79,48.2,103.05,33.33,57,5,0,1,4,0,2,45.98,Medium,P3
-CUST000083,Ali Patel,Retail,France,Low,Verified,0,13,3699.14,284.55,3138.05,24.92,66,4,0,1,3,0,3,45.93,Medium,P3
+CUST000491,Grace Brown,Retail,France,Low,Verified,0,8,741.61,92.7,318.38,27.88,60,3,0,1,2,1,2,45.97,Medium,P3
+CUST000765,Hannah Ahmed,SME,Italy,Low,Verified,0,17,754.9,44.41,101.5,24.06,62,5,0,1,4,0,1,45.92,Medium,P3
 CUST000614,Leo Ahmed,SME,Turkey,High,Verified,0,9,262.56,29.17,63.93,34.89,56,5,0,1,4,0,3,45.92,Medium,P3
 CUST000327,Muhammad Davies,Retail,Nigeria,High,Verified,0,9,378.89,42.1,82.24,33.89,61,4,0,1,3,0,3,45.92,Medium,P3
+CUST000356,Hannah Hussain,Retail,United States,Low,Verified,0,8,690.85,86.36,283.4,28.62,55,4,0,1,3,1,2,45.9,Medium,P3
 CUST000381,Ali Ali,Retail,Canada,Low,Verified,0,8,396.95,49.62,115.18,28.62,55,4,0,1,3,1,0,45.9,Medium,P3
 CUST000458,Grace Green,Retail,India,Medium,Verified,0,6,6011.8,1001.97,5763.3,32.67,66,3,0,1,2,0,2,45.87,Medium,P3
+CUST000277,Lucas Smith,Private Banking,Italy,Low,Verified,0,10,418.75,41.88,153.57,28.4,55,4,0,1,3,1,1,45.85,Medium,P3
 CUST000566,Sophia Wilson,Retail,Turkey,High,Verified,0,11,433.43,39.4,165.86,34.45,56,4,0,2,2,0,3,45.81,Medium,P3
-CUST000004,Daniel Patel,Retail,France,Low,Verified,0,9,399.71,44.41,114.13,28.11,55,4,0,1,3,1,0,45.78,Medium,P3
-CUST000516,Maya Walker,Retail,United Kingdom,Low,Verified,0,6,628.67,104.78,208.28,32.33,66,3,0,1,2,0,2,45.78,Medium,P3
-CUST000746,Leo Khan,Retail,Pakistan,Medium,Verified,0,7,2316.33,330.9,2076.99,30.29,67,3,0,1,2,0,2,45.72,Medium,P3
+CUST000415,Zara Ali,Retail,United States,Low,Verified,0,8,3703.98,463.0,2811.53,31.62,62,4,0,1,3,0,1,45.8,Medium,P3
+CUST000083,Ali Patel,Retail,France,Low,Verified,0,13,3699.14,284.55,3138.05,24.15,66,4,0,1,3,0,2,45.74,Medium,P3
 CUST000150,Lucas Thomas,Retail,France,Low,Verified,0,9,234.37,26.04,106.52,26.0,56,3,0,2,1,1,2,45.7,Medium,P3
-CUST000719,Hannah Wilson,Retail,Turkey,High,Verified,0,6,144.73,24.12,52.85,39.17,62,2,0,2,0,0,2,45.69,Medium,P3
-CUST000491,Grace Brown,Retail,France,Low,Verified,0,8,741.61,92.7,318.38,26.62,60,3,0,1,2,1,1,45.66,Medium,P3
+CUST000046,Maya Davies,Retail,Netherlands,Low,Verified,0,11,492.69,44.79,171.18,22.09,67,4,0,1,3,0,2,45.67,Medium,P3
+CUST000248,Hannah Green,Retail,Germany,Low,Verified,0,7,447.59,63.94,179.57,31.86,66,3,0,1,2,0,2,45.66,Medium,P3
+CUST000207,Mia Wilson,Retail,United Kingdom,Low,Verified,0,8,2120.5,265.06,1718.51,30.88,62,4,0,1,3,0,1,45.62,Medium,P3
 CUST000810,Grace Taylor,Corporate,India,Medium,Verified,0,7,4404.83,629.26,4220.8,32.57,61,3,0,2,1,0,2,45.59,Medium,P3
 CUST000762,Ali Brown,Retail,Pakistan,Medium,Verified,0,10,426.38,42.64,82.18,30.9,53,7,0,0,7,0,1,45.58,Medium,P3
-CUST000223,Muhammad Ahmed,Private Banking,Spain,Low,Verified,0,11,1404.94,127.72,793.82,26.55,55,4,0,1,3,1,1,45.39,Medium,P3
+CUST000297,Ethan Ahmed,SME,Singapore,Low,Verified,0,6,354.49,59.08,158.48,31.5,66,3,0,1,2,0,3,45.58,Medium,P3
+CUST000971,Maya Wilson,Retail,Italy,Low,Verified,0,8,514.39,64.3,220.6,30.25,62,4,0,1,3,0,2,45.46,Medium,P3
+CUST000746,Leo Khan,Retail,Pakistan,Medium,Verified,0,7,2316.33,330.9,2076.99,28.86,67,3,0,1,2,0,1,45.36,Medium,P3
 CUST000045,Sophia Ali,SME,United Kingdom,Low,Verified,0,15,933.61,62.24,193.88,22.53,66,4,0,1,3,0,1,45.33,Medium,P3
-CUST000248,Hannah Green,Retail,Germany,Low,Verified,0,7,447.59,63.94,179.57,30.43,66,3,0,1,2,0,1,45.31,Medium,P3
-CUST000207,Mia Wilson,Retail,United Kingdom,Low,Verified,0,8,2120.5,265.06,1718.51,29.62,62,4,0,1,3,0,1,45.3,Medium,P3
-CUST000838,Noah Wilson,Retail,Italy,Low,Verified,0,12,579.64,48.3,196.11,31.58,43,9,0,0,9,0,0,45.24,Medium,P3
 CUST000354,Noah Wilson,Retail,Nigeria,High,Verified,0,7,208.74,29.82,54.0,39.14,52,6,0,0,6,0,3,45.18,Medium,P3
-CUST000297,Ethan Ahmed,SME,Singapore,Low,Verified,0,6,354.49,59.08,158.48,29.83,66,3,0,1,2,0,2,45.16,Medium,P3
-CUST000971,Maya Wilson,Retail,Italy,Low,Verified,0,8,514.39,64.3,220.6,29.0,62,4,0,1,3,0,2,45.15,Medium,P3
+CUST000223,Muhammad Ahmed,Private Banking,Spain,Low,Verified,0,11,1404.94,127.72,793.82,25.64,55,4,0,1,3,1,1,45.16,Medium,P3
 CUST000196,Fatima Wright,Retail,Italy,Low,Verified,0,12,4941.73,411.81,4026.6,22.75,61,5,0,1,4,0,1,45.14,Medium,P3
+CUST000774,Isabella Wright,Retail,Singapore,Low,Verified,0,8,293.44,36.68,71.87,31.75,56,5,0,1,4,0,3,45.14,Medium,P3
+CUST000305,Ethan Khan,Corporate,United Kingdom,Low,Verified,0,9,2841.47,315.72,2516.75,30.56,61,4,0,1,3,0,2,45.09,Medium,P3
 CUST000477,Amelia Young,Retail,Netherlands,Low,Verified,0,8,470.46,58.81,162.83,30.5,61,4,0,1,3,0,1,45.08,Medium,P3
+CUST000165,Isabella Jones,Retail,Singapore,Low,Verified,0,11,5376.96,488.81,4856.68,27.82,58,5,0,1,4,0,1,45.06,Medium,P3
 CUST000820,Mia Miller,Retail,Singapore,Low,Verified,0,12,3393.12,282.76,2722.31,30.58,52,7,0,0,7,0,2,45.04,Medium,P3
+CUST000548,Oliver Ahmed,Retail,Pakistan,Medium,Verified,0,11,398.49,36.23,169.6,25.09,55,4,0,1,3,1,0,45.02,Medium,P3
 CUST000632,Noah Miller,Retail,Singapore,Low,Verified,0,4,253.93,63.48,120.68,38.25,61,3,0,1,2,0,1,45.01,Medium,P3
-CUST000254,Zara Hussain,SME,Canada,Low,Verified,0,14,571.62,40.83,141.61,30.29,43,9,0,0,9,0,0,44.92,Medium,P3
+CUST000140,Hannah Smith,Retail,Germany,Low,Verified,0,7,813.67,116.24,358.4,29.0,66,3,0,1,2,0,2,44.95,Medium,P3
+CUST000523,Oliver Smith,Retail,Turkey,High,Verified,0,3,120.08,40.03,89.73,47.0,56,3,0,1,2,0,2,44.95,Medium,P3
 CUST000659,Amelia Ali,Retail,Germany,Low,Verified,0,13,829.77,63.83,213.36,21.85,61,5,0,1,4,0,1,44.91,Medium,P3
-CUST000239,Zara Walker,Retail,Turkey,High,Verified,0,8,526.78,65.85,184.39,38.75,56,4,0,1,3,0,4,44.89,Medium,P3
 CUST000334,Lucas Jones,Retail,United States,Low,Verified,0,6,5892.57,982.09,5588.08,22.67,76,1,1,0,0,0,1,44.87,Medium,P3
-CUST000165,Isabella Jones,Retail,Singapore,Low,Verified,0,11,5376.96,488.81,4856.68,26.91,58,5,0,1,4,0,1,44.83,Medium,P3
-CUST000305,Ethan Khan,Corporate,United Kingdom,Low,Verified,0,9,2841.47,315.72,2516.75,29.44,61,4,0,1,3,0,2,44.81,Medium,P3
-CUST000548,Oliver Ahmed,Retail,Pakistan,Medium,Verified,0,11,398.49,36.23,169.6,24.18,55,4,0,1,3,1,0,44.8,Medium,P3
 CUST000981,Ethan Khan,Retail,United Arab Emirates,Medium,Verified,0,15,789.06,52.6,130.66,29.4,52,7,0,0,7,0,3,44.75,Medium,P3
 CUST000520,Ethan Ahmed,SME,Italy,Low,Verified,0,12,592.3,49.36,131.85,27.58,53,7,0,0,7,0,2,44.74,Medium,P3
-CUST000448,Oliver Brown,Retail,United Arab Emirates,Medium,Verified,0,10,518.44,51.84,139.57,30.0,56,5,0,1,4,0,3,44.7,Medium,P3
-CUST000140,Hannah Smith,Retail,Germany,Low,Verified,0,7,813.67,116.24,358.4,27.57,66,3,0,1,2,0,1,44.59,Medium,P3
+CUST000941,Zara Thomas,Retail,Pakistan,Medium,Verified,0,8,349.91,43.74,128.04,29.75,56,5,0,1,4,0,1,44.64,Medium,P3
 CUST000907,Zara Walker,Retail,United States,Low,Verified,0,11,2345.73,213.25,2034.23,29.36,56,5,0,1,4,0,2,44.54,Medium,P3
 CUST000125,Amelia Hall,Retail,Netherlands,Low,Verified,0,10,9635.79,963.58,9140.56,29.0,56,5,0,1,4,0,2,44.45,Medium,P3
-CUST000348,Ali Brown,Private Banking,Pakistan,Medium,Verified,0,3,405.23,135.08,366.37,33.67,71,1,0,1,0,0,1,44.37,Medium,P3
-CUST000941,Zara Thomas,Retail,Pakistan,Medium,Verified,0,8,349.91,43.74,128.04,28.5,56,5,0,1,4,0,1,44.32,Medium,P3
 CUST000313,Hannah Brown,SME,Canada,Low,Verified,0,8,2512.77,314.1,2002.97,27.38,61,4,0,1,3,0,2,44.3,Medium,P3
+CUST000141,Mia Green,Corporate,Netherlands,Low,Verified,0,12,750.02,62.5,276.89,26.58,57,4,0,2,2,0,3,44.3,Medium,P3
 CUST000727,Fatima Patel,Retail,Canada,Low,Verified,0,7,180.34,25.76,76.24,21.14,60,3,0,1,2,1,0,44.28,Medium,P3
 CUST000289,Maya Taylor,Retail,France,Low,Verified,0,9,555.49,61.72,148.91,26.22,66,3,0,1,2,0,2,44.26,Medium,P3
-CUST000183,Zara Ahmed,SME,Singapore,Low,Verified,0,11,608.26,55.3,195.86,27.91,56,5,0,1,4,0,3,44.18,Medium,P3
+CUST000694,Daniel Wilson,Retail,India,Medium,Verified,0,11,634.78,57.71,131.23,27.09,61,4,0,1,3,0,2,44.22,Medium,P3
+CUST000469,Leo Hall,Retail,Canada,Low,Verified,0,10,750.45,75.04,273.77,28.0,56,5,0,1,4,0,1,44.2,Medium,P3
+CUST000448,Oliver Brown,Retail,United Arab Emirates,Medium,Verified,0,10,518.44,51.84,139.57,28.0,56,5,0,1,4,0,2,44.2,Medium,P3
 CUST000038,Oliver Brown,Retail,Italy,Low,Verified,0,10,592.2,59.22,161.94,26.9,61,4,0,1,3,0,1,44.18,Medium,P3
+CUST000944,Leo Clarke,SME,Germany,Low,Verified,0,9,2492.67,276.96,2167.82,26.78,61,4,0,1,3,0,1,44.14,Medium,P3
 CUST000055,Noah Hussain,Retail,Singapore,Low,Verified,0,8,2217.36,277.17,1858.14,24.75,71,2,0,1,1,0,1,44.14,Medium,P3
-CUST000141,Mia Green,Corporate,Netherlands,Low,Verified,0,12,750.02,62.5,276.89,25.75,57,4,0,2,2,0,2,44.09,Medium,P3
-CUST000020,Ali Wilson,Retail,Germany,Low,Verified,0,12,5237.27,436.44,4579.94,27.17,56,5,0,1,4,0,3,43.99,Medium,P3
-CUST000932,Maya Patel,Retail,Pakistan,Medium,Verified,0,12,3781.06,315.09,3262.51,26.17,61,4,0,1,3,0,2,43.99,Medium,P3
-CUST000469,Leo Hall,Retail,Canada,Low,Verified,0,10,750.45,75.04,273.77,27.0,56,5,0,1,4,0,1,43.95,Medium,P3
+CUST000183,Zara Ahmed,SME,Singapore,Low,Verified,0,11,608.26,55.3,195.86,27.0,56,5,0,1,4,0,2,43.95,Medium,P3
+CUST000558,Hannah Green,SME,Canada,Low,Verified,0,7,2046.47,292.35,1770.51,24.86,66,3,0,1,2,0,1,43.92,Medium,P3
 CUST000040,Leo Miller,Corporate,Netherlands,Low,Verified,0,10,4846.73,484.67,4308.14,25.8,61,4,0,1,3,0,1,43.9,Medium,P3
 CUST000463,Lucas Clarke,Corporate,France,Low,Verified,0,12,710.95,59.25,232.43,25.0,57,4,0,2,2,0,2,43.9,Medium,P3
-CUST000990,Oliver Smith,SME,India,Medium,Verified,0,6,417.4,69.57,175.36,28.5,55,3,0,1,2,1,0,43.88,Medium,P3
 CUST000482,Muhammad Khan,SME,United Kingdom,Low,Verified,0,8,3485.11,435.64,3190.83,25.62,61,4,0,1,3,0,2,43.86,Medium,P3
 CUST000545,James Ali,Retail,France,Low,Verified,0,10,540.1,54.01,163.48,25.6,61,4,0,1,3,0,1,43.85,Medium,P3
 CUST000270,Sophia Walker,Corporate,United Kingdom,Low,Verified,0,10,420.21,42.02,150.11,25.5,61,3,0,2,1,0,2,43.82,Medium,P3
-CUST000641,Ethan Hussain,Retail,United Arab Emirates,Medium,Verified,0,11,4285.99,389.64,3240.29,24.36,66,3,0,1,2,0,2,43.79,Medium,P3
+CUST000343,Maya Patel,Retail,Nigeria,High,Verified,0,5,238.42,47.68,125.68,39.6,62,2,0,1,1,0,2,43.8,Medium,P3
+CUST000020,Ali Wilson,Retail,Germany,Low,Verified,0,12,5237.27,436.44,4579.94,26.33,56,5,0,1,4,0,2,43.78,Medium,P3
+CUST000932,Maya Patel,Retail,Pakistan,Medium,Verified,0,12,3781.06,315.09,3262.51,25.33,61,4,0,1,3,0,2,43.78,Medium,P3
 CUST000890,Aisha Robinson,SME,Italy,Low,Verified,0,8,644.22,80.53,245.71,31.38,62,3,0,1,2,0,2,43.74,Medium,P3
-CUST000742,Grace Ali,Retail,France,Low,Verified,0,9,305.88,33.99,79.59,32.33,57,4,0,1,3,0,3,43.73,Medium,P3
-CUST000356,Hannah Hussain,Retail,United States,Low,Verified,0,8,690.85,86.36,283.4,27.38,55,3,0,1,2,1,1,43.6,Medium,P3
-CUST000966,Hannah Taylor,SME,Spain,Low,Verified,0,12,343.49,28.62,88.78,23.5,66,3,0,1,2,0,2,43.58,Medium,P3
-CUST000103,Sophia Young,Retail,United Arab Emirates,Medium,Verified,0,13,905.61,69.66,367.1,23.15,66,3,0,1,2,0,2,43.49,Medium,P3
-CUST000406,Fatima Smith,Retail,United Kingdom,Low,Verified,0,10,725.24,72.52,204.82,25.1,56,5,0,1,4,0,2,43.48,Medium,P3
-CUST000721,Sophia Wilson,Corporate,Canada,Low,Verified,0,11,491.89,44.72,143.83,25.09,56,5,0,1,4,0,2,43.47,Medium,P3
-CUST000315,Isabella Brown,Retail,Canada,Low,Verified,0,13,827.74,63.67,164.15,24.69,56,5,0,1,4,0,3,43.37,Medium,P3
-CUST000444,Sophia Khan,Retail,Netherlands,Low,Verified,0,9,278.24,30.92,76.85,30.0,53,6,0,0,6,0,2,43.35,Medium,P3
+CUST000319,Zara Hussain,Retail,Nigeria,High,Verified,0,4,139.7,34.92,69.08,40.25,57,3,0,1,2,0,2,43.71,Medium,P3
+CUST000721,Sophia Wilson,Corporate,Canada,Low,Verified,0,11,491.89,44.72,143.83,26.0,56,5,0,1,4,0,3,43.7,Medium,P3
+CUST000641,Ethan Hussain,Retail,United Arab Emirates,Medium,Verified,0,11,4285.99,389.64,3240.29,23.45,66,3,0,1,2,0,1,43.56,Medium,P3
+CUST000348,Ali Brown,Private Banking,Pakistan,Medium,Verified,0,3,405.23,135.08,366.37,30.33,71,1,0,1,0,0,1,43.53,Medium,P3
+CUST000406,Fatima Smith,Retail,United Kingdom,Low,Verified,0,10,725.24,72.52,204.82,25.1,56,5,0,1,4,0,1,43.48,Medium,P3
+CUST000742,Grace Ali,Retail,France,Low,Verified,0,9,305.88,33.99,79.59,31.22,57,4,0,1,3,0,2,43.46,Medium,P3
+CUST000990,Oliver Smith,SME,India,Medium,Verified,0,6,417.4,69.57,175.36,26.83,55,3,0,1,2,1,0,43.46,Medium,P3
+CUST000367,Lucas Clarke,Retail,United States,Low,Verified,0,8,841.87,105.23,589.91,26.25,55,3,0,1,2,1,0,43.31,Medium,P3
+CUST000103,Sophia Young,Retail,United Arab Emirates,Medium,Verified,0,13,905.61,69.66,367.1,22.38,66,3,0,1,2,0,1,43.3,Medium,P3
 CUST000078,Muhammad Robinson,Retail,United Kingdom,Low,Verified,0,5,162.28,32.46,62.66,31.4,61,3,0,1,2,0,1,43.3,Medium,P3
-CUST000037,Oliver Ali,Retail,France,Low,Verified,0,9,4102.07,455.79,3185.14,32.67,51,6,0,0,6,0,4,43.12,Medium,P3
-CUST000635,Maya Khan,Retail,Pakistan,Medium,Verified,0,12,608.34,50.7,205.01,29.08,53,6,0,0,6,0,4,43.12,Medium,P3
-CUST000620,Aisha Jones,Corporate,Canada,Low,Verified,0,13,718.28,55.25,217.88,23.46,56,5,0,1,4,0,3,43.06,Medium,P3
+CUST000007,Ethan Thomas,Retail,Italy,Low,Verified,0,15,3771.47,251.43,3014.08,22.47,57,5,0,1,4,0,1,43.27,Medium,P3
+CUST000923,Lucas Ahmed,Retail,Germany,Low,Verified,0,6,268.7,44.78,78.32,31.17,61,2,0,2,0,0,2,43.24,Medium,P3
+CUST000315,Isabella Brown,Retail,Canada,Low,Verified,0,13,827.74,63.67,164.15,23.92,56,5,0,1,4,0,2,43.18,Medium,P3
 CUST000466,Ethan Thomas,SME,United Arab Emirates,Medium,Verified,0,12,600.43,50.04,120.7,29.75,48,7,0,0,7,0,1,43.04,Medium,P3
-CUST000916,Leo Green,SME,Italy,Low,Verified,0,16,1200.59,75.04,259.78,23.25,56,5,0,1,4,0,2,43.01,Medium,P3
+CUST000502,Ali Patel,Retail,United Kingdom,Low,Verified,0,11,558.63,50.78,121.18,28.64,53,6,0,0,6,0,3,43.01,Medium,P3
+CUST000409,Adam Wright,Retail,India,Medium,Verified,0,13,2203.57,169.51,1506.86,30.31,52,6,0,0,6,0,2,42.98,Medium,P3
+CUST000740,Adam Jones,Retail,Spain,Low,Verified,0,6,6191.66,1031.94,6002.41,29.0,66,2,0,1,1,0,1,42.95,Medium,P3
+CUST000927,Muhammad Hall,SME,Germany,Low,Verified,0,6,257.94,42.99,59.86,29.0,66,2,0,1,1,0,1,42.95,Medium,P3
 CUST000127,Zara Patel,Retail,Italy,Low,Verified,0,13,877.89,67.53,479.5,22.92,56,5,0,1,4,0,1,42.93,Medium,P3
+CUST000553,Adam Miller,Retail,Nigeria,High,Verified,0,4,206.95,51.74,170.06,38.75,56,3,0,1,2,0,2,42.89,Medium,P3
+CUST000620,Aisha Jones,Corporate,Canada,Low,Verified,0,13,718.28,55.25,217.88,22.69,56,5,0,1,4,0,2,42.87,Medium,P3
+CUST000916,Leo Green,SME,Italy,Low,Verified,0,16,1200.59,75.04,259.78,22.62,56,5,0,1,4,0,2,42.86,Medium,P3
+CUST000037,Oliver Ali,Retail,France,Low,Verified,0,9,4102.07,455.79,3185.14,31.56,51,6,0,0,6,0,3,42.84,Medium,P3
 CUST000256,Amelia Ahmed,Retail,France,Low,Verified,0,12,406.58,33.88,82.0,29.67,52,6,0,0,6,0,4,42.82,Medium,P3
 CUST000129,James Patel,Retail,France,Low,Verified,0,10,376.57,37.66,102.68,24.3,55,3,0,1,2,1,0,42.82,Medium,P3
-CUST000923,Lucas Ahmed,Retail,Germany,Low,Verified,0,6,268.7,44.78,78.32,29.5,61,2,0,2,0,0,2,42.82,Medium,P3
 CUST000435,Noah Ali,SME,Italy,Low,Verified,0,9,507.69,56.41,200.22,30.44,56,4,0,1,3,0,2,42.81,Medium,P3
-CUST000502,Ali Patel,Retail,United Kingdom,Low,Verified,0,11,558.63,50.78,121.18,27.73,53,6,0,0,6,0,3,42.78,Medium,P3
-CUST000007,Ethan Thomas,Retail,Italy,Low,Verified,0,15,3771.47,251.43,3014.08,20.47,57,5,0,1,4,0,1,42.77,Medium,P3
+CUST000374,Daniel Wright,Retail,Pakistan,Medium,Verified,0,9,659.34,73.26,213.89,24.11,55,3,0,1,2,1,1,42.78,Medium,P3
+CUST000254,Zara Hussain,SME,Canada,Low,Verified,0,14,571.62,40.83,141.61,29.57,43,8,0,0,8,0,0,42.74,Medium,P3
 CUST000483,Lucas Walker,Retail,United Arab Emirates,Medium,Verified,0,14,8457.7,604.12,7922.8,27.57,53,6,0,0,6,0,0,42.74,Medium,P3
 CUST000885,Sophia Smith,SME,Italy,Low,Verified,0,12,863.95,72.0,220.67,29.0,43,8,0,0,8,0,1,42.6,Medium,P3
 CUST000574,Daniel Walker,SME,India,Medium,Verified,0,15,1056.92,70.46,231.92,27.0,53,6,0,0,6,0,4,42.6,Medium,P3
 CUST000781,James Ali,Retail,Germany,Low,Verified,0,9,506.69,56.3,145.06,27.78,57,4,0,1,3,0,2,42.6,Medium,P3
-CUST000053,James Wilson,SME,India,Medium,Verified,0,14,8372.17,598.01,3964.83,28.64,52,6,0,0,6,0,3,42.56,Medium,P3
-CUST000740,Adam Jones,Retail,Spain,Low,Verified,0,6,6191.66,1031.94,6002.41,27.33,66,2,0,1,1,0,1,42.53,Medium,P3
+CUST000197,Ethan Hussain,Retail,Canada,Low,Verified,0,8,504.16,63.02,323.29,29.5,56,4,0,1,3,0,3,42.58,Medium,P3
+CUST000841,Zara Green,Retail,United States,Low,Verified,0,8,182.94,22.87,58.12,29.5,56,4,0,1,3,0,2,42.58,Medium,P3
+CUST000418,Ethan Khan,Retail,France,Low,Verified,0,14,958.56,68.47,195.67,26.71,53,6,0,0,6,0,1,42.53,Medium,P3
+CUST000992,Amelia Patel,Private Banking,United Arab Emirates,Medium,Verified,0,9,606.19,67.35,221.12,23.0,55,3,0,1,2,1,1,42.5,Medium,P3
 CUST000059,Noah Wilson,SME,Spain,Low,Verified,0,9,8965.84,996.2,5149.05,29.0,56,4,0,1,3,0,2,42.45,Medium,P3
+CUST000819,Sophia Wilson,SME,United States,Low,Verified,0,11,911.88,82.9,273.2,28.82,56,4,0,1,3,0,4,42.4,Medium,P3
+CUST000359,Ali Davies,Retail,India,Medium,Verified,0,14,975.92,69.71,194.92,27.0,48,7,0,0,7,0,3,42.35,Medium,P3
 CUST000891,Noah Thomas,Retail,Germany,Low,Verified,0,8,475.82,59.48,192.76,27.5,61,2,0,2,0,0,2,42.32,Medium,P3
-CUST000197,Ethan Hussain,Retail,Canada,Low,Verified,0,8,504.16,63.02,323.29,28.25,56,4,0,1,3,0,2,42.26,Medium,P3
-CUST000453,Mia Wilson,Retail,India,Medium,Verified,0,11,432.11,39.28,85.1,22.0,55,3,0,1,2,1,1,42.25,Medium,P3
+CUST000147,Lucas Wright,Retail,Italy,Low,Verified,0,10,422.36,42.24,173.33,24.8,58,4,0,1,3,0,2,42.3,Medium,P3
 CUST000806,Lucas Ali,Retail,Turkey,High,Verified,0,6,4924.87,820.81,4694.72,35.17,61,2,0,1,1,0,2,42.24,Medium,P3
-CUST000819,Sophia Wilson,SME,United States,Low,Verified,0,11,911.88,82.9,273.2,27.91,56,4,0,1,3,0,3,42.18,Medium,P3
-CUST000418,Ethan Khan,Retail,France,Low,Verified,0,14,958.56,68.47,195.67,25.29,53,6,0,0,6,0,1,42.17,Medium,P3
+CUST000524,Amelia Thomas,SME,Germany,Low,Verified,0,12,517.03,43.09,221.07,26.08,57,3,0,2,1,0,2,42.17,Medium,P3
 CUST000771,Muhammad Ali,Private Banking,Netherlands,Low,Verified,0,14,1374.82,98.2,333.79,26.07,48,7,0,0,7,0,1,42.12,Medium,P3
-CUST000455,Leo Patel,Retail,United States,Low,Verified,0,11,1063.27,96.66,329.05,20.27,60,2,0,1,1,1,0,42.07,Medium,P3
-CUST000359,Ali Davies,Retail,India,Medium,Verified,0,14,975.92,69.71,194.92,25.57,48,7,0,0,7,0,3,41.99,Medium,P3
+CUST000686,Sophia Davies,Retail,Germany,Low,Verified,0,5,233.38,46.68,66.83,35.6,56,3,0,1,2,0,1,42.1,Medium,P3
+CUST000053,James Wilson,SME,India,Medium,Verified,0,14,8372.17,598.01,3964.83,26.5,52,6,0,0,6,0,1,42.03,Medium,P3
+CUST000453,Mia Wilson,Retail,India,Medium,Verified,0,11,432.11,39.28,85.1,21.09,55,3,0,1,2,1,1,42.02,Medium,P3
+CUST000411,Grace Thomas,Retail,Netherlands,Low,Verified,0,10,7728.02,772.8,7475.76,27.1,56,4,0,1,3,0,1,41.98,Medium,P3
 CUST000642,Leo Green,SME,Netherlands,Low,Verified,0,9,4201.21,466.8,3869.43,25.33,57,4,0,1,3,0,2,41.98,Medium,P3
 CUST000555,Adam Ali,Retail,Spain,Low,Verified,0,9,390.33,43.37,171.1,19.78,60,2,0,1,1,1,0,41.94,Medium,P3
+CUST000364,Zara Wright,Retail,Netherlands,Low,Verified,0,9,314.2,34.91,84.2,26.89,56,4,0,1,3,0,2,41.92,Medium,P3
 CUST000218,Maya Green,Retail,Canada,Low,Verified,0,8,405.74,50.72,194.23,25.88,61,2,0,2,0,0,2,41.92,Medium,P3
-CUST000857,Grace Brown,Retail,Canada,Low,Verified,0,9,525.73,58.41,183.97,25.33,61,3,0,1,2,0,3,41.78,Medium,P3
 CUST000085,Leo Robinson,Retail,Italy,Low,Verified,0,8,3857.57,482.2,3667.44,25.25,61,3,0,1,2,0,1,41.76,Medium,P3
 CUST000931,Lucas Wright,Corporate,Netherlands,Low,Verified,0,10,561.89,56.19,155.15,25.2,61,3,0,1,2,0,1,41.75,Medium,P3
-CUST000364,Zara Wright,Retail,Netherlands,Low,Verified,0,9,314.2,34.91,84.2,25.78,56,4,0,1,3,0,2,41.64,Medium,P3
-CUST000558,Hannah Green,SME,Canada,Low,Verified,0,7,2046.47,292.35,1770.51,23.43,66,2,0,1,1,0,1,41.56,Medium,P3
-CUST000411,Grace Thomas,Retail,Netherlands,Low,Verified,0,10,7728.02,772.8,7475.76,25.1,56,4,0,1,3,0,1,41.48,Medium,P3
+CUST000680,Ethan Jones,Retail,Spain,Low,Verified,0,7,376.59,53.8,108.46,24.14,66,2,0,1,1,0,1,41.74,Medium,P3
+CUST000455,Leo Patel,Retail,United States,Low,Verified,0,11,1063.27,96.66,329.05,18.45,60,2,0,1,1,1,0,41.61,Medium,P3
+CUST000857,Grace Brown,Retail,Canada,Low,Verified,0,9,525.73,58.41,183.97,24.22,61,3,0,1,2,0,2,41.5,Medium,P3
 CUST000110,Hannah Thomas,Retail,Netherlands,Low,Verified,0,11,753.16,68.47,188.53,25.0,56,4,0,1,3,0,1,41.45,Medium,P3
-CUST000619,Mia Smith,Retail,France,Low,Verified,0,8,1308.22,163.53,704.72,24.0,61,3,0,1,2,0,1,41.45,Medium,P3
-CUST000349,Adam Patel,Retail,India,Medium,Verified,0,11,366.48,33.32,120.43,29.18,49,6,0,0,6,0,2,41.34,Medium,P3
+CUST000872,Maya Thomas,Retail,United Arab Emirates,Medium,Verified,0,11,9998.37,908.94,8429.64,30.36,53,5,0,0,5,0,3,41.44,Medium,P3
+CUST000840,Mia Ahmed,Retail,United Kingdom,Low,Verified,0,8,7541.19,942.65,7129.74,30.25,53,5,0,0,5,0,1,41.41,Medium,P3
 CUST000873,Aisha Walker,Retail,Spain,Low,Verified,0,10,806.54,80.65,408.55,20.6,67,2,0,1,1,0,1,41.3,Medium,P3
-CUST000864,Ali Patel,Retail,France,Low,Verified,0,7,467.93,66.85,231.98,32.14,56,3,0,1,2,0,2,41.24,Medium,P3
+CUST000619,Mia Smith,Retail,France,Low,Verified,0,8,1308.22,163.53,704.72,22.75,61,3,0,1,2,0,1,41.14,Medium,P3
 CUST000018,Zara Thomas,Retail,Spain,Low,Verified,0,8,436.88,54.61,176.57,21.75,66,2,0,1,1,0,1,41.14,Medium,P3
-CUST000840,Mia Ahmed,Retail,United Kingdom,Low,Verified,0,8,7541.19,942.65,7129.74,29.0,53,5,0,0,5,0,0,41.1,Medium,P3
+CUST000349,Adam Patel,Retail,India,Medium,Verified,0,11,366.48,33.32,120.43,28.27,49,6,0,0,6,0,1,41.12,Medium,P3
+CUST000908,Fatima Miller,SME,Netherlands,Low,Verified,0,11,543.4,49.4,128.4,21.0,53,4,0,0,4,1,1,41.1,Medium,P3
+CUST000961,Noah Smith,Retail,Pakistan,Medium,Verified,0,10,680.84,68.08,177.61,22.6,61,3,0,1,2,0,2,41.1,Medium,P3
 CUST000447,Muhammad Hall,Retail,Netherlands,Low,Verified,0,7,188.7,26.96,77.98,29.86,48,4,0,0,4,1,1,41.06,Medium,P3
-CUST000872,Maya Thomas,Retail,United Arab Emirates,Medium,Verified,0,11,9998.37,908.94,8429.64,28.55,53,5,0,0,5,0,0,40.99,Medium,P3
 CUST000499,Grace Clarke,SME,Italy,Low,Verified,0,13,557.27,42.87,187.88,27.62,49,6,0,0,6,0,3,40.96,Medium,P3
-CUST000961,Noah Smith,Retail,Pakistan,Medium,Verified,0,10,680.84,68.08,177.61,21.6,61,3,0,1,2,0,1,40.85,Medium,P3
-CUST000017,Ali Green,Retail,Spain,Low,Verified,0,12,2613.96,217.83,1708.85,28.17,44,7,0,0,7,0,2,40.84,Medium,P3
-CUST000362,Ethan Taylor,SME,India,Medium,Verified,0,13,4029.29,309.95,3341.92,21.08,61,3,0,1,2,0,3,40.72,Medium,P3
+CUST000864,Ali Patel,Retail,France,Low,Verified,0,7,467.93,66.85,231.98,30.71,56,3,0,1,2,0,2,40.88,Medium,P3
+CUST000431,Hannah Smith,Retail,India,Medium,Verified,0,9,542.84,60.32,120.26,28.0,53,5,0,0,5,0,3,40.85,Medium,P3
+CUST000763,Ali Miller,Retail,Spain,Low,Verified,0,11,524.95,47.72,106.05,27.73,53,5,0,0,5,0,4,40.78,Medium,P3
 CUST000883,Oliver Clarke,Retail,United States,Low,Verified,0,6,2384.0,397.33,2290.88,28.17,57,3,0,1,2,0,2,40.69,Medium,P3
 CUST000936,Fatima Wright,Retail,France,Low,Verified,0,5,475.09,95.02,199.86,29.6,56,3,0,1,2,0,1,40.6,Medium,P3
 CUST000887,Daniel Khan,Retail,Canada,Low,Verified,0,6,169.05,28.18,94.04,27.5,57,3,0,1,2,0,1,40.53,Medium,P3
-CUST000402,Muhammad Smith,Corporate,United States,Low,Verified,0,9,441.12,49.01,174.43,27.44,57,3,0,1,2,0,1,40.51,Medium,P3
-CUST000389,Hannah Miller,Retail,Pakistan,Medium,Verified,0,10,12567.98,1256.8,10783.84,24.4,63,2,0,1,1,0,0,40.45,Medium,P3
-CUST000605,Ali Wilson,Retail,France,Low,Verified,0,13,1207.16,92.86,463.77,26.08,53,5,0,0,5,0,3,40.37,Medium,P3
+CUST000666,Oliver Green,Retail,France,Low,Verified,0,11,2238.12,203.47,1814.67,27.36,48,6,0,0,6,0,2,40.44,Medium,P3
+CUST000896,Oliver Miller,Corporate,Germany,Low,Verified,0,7,529.7,75.67,294.33,28.86,56,3,0,1,2,0,2,40.42,Medium,P3
+CUST000017,Ali Green,Retail,Spain,Low,Verified,0,12,2613.96,217.83,1708.85,28.17,43,7,0,0,7,0,1,40.39,Medium,P3
+CUST000362,Ethan Taylor,SME,India,Medium,Verified,0,13,4029.29,309.95,3341.92,19.54,61,3,0,1,2,0,1,40.34,Medium,P3
 CUST000464,Grace Robinson,Retail,Canada,Low,Verified,0,7,510.18,72.88,166.55,28.57,56,3,0,1,2,0,1,40.34,Medium,P3
-CUST000763,Ali Miller,Retail,Spain,Low,Verified,0,11,524.95,47.72,106.05,25.91,53,5,0,0,5,0,2,40.33,Medium,P3
-CUST000553,Adam Miller,Retail,Nigeria,High,Verified,0,4,206.95,51.74,170.06,36.25,56,2,0,1,1,0,1,40.26,Medium,P3
-CUST000666,Oliver Green,Retail,France,Low,Verified,0,11,2238.12,203.47,1814.67,26.45,48,6,0,0,6,0,2,40.21,Medium,P3
+CUST000929,Mia Ahmed,Retail,Netherlands,Low,Verified,0,10,482.7,48.27,92.4,25.8,53,5,0,0,5,0,1,40.3,Medium,P3
 CUST000286,Daniel Miller,Retail,United States,Low,Verified,0,11,539.4,49.04,197.26,20.0,56,4,0,1,3,0,1,40.2,Medium,P3
 CUST000678,Ethan Davies,Retail,Netherlands,Low,Verified,0,8,489.02,61.13,169.07,24.38,58,3,0,1,2,0,2,40.2,Medium,P3
-CUST000546,Adam Hussain,Retail,France,Low,Verified,0,7,390.99,55.86,228.73,27.71,56,3,0,1,2,0,1,40.13,Medium,P3
-CUST000775,Maya Smith,Retail,Italy,Low,Verified,0,13,514.01,39.54,67.97,26.85,43,7,0,0,7,0,0,40.06,Medium,P3
-CUST000208,Daniel Jones,Private Banking,Germany,Low,Verified,0,5,229.26,45.85,80.69,34.6,52,4,0,0,4,0,1,40.05,Medium,P3
-CUST000772,Daniel Robinson,Retail,India,Medium,Verified,0,13,1003.64,77.2,334.46,25.15,52,5,0,0,5,0,2,39.69,Medium,P3
-CUST000790,Zara Brown,Retail,Singapore,Low,Verified,0,7,293.53,41.93,94.19,33.0,52,4,0,0,4,0,2,39.65,Medium,P3
-CUST000205,Adam Brown,Corporate,United Kingdom,Low,Verified,0,10,461.26,46.13,94.31,24.0,57,3,0,1,2,0,1,39.65,Medium,P3
-CUST000310,Isabella Ali,Retail,France,Low,Verified,0,7,2758.82,394.12,2464.49,32.71,43,6,0,0,6,0,1,39.53,Medium,P3
+CUST000389,Hannah Miller,Retail,Pakistan,Medium,Verified,0,10,12567.98,1256.8,10783.84,23.4,63,2,0,1,1,0,0,40.2,Medium,P3
+CUST000605,Ali Wilson,Retail,France,Low,Verified,0,13,1207.16,92.86,463.77,24.54,53,5,0,0,5,0,2,39.98,Medium,P3
+CUST000402,Muhammad Smith,Corporate,United States,Low,Verified,0,9,441.12,49.01,174.43,25.22,57,3,0,1,2,0,1,39.96,Medium,P3
+CUST000205,Adam Brown,Corporate,United Kingdom,Low,Verified,0,10,461.26,46.13,94.31,25.0,57,3,0,1,2,0,2,39.9,Medium,P3
+CUST000775,Maya Smith,Retail,Italy,Low,Verified,0,13,514.01,39.54,67.97,26.08,43,7,0,0,7,0,0,39.87,Medium,P3
+CUST000049,Grace Robinson,Retail,United Arab Emirates,Medium,Verified,0,11,835.24,75.93,276.49,23.73,53,5,0,0,5,0,2,39.78,Medium,P3
+CUST000546,Adam Hussain,Retail,France,Low,Verified,0,7,390.99,55.86,228.73,26.29,56,3,0,1,2,0,1,39.77,Medium,P3
+CUST000711,Zara Khan,Corporate,Italy,Low,Verified,0,8,488.34,61.04,132.47,30.5,53,4,0,0,4,0,3,39.48,Medium,P3
 CUST000655,Maya Wright,Retail,Italy,Low,Verified,0,7,431.22,61.6,285.38,24.71,56,3,0,1,2,0,1,39.38,Medium,P3
 CUST000122,Maya Ali,Retail,Germany,Low,Verified,0,9,3558.7,395.41,2653.88,29.0,49,5,0,0,5,0,2,39.3,Medium,P3
 CUST000503,Amelia Wright,Retail,Spain,Low,Verified,0,20,1355.4,67.77,256.0,21.75,44,7,0,0,7,0,3,39.24,Medium,P3
-CUST000272,Mia Clarke,Retail,Pakistan,Medium,Verified,0,16,502.0,31.38,90.22,23.56,43,7,0,0,7,0,2,39.24,Medium,P3
-CUST000556,Maya Davies,Retail,United Arab Emirates,Medium,Verified,0,9,490.43,54.49,174.21,30.56,48,5,0,0,5,0,1,39.24,Medium,P3
+CUST000667,Leo Hall,Retail,Singapore,Low,Verified,0,9,3619.44,402.16,2888.69,24.11,56,3,0,1,2,0,3,39.23,Medium,P3
 CUST000231,Isabella Ali,Retail,India,Medium,Verified,0,4,238.65,59.66,184.12,32.0,56,2,0,1,1,0,1,39.2,Medium,P3
 CUST000403,Sophia Young,SME,United Kingdom,Low,Verified,0,12,587.25,48.94,158.83,23.92,56,3,0,1,2,0,1,39.18,Medium,P3
 CUST000246,Adam Davies,SME,Turkey,High,Verified,0,7,248.59,35.51,72.7,31.29,56,2,0,1,1,0,2,39.02,Medium,P3
-CUST000330,Aisha Hussain,Retail,Singapore,Low,Verified,0,6,2073.52,345.59,1807.03,32.0,51,4,0,0,4,0,2,38.95,Medium,P3
+CUST000951,Ethan Ali,Retail,Pakistan,Medium,Verified,0,10,683.17,68.32,197.86,27.8,49,5,0,0,5,0,3,39.0,Medium,P3
 CUST000894,Mia Wright,Retail,United Arab Emirates,Medium,Verified,0,5,569.46,113.89,245.32,31.0,56,2,0,1,1,0,1,38.95,Medium,P3
-CUST000273,Leo Wilson,Private Banking,Netherlands,Low,Verified,0,8,331.63,41.45,88.33,29.62,52,4,0,0,4,0,2,38.81,Medium,P3
-CUST000951,Ethan Ali,Retail,Pakistan,Medium,Verified,0,10,683.17,68.32,197.86,26.8,49,5,0,0,5,0,2,38.75,Medium,P3
 CUST000382,Mia Clarke,SME,France,Low,Verified,0,10,401.61,40.16,83.12,26.8,49,5,0,0,5,0,3,38.75,Medium,P3
-CUST000303,Leo Robinson,Retail,Pakistan,Medium,Verified,0,12,565.33,47.11,101.66,20.25,57,3,0,1,2,0,1,38.71,Medium,P3
-CUST000187,Lucas Ahmed,SME,Pakistan,Medium,Verified,0,11,879.15,79.92,187.74,26.55,49,5,0,0,5,0,1,38.69,Medium,P3
-CUST000667,Leo Hall,Retail,Singapore,Low,Verified,0,9,3619.44,402.16,2888.69,21.89,56,3,0,1,2,0,3,38.67,Medium,P3
 CUST000377,Mia Clarke,Retail,United Kingdom,Low,Verified,0,7,7923.4,1131.91,5111.26,28.86,52,4,0,0,4,0,1,38.62,Medium,P3
 CUST000882,Daniel Hall,SME,Singapore,Low,Verified,0,12,1023.98,85.33,556.64,27.17,44,6,0,0,6,0,1,38.59,Medium,P3
-CUST000003,Mia Hussain,SME,United States,Low,Verified,0,6,3473.21,578.87,3084.69,27.67,57,2,0,1,1,0,2,38.57,Medium,P3
+CUST000444,Sophia Khan,Retail,Netherlands,Low,Verified,0,9,278.24,30.92,76.85,28.89,43,6,0,0,6,0,1,38.57,Medium,P3
+CUST000330,Aisha Hussain,Retail,Singapore,Low,Verified,0,6,2073.52,345.59,1807.03,30.33,51,4,0,0,4,0,1,38.53,Medium,P3
 CUST000649,Noah Brown,Retail,France,Low,Verified,0,9,503.93,55.99,234.04,28.44,52,4,0,0,4,0,2,38.51,Medium,P3
-CUST000396,Zara Miller,Private Banking,Spain,Low,Verified,0,6,453.85,75.64,195.8,27.33,57,2,0,1,1,0,1,38.48,Medium,P3
+CUST000303,Leo Robinson,Retail,Pakistan,Medium,Verified,0,12,565.33,47.11,101.66,19.42,57,3,0,1,2,0,1,38.51,Medium,P3
+CUST000273,Leo Wilson,Private Banking,Netherlands,Low,Verified,0,8,331.63,41.45,88.33,28.38,52,4,0,0,4,0,2,38.5,Medium,P3
 CUST000166,Lucas Young,Private Banking,Singapore,Low,Verified,0,11,575.87,52.35,135.03,21.09,56,3,0,1,2,0,1,38.47,Medium,P3
-CUST000598,Leo Thomas,Corporate,India,Medium,Verified,0,14,774.46,55.32,241.88,27.14,48,5,0,0,5,0,2,38.39,Medium,P3
-CUST000094,Lucas Ahmed,Retail,Canada,Low,Verified,0,12,3319.04,276.59,2569.2,26.75,48,5,0,0,5,0,3,38.29,Medium,P3
+CUST000966,Hannah Taylor,SME,Spain,Low,Verified,0,12,343.49,28.62,88.78,21.0,56,3,0,1,2,0,2,38.45,Medium,P3
+CUST000695,Ali Patel,SME,India,Medium,Verified,0,11,337.96,30.72,89.57,27.55,52,4,0,0,4,0,3,38.29,Medium,P3
 CUST000913,Zara Hussain,Retail,United States,Low,Verified,0,9,1353.72,150.41,896.93,25.56,53,4,0,0,4,0,2,38.24,Medium,P3
-CUST000896,Oliver Miller,Corporate,Germany,Low,Verified,0,7,529.7,75.67,294.33,27.43,56,2,0,1,1,0,2,38.06,Medium,P3
-CUST000542,Oliver Robinson,Retail,India,Medium,Verified,0,10,535.05,53.5,144.85,25.8,48,5,0,0,5,0,2,38.05,Medium,P3
-CUST000929,Mia Ahmed,Retail,Netherlands,Low,Verified,0,10,482.7,48.27,92.4,25.8,48,5,0,0,5,0,1,38.05,Medium,P3
+CUST000187,Lucas Ahmed,SME,Pakistan,Medium,Verified,0,11,879.15,79.92,187.74,24.73,49,5,0,0,5,0,1,38.23,Medium,P3
+CUST000598,Leo Thomas,Corporate,India,Medium,Verified,0,14,774.46,55.32,241.88,26.43,48,5,0,0,5,0,2,38.21,Medium,P3
+CUST000559,Isabella Green,Retail,Netherlands,Low,Verified,0,11,368.95,33.54,132.92,26.18,48,5,0,0,5,0,2,38.15,Medium,P3
+CUST000003,Mia Hussain,SME,United States,Low,Verified,0,6,3473.21,578.87,3084.69,26.0,57,2,0,1,1,0,2,38.15,Medium,P3
+CUST000278,Zara Clarke,Retail,Singapore,Low,Verified,0,7,304.87,43.55,110.59,32.0,49,4,0,0,4,0,2,38.05,Medium,P3
 CUST000803,Sophia Walker,Retail,Canada,Low,Verified,0,5,270.7,54.14,218.06,26.4,61,1,0,1,0,0,1,38.05,Medium,P3
-CUST000927,Muhammad Hall,SME,Germany,Low,Verified,0,6,257.94,42.99,59.86,27.33,56,2,0,1,1,0,1,38.03,Medium,P3
+CUST000479,Hannah Ahmed,Corporate,Canada,Low,Verified,0,11,560.87,50.99,160.22,24.73,53,4,0,0,4,0,2,38.03,Medium,P3
+CUST000516,Maya Walker,Retail,United Kingdom,Low,Verified,0,6,628.67,104.78,208.28,27.33,56,2,0,1,1,0,2,38.03,Medium,P3
+CUST000635,Maya Khan,Retail,Pakistan,Medium,Verified,0,12,608.34,50.7,205.01,26.58,43,6,0,0,6,0,1,38.0,Medium,P3
 CUST000296,Aisha Ahmed,Retail,Pakistan,Medium,Verified,0,5,109.53,21.91,35.84,34.4,52,3,0,0,3,0,2,38.0,Medium,P3
-CUST000836,Adam Ahmed,Private Banking,Spain,Low,Verified,0,12,6675.77,556.31,5762.29,25.42,48,5,0,0,5,0,2,37.96,Medium,P3
-CUST000861,Isabella Khan,Retail,United Kingdom,Low,Verified,0,10,830.8,83.08,325.41,24.4,53,4,0,0,4,0,1,37.95,Medium,P3
-CUST000559,Isabella Green,Retail,Netherlands,Low,Verified,0,11,368.95,33.54,132.92,25.27,48,5,0,0,5,0,2,37.92,Medium,P3
-CUST000024,Oliver Ali,Retail,United Kingdom,Low,Verified,0,11,3256.72,296.07,2711.76,24.18,44,6,0,0,6,0,2,37.84,Medium,P3
+CUST000094,Lucas Ahmed,Retail,Canada,Low,Verified,0,12,3319.04,276.59,2569.2,25.08,48,5,0,0,5,0,2,37.87,Medium,P3
 CUST000858,Ethan Taylor,Retail,Spain,Low,Verified,0,12,6579.79,548.32,5796.83,24.92,48,5,0,0,5,0,0,37.83,Medium,P3
 CUST000035,Fatima Green,Retail,United Kingdom,Low,Verified,0,12,636.72,53.06,151.49,23.83,53,4,0,0,4,0,1,37.81,Medium,P3
 CUST000904,Daniel Hussain,Private Banking,Pakistan,Medium,Verified,0,8,1054.99,131.87,665.92,22.75,58,2,0,1,1,0,1,37.79,Medium,P3
+CUST000648,Ethan Davies,Retail,Pakistan,Medium,Verified,0,7,175.69,25.1,61.52,24.43,57,2,0,1,1,0,2,37.76,Medium,P3
+CUST000836,Adam Ahmed,Private Banking,Spain,Low,Verified,0,12,6675.77,556.31,5762.29,24.58,48,5,0,0,5,0,1,37.75,Medium,P3
 CUST000917,Daniel Jones,SME,Italy,Low,Verified,0,8,392.64,49.08,211.09,25.38,52,4,0,0,4,0,1,37.75,Medium,P3
+CUST000861,Isabella Khan,Retail,United Kingdom,Low,Verified,0,10,830.8,83.08,325.41,23.4,53,4,0,0,4,0,1,37.7,Medium,P3
+CUST000309,Amelia Taylor,Retail,India,Medium,Verified,0,14,1067.06,76.22,232.61,25.36,43,6,0,0,6,0,0,37.69,Medium,P3
 CUST000898,Isabella Walker,Corporate,Spain,Low,Verified,0,5,352.75,70.55,247.5,25.8,56,2,0,1,1,0,2,37.65,Medium,P3
 CUST000567,Aisha Young,Retail,France,Low,Verified,0,8,588.89,73.61,180.22,30.38,49,4,0,0,4,0,1,37.64,Medium,P3
 CUST000815,Aisha Young,Retail,United Arab Emirates,Medium,Verified,0,13,677.64,52.13,137.75,24.92,43,6,0,0,6,0,0,37.58,Medium,P3
-CUST000479,Hannah Ahmed,Corporate,Canada,Low,Verified,0,11,560.87,50.99,160.22,22.91,53,4,0,0,4,0,1,37.58,Medium,P3
 CUST000263,Grace Jones,Retail,Spain,Low,Verified,0,8,588.25,73.53,253.45,22.5,62,1,0,1,0,0,1,37.53,Medium,P3
-CUST000309,Amelia Taylor,Retail,India,Medium,Verified,0,14,1067.06,76.22,232.61,24.64,43,6,0,0,6,0,0,37.51,Medium,P3
 CUST000601,Noah Davies,Retail,Germany,Low,Verified,0,12,1006.78,83.9,285.58,24.42,52,4,0,0,4,0,1,37.51,Medium,P3
+CUST000057,James Hussain,Retail,France,Low,Verified,0,14,544.2,38.87,91.45,24.5,43,6,0,0,6,0,0,37.48,Medium,P3
 CUST000995,Oliver Ahmed,Retail,Italy,Low,Verified,0,15,1020.76,68.05,344.1,23.4,48,5,0,0,5,0,2,37.45,Medium,P3
-CUST000507,Lucas Miller,Retail,Italy,Low,Verified,0,11,3902.1,354.74,3354.01,23.27,48,5,0,0,5,0,1,37.42,Medium,P3
-CUST000648,Ethan Davies,Retail,Pakistan,Medium,Verified,0,7,175.69,25.1,61.52,23.0,57,2,0,1,1,0,2,37.4,Medium,P3
 CUST000950,Noah Taylor,Retail,Netherlands,Low,Verified,0,6,440.75,73.46,180.27,31.17,48,4,0,0,4,0,0,37.39,Medium,P3
-CUST000057,James Hussain,Retail,France,Low,Verified,0,14,544.2,38.87,91.45,23.79,43,6,0,0,6,0,0,37.3,Medium,P3
+CUST000848,Mia Smith,SME,Canada,Low,Verified,0,8,245.22,30.65,81.33,31.0,48,4,0,0,4,0,2,37.35,Medium,P3
+CUST000272,Mia Clarke,Retail,Pakistan,Medium,Verified,0,16,502.0,31.38,90.22,23.56,43,6,0,0,6,0,1,37.24,Medium,P3
 CUST000107,Zara Khan,Retail,Spain,Low,Verified,0,7,302.89,43.27,78.72,24.14,56,2,0,1,1,0,1,37.24,Medium,P3
-CUST000848,Mia Smith,SME,Canada,Low,Verified,0,8,245.22,30.65,81.33,29.75,48,4,0,0,4,0,2,37.04,Medium,P3
+CUST000731,Ali Brown,SME,India,Medium,Verified,0,7,530.05,75.72,143.98,30.43,48,4,0,0,4,0,1,37.21,Medium,P3
+CUST000592,Fatima Wright,Retail,Pakistan,Medium,Verified,0,7,493.45,70.49,181.18,30.43,48,4,0,0,4,0,1,37.21,Medium,P3
+CUST000310,Isabella Ali,Retail,France,Low,Verified,0,7,2758.82,394.12,2464.49,31.29,43,5,0,0,5,0,0,37.17,Medium,P3
+CUST000556,Maya Davies,Retail,United Arab Emirates,Medium,Verified,0,9,490.43,54.49,174.21,29.44,44,5,0,0,5,0,0,37.16,Medium,P3
+CUST000956,Fatima Wilson,Retail,Netherlands,Low,Verified,0,8,635.05,79.38,296.84,29.12,53,3,0,0,3,0,2,37.13,Medium,P3
 CUST000031,Muhammad Young,Private Banking,France,Low,Verified,0,10,420.05,42.0,120.88,29.4,39,6,0,0,6,0,0,36.9,Medium,P3
 CUST000492,Lucas Miller,Retail,United Arab Emirates,Medium,Verified,0,8,406.7,50.84,88.0,27.38,49,4,0,0,4,0,1,36.89,Medium,P3
-CUST000680,Ethan Jones,Retail,Spain,Low,Verified,0,7,376.59,53.8,108.46,22.71,56,2,0,1,1,0,1,36.88,Medium,P3
-CUST000967,Sophia Hall,Retail,Canada,Low,Verified,0,7,427.51,61.07,214.47,30.0,43,5,0,0,5,0,0,36.85,Medium,P3
 CUST000915,Mia Ahmed,Retail,Canada,Low,Verified,0,9,419.74,46.64,124.07,30.0,43,5,0,0,5,0,0,36.85,Medium,P3
-CUST000731,Ali Brown,SME,India,Medium,Verified,0,7,530.05,75.72,143.98,29.0,48,4,0,0,4,0,1,36.85,Medium,P3
-CUST000431,Hannah Smith,Retail,India,Medium,Verified,0,9,542.84,60.32,120.26,28.0,44,5,0,0,5,0,3,36.8,Medium,P3
-CUST000753,Isabella Green,Retail,United Kingdom,Low,Verified,0,9,997.18,110.8,835.12,27.78,53,3,0,0,3,0,2,36.8,Medium,P3
-CUST000343,Maya Patel,Retail,Nigeria,High,Verified,0,5,238.42,47.68,125.68,37.6,52,2,0,0,2,0,2,36.8,Medium,P3
 CUST000670,Grace Miller,Retail,France,Low,Verified,0,11,395.86,35.99,107.34,28.82,39,6,0,0,6,0,0,36.76,Medium,P3
-CUST000098,Oliver Jones,Retail,Netherlands,Low,Verified,0,9,1030.28,114.48,354.49,28.44,48,4,0,0,4,0,1,36.71,Medium,P3
+CUST000737,Noah Walker,Retail,United States,Low,Verified,0,6,3829.72,638.29,3648.06,25.83,54,3,0,0,3,0,1,36.76,Medium,P3
+CUST000487,Noah Patel,Retail,France,Low,Verified,0,11,410.1,37.28,136.76,28.73,39,6,0,0,6,0,0,36.73,Medium,P3
+CUST000496,Ali Wilson,Retail,Canada,Low,Verified,0,10,493.76,49.38,124.41,27.7,44,5,0,0,5,0,1,36.72,Medium,P3
 CUST000244,Daniel Ali,Retail,Singapore,Low,Verified,0,12,639.05,53.25,181.47,21.58,56,2,0,1,1,0,2,36.6,Medium,P3
-CUST000660,Leo Clarke,Retail,Italy,Low,Verified,0,8,730.69,91.34,286.52,27.88,48,4,0,0,4,0,3,36.57,Medium,P3
+CUST000501,Ali Wright,Retail,Italy,Low,Verified,0,10,4323.18,432.32,3552.18,26.1,49,4,0,0,4,0,2,36.58,Medium,P3
 CUST000308,Fatima Taylor,Retail,Germany,Low,Verified,0,10,412.69,41.27,122.24,27.7,48,4,0,0,4,0,3,36.53,Medium,P3
+CUST000753,Isabella Green,Retail,United Kingdom,Low,Verified,0,9,997.18,110.8,835.12,26.67,53,3,0,0,3,0,1,36.52,Medium,P3
 CUST000672,James Wilson,Retail,Spain,Low,Verified,0,7,288.06,41.15,73.75,21.29,56,2,0,1,1,0,1,36.52,Medium,P3
-CUST000487,Noah Patel,Retail,France,Low,Verified,0,11,410.1,37.28,136.76,27.82,39,6,0,0,6,0,0,36.51,Medium,P3
-CUST000956,Fatima Wilson,Retail,Netherlands,Low,Verified,0,8,635.05,79.38,296.84,26.62,53,3,0,0,3,0,2,36.51,Medium,P3
-CUST000592,Fatima Wright,Retail,Pakistan,Medium,Verified,0,7,493.45,70.49,181.18,27.57,48,4,0,0,4,0,1,36.49,Medium,P3
 CUST000816,Lucas Clarke,SME,Netherlands,Low,Verified,0,8,248.58,31.07,73.83,21.0,56,2,0,1,1,0,1,36.45,Medium,P3
-CUST000062,Adam Brown,SME,Singapore,Low,Verified,0,9,486.63,54.07,120.74,27.33,48,4,0,0,4,0,1,36.43,Medium,P3
+CUST000098,Oliver Jones,Retail,Netherlands,Low,Verified,0,9,1030.28,114.48,354.49,27.33,48,4,0,0,4,0,1,36.43,Medium,P3
 CUST000229,Noah Young,Retail,United Arab Emirates,Medium,Verified,0,8,325.26,40.66,85.84,28.25,43,5,0,0,5,0,0,36.41,Medium,P3
 CUST000113,Sophia Young,Private Banking,Italy,Low,Verified,0,10,446.73,44.67,92.57,26.2,44,5,0,0,5,0,1,36.35,Medium,P3
-CUST000737,Noah Walker,Retail,United States,Low,Verified,0,6,3829.72,638.29,3648.06,24.17,54,3,0,0,3,0,1,36.34,Medium,P3
-CUST000501,Ali Wright,Retail,Italy,Low,Verified,0,10,4323.18,432.32,3552.18,25.1,49,4,0,0,4,0,2,36.33,Medium,P3
-CUST000075,Lucas Young,Retail,United Arab Emirates,Medium,Verified,0,11,390.21,35.47,114.86,26.0,44,5,0,0,5,0,1,36.3,Medium,P3
 CUST000288,Maya Brown,Retail,United States,Low,Verified,0,9,2187.23,243.03,1889.6,26.78,48,4,0,0,4,0,1,36.3,Medium,P3
-CUST000784,Aisha Hall,Retail,Germany,Low,Verified,0,8,1838.14,229.77,1462.93,25.75,53,3,0,0,3,0,2,36.29,Medium,P3
-CUST000908,Fatima Miller,SME,Netherlands,Low,Verified,0,11,543.4,49.4,128.4,19.18,43,4,0,0,4,1,0,36.15,Medium,P3
-CUST000695,Ali Patel,SME,India,Medium,Verified,0,11,337.96,30.72,89.57,26.64,52,3,0,0,3,0,2,36.06,Medium,P3
+CUST000660,Leo Clarke,Retail,Italy,Low,Verified,0,8,730.69,91.34,286.52,26.62,48,4,0,0,4,0,3,36.26,Medium,P3
+CUST000396,Zara Miller,Private Banking,Spain,Low,Verified,0,6,453.85,75.64,195.8,25.67,57,1,0,1,0,0,1,36.07,Medium,P3
 CUST000622,Adam Patel,Retail,United Kingdom,Low,Verified,0,9,7115.97,790.66,6268.97,25.78,48,4,0,0,4,0,0,36.04,Medium,P3
+CUST000542,Oliver Robinson,Retail,India,Medium,Verified,0,10,535.05,53.5,144.85,24.8,44,5,0,0,5,0,1,36.0,Medium,P3
 CUST000186,Sophia Hall,Retail,Netherlands,Low,Verified,0,11,439.83,39.98,93.19,23.91,40,4,0,0,4,1,0,35.98,Medium,P3
+CUST000784,Aisha Hall,Retail,Germany,Low,Verified,0,8,1838.14,229.77,1462.93,24.5,53,3,0,0,3,0,2,35.98,Medium,P3
 CUST000618,Oliver Miller,Retail,United Arab Emirates,Medium,Verified,0,7,286.69,40.96,138.13,26.29,52,3,0,0,3,0,2,35.97,Medium,P3
-CUST000905,Isabella Ahmed,SME,Singapore,Low,Verified,0,9,353.87,39.32,102.77,23.89,53,3,0,0,3,0,1,35.82,Medium,P3
+CUST000905,Isabella Ahmed,SME,Singapore,Low,Verified,0,9,353.87,39.32,102.77,23.89,53,3,0,0,3,0,2,35.82,Medium,P3
+CUST000075,Lucas Young,Retail,United Arab Emirates,Medium,Verified,0,11,390.21,35.47,114.86,25.09,43,5,0,0,5,0,0,35.62,Medium,P3
 CUST000130,Lucas Brown,Retail,Spain,Low,Verified,0,6,198.58,33.1,72.47,33.0,43,4,0,0,4,0,0,35.6,Medium,P3
-CUST000147,Lucas Wright,Retail,Italy,Low,Verified,0,10,422.36,42.24,173.33,23.8,48,4,0,0,4,0,1,35.55,Medium,P3
+CUST000472,Maya Walker,Retail,Turkey,High,Verified,0,5,240.63,48.13,94.22,32.8,52,2,0,0,2,0,2,35.6,Medium,P3
 CUST000730,James Clarke,Retail,United Kingdom,Low,Verified,0,5,1063.65,212.73,616.67,31.8,48,3,0,0,3,0,2,35.55,Medium,P3
-CUST000960,Aisha Wright,Retail,France,Low,Verified,0,16,2340.53,146.28,1775.1,24.69,43,5,0,0,5,0,1,35.52,Medium,P3
 CUST000481,Muhammad Khan,Retail,United States,Low,Verified,0,12,640.29,53.36,222.76,23.67,48,4,0,0,4,0,1,35.52,Medium,P3
-CUST000049,Grace Robinson,Retail,United Arab Emirates,Medium,Verified,0,11,835.24,75.93,276.49,22.82,44,5,0,0,5,0,1,35.51,Medium,P3
 CUST000822,Oliver Khan,Retail,United States,Low,Verified,0,11,732.41,66.58,280.68,24.64,43,5,0,0,5,0,1,35.51,Medium,P3
 CUST000021,Daniel Brown,Retail,Canada,Low,Verified,0,11,359.59,32.69,95.23,24.27,43,5,0,0,5,0,1,35.42,Medium,P3
-CUST000867,Fatima Hussain,Retail,Singapore,Low,Verified,0,10,1211.25,121.12,683.53,20.6,45,3,0,0,3,1,0,35.4,Medium,P3
+CUST000136,Grace Brown,Retail,India,Medium,Verified,0,13,399.48,30.73,85.86,24.15,43,5,0,0,5,0,0,35.39,Medium,P3
 CUST000656,Lucas Thomas,Retail,India,Medium,Verified,0,14,1062.58,75.9,222.61,22.29,44,5,0,0,5,0,3,35.37,Medium,P3
+CUST000960,Aisha Wright,Retail,France,Low,Verified,0,16,2340.53,146.28,1775.1,24.06,43,5,0,0,5,0,1,35.36,Medium,P3
 CUST000287,Mia Khan,Retail,France,Low,Verified,0,10,676.84,67.68,211.62,22.0,53,3,0,0,3,0,1,35.35,Medium,P3
-CUST000132,Fatima Walker,Retail,Canada,Low,Verified,0,14,3736.66,266.9,3148.56,21.07,49,4,0,0,4,0,1,35.32,Medium,P3
-CUST000800,Aisha Robinson,Retail,Spain,Low,Verified,0,16,1909.16,119.32,1072.11,22.56,48,4,0,0,4,0,2,35.24,Medium,P3
 CUST000616,Oliver Hall,Retail,Germany,Low,Verified,0,10,451.91,45.19,134.18,21.5,53,3,0,0,3,0,1,35.22,Medium,P3
-CUST000136,Grace Brown,Retail,India,Medium,Verified,0,13,399.48,30.73,85.86,23.38,43,5,0,0,5,0,0,35.2,Medium,P3
-CUST000511,Mia Walker,Retail,Spain,Low,Verified,0,6,694.25,115.71,261.05,31.33,43,4,0,0,4,0,0,35.18,Medium,P3
-CUST000711,Zara Khan,Corporate,Italy,Low,Verified,0,8,488.34,61.04,132.47,29.25,44,4,0,0,4,0,2,35.11,Medium,P3
-CUST000594,Oliver Wright,SME,Singapore,Low,Verified,0,11,528.71,48.06,164.16,20.55,53,3,0,0,3,0,1,34.99,Medium,P3
+CUST000594,Oliver Wright,SME,Singapore,Low,Verified,0,11,528.71,48.06,164.16,21.45,53,3,0,0,3,0,1,35.21,Medium,P3
 CUST000282,Hannah Khan,Retail,United Kingdom,Low,Verified,0,7,292.67,41.81,73.5,27.71,49,3,0,0,3,0,1,34.98,Medium,P3
+CUST000157,Noah Davies,Retail,United States,Low,Verified,0,15,1103.14,73.54,233.29,20.2,44,5,0,0,5,0,1,34.85,Medium,P3
+CUST000611,Zara Brown,Retail,United States,Low,Verified,0,9,6805.08,756.12,6416.36,27.0,49,3,0,0,3,0,1,34.8,Medium,P3
 CUST000653,Fatima Green,Retail,Germany,Low,Verified,0,10,953.34,95.33,451.04,28.3,39,5,0,0,5,0,1,34.62,Medium,P3
-CUST000623,Ethan Green,Retail,Germany,Low,Verified,0,7,468.96,66.99,180.04,28.86,43,4,0,0,4,0,0,34.56,Medium,P3
-CUST000611,Zara Brown,Retail,United States,Low,Verified,0,9,6805.08,756.12,6416.36,25.89,49,3,0,0,3,0,1,34.52,Medium,P3
 CUST000645,Lucas Robinson,SME,France,Low,Verified,0,7,803.93,114.85,282.73,29.57,38,5,0,0,5,0,0,34.49,Medium,P3
+CUST000967,Sophia Hall,Retail,Canada,Low,Verified,0,7,427.51,61.07,214.47,28.57,43,4,0,0,4,0,0,34.49,Medium,P3
 CUST000983,Fatima Brown,Corporate,Italy,Low,Verified,0,6,2958.76,493.13,2189.76,27.5,48,3,0,0,3,0,1,34.48,Medium,P3
+CUST000511,Mia Walker,Retail,Spain,Low,Verified,0,6,694.25,115.71,261.05,28.0,43,4,0,0,4,0,0,34.35,Medium,P3
 CUST000606,Amelia Brown,Retail,United Arab Emirates,Medium,Verified,0,7,274.09,39.16,146.9,25.71,53,2,0,0,2,0,2,34.28,Medium,P3
-CUST000808,Lucas Patel,Corporate,Spain,Low,Verified,0,8,412.73,51.59,107.85,27.38,43,4,0,0,4,0,0,34.2,Medium,P3
+CUST000250,Fatima Hussain,Retail,France,Low,Verified,0,6,219.53,36.59,106.88,26.5,48,3,0,0,3,0,3,34.22,Medium,P3
+CUST000623,Ethan Green,Retail,Germany,Low,Verified,0,7,468.96,66.99,180.04,27.43,43,4,0,0,4,0,0,34.21,Medium,P3
 CUST000425,Adam Patel,SME,Canada,Low,Verified,0,8,671.35,83.92,266.58,26.25,48,3,0,0,3,0,1,34.16,Medium,P3
+CUST000062,Adam Brown,SME,Singapore,Low,Verified,0,9,486.63,54.07,120.74,26.22,48,3,0,0,3,0,1,34.16,Medium,P3
 CUST000459,Leo Jones,Retail,Italy,Low,Verified,0,8,252.84,31.6,80.05,24.75,44,4,0,0,4,0,2,33.99,Medium,P3
-CUST000496,Ali Wilson,Retail,Canada,Low,Verified,0,10,493.76,49.38,124.41,25.7,39,5,0,0,5,0,0,33.98,Medium,P3
-CUST000847,Fatima Robinson,Retail,Pakistan,Medium,Verified,0,8,771.46,96.43,200.33,27.12,38,5,0,0,5,0,1,33.88,Medium,P3
-CUST000250,Fatima Hussain,Retail,France,Low,Verified,0,6,219.53,36.59,106.88,24.83,48,3,0,0,3,0,2,33.81,Medium,P3
+CUST000115,Daniel Khan,Retail,France,Low,Verified,0,7,332.13,47.45,107.57,25.57,48,3,0,0,3,0,1,33.99,Medium,P3
+CUST000242,Sophia Hall,Retail,Italy,Low,Verified,0,10,318.88,31.89,116.67,23.5,49,3,0,0,3,0,2,33.92,Medium,P3
+CUST000739,Grace Wilson,Retail,India,Medium,Verified,0,10,245.5,24.55,44.04,25.2,48,3,0,0,3,0,1,33.9,Medium,P3
+CUST000808,Lucas Patel,Corporate,Spain,Low,Verified,0,8,412.73,51.59,107.85,26.12,43,4,0,0,4,0,0,33.88,Medium,P3
 CUST000307,Ethan Robinson,Private Banking,United Arab Emirates,Medium,Verified,0,12,6795.89,566.32,4201.53,19.42,51,3,0,0,3,0,2,33.8,Medium,P3
 CUST000318,Leo Khan,Private Banking,United Arab Emirates,Medium,Verified,0,10,929.16,92.92,404.07,25.4,43,4,0,0,4,0,0,33.7,Medium,P3
 CUST000209,Muhammad Hall,SME,Canada,Low,Verified,0,8,750.62,93.83,261.63,25.12,52,2,0,0,2,0,1,33.68,Medium,P3
 CUST000002,Maya Wilson,Retail,United States,Low,Verified,0,7,430.03,61.43,163.71,24.29,48,3,0,0,3,0,1,33.67,Medium,P3
+CUST000847,Fatima Robinson,Retail,Pakistan,Medium,Verified,0,8,771.46,96.43,200.33,25.88,38,5,0,0,5,0,1,33.57,Medium,P3
 CUST000799,Aisha Jones,Retail,United Kingdom,Low,Verified,0,8,420.94,52.62,91.68,24.88,43,4,0,0,4,0,0,33.57,Medium,P3
 CUST000252,Adam Walker,SME,United Kingdom,Low,Verified,0,9,452.84,50.32,102.39,24.78,43,4,0,0,4,0,0,33.54,Medium,P3
+CUST000933,Lucas Wright,Corporate,Pakistan,Medium,Verified,0,12,647.23,53.94,274.12,23.67,48,3,0,0,3,0,1,33.52,Medium,P3
 CUST000837,Zara Walker,SME,Pakistan,Medium,Verified,0,9,1073.04,119.23,446.26,23.33,48,3,0,0,3,0,1,33.43,Medium,P3
 CUST000222,Fatima Wright,Private Banking,United Arab Emirates,Medium,Verified,0,4,189.86,47.46,67.64,30.5,44,3,0,0,3,0,1,33.42,Medium,P3
-CUST000865,Aisha Taylor,Retail,United Arab Emirates,Medium,Verified,0,9,3162.17,351.35,2441.71,23.22,48,3,0,0,3,0,1,33.4,Medium,P3
 CUST000465,Leo Hussain,Retail,India,Medium,Verified,0,8,256.84,32.11,64.06,23.88,52,2,0,0,2,0,1,33.37,Medium,P3
-CUST000644,Fatima Wilson,Retail,Germany,Low,Verified,0,10,5913.81,591.38,5394.66,23.8,43,4,0,0,4,0,1,33.3,Medium,P3
 CUST000351,Sophia Smith,Retail,United Kingdom,Low,Verified,0,7,205.89,29.41,69.94,21.71,53,2,0,0,2,0,1,33.28,Medium,P3
+CUST000587,James Hall,Retail,Netherlands,Low,Verified,0,13,993.64,76.43,610.73,20.46,49,3,0,0,3,0,1,33.16,Medium,P3
 CUST000436,Noah Smith,Retail,France,Low,Verified,0,10,751.89,75.19,296.6,21.2,53,2,0,0,2,0,1,33.15,Medium,P3
+CUST000024,Oliver Ali,Retail,United Kingdom,Low,Verified,0,11,3256.72,296.07,2711.76,22.36,39,5,0,0,5,0,0,33.14,Medium,P3
 CUST000383,Ali Brown,SME,Italy,Low,Verified,0,9,2629.98,292.22,1267.94,23.11,43,4,0,0,4,0,0,33.13,Medium,P3
-CUST000472,Maya Walker,Retail,Turkey,High,Verified,0,5,240.63,48.13,94.22,30.8,52,1,0,0,1,0,1,33.1,Medium,P3
-CUST000977,Fatima Ahmed,Retail,Pakistan,Medium,Verified,0,11,968.7,88.06,285.49,21.0,44,4,0,0,4,0,1,33.05,Medium,P3
+CUST000671,Noah Davies,Retail,Singapore,Low,Verified,0,13,1630.89,125.45,968.93,22.85,43,4,0,0,4,0,1,33.06,Medium,P3
+CUST000716,Noah Wright,Retail,Germany,Low,Verified,0,8,4941.46,617.68,2462.92,21.75,48,3,0,0,3,0,1,33.04,Medium,P3
+CUST000867,Fatima Hussain,Retail,Singapore,Low,Verified,0,10,1211.25,121.12,683.53,21.6,39,3,0,0,3,1,0,32.95,Medium,P3
 CUST000530,Muhammad Wright,Corporate,France,Low,Verified,0,7,443.94,63.42,111.98,22.14,52,2,0,0,2,0,1,32.94,Medium,P3
+CUST000684,Daniel Hussain,Retail,Spain,Low,Verified,0,12,468.28,39.02,93.46,22.33,43,4,0,0,4,0,0,32.93,Medium,P3
 CUST000903,Adam Davies,Retail,Canada,Low,Verified,0,4,377.77,94.44,283.06,28.25,53,1,0,0,1,0,1,32.91,Medium,P3
+CUST000438,Sophia Robinson,Retail,Singapore,Low,Verified,0,5,5497.97,1099.59,5296.28,28.4,44,3,0,0,3,0,2,32.9,Medium,P3
 CUST000065,Amelia Miller,SME,Canada,Low,Verified,0,13,460.39,35.41,76.05,22.15,43,4,0,0,4,0,0,32.89,Medium,P3
+CUST000361,Daniel Clarke,Retail,France,Low,Verified,0,10,866.1,86.61,264.13,21.1,48,3,0,0,3,0,2,32.88,Medium,P3
 CUST000528,Zara Ahmed,Retail,United Arab Emirates,Medium,Verified,0,6,192.54,32.09,54.09,28.33,44,3,0,0,3,0,0,32.88,Medium,P3
-CUST000278,Zara Clarke,Retail,Singapore,Low,Verified,0,7,304.87,43.55,110.59,29.14,39,4,0,0,4,0,0,32.84,Medium,P3
+CUST000977,Fatima Ahmed,Retail,Pakistan,Medium,Verified,0,11,968.7,88.06,285.49,20.09,44,4,0,0,4,0,1,32.82,Medium,P3
+CUST000350,Grace Jones,Retail,Italy,Low,Verified,0,13,721.88,55.53,220.2,21.69,43,4,0,0,4,0,0,32.77,Medium,P3
 CUST000276,Leo Jones,Retail,Netherlands,Low,Verified,0,9,484.48,53.83,156.57,20.56,48,3,0,0,3,0,2,32.74,Medium,P3
-CUST000684,Daniel Hussain,Retail,Spain,Low,Verified,0,12,468.28,39.02,93.46,21.5,43,4,0,0,4,0,0,32.72,Medium,P3
+CUST000507,Lucas Miller,Retail,Italy,Low,Verified,0,11,3902.1,354.74,3354.01,22.36,38,5,0,0,5,0,0,32.69,Medium,P3
 CUST000744,Oliver Walker,Retail,Singapore,Low,Verified,0,12,503.01,41.92,113.72,22.33,38,5,0,0,5,0,0,32.68,Medium,P3
-CUST000671,Noah Davies,Retail,Singapore,Low,Verified,0,13,1630.89,125.45,968.93,21.31,43,4,0,0,4,0,0,32.68,Medium,P3
-CUST000689,Leo Jones,Retail,Canada,Low,Verified,0,12,467.17,38.93,182.65,21.17,43,4,0,0,4,0,0,32.64,Medium,P3
+CUST000800,Aisha Robinson,Retail,Spain,Low,Verified,0,16,1909.16,119.32,1072.11,21.31,43,4,0,0,4,0,0,32.68,Medium,P3
 CUST000317,Muhammad Clarke,Retail,United Kingdom,Low,Verified,0,7,445.95,63.71,177.78,29.14,43,3,0,0,3,0,0,32.64,Medium,P3
 CUST000168,Zara Thomas,Retail,Pakistan,Medium,Verified,0,12,774.01,64.5,305.56,18.33,49,3,0,0,3,0,1,32.63,Medium,P3
-CUST000361,Daniel Clarke,Retail,France,Low,Verified,0,10,866.1,86.61,264.13,20.1,48,3,0,0,3,0,1,32.62,Medium,P3
-CUST000350,Grace Jones,Retail,Italy,Low,Verified,0,13,721.88,55.53,220.2,20.92,43,4,0,0,4,0,0,32.58,Medium,P3
 CUST000856,Amelia Ahmed,Retail,Spain,Low,Verified,0,8,266.04,33.26,62.64,28.12,39,4,0,0,4,0,0,32.58,Medium,P3
-CUST000312,Zara Wright,Retail,Singapore,Low,Verified,0,7,280.07,40.01,72.95,27.14,44,3,0,0,3,0,1,32.58,Medium,P3
-CUST000262,Maya Davies,Retail,Singapore,Low,Verified,0,13,920.58,70.81,185.8,20.77,43,4,0,0,4,0,0,32.54,Medium,P3
-CUST000157,Noah Davies,Retail,United States,Low,Verified,0,15,1103.14,73.54,233.29,19.53,39,5,0,0,5,0,0,32.43,Medium,P3
-CUST000980,Leo Taylor,Retail,Netherlands,Low,Verified,0,5,3281.88,656.38,3131.82,28.0,43,3,0,0,3,0,1,32.35,Medium,P3
-CUST000199,Ethan Ahmed,Retail,Germany,Low,Verified,0,9,290.29,32.25,103.72,26.89,39,4,0,0,4,0,0,32.27,Medium,P3
+CUST000262,Maya Davies,Retail,Singapore,Low,Verified,0,13,920.58,70.81,185.8,20.0,43,4,0,0,4,0,0,32.35,Medium,P3
 CUST000357,Adam Young,Retail,United Kingdom,Low,Verified,0,6,2409.07,401.51,2058.38,25.83,44,3,0,0,3,0,1,32.26,Medium,P3
+CUST000747,Adam Young,Retail,Italy,Low,Verified,0,5,3249.96,649.99,2960.43,26.2,48,2,0,0,2,0,1,32.15,Medium,P3
+CUST000199,Ethan Ahmed,Retail,Germany,Low,Verified,0,9,290.29,32.25,103.72,25.78,39,4,0,0,4,0,0,32.0,Medium,P3
+CUST000509,Noah Wilson,SME,Pakistan,Medium,Verified,0,9,594.33,66.04,186.53,23.0,49,2,0,0,2,0,1,31.8,Medium,P3
 CUST000906,Zara Davies,Private Banking,United Kingdom,Low,Verified,0,9,326.77,36.31,74.84,25.33,43,3,0,0,3,0,1,31.68,Medium,P3
-CUST000747,Adam Young,Retail,Italy,Low,Verified,0,5,3249.96,649.99,2960.43,24.2,48,2,0,0,2,0,1,31.65,Medium,P3
 CUST000768,Zara Robinson,Retail,Netherlands,Low,Verified,0,6,495.17,82.53,195.66,22.17,49,2,0,0,2,0,1,31.59,Medium,P3
+CUST000312,Zara Wright,Retail,Singapore,Low,Verified,0,7,280.07,40.01,72.95,24.29,43,3,0,0,3,0,0,31.42,Medium,P3
 CUST000712,Sophia Jones,Corporate,Italy,Low,Verified,0,10,431.76,43.18,92.88,24.2,43,3,0,0,3,0,0,31.4,Medium,P3
-CUST000739,Grace Wilson,Retail,India,Medium,Verified,0,10,245.5,24.55,44.04,24.2,43,3,0,0,3,0,0,31.4,Medium,P3
+CUST000924,Grace Young,Retail,Singapore,Low,Verified,0,6,216.59,36.1,99.19,24.17,43,3,0,0,3,0,0,31.39,Medium,P3
 CUST000029,Amelia Walker,Retail,United Arab Emirates,Medium,Verified,0,8,563.27,70.41,179.28,24.12,43,3,0,0,3,0,0,31.38,Medium,P3
-CUST000933,Lucas Wright,Corporate,Pakistan,Medium,Verified,0,12,647.23,53.94,274.12,22.83,48,2,0,0,2,0,1,31.31,Medium,P3
 CUST000079,Daniel Green,Retail,Spain,Low,Verified,0,8,448.07,56.01,126.91,23.75,43,3,0,0,3,0,0,31.29,Medium,P3
 CUST000204,James Walker,SME,France,Low,Verified,0,7,1132.63,161.8,484.72,23.71,43,3,0,0,3,0,0,31.28,Medium,P3
 CUST000320,Noah Jones,Retail,Canada,Low,Verified,0,5,2063.19,412.64,1979.81,22.4,48,2,0,0,2,0,1,31.2,Medium,P3
-CUST000259,Aisha Brown,Retail,India,Medium,Verified,0,9,2216.52,246.28,1664.09,23.33,43,3,0,0,3,0,1,31.18,Medium,P3
 CUST000175,Leo Ahmed,Retail,Netherlands,Low,Verified,0,11,458.73,41.7,101.63,24.0,38,4,0,0,4,0,0,31.1,Medium,P3
 CUST000570,Ethan Davies,Retail,Singapore,Low,Verified,0,8,337.96,42.24,77.56,22.88,43,3,0,0,3,0,0,31.07,Medium,P3
-CUST000242,Sophia Hall,Retail,Italy,Low,Verified,0,10,318.88,31.89,116.67,22.5,43,3,0,0,3,0,1,30.98,Medium,P3
-CUST000924,Grace Young,Retail,Singapore,Low,Verified,0,6,216.59,36.1,99.19,22.5,43,3,0,0,3,0,0,30.98,Medium,P3
+CUST000644,Fatima Wilson,Retail,Germany,Low,Verified,0,10,5913.81,591.38,5394.66,22.8,43,3,0,0,3,0,0,31.05,Medium,P3
+CUST000074,Zara Clarke,Retail,Canada,Low,Verified,0,12,931.24,77.6,503.1,23.67,38,4,0,0,4,0,0,31.02,Medium,P3
 CUST000582,Lucas Hall,Retail,Pakistan,Medium,Verified,0,12,501.84,41.82,105.42,20.67,44,3,0,0,3,0,1,30.97,Medium,P3
 CUST000200,Sophia Green,Retail,Singapore,Low,Verified,0,5,4365.89,873.18,4127.07,29.6,39,3,0,0,3,0,0,30.95,Medium,P3
-CUST000074,Zara Clarke,Retail,Canada,Low,Verified,0,12,931.24,77.6,503.1,22.83,38,4,0,0,4,0,0,30.81,Medium,P3
 CUST000636,Fatima Walker,Retail,United Kingdom,Low,Verified,0,11,852.73,77.52,225.44,21.0,39,4,0,0,4,0,0,30.8,Medium,P3
-CUST000023,Noah Patel,Retail,France,Low,Verified,0,12,879.72,73.31,311.77,21.17,43,3,0,0,3,0,0,30.64,Medium,P3
+CUST000789,Fatima Davies,Corporate,France,Low,Verified,0,12,735.19,61.27,184.71,19.83,44,3,0,0,3,0,1,30.76,Medium,P3
+CUST000259,Aisha Brown,Retail,India,Medium,Verified,0,9,2216.52,246.28,1664.09,21.11,43,3,0,0,3,0,1,30.63,Medium,P3
 CUST000192,Mia Davies,Retail,Italy,Low,Verified,0,10,4632.01,463.2,3854.45,21.0,43,3,0,0,3,0,0,30.6,Medium,P3
-CUST000968,Adam Wilson,Retail,France,Low,Verified,0,9,287.15,31.91,67.69,21.89,38,4,0,0,4,0,3,30.57,Medium,P3
 CUST000988,Noah Ali,Corporate,Netherlands,Low,Verified,0,8,297.68,37.21,70.71,18.75,44,3,0,0,3,0,1,30.49,Medium,P3
-CUST000587,James Hall,Retail,Netherlands,Low,Verified,0,13,993.64,76.43,610.73,20.46,43,3,0,0,3,0,0,30.47,Medium,P3
+CUST000132,Fatima Walker,Retail,Canada,Low,Verified,0,14,3736.66,266.9,3148.56,19.64,39,4,0,0,4,0,0,30.46,Medium,P3
 CUST000036,Sophia Taylor,Retail,India,Medium,Verified,0,11,1271.37,115.58,472.58,20.36,43,3,0,0,3,0,0,30.44,Medium,P3
+CUST000023,Noah Patel,Retail,France,Low,Verified,0,12,879.72,73.31,311.77,20.33,43,3,0,0,3,0,0,30.43,Medium,P3
+CUST000689,Leo Jones,Retail,Canada,Low,Verified,0,12,467.17,38.93,182.65,20.33,43,3,0,0,3,0,0,30.43,Medium,P3
+CUST000952,Ali Hussain,Corporate,India,Medium,Verified,0,16,3320.32,207.52,2663.2,19.44,39,4,0,0,4,0,0,30.41,Medium,P3
 CUST000198,Sophia Clarke,Retail,Spain,Low,Verified,0,13,1023.08,78.7,578.05,19.23,48,2,0,0,2,0,1,30.41,Medium,P3
+CUST000596,James Jones,Retail,United Kingdom,Low,Verified,0,11,340.76,30.98,71.19,19.18,48,2,0,0,2,0,0,30.4,Medium,P3
+CUST000051,Amelia Wright,Retail,Canada,Low,Verified,0,15,597.52,39.83,80.86,19.0,39,4,0,0,4,0,0,30.3,Medium,P3
 CUST000643,Maya Patel,Retail,Germany,Low,Verified,0,6,202.54,33.76,91.76,19.5,52,1,0,0,1,0,1,30.28,Medium,P3
-CUST000952,Ali Hussain,Corporate,India,Medium,Verified,0,16,3320.32,207.52,2663.2,18.81,39,4,0,0,4,0,0,30.25,Medium,P3
-CUST000596,James Jones,Retail,United Kingdom,Low,Verified,0,11,340.76,30.98,71.19,18.27,48,2,0,0,2,0,0,30.17,Medium,P3
-CUST000051,Amelia Wright,Retail,Canada,Low,Verified,0,15,597.52,39.83,80.86,18.33,39,4,0,0,4,0,0,30.13,Medium,P3
+CUST000414,Maya Smith,Retail,India,Medium,Verified,0,10,416.35,41.64,84.07,19.6,43,3,0,0,3,0,1,30.25,Medium,P3
 CUST000338,Ethan Walker,Retail,Netherlands,Low,Verified,0,7,248.01,35.43,145.94,25.14,44,2,0,0,2,0,1,30.08,Medium,P3
 CUST000964,Aisha Green,Retail,Pakistan,Medium,Verified,0,13,499.19,38.4,131.76,18.0,43,3,0,0,3,0,0,29.85,Low,No Review
 CUST000969,Adam Brown,Retail,Singapore,Low,Verified,0,5,162.23,32.45,73.34,27.0,38,3,0,0,3,0,0,29.85,Low,No Review
-CUST000438,Sophia Robinson,Retail,Singapore,Low,Verified,0,5,5497.97,1099.59,5296.28,26.4,38,3,0,0,3,0,1,29.7,Low,No Review
-CUST000115,Daniel Khan,Retail,France,Low,Verified,0,7,332.13,47.45,107.57,24.14,39,3,0,0,3,0,0,29.58,Low,No Review
+CUST000749,Leo Wilson,Retail,United Arab Emirates,Medium,Verified,0,15,5146.9,343.13,4477.33,18.8,38,4,0,0,4,0,1,29.8,Low,No Review
+CUST000269,Oliver Clarke,Retail,Netherlands,Low,Verified,0,6,296.44,49.41,116.64,26.5,38,3,0,0,3,0,1,29.72,Low,No Review
+CUST000980,Leo Taylor,Retail,Netherlands,Low,Verified,0,5,3281.88,656.38,3131.82,26.0,38,3,0,0,3,0,0,29.6,Low,No Review
 CUST000471,Adam Wilson,Retail,Germany,Low,Verified,0,7,283.55,40.51,80.27,23.57,39,3,0,0,3,0,0,29.44,Low,No Review
 CUST000697,Muhammad Wright,SME,United Arab Emirates,Medium,Verified,0,14,1589.35,113.52,493.58,16.0,52,1,0,0,1,0,1,29.4,Low,No Review
+CUST000134,Zara Khan,Corporate,United States,Low,Verified,0,8,497.52,62.19,126.25,22.25,44,2,0,0,2,0,1,29.36,Low,No Review
 CUST000301,Isabella Taylor,Retail,Singapore,Low,Verified,0,8,220.58,27.57,51.74,21.88,44,2,0,0,2,0,1,29.27,Low,No Review
+CUST000073,Aisha Hall,Retail,Spain,Low,Verified,0,10,331.02,33.1,131.42,21.6,44,2,0,0,2,0,0,29.2,Low,No Review
 CUST000723,Hannah Taylor,Retail,Pakistan,Medium,Verified,0,9,454.2,50.47,162.99,22.33,39,3,0,0,3,0,0,29.13,Low,No Review
-CUST000326,Isabella Jones,Retail,Spain,Low,Verified,0,9,436.36,48.48,154.67,22.22,39,3,0,0,3,0,0,29.1,Low,No Review
 CUST000881,Lucas Hussain,Retail,United Arab Emirates,Medium,Verified,0,4,2132.17,533.04,1775.09,22.75,43,2,0,0,2,0,0,29.04,Low,No Review
-CUST000073,Aisha Hall,Retail,Spain,Low,Verified,0,10,331.02,33.1,131.42,20.6,44,2,0,0,2,0,0,28.95,Low,No Review
-CUST000149,Fatima Young,Retail,United Kingdom,Low,Verified,0,10,1473.44,147.34,1071.08,21.8,43,2,0,0,2,0,0,28.8,Low,No Review
+CUST000363,Ali Smith,SME,Pakistan,Medium,Verified,0,8,514.94,64.37,200.97,23.12,38,3,0,0,3,0,0,28.88,Low,No Review
+CUST000332,Hannah Patel,SME,Canada,Low,Verified,0,8,582.79,72.85,134.76,22.12,43,2,0,0,2,0,1,28.88,Low,No Review
+CUST000326,Isabella Jones,Retail,Spain,Low,Verified,0,9,436.36,48.48,154.67,21.11,39,3,0,0,3,0,0,28.83,Low,No Review
+CUST000926,Noah Hussain,Retail,India,Medium,Verified,0,7,4672.18,667.45,4210.5,22.86,38,3,0,0,3,0,0,28.82,Low,No Review
 CUST000421,Maya Hussain,Retail,Netherlands,Low,Verified,0,8,263.77,32.97,65.17,20.75,39,3,0,0,3,0,0,28.74,Low,No Review
 CUST000628,Fatima Wilson,Corporate,Canada,Low,Verified,0,9,612.81,68.09,158.62,19.67,44,2,0,0,2,0,1,28.72,Low,No Review
 CUST000226,James Green,Retail,Singapore,Low,Verified,0,3,26.98,8.99,13.63,29.33,43,1,0,0,1,0,0,28.68,Low,No Review
-CUST000245,Amelia Robinson,Retail,India,Medium,Verified,0,9,767.29,85.25,237.24,22.11,38,3,0,0,3,0,2,28.63,Low,No Review
+CUST000865,Aisha Taylor,Retail,United Arab Emirates,Medium,Verified,0,9,3162.17,351.35,2441.71,22.11,38,3,0,0,3,0,0,28.63,Low,No Review
 CUST000220,Sophia Brown,Retail,India,Medium,Verified,0,4,151.85,37.96,72.64,28.25,39,2,0,0,2,0,0,28.61,Low,No Review
-CUST000363,Ali Smith,SME,Pakistan,Medium,Verified,0,8,514.94,64.37,200.97,21.88,38,3,0,0,3,0,0,28.57,Low,No Review
-CUST000332,Hannah Patel,SME,Canada,Low,Verified,0,8,582.79,72.85,134.76,20.88,43,2,0,0,2,0,1,28.57,Low,No Review
-CUST000716,Noah Wright,Retail,Germany,Low,Verified,0,8,4941.46,617.68,2462.92,21.75,38,3,0,0,3,0,0,28.54,Low,No Review
+CUST000149,Fatima Young,Retail,United Kingdom,Low,Verified,0,10,1473.44,147.34,1071.08,20.8,43,2,0,0,2,0,0,28.55,Low,No Review
 CUST000779,Grace Ahmed,Retail,India,Medium,Verified,0,8,1300.29,162.54,929.72,21.75,38,3,0,0,3,0,1,28.54,Low,No Review
 CUST000422,Muhammad Young,Retail,Turkey,High,Verified,0,6,296.8,49.47,94.93,29.67,38,2,0,0,2,0,1,28.52,Low,No Review
-CUST000424,Ethan Ahmed,Retail,Singapore,Low,Verified,0,12,1565.17,130.43,1287.62,20.58,43,2,0,0,2,0,0,28.5,Low,No Review
-CUST000926,Noah Hussain,Retail,India,Medium,Verified,0,7,4672.18,667.45,4210.5,21.43,38,3,0,0,3,0,0,28.46,Low,No Review
-CUST000796,Oliver Green,Retail,Italy,Low,Verified,0,10,402.56,40.26,81.15,21.3,38,3,0,0,3,0,0,28.42,Low,No Review
+CUST000014,Oliver Wright,Corporate,Singapore,Low,Verified,0,9,461.34,51.26,104.26,20.11,43,2,0,0,2,0,0,28.38,Low,No Review
+CUST000245,Amelia Robinson,Retail,India,Medium,Verified,0,9,767.29,85.25,237.24,21.0,38,3,0,0,3,0,2,28.35,Low,No Review
+CUST000968,Adam Wilson,Retail,France,Low,Verified,0,9,287.15,31.91,67.69,20.78,38,3,0,0,3,0,2,28.3,Low,No Review
+CUST000424,Ethan Ahmed,Retail,Singapore,Low,Verified,0,12,1565.17,130.43,1287.62,19.75,43,2,0,0,2,0,0,28.29,Low,No Review
 CUST000212,Sophia Taylor,Retail,Singapore,Low,Verified,0,9,556.86,61.87,214.84,20.67,38,3,0,0,3,0,0,28.27,Low,No Review
+CUST000796,Oliver Green,Retail,Italy,Low,Verified,0,10,402.56,40.26,81.15,20.3,38,3,0,0,3,0,0,28.18,Low,No Review
 CUST000144,Adam Smith,SME,Spain,Low,Verified,0,11,2735.34,248.67,1988.02,18.45,39,3,0,0,3,0,0,28.16,Low,No Review
 CUST000268,Fatima Wright,Retail,Germany,Low,Verified,0,9,348.54,38.73,170.38,19.11,43,2,0,0,2,0,0,28.13,Low,No Review
 CUST000116,Lucas Wright,Retail,Pakistan,Medium,Verified,0,10,729.32,72.93,367.94,19.1,43,2,0,0,2,0,0,28.12,Low,No Review
 CUST000945,Daniel Brown,SME,Singapore,Low,Verified,0,9,614.07,68.23,138.73,19.0,43,2,0,0,2,0,0,28.1,Low,No Review
-CUST000014,Oliver Wright,Corporate,Singapore,Low,Verified,0,9,461.34,51.26,104.26,19.0,43,2,0,0,2,0,0,28.1,Low,No Review
 CUST000143,Hannah Robinson,Retail,France,Low,Verified,0,7,262.47,37.5,74.32,18.0,48,1,0,0,1,0,1,28.1,Low,No Review
 CUST000845,Oliver Brown,Retail,Italy,Low,Verified,0,8,4381.58,547.7,4068.1,18.88,43,2,0,0,2,0,0,28.07,Low,No Review
 CUST000778,James Jones,Corporate,United Arab Emirates,Medium,Verified,0,10,374.76,37.48,88.04,18.7,43,2,0,0,2,0,0,28.02,Low,No Review
 CUST000261,Ethan Davies,Retail,Germany,Low,Verified,0,13,835.35,64.26,244.15,18.46,43,2,0,0,2,0,0,27.97,Low,No Review
 CUST000615,James Taylor,Retail,United Kingdom,Low,Verified,0,11,749.59,68.14,364.64,17.09,48,1,0,0,1,0,1,27.87,Low,No Review
-CUST000269,Oliver Clarke,Retail,Netherlands,Low,Verified,0,6,296.44,49.41,116.64,24.83,38,2,0,0,2,0,0,27.31,Low,No Review
-CUST000134,Zara Khan,Corporate,United States,Low,Verified,0,8,497.52,62.19,126.25,22.25,39,2,0,0,2,0,0,27.11,Low,No Review
+CUST000345,Mia Brown,SME,Spain,Low,Verified,0,12,848.26,70.69,237.72,16.42,38,3,0,0,3,0,0,27.2,Low,No Review
 CUST000155,Isabella Ahmed,Retail,India,Medium,Verified,0,12,661.38,55.12,158.66,21.83,39,2,0,0,2,0,0,27.01,Low,No Review
-CUST000345,Mia Brown,SME,Spain,Low,Verified,0,12,848.26,70.69,237.72,15.58,38,3,0,0,3,0,0,27.0,Low,No Review
-CUST000875,Fatima Wilson,Retail,Singapore,Low,Verified,0,8,617.94,77.24,194.4,22.38,43,1,0,0,1,0,0,26.94,Low,No Review
 CUST000835,Ethan Smith,Retail,Germany,Low,Verified,0,7,337.63,48.23,106.21,21.14,39,2,0,0,2,0,0,26.84,Low,No Review
-CUST000509,Noah Wilson,SME,Pakistan,Medium,Verified,0,9,594.33,66.04,186.53,20.78,39,2,0,0,2,0,0,26.74,Low,No Review
-CUST000690,James Khan,Retail,India,Medium,Verified,0,8,315.78,39.47,147.06,21.38,43,1,0,0,1,0,0,26.7,Low,No Review
 CUST000965,Amelia Young,Retail,Singapore,Low,Verified,0,8,336.99,42.12,184.25,19.38,44,1,0,0,1,0,1,26.64,Low,No Review
 CUST000651,Fatima Robinson,Corporate,United Kingdom,Low,Verified,0,8,352.53,44.07,119.99,22.12,38,2,0,0,2,0,0,26.63,Low,No Review
+CUST000875,Fatima Wilson,Retail,Singapore,Low,Verified,0,8,617.94,77.24,194.4,21.12,43,1,0,0,1,0,0,26.63,Low,No Review
 CUST000216,Maya Smith,Retail,Singapore,Low,Verified,0,6,156.91,26.15,62.39,22.0,38,2,0,0,2,0,0,26.6,Low,No Review
 CUST000893,Lucas Clarke,Private Banking,Singapore,Low,Verified,0,10,697.94,69.79,240.95,18.8,44,1,0,0,1,0,1,26.5,Low,No Review
 CUST000543,Maya Brown,Retail,Singapore,Low,Verified,0,5,192.38,38.48,114.82,20.6,43,1,0,0,1,0,0,26.5,Low,No Review
 CUST000972,James Green,Retail,Canada,Low,Verified,0,7,780.67,111.52,511.77,19.71,39,2,0,0,2,0,0,26.48,Low,No Review
+CUST000690,James Khan,Retail,India,Medium,Verified,0,8,315.78,39.47,147.06,20.12,43,1,0,0,1,0,0,26.38,Low,No Review
 CUST000475,Oliver Jones,SME,Netherlands,Low,Verified,0,7,226.66,32.38,62.2,20.29,38,2,0,0,2,0,0,26.17,Low,No Review
-CUST000336,Maya Davies,SME,India,Medium,Verified,0,7,529.08,75.58,112.3,19.57,38,2,0,0,2,0,0,25.99,Low,No Review
-CUST000414,Maya Smith,Retail,India,Medium,Verified,0,10,416.35,41.64,84.07,18.6,34,3,0,0,3,0,0,25.95,Low,No Review
+CUST000267,Oliver Davies,Corporate,India,Medium,Verified,0,10,585.76,58.58,348.08,20.0,38,2,0,0,2,0,1,26.1,Low,No Review
+CUST000504,Zara Wilson,Retail,Germany,Low,Verified,0,9,478.02,53.11,239.08,20.0,38,2,0,0,2,0,0,26.1,Low,No Review
 CUST000512,Muhammad Smith,SME,Italy,Low,Verified,0,8,721.49,90.19,291.22,18.25,43,1,0,0,1,0,0,25.91,Low,No Review
-CUST000128,Oliver Thomas,Retail,United States,Low,Verified,0,9,400.8,44.53,147.4,19.11,38,2,0,0,2,0,0,25.88,Low,No Review
-CUST000789,Fatima Davies,Corporate,France,Low,Verified,0,12,735.19,61.27,184.71,18.17,34,3,0,0,3,0,0,25.84,Low,No Review
-CUST000749,Leo Wilson,Retail,United Arab Emirates,Medium,Verified,0,15,5146.9,343.13,4477.33,18.13,34,3,0,0,3,0,0,25.83,Low,No Review
-CUST000504,Zara Wilson,Retail,Germany,Low,Verified,0,9,478.02,53.11,239.08,18.89,38,2,0,0,2,0,0,25.82,Low,No Review
 CUST000599,Mia Walker,Retail,Pakistan,Medium,Verified,0,10,584.49,58.45,162.41,17.6,43,1,0,0,1,0,0,25.75,Low,No Review
-CUST000366,Sophia Jones,Retail,United Kingdom,Low,Verified,0,11,755.07,68.64,373.38,17.0,38,2,0,0,2,0,0,25.35,Low,No Review
-CUST000940,Grace Wright,SME,Canada,Low,Verified,0,11,345.74,31.43,64.25,15.73,43,1,0,0,1,0,0,25.28,Low,No Review
+CUST000336,Maya Davies,SME,India,Medium,Verified,0,7,529.08,75.58,112.3,18.14,38,2,0,0,2,0,0,25.64,Low,No Review
+CUST000128,Oliver Thomas,Retail,United States,Low,Verified,0,9,400.8,44.53,147.4,18.0,38,2,0,0,2,0,0,25.6,Low,No Review
+CUST000366,Sophia Jones,Retail,United Kingdom,Low,Verified,0,11,755.07,68.64,373.38,17.91,38,2,0,0,2,0,0,25.58,Low,No Review
+CUST000940,Grace Wright,SME,Canada,Low,Verified,0,11,345.74,31.43,64.25,16.64,43,1,0,0,1,0,0,25.51,Low,No Review
 CUST000173,Ethan Patel,Retail,Spain,Low,Verified,0,7,2822.86,403.27,1188.49,15.43,43,1,0,0,1,0,1,25.21,Low,No Review
 CUST000640,Isabella Taylor,Retail,Singapore,Low,Verified,0,10,1334.51,133.45,677.34,16.1,38,2,0,0,2,0,0,25.12,Low,No Review
 CUST000451,Ali Robinson,Retail,Singapore,Low,Verified,0,2,43.67,21.84,28.46,24.0,38,1,0,0,1,0,0,25.1,Low,No Review
+CUST000063,Isabella Khan,SME,Germany,Low,Verified,0,12,5638.23,469.85,3047.48,16.83,33,3,0,0,3,0,0,25.06,Low,No Review
+CUST000921,James Wilson,Retail,Germany,Low,Verified,0,6,464.16,77.36,224.18,23.33,38,1,0,0,1,0,0,24.93,Low,No Review
 CUST000849,Adam Jones,Retail,Singapore,Low,Verified,0,5,606.88,121.38,268.1,23.2,38,1,0,0,1,0,0,24.9,Low,No Review
-CUST000063,Isabella Khan,SME,Germany,Low,Verified,0,12,5638.23,469.85,3047.48,16.0,33,3,0,0,3,0,0,24.85,Low,No Review
-CUST000358,Muhammad Wilson,Retail,Italy,Low,Verified,0,5,161.97,32.39,73.89,22.2,38,1,0,0,1,0,0,24.65,Low,No Review
-CUST000831,Zara Wilson,Retail,United Arab Emirates,Medium,Verified,0,7,395.21,56.46,249.29,22.0,38,1,0,0,1,0,1,24.6,Low,No Review
-CUST000921,James Wilson,Retail,Germany,Low,Verified,0,6,464.16,77.36,224.18,21.67,38,1,0,0,1,0,0,24.52,Low,No Review
-CUST000267,Oliver Davies,Corporate,India,Medium,Verified,0,10,585.76,58.58,348.08,20.0,38,1,0,0,1,0,0,24.1,Low,No Review
-CUST000427,Leo Clarke,Retail,United Kingdom,Low,Verified,0,10,247.28,24.73,103.25,17.9,39,1,0,0,1,0,0,24.02,Low,No Review
-CUST000460,Noah Taylor,SME,United Arab Emirates,Medium,Verified,0,8,353.71,44.21,97.11,18.88,38,1,0,0,1,0,0,23.82,Low,No Review
-CUST000084,Zara Green,Retail,Singapore,Low,Verified,0,7,2975.75,425.11,1735.07,18.71,38,1,0,0,1,0,0,23.78,Low,No Review
+CUST000831,Zara Wilson,Retail,United Arab Emirates,Medium,Verified,0,7,395.21,56.46,249.29,20.57,38,1,0,0,1,0,1,24.24,Low,No Review
+CUST000358,Muhammad Wilson,Retail,Italy,Low,Verified,0,5,161.97,32.39,73.89,20.2,38,1,0,0,1,0,0,24.15,Low,No Review
 CUST000551,Maya Davies,Retail,Spain,Low,Verified,0,10,517.47,51.75,132.17,16.7,39,1,0,0,1,0,0,23.72,Low,No Review
 CUST000214,Sophia Hall,Retail,Italy,Low,Verified,0,7,1141.59,163.08,937.38,16.29,39,1,0,0,1,0,0,23.62,Low,No Review
 CUST000097,Muhammad Khan,Retail,Canada,Low,Verified,0,6,477.38,79.56,277.08,18.0,38,1,0,0,1,0,0,23.6,Low,No Review
+CUST000427,Leo Clarke,Retail,United Kingdom,Low,Verified,0,10,247.28,24.73,103.25,15.9,39,1,0,0,1,0,0,23.52,Low,No Review
+CUST000460,Noah Taylor,SME,United Arab Emirates,Medium,Verified,0,8,353.71,44.21,97.11,17.62,38,1,0,0,1,0,0,23.51,Low,No Review
 CUST000506,Isabella Jones,Retail,Netherlands,Low,Verified,0,6,149.74,24.96,38.78,15.67,39,1,0,0,1,0,0,23.47,Low,No Review
 CUST000048,Zara Clarke,Retail,Turkey,High,Verified,0,3,186.9,62.3,169.5,26.33,33,1,0,0,1,0,0,23.43,Low,No Review
+CUST000084,Zara Green,Retail,Singapore,Low,Verified,0,7,2975.75,425.11,1735.07,17.29,38,1,0,0,1,0,0,23.42,Low,No Review
+CUST000979,Isabella Ahmed,SME,Canada,Low,Verified,0,7,338.06,48.29,112.85,25.71,33,1,0,0,1,0,0,23.28,Low,No Review
 CUST000417,Zara Khan,Retail,Spain,Low,Verified,0,6,332.66,55.44,122.99,15.5,38,1,0,0,1,0,0,22.98,Low,No Review
-CUST000979,Isabella Ahmed,SME,Canada,Low,Verified,0,7,338.06,48.29,112.85,24.29,33,1,0,0,1,0,0,22.92,Low,No Review
 CUST000227,Ethan Patel,Retail,India,Medium,Verified,0,4,122.46,30.62,58.88,22.0,34,1,0,0,1,0,0,22.8,Low,No Review
-CUST000735,Aisha Miller,Corporate,Canada,Low,Verified,0,8,312.47,39.06,71.62,20.25,34,1,0,0,1,0,0,22.36,Low,No Review
-CUST000758,Grace Smith,SME,India,Medium,Verified,0,9,470.12,52.24,166.57,19.78,34,1,0,0,1,0,0,22.24,Low,No Review
+CUST000735,Aisha Miller,Corporate,Canada,Low,Verified,0,8,312.47,39.06,71.62,21.5,34,1,0,0,1,0,0,22.68,Low,No Review
+CUST000758,Grace Smith,SME,India,Medium,Verified,0,9,470.12,52.24,166.57,18.67,34,1,0,0,1,0,0,21.97,Low,No Review
 CUST000206,Amelia Wilson,SME,France,Low,Verified,0,6,190.47,31.74,94.93,17.33,34,1,0,0,1,0,0,21.63,Low,No Review
 CUST000131,Sophia Davies,Corporate,United States,Low,Verified,0,6,251.64,41.94,89.98,16.5,34,1,0,0,1,0,0,21.42,Low,No Review
-CUST000219,Aisha Davies,Retail,Singapore,Low,Verified,0,4,251.9,62.98,139.68,14.5,33,1,0,0,1,0,0,20.48,Low,No Review
+CUST000219,Aisha Davies,Retail,Singapore,Low,Verified,0,4,251.9,62.98,139.68,17.0,33,1,0,0,1,0,0,21.1,Low,No Review
 CUST000190,James Smith,Retail,Netherlands,Low,Verified,0,8,420.49,52.56,200.84,13.5,33,1,0,0,1,0,0,20.23,Low,No Review
 CUST000086,Amelia Green,Retail,Spain,Low,Verified,0,10,2810.8,281.08,2415.19,12.8,33,1,0,0,1,0,0,20.05,Low,No Review
-CUST000230,Amelia Thomas,Retail,Netherlands,Low,Verified,0,7,217.66,31.09,55.54,20.14,28,0,0,0,0,0,0,17.63,Low,No Review
 CUST000401,Hannah Brown,Retail,United Arab Emirates,Medium,Verified,0,6,177.74,29.62,46.69,19.83,28,0,0,0,0,0,0,17.56,Low,No Review
+CUST000230,Amelia Thomas,Retail,Netherlands,Low,Verified,0,7,217.66,31.09,55.54,18.71,28,0,0,0,0,0,0,17.28,Low,No Review
 CUST000874,Zara Robinson,Retail,Netherlands,Low,Verified,0,11,416.18,37.83,181.01,14.82,28,0,0,0,0,0,0,16.3,Low,No Review
 CUST000221,James Robinson,Retail,Germany,Low,Verified,0,3,378.68,126.23,168.48,18.33,25,0,0,0,0,0,0,15.83,Low,No Review
-CUST000195,Hannah Miller,Retail,Germany,Low,Verified,0,7,645.82,92.26,241.68,12.86,25,0,0,0,0,0,0,14.46,Low,No Review
-CUST000360,Noah Green,Retail,Italy,Low,Verified,0,3,481.89,160.63,381.33,13.33,15,0,0,0,0,0,0,10.08,Low,No Review
+CUST000360,Noah Green,Retail,Italy,Low,Verified,0,3,481.89,160.63,381.33,16.67,20,0,0,0,0,0,0,13.17,Low,No Review
 CUST000440,Daniel Khan,Retail,United States,Low,Verified,0,2,89.43,44.72,67.59,12.5,15,0,0,0,0,0,0,9.88,Low,No Review
+CUST000195,Hannah Miller,Retail,Germany,Low,Verified,0,7,645.82,92.26,241.68,11.43,15,0,0,0,0,0,0,9.61,Low,No Review
 CUST000866,Fatima Thomas,Retail,United Arab Emirates,Medium,Verified,0,4,282.07,70.52,163.7,11.25,15,0,0,0,0,0,0,9.56,Low,No Review
