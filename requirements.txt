@@ -6,3 +6,4 @@ networkx
 fastapi
 uvicorn
 streamlit
+plotly
