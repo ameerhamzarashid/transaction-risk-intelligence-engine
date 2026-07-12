@@ -1,5 +1,6 @@
 from pathlib import Path
 from typing import Any
+from html import escape
 
 import duckdb
 import numpy as np
@@ -13,24 +14,27 @@ DB_PATH = BASE_DIR / "data" / "processed" / "transaction_risk.duckdb"
 
 
 RISK_COLORS = {
-    "Critical": "#991b1b",
-    "High": "#c2410c",
+    "Critical": "#8b1e1e",
+    "High": "#b45309",
     "Medium": "#a16207",
-    "Low": "#15803d",
-    "P1": "#991b1b",
-    "P2": "#c2410c",
+    "Low": "#166534",
+    "P1": "#8b1e1e",
+    "P2": "#b45309",
     "P3": "#a16207",
     "P4": "#1d4ed8",
-    "No Alert": "#475569",
-    "Within SLA": "#15803d",
+    "No Alert": "#64748b",
+    "Within SLA": "#166534",
     "At Risk": "#a16207",
-    "Breached": "#991b1b",
-    "Closed": "#475569",
-    "Rule and ML": "#4c1d95",
+    "Breached": "#8b1e1e",
+    "Closed": "#64748b",
+    "Rule and ML": "#3730a3",
     "Rule Only": "#1d4ed8",
     "ML Only": "#0f766e",
-    "No Review": "#475569",
+    "No Review": "#64748b",
 }
+
+NEUTRAL_BLUE = "#1e3a8a"
+SLATE = "#0f172a"
 
 
 st.set_page_config(
@@ -49,107 +53,146 @@ def apply_custom_css() -> None:
         }
 
         .block-container {
-            padding-top: 1.5rem;
+            padding-top: 1.2rem;
             padding-bottom: 3rem;
-            max-width: 1500px;
+            max-width: 1540px;
         }
 
-        .hero-card {
-            padding: 1.5rem 1.7rem;
-            border-radius: 14px;
+        .product-header {
             background: #0f172a;
-            color: white;
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 1.35rem 1.55rem;
+            margin-bottom: 1rem;
             border: 1px solid #1e293b;
-            box-shadow: 0 10px 28px rgba(15, 23, 42, 0.16);
-            margin-bottom: 1.2rem;
+            box-shadow: 0 8px 22px rgba(15, 23, 42, 0.16);
         }
 
-        .hero-title {
-            font-size: 1.75rem;
-            font-weight: 700;
-            margin-bottom: 0.35rem;
-            letter-spacing: -0.02em;
+        .product-title {
+            font-size: 1.62rem;
+            font-weight: 720;
+            letter-spacing: -0.025em;
+            margin-bottom: 0.25rem;
         }
 
-        .hero-subtitle {
+        .product-subtitle {
+            font-size: 0.96rem;
             color: #cbd5e1;
-            font-size: 0.98rem;
+            max-width: 1120px;
             line-height: 1.5;
-            max-width: 1100px;
+        }
+
+        .status-strip {
+            display: flex;
+            gap: 0.6rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .status-pill {
+            border: 1px solid #334155;
+            background: #111827;
+            color: #e5e7eb;
+            border-radius: 999px;
+            padding: 0.28rem 0.7rem;
+            font-size: 0.76rem;
+            font-weight: 650;
         }
 
         .kpi-card {
-            padding: 1rem 1.05rem;
-            border-radius: 12px;
             background: #ffffff;
             border: 1px solid #e2e8f0;
-            box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
-            min-height: 118px;
+            border-radius: 10px;
+            padding: 0.95rem 1rem;
+            min-height: 112px;
+            box-shadow: 0 4px 14px rgba(15, 23, 42, 0.055);
         }
+
+        .kpi-critical { border-left: 5px solid #8b1e1e; }
+        .kpi-high { border-left: 5px solid #b45309; }
+        .kpi-medium { border-left: 5px solid #a16207; }
+        .kpi-good { border-left: 5px solid #166534; }
+        .kpi-neutral { border-left: 5px solid #1e3a8a; }
 
         .kpi-label {
             color: #64748b;
-            font-size: 0.78rem;
-            font-weight: 700;
+            font-size: 0.76rem;
+            font-weight: 720;
             text-transform: uppercase;
-            letter-spacing: 0.035em;
+            letter-spacing: 0.04em;
+            margin-bottom: 0.3rem;
         }
 
         .kpi-value {
             color: #0f172a;
-            font-size: 1.8rem;
-            font-weight: 750;
-            margin-top: 0.35rem;
+            font-size: 1.72rem;
+            font-weight: 760;
+            letter-spacing: -0.03em;
+            line-height: 1.1;
         }
 
         .kpi-help {
             color: #64748b;
-            font-size: 0.8rem;
-            margin-top: 0.25rem;
-        }
-
-        .kpi-critical {
-            border-left: 5px solid #991b1b;
-        }
-
-        .kpi-high {
-            border-left: 5px solid #c2410c;
-        }
-
-        .kpi-medium {
-            border-left: 5px solid #a16207;
-        }
-
-        .kpi-good {
-            border-left: 5px solid #15803d;
+            font-size: 0.78rem;
+            margin-top: 0.35rem;
+            line-height: 1.35;
         }
 
         .section-card {
             background: #ffffff;
             border: 1px solid #e2e8f0;
-            border-radius: 12px;
-            padding: 1rem;
-            box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+            border-radius: 10px;
+            padding: 1rem 1rem;
+            box-shadow: 0 4px 14px rgba(15, 23, 42, 0.045);
             margin-bottom: 1rem;
+        }
+
+        .section-title {
+            font-size: 1.05rem;
+            color: #0f172a;
+            font-weight: 720;
+            margin-bottom: 0.25rem;
+        }
+
+        .section-caption {
+            color: #64748b;
+            font-size: 0.86rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .detail-label {
+            color: #64748b;
+            font-size: 0.76rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.035em;
+            margin-bottom: 0.15rem;
+        }
+
+        .detail-value {
+            color: #0f172a;
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 0.65rem;
         }
 
         .badge {
             display: inline-block;
             padding: 0.22rem 0.55rem;
             border-radius: 999px;
-            color: white;
+            color: #ffffff;
             font-weight: 700;
-            font-size: 0.74rem;
-            margin-right: 0.35rem;
-            letter-spacing: 0.01em;
+            font-size: 0.72rem;
+            margin-right: 0.3rem;
+            margin-bottom: 0.25rem;
         }
 
-        .badge-red { background: #991b1b; }
-        .badge-orange { background: #c2410c; }
+        .badge-red { background: #8b1e1e; }
+        .badge-orange { background: #b45309; }
         .badge-yellow { background: #a16207; }
-        .badge-green { background: #15803d; }
+        .badge-green { background: #166534; }
         .badge-blue { background: #1d4ed8; }
-        .badge-purple { background: #5b21b6; }
+        .badge-purple { background: #3730a3; }
         .badge-gray { background: #475569; }
 
         div[data-testid="stSidebar"] {
@@ -172,17 +215,32 @@ def apply_custom_css() -> None:
             letter-spacing: -0.02em;
         }
 
-        div[data-testid="stMetric"] {
-            background: white;
-            border: 1px solid #e2e8f0;
-            padding: 0.8rem;
-            border-radius: 12px;
+        .stTabs [data-baseweb="tab-list"] {
+            gap: 0.4rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .stTabs [data-baseweb="tab"] {
+            border-radius: 8px 8px 0 0;
+            padding: 0.6rem 1rem;
+            font-weight: 650;
         }
 
         .stDataFrame {
-            border-radius: 10px;
-            overflow: hidden;
+            border-radius: 8px;
             border: 1px solid #e2e8f0;
+            overflow: hidden;
+        }
+
+        button[kind="primary"] {
+            background: #0f172a !important;
+            border: 1px solid #0f172a !important;
+        }
+
+        .small-note {
+            color: #64748b;
+            font-size: 0.82rem;
+            line-height: 1.45;
         }
         </style>
         """,
@@ -226,6 +284,16 @@ def safe_count(table_name: str) -> int:
     return int(df["row_count"].iloc[0])
 
 
+def safe_scalar(query: str, default: Any = 0) -> Any:
+    try:
+        df = query_df(query)
+        if df.empty:
+            return default
+        return df.iloc[0, 0]
+    except Exception:
+        return default
+
+
 def format_number(value: Any) -> str:
     try:
         return f"{float(value):,.0f}"
@@ -240,13 +308,13 @@ def format_money(value: Any) -> str:
         return "£0.00"
 
 
-def metric_card(label: str, value: Any, help_text: str, style: str = "good") -> None:
+def metric_card(label: str, value: Any, help_text: str, style: str = "neutral") -> None:
     st.markdown(
         f"""
         <div class="kpi-card kpi-{style}">
-            <div class="kpi-label">{label}</div>
-            <div class="kpi-value">{value}</div>
-            <div class="kpi-help">{help_text}</div>
+            <div class="kpi-label">{escape(str(label))}</div>
+            <div class="kpi-value">{escape(str(value))}</div>
+            <div class="kpi-help">{escape(str(help_text))}</div>
         </div>
         """,
         unsafe_allow_html=True,
@@ -269,17 +337,23 @@ def badge(value: str) -> str:
     elif value in ["Rule Only", "P4"]:
         colour_class = "badge-blue"
 
-    return f'<span class="badge {colour_class}">{value}</span>'
+    return f'<span class="badge {colour_class}">{escape(str(value))}</span>'
 
 
-def page_header() -> None:
+def render_header() -> None:
     st.markdown(
         """
-        <div class="hero-card">
-            <div class="hero-title">Transaction Risk Intelligence Engine</div>
-            <div class="hero-subtitle">
-                Financial crime monitoring, reconciliation controls, anomaly detection,
-                graph analytics, explainable alerts and operational case management.
+        <div class="product-header">
+            <div class="product-title">Transaction Risk Intelligence Engine</div>
+            <div class="product-subtitle">
+                Integrated risk operations console for transaction monitoring, reconciliation controls,
+                anomaly detection, graph analytics, explainable alerts and operational case management.
+            </div>
+            <div class="status-strip">
+                <div class="status-pill">Synthetic data environment</div>
+                <div class="status-pill">DuckDB analytics layer</div>
+                <div class="status-pill">FastAPI service ready</div>
+                <div class="status-pill">Case-management workflow</div>
             </div>
         </div>
         """,
@@ -292,12 +366,25 @@ def page_header() -> None:
         st.stop()
 
 
+def render_section(title: str, caption: str = "") -> None:
+    st.markdown(
+        f"""
+        <div class="section-card">
+            <div class="section-title">{escape(title)}</div>
+            <div class="section-caption">{escape(caption)}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 def plot_bar(
     df: pd.DataFrame,
     x: str,
     y: str,
     title: str,
     color: str | None = None,
+    height: int = 360,
 ) -> None:
     if df.empty:
         st.info("No data available.")
@@ -311,22 +398,23 @@ def plot_bar(
         title=title,
         color_discrete_map=RISK_COLORS,
         text_auto=True,
+        template="plotly_white",
     )
 
     fig.update_layout(
-        height=380,
-        margin=dict(l=10, r=10, t=60, b=10),
+        height=height,
+        margin=dict(l=10, r=10, t=55, b=10),
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
-        font=dict(size=12),
-        title_font=dict(size=17),
+        title_font=dict(size=16, color="#0f172a"),
+        font=dict(size=12, color="#334155"),
         legend_title_text="",
     )
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
 
 
-def plot_donut(df: pd.DataFrame, names: str, values: str, title: str) -> None:
+def plot_donut(df: pd.DataFrame, names: str, values: str, title: str, height: int = 360) -> None:
     if df.empty:
         st.info("No data available.")
         return
@@ -335,21 +423,23 @@ def plot_donut(df: pd.DataFrame, names: str, values: str, title: str) -> None:
         df,
         names=names,
         values=values,
-        hole=0.55,
+        hole=0.58,
         title=title,
         color=names,
         color_discrete_map=RISK_COLORS,
+        template="plotly_white",
     )
 
     fig.update_layout(
-        height=380,
-        margin=dict(l=10, r=10, t=60, b=10),
+        height=height,
+        margin=dict(l=10, r=10, t=55, b=10),
         paper_bgcolor="rgba(0,0,0,0)",
-        title_font=dict(size=17),
+        title_font=dict(size=16, color="#0f172a"),
+        font=dict(size=12, color="#334155"),
         legend_title_text="",
     )
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
 
 
 def download_csv(df: pd.DataFrame, filename: str) -> None:
@@ -469,117 +559,81 @@ def score_transaction_rule_based(input_data: dict) -> dict:
     }
 
 
-def executive_overview() -> None:
-    st.subheader("Executive Command Centre")
+def control_room_page() -> None:
+    st.subheader("Control Room")
 
     total_cases = safe_count("case_management_cases")
-    p1_cases = 0
-    breached_cases = 0
-    total_alerts = safe_count("transaction_risk_alerts") + safe_count("ml_transaction_anomaly_alerts")
+    total_transactions = safe_count("transactions")
+    total_recon_breaks = safe_count("reconciliation_breaks")
+    total_graph_entities = safe_count("graph_nodes")
+    total_explanations = safe_count("alert_explanations")
 
-    if table_exists("case_management_cases"):
-        p1_cases = int(
-            query_df(
-                """
-                SELECT COUNT(*) AS n
-                FROM case_management_cases
-                WHERE case_priority = 'P1';
-                """
-            )["n"].iloc[0]
-        )
+    p1_cases = safe_scalar(
+        """
+        SELECT COUNT(*)
+        FROM case_management_cases
+        WHERE case_priority = 'P1';
+        """,
+        0,
+    )
 
-        breached_cases = int(
-            query_df(
-                """
-                SELECT COUNT(*) AS n
-                FROM case_management_cases
-                WHERE sla_status = 'Breached';
-                """
-            )["n"].iloc[0]
-        )
+    breached_cases = safe_scalar(
+        """
+        SELECT COUNT(*)
+        FROM case_management_cases
+        WHERE sla_status = 'Breached';
+        """,
+        0,
+    )
+
+    risk_alerts = safe_count("transaction_risk_alerts")
+    ml_alerts = safe_count("ml_transaction_anomaly_alerts")
 
     c1, c2, c3, c4 = st.columns(4)
 
     with c1:
-        metric_card(
-            "Transactions",
-            format_number(safe_count("transactions")),
-            "Synthetic transaction population",
-            "good",
-        )
+        metric_card("Transactions", format_number(total_transactions), "Base population analysed", "neutral")
 
     with c2:
-        metric_card(
-            "Open Cases",
-            format_number(total_cases),
-            "Unified operational case volume",
-            "medium",
-        )
+        metric_card("Open Cases", format_number(total_cases), "Unified investigation queue", "medium")
 
     with c3:
-        metric_card(
-            "P1 Cases",
-            format_number(p1_cases),
-            "Highest priority analyst cases",
-            "critical",
-        )
+        metric_card("P1 Cases", format_number(p1_cases), "Highest-priority cases", "critical")
 
     with c4:
-        metric_card(
-            "Risk and ML Alerts",
-            format_number(total_alerts),
-            "Rule and ML generated alerts",
-            "high",
-        )
+        metric_card("SLA Breaches", format_number(breached_cases), "Cases outside SLA", "critical")
 
     c5, c6, c7, c8 = st.columns(4)
 
     with c5:
-        metric_card(
-            "SLA Breaches",
-            format_number(breached_cases),
-            "Cases outside SLA window",
-            "critical",
-        )
+        metric_card("Rule Alerts", format_number(risk_alerts), "Rule-based risk alerts", "high")
 
     with c6:
-        metric_card(
-            "Reconciliation Breaks",
-            format_number(safe_count("reconciliation_breaks")),
-            "Operational control breaks",
-            "high",
-        )
+        metric_card("ML Alerts", format_number(ml_alerts), "Anomaly-based alerts", "high")
 
     with c7:
-        metric_card(
-            "Graph Entities",
-            format_number(safe_count("graph_nodes")),
-            "Network nodes analysed",
-            "good",
-        )
+        metric_card("Recon Breaks", format_number(total_recon_breaks), "Control breaks detected", "medium")
 
     with c8:
-        metric_card(
-            "Explainable Alerts",
-            format_number(safe_count("alert_explanations")),
-            "Plain-English alert explanations",
-            "medium",
-        )
+        metric_card("Graph Entities", format_number(total_graph_entities), "Network entities scored", "good")
 
     st.divider()
 
-    tab1, tab2, tab3 = st.tabs(
+    tab1, tab2, tab3, tab4 = st.tabs(
         [
-            "Case Overview",
-            "Risk Overview",
-            "Graph and Reconciliation",
+            "Operational Overview",
+            "Risk Signals",
+            "Controls",
+            "Latest Work Queue",
         ]
     )
 
     with tab1:
-        left, right = st.columns(2)
+        if not table_exists("case_management_cases"):
+            st.warning("Run Stage 9 to generate case-management outputs.")
+        else:
+            left, right = st.columns(2)
 
-        if table_exists("case_management_cases"):
             priority_df = query_df(
                 """
                 SELECT case_priority, COUNT(*) AS case_count
@@ -610,8 +664,6 @@ def executive_overview() -> None:
 
             with right:
                 plot_bar(source_df, "case_source_type", "case_count", "Case Volume by Source")
-        else:
-            st.warning("Run Stage 9 to generate case-management tables.")
 
     with tab2:
         left, right = st.columns(2)
@@ -640,12 +692,7 @@ def executive_overview() -> None:
             )
 
             with right:
-                plot_bar(
-                    ml_df,
-                    "combined_risk_signal",
-                    "transaction_count",
-                    "Rule vs ML Detection Signal",
-                )
+                plot_bar(ml_df, "combined_risk_signal", "transaction_count", "Rule vs ML Detection Signal")
 
     with tab3:
         left, right = st.columns(2)
@@ -661,12 +708,7 @@ def executive_overview() -> None:
             )
 
             with left:
-                plot_bar(
-                    recon_df,
-                    "primary_break_category",
-                    "break_count",
-                    "Reconciliation Break Types",
-                )
+                plot_bar(recon_df, "primary_break_category", "break_count", "Reconciliation Break Types")
 
         if table_exists("graph_risk_clusters"):
             cluster_df = query_df(
@@ -679,16 +721,38 @@ def executive_overview() -> None:
             )
 
             with right:
-                plot_donut(
-                    cluster_df,
-                    "cluster_risk_band",
-                    "cluster_count",
-                    "Graph Cluster Risk",
-                )
+                plot_donut(cluster_df, "cluster_risk_band", "cluster_count", "Graph Cluster Risk")
+
+    with tab4:
+        if table_exists("case_management_work_queue"):
+            queue_df = query_df(
+                """
+                SELECT
+                    queue_rank,
+                    case_id,
+                    case_source_type,
+                    case_priority,
+                    sla_status,
+                    case_owner,
+                    case_title,
+                    customer_id,
+                    transaction_id,
+                    amount,
+                    risk_score,
+                    recommended_action
+                FROM case_management_work_queue
+                ORDER BY queue_rank
+                LIMIT 25;
+                """
+            )
+
+            st.dataframe(queue_df, use_container_width=True, hide_index=True)
+        else:
+            st.warning("Run Stage 9 to generate the work queue.")
 
 
 def case_management_page() -> None:
-    st.subheader("Case Management Work Queue")
+    st.subheader("Case Management")
 
     if not table_exists("case_management_cases"):
         st.warning("Run Stage 9 first.")
@@ -716,8 +780,8 @@ def case_management_page() -> None:
         )["case_source_type"].tolist()
 
         selected_source = st.selectbox("Source Type", source_options)
-        search_text = st.text_input("Search title, customer, transaction or description")
-        limit = st.slider("Rows", 10, 500, 100)
+        search_text = st.text_input("Search case text")
+        limit = st.slider("Rows", 10, 500, 120)
 
     query = """
         SELECT *
@@ -746,10 +810,11 @@ def case_management_page() -> None:
             OR LOWER(customer_id) LIKE ?
             OR LOWER(transaction_id) LIKE ?
             OR LOWER(case_description) LIKE ?
+            OR LOWER(recommended_action) LIKE ?
         )
         """
         search_param = f"%{search_text.lower()}%"
-        params.extend([search_param, search_param, search_param, search_param])
+        params.extend([search_param] * 5)
 
     query += f"""
         ORDER BY priority_rank ASC, risk_score DESC, amount DESC
@@ -758,32 +823,32 @@ def case_management_page() -> None:
 
     df = query_df(query, tuple(params))
 
-    k1, k2, k3, k4 = st.columns(4)
+    c1, c2, c3, c4 = st.columns(4)
 
-    with k1:
-        metric_card("Filtered Cases", format_number(len(df)), "Current queue view", "medium")
+    with c1:
+        metric_card("Cases in View", format_number(len(df)), "Filtered case volume", "neutral")
 
-    with k2:
+    with c2:
         metric_card(
-            "P1 in View",
+            "P1 Cases",
             format_number((df["case_priority"] == "P1").sum() if not df.empty else 0),
-            "Urgent cases",
+            "Immediate review",
             "critical",
         )
 
-    with k3:
+    with c3:
         metric_card(
-            "Breached in View",
+            "SLA Breached",
             format_number((df["sla_status"] == "Breached").sum() if not df.empty else 0),
-            "SLA breaches",
+            "Outside target",
             "critical",
         )
 
-    with k4:
+    with c4:
         metric_card(
-            "Total Amount",
+            "Total Case Amount",
             format_money(df["amount"].sum() if not df.empty else 0),
-            "Case value in view",
+            "Value represented in view",
             "high",
         )
 
@@ -791,10 +856,12 @@ def case_management_page() -> None:
         st.info("No cases match the selected filters.")
         return
 
-    st.markdown("### Priority Work Queue")
+    left, right = st.columns([1.7, 1])
 
-    st.dataframe(
-        df[
+    with left:
+        st.markdown("### Work Queue")
+
+        queue_view = df[
             [
                 "case_id",
                 "case_source_type",
@@ -807,14 +874,50 @@ def case_management_page() -> None:
                 "amount",
                 "risk_score",
                 "case_age_bucket",
-                "recommended_action",
             ]
-        ],
-        use_container_width=True,
-        hide_index=True,
-    )
+        ]
 
-    download_csv(df, "filtered_case_management_cases.csv")
+        st.dataframe(queue_view, use_container_width=True, hide_index=True)
+        download_csv(df, "case_management_filtered.csv")
+
+    with right:
+        st.markdown("### Case Detail")
+
+        selected_case_id = st.selectbox(
+            "Select a case",
+            df["case_id"].tolist(),
+        )
+
+        selected = df[df["case_id"] == selected_case_id].iloc[0]
+
+        st.markdown(
+            f"""
+            <div class="section-card">
+                {badge(str(selected["case_priority"]))}
+                {badge(str(selected["sla_status"]))}
+                <div class="detail-label">Case ID</div>
+                <div class="detail-value">{escape(str(selected["case_id"]))}</div>
+
+                <div class="detail-label">Source</div>
+                <div class="detail-value">{escape(str(selected["case_source_type"]))}</div>
+
+                <div class="detail-label">Owner</div>
+                <div class="detail-value">{escape(str(selected["case_owner"]))}</div>
+
+                <div class="detail-label">Title</div>
+                <div class="detail-value">{escape(str(selected["case_title"]))}</div>
+
+                <div class="detail-label">Risk Score</div>
+                <div class="detail-value">{escape(str(selected["risk_score"]))}</div>
+
+                <div class="detail-label">Recommended Action</div>
+                <div class="detail-value">{escape(str(selected["recommended_action"]))}</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+    st.markdown("### Case Mix in Current View")
 
     chart_df = (
         df.groupby(["case_priority", "sla_status"])
@@ -822,219 +925,283 @@ def case_management_page() -> None:
         .reset_index(name="case_count")
     )
 
-    plot_bar(
-        chart_df,
-        "case_priority",
-        "case_count",
-        "Filtered Cases by Priority and SLA",
-        "sla_status",
+    plot_bar(chart_df, "case_priority", "case_count", "Filtered Case Mix", "sla_status")
+
+
+def risk_signals_page() -> None:
+    st.subheader("Risk Signals")
+
+    tab1, tab2, tab3 = st.tabs(
+        [
+            "Rule-Based Scoring",
+            "ML Anomaly Detection",
+            "Explainability",
+        ]
     )
 
+    with tab1:
+        if not table_exists("transaction_risk_scores"):
+            st.warning("Run Stage 5 first.")
+        else:
+            with st.sidebar:
+                st.markdown("### Rule Filters")
+                risk_band = st.selectbox("Risk Band", ["All", "Critical", "High", "Medium", "Low"])
+                min_amount = st.number_input("Minimum transaction amount", min_value=0.0, value=0.0, step=100.0)
+                top_n = st.slider("Risk rows", 10, 300, 100)
 
-def risk_scoring_page() -> None:
-    st.subheader("Rule-Based Transaction Risk Explorer")
+            query = """
+                SELECT
+                    transaction_id,
+                    transaction_timestamp,
+                    customer_id,
+                    full_name,
+                    merchant_name,
+                    merchant_category,
+                    amount,
+                    currency,
+                    channel,
+                    rule_based_risk_score,
+                    risk_band,
+                    alert_priority,
+                    reason_codes
+                FROM transaction_risk_scores
+                WHERE amount >= ?
+            """
 
-    if not table_exists("transaction_risk_scores"):
-        st.warning("Run Stage 5 first.")
-        return
+            params = [min_amount]
 
-    with st.sidebar:
-        st.markdown("### Risk Filters")
-        risk_band = st.selectbox("Risk Band", ["All", "Critical", "High", "Medium", "Low"])
-        min_amount = st.number_input("Minimum amount", min_value=0.0, value=0.0, step=100.0)
-        top_n = st.slider("Top transactions", 10, 250, 75)
+            if risk_band != "All":
+                query += " AND risk_band = ?"
+                params.append(risk_band)
 
-    query = """
-        SELECT
-            transaction_id,
-            transaction_timestamp,
-            customer_id,
-            full_name,
-            merchant_name,
-            merchant_category,
-            amount,
-            currency,
-            channel,
-            rule_based_risk_score,
-            risk_band,
-            alert_priority,
-            reason_codes
-        FROM transaction_risk_scores
-        WHERE amount >= ?
-    """
+            query += f"""
+                ORDER BY rule_based_risk_score DESC, amount DESC
+                LIMIT {top_n};
+            """
 
-    params = [min_amount]
+            df = query_df(query, tuple(params))
 
-    if risk_band != "All":
-        query += " AND risk_band = ?"
-        params.append(risk_band)
+            c1, c2, c3 = st.columns(3)
 
-    query += f"""
-        ORDER BY rule_based_risk_score DESC, amount DESC
-        LIMIT {top_n};
-    """
+            with c1:
+                metric_card("Rows Shown", format_number(len(df)), "Filtered transactions", "neutral")
 
-    df = query_df(query, tuple(params))
+            with c2:
+                metric_card(
+                    "Max Risk Score",
+                    format_number(df["rule_based_risk_score"].max() if not df.empty else 0),
+                    "Highest rule-based score",
+                    "critical",
+                )
 
-    c1, c2, c3 = st.columns(3)
+            with c3:
+                metric_card(
+                    "Total Amount",
+                    format_money(df["amount"].sum() if not df.empty else 0),
+                    "Value in current view",
+                    "high",
+                )
 
-    with c1:
-        metric_card("Transactions Shown", format_number(len(df)), "Filtered results", "medium")
+            if not df.empty:
+                fig = px.scatter(
+                    df,
+                    x="amount",
+                    y="rule_based_risk_score",
+                    color="risk_band",
+                    hover_data=["transaction_id", "customer_id", "merchant_category", "reason_codes"],
+                    title="Transaction Amount vs Rule-Based Risk Score",
+                    color_discrete_map=RISK_COLORS,
+                    template="plotly_white",
+                )
 
-    with c2:
-        metric_card(
-            "Max Risk Score",
-            format_number(df["rule_based_risk_score"].max() if not df.empty else 0),
-            "Highest rule score",
-            "critical",
-        )
+                fig.update_layout(
+                    height=430,
+                    paper_bgcolor="rgba(0,0,0,0)",
+                    plot_bgcolor="rgba(0,0,0,0)",
+                    title_font=dict(size=16),
+                    legend_title_text="",
+                )
 
-    with c3:
-        metric_card(
-            "Total Amount",
-            format_money(df["amount"].sum() if not df.empty else 0),
-            "Transaction value shown",
-            "high",
-        )
+                st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
 
-    if df.empty:
-        st.info("No transactions match the selected filters.")
-        return
+                st.dataframe(df, use_container_width=True, hide_index=True)
+                download_csv(df, "rule_based_risk_signals.csv")
 
-    fig = px.scatter(
-        df,
-        x="amount",
-        y="rule_based_risk_score",
-        color="risk_band",
-        hover_data=["transaction_id", "customer_id", "merchant_category", "reason_codes"],
-        title="Amount vs Rule-Based Risk Score",
-        color_discrete_map=RISK_COLORS,
-    )
+    with tab2:
+        if not table_exists("ml_transaction_anomaly_scores"):
+            st.warning("Run Stage 6 first.")
+        else:
+            signal = st.selectbox(
+                "Detection signal",
+                ["All", "Rule and ML", "ML Only", "Rule Only", "No Alert"],
+                key="ml_signal_filter",
+            )
 
-    fig.update_layout(
-        height=430,
-        paper_bgcolor="rgba(0,0,0,0)",
-        plot_bgcolor="rgba(0,0,0,0)",
-        title_font=dict(size=17),
-        legend_title_text="",
-    )
+            anomaly_band = st.selectbox(
+                "Anomaly band",
+                ["All", "Critical", "High", "Medium", "Low"],
+                key="ml_band_filter",
+            )
 
-    st.plotly_chart(fig, use_container_width=True)
+            query = """
+                SELECT
+                    transaction_id,
+                    customer_id,
+                    full_name,
+                    merchant_name,
+                    merchant_category,
+                    amount,
+                    rule_based_risk_score,
+                    risk_band,
+                    anomaly_score_percentile,
+                    ml_anomaly_band,
+                    combined_risk_signal,
+                    ml_reason_codes
+                FROM ml_transaction_anomaly_scores
+                WHERE 1 = 1
+            """
 
-    st.dataframe(df, use_container_width=True, hide_index=True)
-    download_csv(df, "rule_based_risk_filtered.csv")
+            params = []
 
+            if signal != "All":
+                query += " AND combined_risk_signal = ?"
+                params.append(signal)
 
-def ml_anomaly_page() -> None:
-    st.subheader("ML Anomaly Detection Explorer")
+            if anomaly_band != "All":
+                query += " AND ml_anomaly_band = ?"
+                params.append(anomaly_band)
 
-    if not table_exists("ml_transaction_anomaly_scores"):
-        st.warning("Run Stage 6 first.")
-        return
+            query += """
+                ORDER BY anomaly_score_percentile DESC, rule_based_risk_score DESC
+                LIMIT 150;
+            """
 
-    with st.sidebar:
-        st.markdown("### ML Filters")
-        anomaly_band = st.selectbox("Anomaly Band", ["All", "Critical", "High", "Medium", "Low"])
-        signal = st.selectbox("Signal", ["All", "Rule and ML", "ML Only", "Rule Only", "No Alert"])
-        top_n = st.slider("Top anomalies", 10, 250, 75)
+            df = query_df(query, tuple(params))
 
-    query = """
-        SELECT
-            transaction_id,
-            customer_id,
-            full_name,
-            merchant_name,
-            merchant_category,
-            amount,
-            rule_based_risk_score,
-            risk_band,
-            anomaly_score_percentile,
-            ml_anomaly_band,
-            combined_risk_signal,
-            ml_reason_codes
-        FROM ml_transaction_anomaly_scores
-        WHERE 1 = 1
-    """
+            c1, c2, c3 = st.columns(3)
 
-    params = []
+            with c1:
+                metric_card("Rows Shown", format_number(len(df)), "Filtered ML signals", "neutral")
 
-    if anomaly_band != "All":
-        query += " AND ml_anomaly_band = ?"
-        params.append(anomaly_band)
+            with c2:
+                metric_card(
+                    "Max Anomaly Percentile",
+                    format_number(df["anomaly_score_percentile"].max() if not df.empty else 0),
+                    "Highest ML outlier strength",
+                    "critical",
+                )
 
-    if signal != "All":
-        query += " AND combined_risk_signal = ?"
-        params.append(signal)
+            with c3:
+                metric_card(
+                    "Rule and ML Agreement",
+                    format_number((df["combined_risk_signal"] == "Rule and ML").sum() if not df.empty else 0),
+                    "Cases detected by both methods",
+                    "high",
+                )
 
-    query += f"""
-        ORDER BY anomaly_score_percentile DESC, rule_based_risk_score DESC
-        LIMIT {top_n};
-    """
+            if not df.empty:
+                fig = px.scatter(
+                    df,
+                    x="rule_based_risk_score",
+                    y="anomaly_score_percentile",
+                    color="combined_risk_signal",
+                    size="amount",
+                    hover_data=["transaction_id", "customer_id", "merchant_category", "ml_reason_codes"],
+                    title="Rule-Based Risk vs ML Anomaly Percentile",
+                    color_discrete_map=RISK_COLORS,
+                    template="plotly_white",
+                )
 
-    df = query_df(query, tuple(params))
+                fig.update_layout(
+                    height=430,
+                    paper_bgcolor="rgba(0,0,0,0)",
+                    plot_bgcolor="rgba(0,0,0,0)",
+                    title_font=dict(size=16),
+                    legend_title_text="",
+                )
 
-    c1, c2, c3 = st.columns(3)
+                st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
+                st.dataframe(df, use_container_width=True, hide_index=True)
+                download_csv(df, "ml_anomaly_signals.csv")
 
-    with c1:
-        metric_card("Anomalies Shown", format_number(len(df)), "Filtered ML output", "medium")
+    with tab3:
+        if not table_exists("alert_explanations"):
+            st.warning("Run Stage 7 first.")
+        else:
+            priority = st.selectbox(
+                "Explanation priority",
+                ["All", "P1", "P2", "P3", "No Alert"],
+                key="explanation_priority_filter",
+            )
 
-    with c2:
-        metric_card(
-            "Max Percentile",
-            format_number(df["anomaly_score_percentile"].max() if not df.empty else 0),
-            "Highest anomaly percentile",
-            "critical",
-        )
+            query = """
+                SELECT
+                    explanation_id,
+                    explanation_priority,
+                    review_queue,
+                    main_trigger,
+                    combined_explanation_score,
+                    transaction_id,
+                    customer_id,
+                    full_name,
+                    amount,
+                    evidence_summary,
+                    plain_english_explanation,
+                    recommended_investigation_action
+                FROM alert_explanations
+                WHERE 1 = 1
+            """
 
-    with c3:
-        metric_card(
-            "Rule and ML",
-            format_number((df["combined_risk_signal"] == "Rule and ML").sum() if not df.empty else 0),
-            "Detection agreement",
-            "high",
-        )
+            params = []
 
-    if df.empty:
-        st.info("No ML anomalies match the selected filters.")
-        return
+            if priority != "All":
+                query += " AND explanation_priority = ?"
+                params.append(priority)
 
-    fig = px.scatter(
-        df,
-        x="rule_based_risk_score",
-        y="anomaly_score_percentile",
-        color="combined_risk_signal",
-        size="amount",
-        hover_data=["transaction_id", "customer_id", "merchant_category", "ml_reason_codes"],
-        title="Rule-Based Risk vs ML Anomaly Percentile",
-        color_discrete_map=RISK_COLORS,
-    )
+            query += """
+                ORDER BY combined_explanation_score DESC
+                LIMIT 30;
+            """
 
-    fig.update_layout(
-        height=430,
-        paper_bgcolor="rgba(0,0,0,0)",
-        plot_bgcolor="rgba(0,0,0,0)",
-        title_font=dict(size=17),
-        legend_title_text="",
-    )
+            df = query_df(query, tuple(params))
 
-    st.plotly_chart(fig, use_container_width=True)
+            if df.empty:
+                st.info("No explanations match the selected filters.")
+            else:
+                for _, row in df.head(8).iterrows():
+                    st.markdown(
+                        f"""
+                        <div class="section-card">
+                            {badge(str(row["explanation_priority"]))}
+                            {badge(str(row["main_trigger"]))}
+                            <div class="section-title">{escape(str(row["explanation_id"]))} - {escape(str(row["transaction_id"]))}</div>
+                            <div class="section-caption">
+                                Customer {escape(str(row["customer_id"]))} | Amount {escape(format_money(row["amount"]))}
+                            </div>
+                            <div class="detail-label">Explanation</div>
+                            <div class="detail-value">{escape(str(row["plain_english_explanation"]))}</div>
+                            <div class="detail-label">Recommended Action</div>
+                            <div class="detail-value">{escape(str(row["recommended_investigation_action"]))}</div>
+                        </div>
+                        """,
+                        unsafe_allow_html=True,
+                    )
 
-    st.dataframe(df, use_container_width=True, hide_index=True)
-    download_csv(df, "ml_anomaly_filtered.csv")
+                with st.expander("View explanation table"):
+                    st.dataframe(df, use_container_width=True, hide_index=True)
+                    download_csv(df, "alert_explanations.csv")
 
 
 def reconciliation_page() -> None:
-    st.subheader("Reconciliation Control Centre")
+    st.subheader("Reconciliation")
 
     if not table_exists("reconciliation_breaks"):
         st.warning("Run Stage 3 first.")
         return
 
-    with st.sidebar:
-        st.markdown("### Reconciliation Filters")
-        severity = st.selectbox("Break Severity", ["All", "High", "Medium", "Low"])
-        break_search = st.text_input("Search break type")
-        top_n = st.slider("Break rows", 10, 300, 100)
+    severity = st.selectbox("Severity", ["All", "High", "Medium", "Low"])
+    search_text = st.text_input("Search break type")
+    limit = st.slider("Rows to show", 10, 300, 120)
 
     query = """
         SELECT
@@ -1058,9 +1225,9 @@ def reconciliation_page() -> None:
         query += " AND severity = ?"
         params.append(severity)
 
-    if break_search:
+    if search_text:
         query += " AND LOWER(break_type) LIKE ?"
-        params.append(f"%{break_search.lower()}%")
+        params.append(f"%{search_text.lower()}%")
 
     query += f"""
         ORDER BY
@@ -1071,7 +1238,7 @@ def reconciliation_page() -> None:
                 ELSE 9
             END,
             absolute_amount_difference DESC
-        LIMIT {top_n};
+        LIMIT {limit};
     """
 
     df = query_df(query, tuple(params))
@@ -1079,58 +1246,62 @@ def reconciliation_page() -> None:
     c1, c2, c3 = st.columns(3)
 
     with c1:
-        metric_card("Breaks Shown", format_number(len(df)), "Filtered reconciliation cases", "high")
+        metric_card("Breaks in View", format_number(len(df)), "Filtered reconciliation breaks", "neutral")
 
     with c2:
         metric_card(
             "High Severity",
             format_number((df["severity"] == "High").sum() if not df.empty else 0),
-            "Priority control breaks",
+            "Priority control issues",
             "critical",
         )
 
     with c3:
         metric_card(
-            "Total Abs Difference",
+            "Absolute Difference",
             format_money(df["absolute_amount_difference"].sum() if not df.empty else 0),
             "Total break value",
-            "medium",
+            "high",
         )
 
     if df.empty:
         st.info("No reconciliation breaks match the selected filters.")
         return
 
-    summary_df = (
-        df.groupby(["primary_break_category", "severity"])
-        .size()
-        .reset_index(name="break_count")
-    )
+    left, right = st.columns(2)
 
-    plot_bar(
-        summary_df,
-        "primary_break_category",
-        "break_count",
-        "Break Category by Severity",
-        "severity",
-    )
+    with left:
+        category_df = (
+            df.groupby(["primary_break_category", "severity"])
+            .size()
+            .reset_index(name="break_count")
+        )
+
+        plot_bar(category_df, "primary_break_category", "break_count", "Break Category by Severity", "severity")
+
+    with right:
+        severity_df = (
+            df.groupby("severity")
+            .size()
+            .reset_index(name="break_count")
+        )
+
+        plot_donut(severity_df, "severity", "break_count", "Severity Mix")
 
     st.dataframe(df, use_container_width=True, hide_index=True)
-    download_csv(df, "reconciliation_breaks_filtered.csv")
+    download_csv(df, "reconciliation_breaks.csv")
 
 
-def graph_page() -> None:
-    st.subheader("Graph Analytics and Entity Network Risk")
+def network_page() -> None:
+    st.subheader("Network Analytics")
 
     if not table_exists("graph_high_centrality_entities"):
         st.warning("Run Stage 8 first.")
         return
 
-    with st.sidebar:
-        st.markdown("### Graph Filters")
-        node_type = st.selectbox("Node Type", ["All", "Customer", "Account", "Merchant"])
-        min_graph_score = st.slider("Minimum graph priority score", 0, 100, 0)
-        top_n = st.slider("Graph rows", 10, 250, 75)
+    node_type = st.selectbox("Node type", ["All", "Customer", "Account", "Merchant"])
+    min_score = st.slider("Minimum graph priority score", 0, 100, 0)
+    limit = st.slider("Rows", 10, 250, 100)
 
     query = """
         SELECT
@@ -1151,7 +1322,7 @@ def graph_page() -> None:
         WHERE graph_priority_score >= ?
     """
 
-    params = [min_graph_score]
+    params = [min_score]
 
     if node_type != "All":
         query += " AND node_type = ?"
@@ -1159,7 +1330,7 @@ def graph_page() -> None:
 
     query += f"""
         ORDER BY graph_priority_score DESC, total_degree DESC
-        LIMIT {top_n};
+        LIMIT {limit};
     """
 
     df = query_df(query, tuple(params))
@@ -1167,7 +1338,7 @@ def graph_page() -> None:
     c1, c2, c3 = st.columns(3)
 
     with c1:
-        metric_card("Entities Shown", format_number(len(df)), "Filtered graph entities", "medium")
+        metric_card("Entities in View", format_number(len(df)), "Filtered graph entities", "neutral")
 
     with c2:
         metric_card(
@@ -1181,7 +1352,7 @@ def graph_page() -> None:
         metric_card(
             "Average Degree",
             format_number(df["total_degree"].mean() if not df.empty else 0),
-            "Average connections",
+            "Average connectedness",
             "high",
         )
 
@@ -1194,22 +1365,20 @@ def graph_page() -> None:
             size="node_risk_score",
             hover_data=["node_id", "node_label", "node_risk_band"],
             title="Graph Centrality vs Priority Score",
+            template="plotly_white",
         )
 
         fig.update_layout(
             height=430,
             paper_bgcolor="rgba(0,0,0,0)",
             plot_bgcolor="rgba(0,0,0,0)",
-            title_font=dict(size=17),
+            title_font=dict(size=16),
             legend_title_text="",
         )
 
-        st.plotly_chart(fig, use_container_width=True)
-
+        st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
         st.dataframe(df, use_container_width=True, hide_index=True)
-        download_csv(df, "graph_entities_filtered.csv")
-    else:
-        st.info("No graph entities match the selected filters.")
+        download_csv(df, "graph_entities.csv")
 
     st.markdown("### Suspicious Transfer Patterns")
 
@@ -1219,139 +1388,29 @@ def graph_page() -> None:
             SELECT *
             FROM graph_suspicious_transfer_patterns
             ORDER BY pattern_risk_score DESC, total_amount DESC
-            LIMIT 75;
+            LIMIT 100;
             """
         )
 
         st.dataframe(patterns, use_container_width=True, hide_index=True)
 
 
-def explainability_page() -> None:
-    st.subheader("Explainability and Analyst Reasoning")
+def investigation_page() -> None:
+    st.subheader("Investigation Lookup")
 
-    if not table_exists("alert_explanations"):
-        st.warning("Run Stage 7 first.")
-        return
-
-    with st.sidebar:
-        st.markdown("### Explanation Filters")
-        priority = st.selectbox("Explanation Priority", ["All", "P1", "P2", "P3", "No Alert"])
-        trigger_search = st.text_input("Search main trigger")
-        top_n = st.slider("Explanations", 5, 100, 25)
-
-    query = """
-        SELECT
-            explanation_id,
-            explanation_priority,
-            review_queue,
-            main_trigger,
-            combined_explanation_score,
-            transaction_id,
-            customer_id,
-            full_name,
-            amount,
-            evidence_summary,
-            plain_english_explanation,
-            recommended_investigation_action
-        FROM alert_explanations
-        WHERE 1 = 1
-    """
-
-    params = []
-
-    if priority != "All":
-        query += " AND explanation_priority = ?"
-        params.append(priority)
-
-    if trigger_search:
-        query += " AND LOWER(main_trigger) LIKE ?"
-        params.append(f"%{trigger_search.lower()}%")
-
-    query += f"""
-        ORDER BY combined_explanation_score DESC
-        LIMIT {top_n};
-    """
-
-    df = query_df(query, tuple(params))
-
-    c1, c2, c3 = st.columns(3)
-
-    with c1:
-        metric_card("Explanations", format_number(len(df)), "Filtered explanations", "medium")
-
-    with c2:
-        metric_card(
-            "P1 Explanations",
-            format_number((df["explanation_priority"] == "P1").sum() if not df.empty else 0),
-            "Highest priority explanations",
-            "critical",
-        )
-
-    with c3:
-        metric_card(
-            "Max Explanation Score",
-            format_number(df["combined_explanation_score"].max() if not df.empty else 0),
-            "Strongest combined evidence",
-            "high",
-        )
-
-    if df.empty:
-        st.info("No explanations match the selected filters.")
-        return
-
-    for _, row in df.head(10).iterrows():
-        st.markdown(
-            f"""
-            <div class="section-card">
-                {badge(str(row['explanation_priority']))}
-                {badge(str(row['main_trigger']))}
-                <h4>{row['explanation_id']} - {row['transaction_id']}</h4>
-                <p><b>Customer:</b> {row['customer_id']} | <b>Amount:</b> {format_money(row['amount'])}</p>
-                <p><b>Explanation:</b> {row['plain_english_explanation']}</p>
-                <p><b>Action:</b> {row['recommended_investigation_action']}</p>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
-
-    with st.expander("View explanation table"):
-        st.dataframe(df, use_container_width=True, hide_index=True)
-        download_csv(df, "alert_explanations_filtered.csv")
-
-    if table_exists("explanation_reason_summary"):
-        st.markdown("### Top Reason Codes")
-
-        reason_df = query_df(
-            """
-            SELECT *
-            FROM explanation_reason_summary
-            ORDER BY transaction_count DESC, average_combined_explanation_score DESC
-            LIMIT 50;
-            """
-        )
-
-        st.dataframe(reason_df, use_container_width=True, hide_index=True)
-
-
-def lookup_page() -> None:
-    st.subheader("Customer and Transaction Lookup")
-
-    lookup_type = st.radio(
-        "Lookup Type",
-        ["Transaction", "Customer"],
-        horizontal=True,
-    )
+    lookup_type = st.radio("Lookup type", ["Transaction", "Customer"], horizontal=True)
 
     if lookup_type == "Transaction":
         transaction_id = st.text_input("Transaction ID", value="TXN00000001")
 
         if st.button("Search Transaction", type="primary"):
-            result_found = False
+            found = False
 
             for table_name in [
                 "alert_explanations",
                 "ml_transaction_anomaly_scores",
                 "transaction_risk_scores",
+                "case_management_cases",
             ]:
                 if table_exists(table_name):
                     df = query_df(
@@ -1359,24 +1418,24 @@ def lookup_page() -> None:
                         SELECT *
                         FROM {table_name}
                         WHERE transaction_id = ?
-                        LIMIT 5;
+                        LIMIT 20;
                         """,
                         (transaction_id,),
                     )
 
                     if not df.empty:
-                        result_found = True
-                        st.markdown(f"### Result from `{table_name}`")
+                        found = True
+                        st.markdown(f"### {table_name}")
                         st.dataframe(df, use_container_width=True, hide_index=True)
 
-            if not result_found:
+            if not found:
                 st.warning("No transaction found.")
 
     else:
         customer_id = st.text_input("Customer ID", value="CUST000001")
 
         if st.button("Search Customer", type="primary"):
-            result_found = False
+            found = False
 
             for table_name in [
                 "customer_risk_scores",
@@ -1396,22 +1455,24 @@ def lookup_page() -> None:
                     )
 
                     if not df.empty:
-                        result_found = True
-                        st.markdown(f"### Result from `{table_name}`")
+                        found = True
+                        st.markdown(f"### {table_name}")
                         st.dataframe(df, use_container_width=True, hide_index=True)
 
-            if not result_found:
-                st.warning("No customer found in risk outputs.")
+            if not found:
+                st.warning("No customer found.")
 
 
-def score_new_transaction_page() -> None:
-    st.subheader("Score a New Transaction")
+def transaction_scoring_page() -> None:
+    st.subheader("Transaction Scoring")
 
     st.markdown(
         """
         <div class="section-card">
-        Use this form to simulate how a new transaction would be scored by the rule-based risk engine.
-        The output shows the score, severity band, priority and reason codes.
+            <div class="section-title">Rule-Based Transaction Scoring</div>
+            <div class="section-caption">
+                Simulate how a new transaction would be scored before it enters the monitoring queue.
+            </div>
         </div>
         """,
         unsafe_allow_html=True,
@@ -1421,18 +1482,8 @@ def score_new_transaction_page() -> None:
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            amount = st.number_input(
-                "Amount",
-                min_value=0.0,
-                value=7500.0,
-                step=100.0,
-            )
-
-            currency = st.selectbox(
-                "Currency",
-                ["GBP", "EUR", "USD"],
-            )
-
+            amount = st.number_input("Amount", min_value=0.0, value=7500.0, step=100.0)
+            currency = st.selectbox("Currency", ["GBP", "EUR", "USD"])
             channel = st.selectbox(
                 "Channel",
                 ["Card Present", "E-Commerce", "Mobile Banking", "Branch", "ATM", "API"],
@@ -1446,10 +1497,7 @@ def score_new_transaction_page() -> None:
                 index=2,
             )
 
-            status = st.selectbox(
-                "Status",
-                ["Completed", "Pending", "Failed", "Reversed"],
-            )
+            status = st.selectbox("Status", ["Completed", "Pending", "Failed", "Reversed"])
 
             merchant_category = st.selectbox(
                 "Merchant Category",
@@ -1484,111 +1532,107 @@ def score_new_transaction_page() -> None:
 
         submitted = st.form_submit_button("Score Transaction", type="primary")
 
-    if submitted:
-        input_data = {
-            "amount": amount,
-            "currency": currency,
-            "channel": channel,
-            "transaction_type": transaction_type,
-            "status": status,
-            "merchant_category": merchant_category,
-            "cross_border_flag": int(cross_border_flag),
-            "high_amount_flag": int(high_amount_flag),
-            "unusual_hour_flag": int(unusual_hour_flag),
-            "high_risk_category_flag": int(high_risk_category_flag),
-            "high_risk_country_flag": int(high_risk_country_flag),
-            "kyc_issue_flag": int(kyc_issue_flag),
-            "pep_flag": int(pep_flag),
-            "watchlist_match_flag": int(watchlist_match_flag),
-        }
+    if not submitted:
+        return
 
-        result = score_transaction_rule_based(input_data)
+    input_data = {
+        "amount": amount,
+        "currency": currency,
+        "channel": channel,
+        "transaction_type": transaction_type,
+        "status": status,
+        "merchant_category": merchant_category,
+        "cross_border_flag": int(cross_border_flag),
+        "high_amount_flag": int(high_amount_flag),
+        "unusual_hour_flag": int(unusual_hour_flag),
+        "high_risk_category_flag": int(high_risk_category_flag),
+        "high_risk_country_flag": int(high_risk_country_flag),
+        "kyc_issue_flag": int(kyc_issue_flag),
+        "pep_flag": int(pep_flag),
+        "watchlist_match_flag": int(watchlist_match_flag),
+    }
 
-        risk_style = "good"
+    result = score_transaction_rule_based(input_data)
 
-        if result["risk_band"] == "Critical":
-            risk_style = "critical"
-        elif result["risk_band"] == "High":
-            risk_style = "high"
-        elif result["risk_band"] == "Medium":
-            risk_style = "medium"
+    risk_style = "good"
 
-        c1, c2, c3, c4 = st.columns(4)
+    if result["risk_band"] == "Critical":
+        risk_style = "critical"
+    elif result["risk_band"] == "High":
+        risk_style = "high"
+    elif result["risk_band"] == "Medium":
+        risk_style = "medium"
 
-        with c1:
-            metric_card("Risk Score", result["risk_score"], "Rule-based score", risk_style)
+    c1, c2, c3, c4 = st.columns(4)
 
-        with c2:
-            metric_card("Risk Band", result["risk_band"], "Severity category", risk_style)
+    with c1:
+        metric_card("Risk Score", result["risk_score"], "Rule-based score", risk_style)
 
-        with c3:
-            metric_card("Alert Priority", result["alert_priority"], "Operational priority", risk_style)
+    with c2:
+        metric_card("Risk Band", result["risk_band"], "Severity classification", risk_style)
 
-        with c4:
-            metric_card("Create Alert", result["should_create_alert"], "Alert decision", risk_style)
+    with c3:
+        metric_card("Priority", result["alert_priority"], "Operational handling", risk_style)
 
-        st.markdown("### Reason Codes")
+    with c4:
+        metric_card("Create Alert", result["should_create_alert"], "Queue decision", risk_style)
 
-        st.markdown(
-            f"""
-            <div class="section-card">
-            <b>{result["reason_codes"]}</b>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
+    st.markdown("### Reason Codes")
 
-        st.markdown("### Input Transaction")
+    st.markdown(
+        f"""
+        <div class="section-card">
+            <div class="detail-value">{escape(result["reason_codes"])}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    with st.expander("Input transaction"):
         st.json(input_data)
 
 
 def main() -> None:
     apply_custom_css()
-    page_header()
+    render_header()
 
-    st.sidebar.title("Navigation")
+    st.sidebar.title("Risk Operations Console")
 
     page = st.sidebar.radio(
-        "Choose page",
+        "Workspace",
         [
-            "Executive Overview",
+            "Control Room",
             "Case Management",
-            "Rule-Based Risk",
-            "ML Anomaly Detection",
+            "Risk Signals",
             "Reconciliation",
-            "Graph Analytics",
-            "Explainability",
-            "Lookup",
-            "Score New Transaction",
+            "Network Analytics",
+            "Investigation Lookup",
+            "Transaction Scoring",
         ],
     )
 
     st.sidebar.divider()
-    st.sidebar.caption("Local DuckDB database")
+    st.sidebar.caption("Database")
     st.sidebar.code(str(DB_PATH))
 
-    if st.sidebar.button("Clear cache and refresh"):
+    if st.sidebar.button("Clear cache"):
         st.cache_data.clear()
         st.rerun()
 
-    if page == "Executive Overview":
-        executive_overview()
+    if page == "Control Room":
+        control_room_page()
     elif page == "Case Management":
         case_management_page()
-    elif page == "Rule-Based Risk":
-        risk_scoring_page()
-    elif page == "ML Anomaly Detection":
-        ml_anomaly_page()
+    elif page == "Risk Signals":
+        risk_signals_page()
     elif page == "Reconciliation":
         reconciliation_page()
-    elif page == "Graph Analytics":
-        graph_page()
-    elif page == "Explainability":
-        explainability_page()
-    elif page == "Lookup":
-        lookup_page()
-    elif page == "Score New Transaction":
-        score_new_transaction_page()
+    elif page == "Network Analytics":
+        network_page()
+    elif page == "Investigation Lookup":
+        investigation_page()
+    elif page == "Transaction Scoring":
+        transaction_scoring_page()
 
 
 if __name__ == "__main__":
