@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-11T20:43:24",
+    "generated_at": "2026-07-13T15:49:00",
     "seed": 42,
     "customers": 1000,
     "merchants": 250,
@@ -9,5 +9,5 @@
     "watchlist_entities": 20,
     "reconciliation_file_a_rows": 3000,
     "reconciliation_file_b_rows": 2990,
-    "suspicious_transactions": 2591
+    "suspicious_transactions": 2563
 }

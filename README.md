@@ -1,45 +1,46 @@
 # Transaction Risk Intelligence Engine
 
-A production-style financial crime and transaction risk analytics project built with Python, SQL, DuckDB, machine learning, graph analytics, FastAPI, Streamlit and Docker.
+A production-style transaction risk intelligence system for financial crime monitoring, reconciliation controls, anomaly detection, graph analytics, explainable alerting, case management, API delivery and dashboard reporting.
 
-This project simulates a financial services monitoring environment where transactions need to be checked for suspicious behaviour, reconciliation breaks, risky customer/entity patterns and operational alerts.
+This project simulates a financial services environment where customer, account, merchant and transaction data must be monitored for suspicious behaviour, reconciliation breaks, risky entity relationships and operational investigation priorities.
 
 ---
 
 ## Project Objective
 
-The objective of this project is to build an end-to-end transaction risk intelligence system that can:
+The objective of this project is to build an end-to-end transaction risk analytics system that can:
 
 * generate realistic synthetic financial datasets
+* load data into a structured analytical database
 * detect reconciliation breaks between two financial systems
-* validate data quality across customer, account, merchant and transaction records
-* apply transparent rule-based financial crime risk scoring
-* detect unusual behaviour using unsupervised machine learning
+* validate data quality across core entities
+* apply transparent rule-based transaction risk scoring
+* detect unusual transaction behaviour using machine learning
 * explain alerts in plain English for analyst review
 * identify risky connected entities using graph analytics
-* create an operational case-management queue
+* create a unified operational case-management queue
 * expose outputs through a FastAPI service
-* provide an interactive Streamlit risk operations dashboard
-* support reproducible local and Docker-based execution
+* provide an interactive Streamlit risk operations console
+* support reproducible execution locally and with Docker
 
 ---
 
 ## Business Problem
 
-Financial services teams process large volumes of transactions across multiple systems. Some transactions may be suspicious, some records may not reconcile, and some customers, accounts or merchants may be linked through risky networks.
+Financial services teams process large volumes of transactions across multiple internal and external systems. Some transactions may be suspicious, some records may fail reconciliation, and some customers, accounts or merchants may be connected through risky networks.
 
-Operational teams need a way to prioritise the highest-risk cases, understand why alerts were generated, and review cases through a structured workflow.
+Operational teams need more than raw alerts. They need prioritised cases, clear reasons for escalation, supporting evidence, SLA visibility and a workflow that helps analysts focus on the highest-risk activity first.
 
-This project addresses that problem by combining transaction monitoring, reconciliation, anomaly detection, graph analytics, explainability and case management in one integrated system.
+This project addresses that problem by combining reconciliation controls, data quality validation, rule-based risk scoring, machine learning anomaly detection, graph analytics, explainable alerting and operational case management in one integrated system.
 
 ---
 
-## Main Capabilities
+## Core Capabilities
 
 * Synthetic financial data generation
 * DuckDB analytical database layer
-* Reconciliation break detection
 * Data quality validation
+* Reconciliation break detection
 * Rule-based transaction risk scoring
 * Customer-level risk scoring
 * Isolation Forest anomaly detection
@@ -72,24 +73,72 @@ This project addresses that problem by combining transaction monitoring, reconci
 ## Project Architecture
 
 ```text
-Synthetic Data Generation
+Synthetic Financial Data
         ↓
 DuckDB Database Layer
         ↓
-Data Quality Checks + Reconciliation Engine
+Data Quality Validation
+        ↓
+Reconciliation Engine
         ↓
 Rule-Based Risk Scoring
         ↓
 ML Anomaly Detection
         ↓
-Explainability Layer + Graph Analytics
+Explainability Layer
+        ↓
+Graph Analytics
         ↓
 Unified Case Management
         ↓
-FastAPI Service + Streamlit Dashboard
+FastAPI Service Layer
+        ↓
+Streamlit Risk Operations Dashboard
         ↓
 Dockerised Local Execution
 ```
+
+---
+
+## Dashboard Preview
+
+The Streamlit dashboard provides a risk operations console for reviewing case queues, transaction risk signals, reconciliation breaks, entity network risk, investigation lookups and transaction scoring.
+
+### Control Room
+
+![Control Room](docs/screenshots/01_control_room.png)
+
+### Case Management
+
+![Case Management](docs/screenshots/02_case_management.png)
+
+### Risk Signals
+
+![Risk Signals](docs/screenshots/03_risk_signals.png)
+
+### Reconciliation
+
+![Reconciliation](docs/screenshots/04_reconciliation.png)
+
+### Network Analytics
+
+![Network Analytics](docs/screenshots/05_network_analytics.png)
+
+### Investigation Lookup
+
+![Investigation Lookup](docs/screenshots/06_investigation_lookup.png)
+
+### Transaction Scoring
+
+![Transaction Scoring](docs/screenshots/07_transaction_scoring.png)
+
+---
+
+## API Preview
+
+The FastAPI layer exposes the main project outputs through documented API endpoints.
+
+![FastAPI Docs](docs/screenshots/08_fastapi_docs.png)
 
 ---
 
@@ -99,7 +148,7 @@ Dockerised Local Execution
 
 Created the project repository, folder structure, starter files and GitHub connection.
 
-Main folders:
+Main folders include:
 
 * data
 * notebooks
@@ -116,7 +165,7 @@ Main folders:
 
 ### Stage 1: Synthetic Financial Data Generation
 
-Created realistic synthetic datasets for transaction monitoring, reconciliation and financial crime analytics.
+Created synthetic datasets for transaction monitoring, reconciliation and financial crime analytics.
 
 Generated datasets include:
 
@@ -129,7 +178,7 @@ Generated datasets include:
 * reconciliation file A
 * reconciliation file B
 
-The generator injects controlled risk patterns such as high-value payments, unusual-hour transactions, cross-border activity, high-risk merchant categories, dummy watchlist exposure and reconciliation breaks.
+The generator injects controlled risk patterns such as high-value payments, unusual-hour activity, cross-border transactions, high-risk merchant categories, watchlist exposure and reconciliation breaks.
 
 Run:
 
@@ -147,7 +196,7 @@ data/synthetic/
 
 ### Stage 2: DuckDB Database Layer
 
-Loads the synthetic CSV files into a local DuckDB database and creates SQL views for analysis.
+Loads the synthetic CSV files into a local DuckDB analytical database and creates SQL views for downstream analysis.
 
 Created database objects include:
 
@@ -209,7 +258,7 @@ Outputs include:
 
 ### Stage 4: Data Quality Validation
 
-Adds a data-quality validation layer using Python and DuckDB.
+Adds a validation layer across customer, account, merchant, transaction and reconciliation data.
 
 Checks include:
 
@@ -238,7 +287,7 @@ Outputs include:
 
 ### Stage 5: Rule-Based Risk Scoring
 
-Adds transparent transaction and customer risk scoring.
+Adds transparent rule-based transaction and customer risk scoring.
 
 Risk indicators include:
 
@@ -271,7 +320,7 @@ Outputs include:
 
 ### Stage 6: Machine Learning Anomaly Detection
 
-Adds unsupervised machine learning anomaly detection using Isolation Forest.
+Adds unsupervised anomaly detection using Isolation Forest.
 
 The model uses transaction, customer, merchant, channel and rule-based risk features to identify unusual transaction behaviour.
 
@@ -293,7 +342,7 @@ Outputs include:
 
 ### Stage 7: Explainability Layer
 
-Converts rule-based scores, ML anomaly outputs and reconciliation evidence into analyst-friendly explanations.
+Converts rule-based risk triggers, ML anomaly outputs and reconciliation evidence into analyst-friendly explanations.
 
 Each explanation includes:
 
@@ -364,7 +413,7 @@ Outputs include:
 
 ### Stage 9: Alert Case Management
 
-Creates a unified case-management layer across reconciliation, rule-based risk scoring, ML anomaly detection, explainability and graph analytics.
+Creates a unified operational case-management layer across reconciliation, rule-based risk scoring, ML anomaly detection, explainability and graph analytics.
 
 The case-management layer combines alerts from:
 
@@ -395,7 +444,7 @@ Outputs include:
 
 ### Stage 10: FastAPI Service Layer
 
-Adds an API layer so project outputs can be accessed through endpoints.
+Adds an API layer so project outputs can be accessed through documented endpoints.
 
 Run:
 
@@ -432,15 +481,15 @@ Main endpoints include:
 
 Adds an interactive dashboard for exploring project outputs.
 
-The dashboard includes:
+Dashboard workspaces include:
 
-* control room overview
-* case-management work queue
-* risk signal monitoring
-* reconciliation controls
-* network analytics
-* investigation lookup
-* transaction scoring form
+* Control Room
+* Case Management
+* Risk Signals
+* Reconciliation
+* Network Analytics
+* Investigation Lookup
+* Transaction Scoring
 
 Run:
 
@@ -454,14 +503,17 @@ Open:
 http://localhost:8501
 ```
 
-The dashboard uses:
+The dashboard includes:
 
-* professional risk-operations styling
-* muted financial-services colour grading
+* professional financial-services styling
+* muted risk colour grading
+* integrated operational navigation
 * interactive Plotly charts
 * searchable case-management queues
 * analyst-style drill-downs
+* investigation lookup
 * downloadable filtered CSV outputs
+* transaction scoring form
 
 ---
 
@@ -555,8 +607,11 @@ transaction-risk-intelligence-engine/
 │   └── synthetic/
 │
 ├── docs/
+│   ├── ARCHITECTURE.md
+│   ├── PORTFOLIO_SUMMARY.md
 │   ├── PROJECT_OVERVIEW.md
-│   └── RUN_GUIDE.md
+│   ├── RUN_GUIDE.md
+│   └── screenshots/
 │
 ├── reports/
 │
@@ -589,29 +644,133 @@ transaction-risk-intelligence-engine/
 
 ## How to Run
 
-For the detailed reproducibility guide, see:
+### 1. Clone the repository
 
-```text
-docs/RUN_GUIDE.md
+```powershell
+git clone https://github.com/ameerhamzarashid/transaction-risk-intelligence-engine.git
+cd transaction-risk-intelligence-engine
 ```
 
-The fastest local run is:
+### 2. Create virtual environment
+
+```powershell
+python -m venv .venv
+```
+
+### 3. Activate virtual environment
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+If PowerShell blocks activation, run:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Then activate again:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+### 4. Install dependencies
+
+```powershell
+pip install -r requirements.txt
+```
+
+### 5. Run full pipeline
 
 ```powershell
 python scripts\run_full_pipeline.py
 ```
 
-Then run the dashboard:
+Expected final output:
+
+```text
+Full pipeline completed successfully
+```
+
+### 6. Run dashboard
 
 ```powershell
 streamlit run dashboards\streamlit_app.py
 ```
 
-Or run the API:
+Open:
+
+```text
+http://localhost:8501
+```
+
+### 7. Run API
 
 ```powershell
 uvicorn api.main:app --reload
 ```
+
+Open:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+---
+
+## Docker Run
+
+Make sure Docker Desktop is running.
+
+Build image:
+
+```powershell
+docker build -t transaction-risk-intelligence-engine .
+```
+
+Run pipeline inside Docker:
+
+```powershell
+docker run --rm transaction-risk-intelligence-engine
+```
+
+Run API and dashboard:
+
+```powershell
+docker compose up --build
+```
+
+Open:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+and:
+
+```text
+http://127.0.0.1:8501
+```
+
+Stop services:
+
+```powershell
+docker compose down
+```
+
+---
+
+## Documentation
+
+Additional documentation:
+
+* [Run Guide](docs/RUN_GUIDE.md)
+* [Architecture](docs/ARCHITECTURE.md)
+* [Project Overview](docs/PROJECT_OVERVIEW.md)
+* [Portfolio Summary](docs/PORTFOLIO_SUMMARY.md)
+* [API Guide](api/README.md)
+* [Dashboard Guide](dashboards/README.md)
 
 ---
 
@@ -642,3 +801,11 @@ This project demonstrates:
 Transaction Risk Intelligence Engine – Fraud, Reconciliation and Graph Analytics
 
 Built a production-style financial crime analytics engine using Python, DuckDB, SQL, scikit-learn, NetworkX, FastAPI and Streamlit to detect suspicious transactions, reconciliation breaks, risky entity clusters and operational alerts. Implemented synthetic financial data generation, rule-based risk scoring, Isolation Forest anomaly detection, explainable alert reasoning, graph analytics and a case-management dashboard with Docker support.
+
+---
+
+## Notes
+
+All data in this project is synthetic and created for demonstration purposes only. It does not contain real customer, account, banking or personal information.
+
+The local DuckDB database and generated data files can be regenerated by running the pipeline.

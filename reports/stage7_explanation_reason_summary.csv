@@ -1,33 +1,33 @@
 reason_source,reason_code,human_reason,transaction_count,average_combined_explanation_score,p1_count,p2_count,p3_count
-ML,CROSS_BORDER_PATTERN,the transaction forms part of a cross-border pattern,6065,46.58,201,1144,3222
-Rule,CROSS_BORDER_TRANSACTION,the transaction is cross-border,6065,46.58,201,1144,3222
-ML,HIGH_RISK_MERCHANT_CATEGORY_PATTERN,the merchant category contributes to the anomaly pattern,3683,47.23,157,822,1586
-Rule,HIGH_RISK_MERCHANT_CATEGORY,the merchant category is considered high risk,3683,47.23,157,822,1586
-Rule,HIGH_RISK_COUNTRY,the transaction involves a high-risk country,2319,54.68,107,696,1387
-Rule,CHANNEL_MONITORING_FLAG,the channel requires closer monitoring,2235,47.43,86,455,1131
-Rule,SENSITIVE_MERCHANT_CATEGORY,the merchant category is sensitive,2048,48.71,113,487,867
-Rule,ELEVATED_MERCHANT_CATEGORY,the merchant category has elevated monitoring risk,1635,45.36,44,335,719
-ML,UNUSUAL_TRANSACTION_HOUR,the transaction time pattern is unusual,1572,54.07,81,433,961
-Rule,UNUSUAL_HOUR_ACTIVITY,the transaction occurred during an unusual hour,1572,54.07,81,433,961
-ML,KYC_RISK_PATTERN,KYC risk contributes to the anomaly pattern,1037,52.76,59,315,483
-Rule,KYC_ISSUE,the customer has a KYC issue,1037,52.76,59,315,483
-ML,TOP_10_PERCENT_ANOMALY_SCORE,the transaction is in the top 10 percent of anomaly scores,500,61.26,50,205,245
-ML,WATCHLIST_LINKED_PATTERN,watchlist linkage contributes to the anomaly pattern,446,75.08,154,232,60
-Rule,WATCHLIST_MATCH,the customer or merchant matched the dummy watchlist,446,75.08,154,232,60
-Rule,NON_STANDARD_TRANSACTION_STATUS,the transaction status is failed or reversed,418,54.76,17,108,293
-Rule,WATCHLIST_CROSS_BORDER_COMBINATION,the transaction combines watchlist exposure and cross-border activity,409,75.64,150,207,52
-ML,TOP_5_PERCENT_ANOMALY_SCORE,the transaction is in the top 5 percent of anomaly scores,400,65.97,55,203,142
-Rule,HIGH_AMOUNT_TRANSACTION,the transaction amount is high,326,62.8,38,168,104
-Rule,HIGH_AMOUNT_CROSS_BORDER_COMBINATION,the transaction combines high value and cross-border activity,296,63.23,38,152,90
-Rule,PEP_CUSTOMER,the customer has a PEP-related risk flag,187,59.35,21,70,82
-ML,TOP_1_PERCENT_ANOMALY_SCORE,the transaction is in the top 1 percent of anomaly scores,101,73.73,30,51,20
-Reconciliation,AMOUNT_MISMATCH,the transaction has a reconciliation break requiring operational review,90,45.4,5,18,32
-ML,UNUSUALLY_HIGH_AMOUNT,the amount is unusually high compared with the wider transaction population,85,68.65,19,44,22
-Rule,VERY_HIGH_AMOUNT,the transaction amount is very high,85,68.65,19,44,22
-Reconciliation,MISSING_IN_B,the transaction has a reconciliation break requiring operational review,70,51.22,9,13,34
-Reconciliation,DATE_MISMATCH,the transaction has a reconciliation break requiring operational review,60,41.97,1,14,19
-ML,STATISTICAL_PATTERN_ANOMALY,the transaction has an unusual statistical pattern,46,38.03,0,0,40
-Reconciliation,DUPLICATE_IN_B,the transaction has a reconciliation break requiring operational review,30,44.07,1,5,14
-Rule,NO_MAJOR_RULE_TRIGGERED,no major rule-based trigger was identified,20,37.19,0,0,18
-Rule,EXTREME_AMOUNT,the transaction amount is extremely high,9,73.25,1,8,0
-Rule,PEP_HIGH_AMOUNT_COMBINATION,the transaction combines PEP exposure and high value,2,83.32,2,0,0
+ML,CROSS_BORDER_PATTERN,the transaction forms part of a cross-border pattern,6058,46.49,206,1117,3265
+Rule,CROSS_BORDER_TRANSACTION,the transaction is cross-border,6058,46.49,206,1117,3265
+ML,HIGH_RISK_MERCHANT_CATEGORY_PATTERN,the merchant category contributes to the anomaly pattern,3693,47.27,158,827,1616
+Rule,HIGH_RISK_MERCHANT_CATEGORY,the merchant category is considered high risk,3693,47.27,158,827,1616
+Rule,HIGH_RISK_COUNTRY,the transaction involves a high-risk country,2290,54.71,111,671,1378
+Rule,CHANNEL_MONITORING_FLAG,the channel requires closer monitoring,2255,47.33,88,439,1174
+Rule,SENSITIVE_MERCHANT_CATEGORY,the merchant category is sensitive,2057,48.46,110,504,856
+Rule,ELEVATED_MERCHANT_CATEGORY,the merchant category has elevated monitoring risk,1636,45.76,48,323,760
+ML,UNUSUAL_TRANSACTION_HOUR,the transaction time pattern is unusual,1561,54.17,101,393,970
+Rule,UNUSUAL_HOUR_ACTIVITY,the transaction occurred during an unusual hour,1561,54.17,101,393,970
+ML,KYC_RISK_PATTERN,KYC risk contributes to the anomaly pattern,1036,52.63,67,318,461
+Rule,KYC_ISSUE,the customer has a KYC issue,1036,52.63,67,318,461
+ML,TOP_10_PERCENT_ANOMALY_SCORE,the transaction is in the top 10 percent of anomaly scores,500,61.48,49,211,240
+ML,WATCHLIST_LINKED_PATTERN,watchlist linkage contributes to the anomaly pattern,446,75.1,153,230,63
+Rule,WATCHLIST_MATCH,the customer or merchant matched the dummy watchlist,446,75.1,153,230,63
+Rule,NON_STANDARD_TRANSACTION_STATUS,the transaction status is failed or reversed,413,55.07,16,115,282
+Rule,WATCHLIST_CROSS_BORDER_COMBINATION,the transaction combines watchlist exposure and cross-border activity,409,75.69,149,204,56
+ML,TOP_5_PERCENT_ANOMALY_SCORE,the transaction is in the top 5 percent of anomaly scores,400,66.2,64,187,149
+Rule,HIGH_AMOUNT_TRANSACTION,the transaction amount is high,325,63.29,40,165,106
+Rule,HIGH_AMOUNT_CROSS_BORDER_COMBINATION,the transaction combines high value and cross-border activity,296,63.58,40,149,93
+Rule,PEP_CUSTOMER,the customer has a PEP-related risk flag,187,59.83,23,64,86
+ML,TOP_1_PERCENT_ANOMALY_SCORE,the transaction is in the top 1 percent of anomaly scores,101,74.03,28,55,18
+Reconciliation,AMOUNT_MISMATCH,the transaction has a reconciliation break requiring operational review,90,45.76,5,18,35
+ML,UNUSUALLY_HIGH_AMOUNT,the amount is unusually high compared with the wider transaction population,85,68.95,19,45,21
+Rule,VERY_HIGH_AMOUNT,the transaction amount is very high,85,68.95,19,45,21
+Reconciliation,MISSING_IN_B,the transaction has a reconciliation break requiring operational review,70,50.12,6,14,32
+Reconciliation,DATE_MISMATCH,the transaction has a reconciliation break requiring operational review,60,43.16,2,12,22
+ML,STATISTICAL_PATTERN_ANOMALY,the transaction has an unusual statistical pattern,45,36.59,0,0,38
+Reconciliation,DUPLICATE_IN_B,the transaction has a reconciliation break requiring operational review,30,44.87,2,6,10
+Rule,NO_MAJOR_RULE_TRIGGERED,no major rule-based trigger was identified,22,35.57,0,0,18
+Rule,EXTREME_AMOUNT,the transaction amount is extremely high,9,72.66,1,8,0
+Rule,PEP_HIGH_AMOUNT_COMBINATION,the transaction combines PEP exposure and high value,2,85.64,2,0,0

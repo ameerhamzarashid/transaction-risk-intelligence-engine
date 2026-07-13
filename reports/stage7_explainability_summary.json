@@ -1,13 +1,13 @@
 {
-    "run_timestamp": "2026-07-11T20:44:32",
-    "alert_explanations_created": 6454,
-    "unique_customers_with_explanations": 995,
-    "p1_explanations": 205,
-    "p2_explanations": 1203,
-    "p3_explanations": 3526,
-    "rule_ml_reconciliation_alerts": 18,
-    "rule_ml_alerts": 754,
-    "ml_only_alerts": 224,
-    "rule_only_alerts": 4483,
+    "run_timestamp": "2026-07-13T15:50:39",
+    "alert_explanations_created": 6461,
+    "unique_customers_with_explanations": 996,
+    "p1_explanations": 210,
+    "p2_explanations": 1178,
+    "p3_explanations": 3572,
+    "rule_ml_reconciliation_alerts": 17,
+    "rule_ml_alerts": 760,
+    "ml_only_alerts": 219,
+    "rule_only_alerts": 4455,
     "reason_codes_summarised": 32
 }

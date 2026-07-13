@@ -1,2 +1,2 @@
 run_timestamp,check_id,check_name,table_name,check_type,severity,description,failure_count,allowed_failures,status,recommended_action,error_message
-2026-07-11T20:43:35,DQ020,reconciliation_file_b_duplicate_transaction_ids_warning,reconciliation_file_b,controlled_break_detection,Warning,Duplicate transaction IDs in File B are expected controlled reconciliation breaks.,30,0,WARN,Route duplicate transaction IDs into reconciliation break review.,
+2026-07-13T15:49:23,DQ020,reconciliation_file_b_duplicate_transaction_ids_warning,reconciliation_file_b,controlled_break_detection,Warning,Duplicate transaction IDs in File B are expected controlled reconciliation breaks.,30,0,WARN,Route duplicate transaction IDs into reconciliation break review.,
